@@ -1,0 +1,186 @@
+/* === Default HTML === */
+body {
+	color: #959595;
+	font-family: Verdana, Arial, Tahoma;
+	font-size: 11px;
+}
+h1 {
+	font-size: 33px;
+	font-weight: bold;
+	color: #3c9bb7;
+}
+h2 {
+	color: #3c9bb7;
+	font-size: 18px;
+	font-weight: bold;
+}
+h3 {
+	color: #3c9bb7;
+	font-size: 14px;
+	font-weight: bold;
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+
+/* === MenuBar === */
+#MenuBar a, #Footer a {
+	text-decoration: none;
+}
+#MenuBar a {
+	color: #fff;
+	font-weight: bold;
+}
+#MenuBar .current a {
+	color: #959595;
+}
+#MenuBar .lft a {
+	text-transform: uppercase;
+}
+#MenuBar .rgt {
+	text-align: right;
+}
+
+
+/* === ContentTop === */
+#ContentTop.buy .lft .select, #ContentTop.library .lft .account.details.top .select {
+	color: #959595;
+	font-size: 9px;
+}
+#ContentTop.library .lft .account.details.top ul {
+	margin-left: 10px;
+}
+#ContentTop.library .lft .account.details.top a {
+	color: #959595;
+	font-weight: bold;
+	text-decoration: none;
+}
+#ContentTop.library .lft .account.details.top a:hover {
+	color: #555151;
+}
+#ContentTop.buy .lft .login .btn.search, #ContentTop.library .lft .account.details.top .btn.search
+{
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #1892b5;
+	text-transform: uppercase;
+}
+#ContentTop.library .rgt .sidebar label {
+	font-size: 10px;
+}
+#ContentTop.library .rgt .sidebar select {
+	font-size: 9px;
+}
+
+/* search */
+#SearchForm .btn.search {
+	color: #fff;
+	font-family: Verdana;
+	text-shadow: #1687a9 1px 1px 1px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+} 
+.options.search {
+	font-size: 9px;
+	font-weight: bold;
+}
+
+/* registration form */
+#RegistrationForm span label, #LoginForm span label {
+	font-size: 15px;
+	font-weight: bold;
+}
+#RegistrationForm .btn.sign-up, #LoginForm .btn.login, .home .rgt .btn.sign-up {
+	color: #fff;
+	font-family: Verdana;
+	text-shadow: #1687a9 1px 1px 1px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/* === ContentBottom === */
+
+/* track sample */
+.recommend .track.sample .track.info, #ContentBottom.buy .col .track.sample .track.info, #ContentTop.library .rgt .track.sample .track.info {
+	font-weight: bold;
+}
+.recommend .track.sample .track.title,  #ContentTop.library .rgt .track.sample .track.title {
+	color: #0b5268;
+	font-size: 12px;
+}
+#ContentBottom.buy .col .track.sample .track.title {
+	color: #0b5268;
+	font-size: 11px;
+}
+#ContentBottom.buy .col .track.sample .track.sub-title {
+	font-size: 9px;
+}
+.recommend .track.sample .credit.info, #ContentBottom.buy .col .track.sample .credit.info, #ContentTop.library .rgt .track.sample .credit.info {
+	text-align: center;
+}
+.recommend .track.sample .credit.amount, #ContentTop.library .rgt .track.sample .credit.amount {
+	color: #b9c2c6;
+	font-size: 30px;
+	font-weight: bold;
+}
+#ContentTop.library .rgt .track.sample .credit.amount {
+	color: #40717f;	
+}
+#ContentBottom.buy .col .track.sample .credit.amount
+{
+	color: #40717f;
+	font-size: 20px;
+	font-weight: bold;	
+}
+.recommend .track.sample .credit.text, #ContentTop.library .rgt .track.sample .credit.text {
+	font-size: 8px;
+	text-transform: uppercase;
+}
+#ContentBottom.buy .col .track.sample .credit.text {
+	font-size: 6px;
+	text-transform: uppercase;
+}
+.recommend .pagination .prev,  .recommend .pagination .prev a, .recommend .pagination .next, .recommend .pagination .next a, #ContentTop.library .rgt .track-listing .pagination .prev, #ContentTop.library .rgt .track-listing .pagination .prev a, #ContentTop.library .rgt .track-listing .pagination .next, #ContentTop.library .rgt .track-listing .pagination .next a {
+	color: #959595;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#ContentBottom.buy .col .pagination.white .prev,  #ContentBottom.buy .col .pagination.white .prev a, #ContentBottom.buy .col .pagination.white .next, #ContentBottom.buy .col .pagination.white .next a {
+	color: #959595;
+	font-size: 8px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*****/
+
+#ContentBottom.sign-up .lft .credit.info {
+	text-align: center;
+}
+#ContentBottom.sign-up .lft .credit.info span {
+	color: #fff;
+	font-weight: bold;
+}
+#ContentBottom.home .rgt .btn.sign-up {
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* === Footer === */
+#Footer a {
+	color: #959595;
+}
+#Footer .rgt {
+	text-align: right;
+}

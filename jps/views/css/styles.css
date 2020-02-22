@@ -1,0 +1,54 @@
+html,body,div,form,p,ul,ol,li,h1,h2,h3,h4,h5,hr{text-align:left;margin:0;padding:0;}
+hr{clear:both;line-height:0;}
+a:hover{ text-decoration:none;}
+#container{margin:auto 10%;border:solid 1px #0099FF;background:url(../images/header_stip.jpg) repeat-x;}
+#loginContainer{margin:0 auto;text-align:center;width:250px; padding-top:100px;}
+#logo{background:url(../images/logo1.jpg) no-repeat; height:62px;}
+.master-content{ padding:10px;}
+#menu{height:28px;background-color:#FFFF00;}
+#menu li{display:block;float:left;border-right:solid 1px #000;}
+#menu li a{display:block;padding:5px;font-weight:bold;}
+#menu li a:hover{background-color:#FFFFFF;}
+#submenu{height:20px; background-color:#333333;}
+#submenu li{display:block;float:left;color:#000;}
+#submenu li a{font-weight:bold; padding:5px;color:#FFFFFF;}
+#submenu li a:hover{color:#ff0000;}
+
+#formtitle{ font-size:1.6em; font-weight:bold;}
+#userform{border:solid 1px #0099FF;width:400px;}
+#dataform{border:solid 1px #0099FF;width:400px;}
+#dataform caption{font-weight:bold; font-size:1.3em; background-color:#FFFFFF;}
+
+#datasheet,#loginform{border:solid 2px #0099FF;}
+#datasheet tbody tr:hover{background-color:#CCCCCC;}
+tr.trow,#datasheet th,#loginform th{background-color:#0099FF;color:#FFFFFF; font-size:1.1em;}
+tr.trow th{text-align:center;font-weight:bold;}
+#datasheet tr.even{background-color:#FFFFCC;}
+th.action{text-align:center;}
+.action{width:30px; white-space:nowrap; text-align:center;}
+
+label{ font-size:1em; font-weight:bold;}
+
+.rowcount{width:10px;}
+a.edit,a.delete,a.editpps,a.history,a.resetpasswd{display:inline-block;width:24px;height:24px; background:no-repeat;}
+a.edit   {background:url(../images/group-edit-icon.png); }
+a.history{background:url(../images/calendar-icon.png); }
+a.delete {background:url(../images/Status-user-busy-icon.png); }
+a.editpps{background:url(../images/application-form-edit-icon.png); }
+a.resetpasswd{background:url(../images/application-form-edit-icon.png); }
+
+#tform{}
+#pager{ text-align:right;}
+#pager a{padding:2px; margin-left:3px;}
+
+.btnadd,.btnadd:hover{ background:url(../images/add.png) no-repeat 3px center;padding-left:18px;}
+.btnedit,.btnedit:hover{ background:url(../images/user_edit.png) no-repeat 3px center;padding-left:18px;}
+.btnprint,.btnprint:hover{ background:url(../images/page_white_acrobat.png) no-repeat 3px center;padding-left:18px;}
+.btncsv,.btncsv:hover{ background:url(../images/page_white_office.png) no-repeat 3px center;padding-left:18px;}
+.login,.login:hover{ background:url(../images/key.png) no-repeat 3px center;padding-left:18px;}
+.backbtn,.backbtn:hover{ background:url(../images/arrow_refresh.png) no-repeat 3px center;padding-left:18px;}
+
+.filter{ display:block;width:16px;height:16px; background:url(../images/database-search-icon.png) no-repeat; }
+.rightinfo{float:right; padding:4px 5px 0 0;}
+.rightinfo a{color:#FF0000;}
+#tformh th{text-align:center;}

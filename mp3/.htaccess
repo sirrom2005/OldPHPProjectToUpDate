@@ -1,0 +1,10 @@
+DirectoryIndex index.html index.php
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+RewriteEngine On
+
+RewriteRule ^index.html?$ index.php [L]
+RewriteRule ^(.*).xhtml?$ page.php?action=content&p=$1 [L]
+RewriteRule ^artiste_info_(.*).htm?$ page.php?action=artiste_info&id=$1 [L]
+RewriteRule ^song_(.*).htm?$ page.php?action=song_info&id=$1 [L]
+RewriteRule ^(.*).html?$ page.php?action=$1 [L]

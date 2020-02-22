@@ -1,0 +1,3 @@
+Add advertise link - with palpal optipon and banner upoad.
+add video reply when logged in.
+remove video extention from html use any form of video

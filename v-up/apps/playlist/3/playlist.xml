@@ -1,0 +1,25 @@
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+<title>Example XSPF playlist</title>
+<tracklist>
+	<track>
+        <title>Diddy Dirty Money - Angels(Remix)</title>
+        <location>http://www.videouploader.net/videos/20100430143508/20100430143508.flv</location>
+        <image>http://www.videouploader.net/videos/20100430143508/thumbnail1.jpg</image>
+    </track>
+    <track>
+        <title>Lloyd Banks  Beamer, Benz or Bentley (feat. Juelz Santana)</title>
+        <location>http://www.videouploader.net/videos/20100430142857/20100430142857.flv</location>
+        <image>http://www.videouploader.net/videos/20100430142857/thumbnail1.jpg</image>
+    </track>   
+	<track>
+        <title>Lil Wayne ft. Eminem - Drop The World [Dirty - Uncensored]</title>
+        <location>http://www.videouploader.net/videos/20100430142834/20100430142834.flv</location>
+        <image>http://www.videouploader.net/videos/20100430142834/thumbnail1.jpg</image>
+    </track>
+    <track>
+        <title>New BMW Commercial with New Vision Concept Car</title>
+        <location>http://www.videouploader.net/videos/20100430142206/20100430142206.flv</location>
+        <image>http://www.videouploader.net/videos/20100430142206/thumbnail1.jpg</image>
+    </track>  
+</tracklist>
+</playlist>

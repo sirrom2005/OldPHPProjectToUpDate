@@ -1,0 +1,44 @@
+<script language="javascript" type="text/javascript" src="views/js/Calender/calender.js"></script>
+<link rel="Stylesheet" type="text/css" href="views/js/Calender/CalendarControl.css" />
+<form name="frm" id="frm" action="" method="post">
+<table class="round" id="dataform">
+	<caption><span id="formtitle">Add User</span></caption>
+	<tr class="trow"><th colspan="2">Admin User</th></tr>
+    <tr>
+        <th><label for="first_name">First Name</label></th>
+        <td><input name="first_name" id="first_name" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="last_name">Last Name</label></th>
+        <td><input name="last_name" id="last_name" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="email">E-mail</label></th>
+        <td><input name="email" id="email" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="user_name">User Name</label></th>
+        <td><input name="user_name" id="user_name" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label>User-level</label></th>
+        <td>
+        	<select name="admin_user_level" id="admin_user_level" class="textbox">
+            	<option value="{id}">{admin_user_level}</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th><label for="parish_id">Parish</label></th>
+        <td>
+        	<select name="parish_id" id="parish_id" class="textbox">
+            	<option value="{parish_id}">{parish}</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit" class="button btnadd right" value="Add user" id="btnadd" /></td>
+    </tr>
+</table>
+<input type="hidden" name="id" id="id" />
+</form>

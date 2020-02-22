@@ -1,0 +1,34 @@
+#promo_albums {
+	text-align:center;
+}
+.promo_album {
+	margin: 0 2px 8px 2px;
+}
+.imagethumb a, .imagethumb a:hover {margin: 0px 3px 9px 0px;}
+.promo_album small{ color:#000000; text-decoration:none;}
+.promo_album img {width:260px;}
+#promo_desc,#promo_desc_album{
+	float:right;
+	padding:5px;
+	border:solid 1px #CCCCCC;
+	background-color:#f4f4f4;
+	margin-right:55px;
+	line-height:1em;
+	width:200px;
+}
+#promo_desc_album{
+	float:none;	
+	width:inherit;
+	margin-bottom:10px;
+}
+
+#promo_desc h1,#promo_desc_album h1{
+	font-size:1.2em; 
+	padding:4px 2px 2px 2px;
+	margin:0 0 3px 0; 
+	color:#FFFFFF; 
+	background:url(../../default/images/bg-nav.png) 0px -11px; 
+	border-bottom:1px solid #333333;
+}
+#promo_desc p,#promo_desc_album p{margin:0 0 5px 0;}
+#promo_desc hr,#promo_desc_album hr{ margin:5px 0 2px 0;}

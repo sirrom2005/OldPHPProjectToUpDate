@@ -1,0 +1,83 @@
+<script language="javascript" type="text/javascript" src="views/js/Calender/calender.js"></script>
+<link rel="Stylesheet" type="text/css" href="views/js/Calender/CalendarControl.css" />
+<form name="frm" id="frm" action="" method="post">
+<table class="round" id="dataform">
+	<caption><span id="formtitle">Add Client</span></caption>
+	<tr class="trow"><th colspan="2">Personal Information</th></tr>
+    <tr>
+        <th><label>Customer-Code</label></th>
+        <td><input name="customer" id="customer" type="text" class="textbox" maxlength="6" /></td>
+    </tr>
+    <tr>
+        <th><label>Premise-Code</label></th>
+        <td><input name="premise" id="premise" type="text" class="textbox" maxlength="6" /></td>
+    </tr>
+    <tr>
+        <th><label for="first_name">First Name</label></th>
+        <td><input name="first_name" id="first_name" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="last_name">Last Name</label></th>
+        <td><input name="last_name" id="last_name" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="dob">D.O.B</label></th>
+        <td><input name="dob" id="dob" type="text" class="textbox" maxlength="10" onFocus="displayCalendar(this,'yyyy-mm-dd ',this,false)" /></td>
+    </tr>
+    <tr>
+        <th><label for="trn">TRN-#</label></th>
+        <td><input name="trn" id="trn" type="text" class="textbox" maxlength="11" /></td>
+    </tr>
+    <tr class="trow"><th colspan="2">Perperty Location</th></tr>
+    <tr>
+        <th><label for="street_name">Street Name</label></th>
+        <td><input name="street_name" id="street_name" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="city_town">City/Town</label></th>
+        <td><input name="city_town" id="city_town" type="text" class="textbox" /></td>
+    </tr>
+    <tr>
+        <th><label for="parish_id">Parish</label></th>
+        <td>
+        	<select name="parish_id" id="parish_id" class="textbox">
+            	<option value="{parish_id}">{parish}</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th><label for="premise_id">Perperty Type</label></th>
+        <td id="property_type_row"><input type="radio" name="property_id" id="property_id{property_id}" value="{property_id}" /><label for="property_id{property_id}">{property_type}</label><br /></td>
+    </tr>
+    <tr class="trow"><th colspan="2">Contact Information</th></tr>
+    <tr>
+        <th><label for="m_phone">Mobile phone</label></th>
+        <td><input name="m_phone" id="m_phone" type="text" class="textbox" maxlength="15" /></td>
+    </tr>
+    <tr>
+        <th><label for="h_phone">Home phone</label></th>
+        <td><input name="h_phone" id="h_phone" type="text" class="textbox" maxlength="15" /></td>
+    </tr>
+    <tr>
+        <th><label for="w_phone">Work phone</label></th>
+        <td><input name="w_phone" id="w_phone" type="text" class="textbox" maxlength="15" /></td>
+    </tr>
+    <tr>
+        <th><label for="email">E-mail</label></th>
+        <td><input name="email" id="email" type="text" class="textbox" /></td>
+    </tr>
+	<tr class="trow"><th colspan="2">Options</th></tr>
+    <tr>
+        <th><label>&nbsp;</label></th>
+        <td><input type="checkbox" name="special_customer" id="special_customer" value="1" /><label for="special_customer">Special customer</label><br /></td>
+    </tr>
+    <tr>
+        <th><label>&nbsp;</label></th>
+        <td><input type="checkbox" name="under_investigation" id="under_investigation" value="1" /><label for="under_investigation">Under Investigation</label><br /></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit" class="button btnadd right" value="Add client" id="btnadd" /></td>
+    </tr>
+</table>
+<input type="hidden" name="id" id="id" />
+</form>

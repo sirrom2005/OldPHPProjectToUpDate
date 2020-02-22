@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Video uploader</title>
+<link href="../css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="uploader">
+    <form name="uploader" action="upload.php" method="post" enctype="multipart/form-data">
+    	<input type="file" name="video" /> <input type="button" name="submitbtn" value="Submit" onclick="upload(document.uploader);" />
+    </form>
+    <span class="text1">Allowed file types<br /><span id="file_types"></span></span>
+    <p>&nbsp;</p><span class="text1">Max file size 200MB</span>
+</div>
+    <script language="javascript" type="text/javascript">
+    var formates = new Array("wmv", "avi", "mp4", "mov", "flv", "3gp");
+	var fileTypeStr = "";
+	for(x in formates)
+	{
+		fileTypeStr += "[*." + formates[x] + "] ";
+	}
+	document.getElementById("file_types").innerHTML = fileTypeStr;
+	
+	function upload(ele)
+    {
+		var v = ele.video.value;
+		var ext;
+		if(v==""){return false;}
+		for(x in formates)
+		{ 
+			ext = formates[x];
+			if(v.substring(v.length-ext.length, v.length).toLowerCase() == ext)
+			{
+				ele.submitbtn.value = "Retrieving file....";
+				ele.submit();
+				return true;
+			}
+		}
+        alert("Invalid file type...");
+        //ele.submitbtn.disabled = true;
+        return false;
+    }
+    </script>
+</body>
+</html>

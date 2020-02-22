@@ -1,0 +1,23 @@
+<?php
+$cacheEmailContents = <<<EOD
+Customer Name: _CUSTOMER_NAME_
+Email: _EMAIL_
+Transaction Date: _DATE_
+Order #: _ORDER_ID_
+
+==============================
+ORDER
+==============================
+Credit points:	_POINTS_
+Bill Total:		_PRICE_
+
+==============================
+PAYMENT INFORMATION
+==============================
+Card Type: _CARD_TYPE_ 
+Last 5 digits on credit card: [_CARD_LAST5_DIGITS_]
+
+_BILLING_ADDRESS_
+
+EOD;
+?>

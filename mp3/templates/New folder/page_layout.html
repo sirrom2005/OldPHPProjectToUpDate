@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One Ppl - Sign Up</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/path/to/file" />
+	<!-- JavaScript -->
+    <script src="js/jquery-1.4.2.min.js"></script>
+	<script src="js/global.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/ie-check.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/ie-check.css" />
+	<!-- Meta Tags -->
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="SEO Description (30 chracters)" />
+	<meta name="keywords" content="SEO Keyword List (30 keywords unique phrase)" />
+	<meta name="author" content="Gabre Cameron" />
+</head>
+<body>
+	
+	<div id="MenuBar">
+		
+		<div class="container">
+			
+			<div class="lft">
+			
+				<ul class="navi top">
+					<li><a href="index.html" title="">Home</a></li>
+                    <li <?php if($current=="music"  ){ echo "class='current'";}?> ><a href="music.html" title="">Buy Music</a></li>
+					<li <?php if($current=="new"    ){ echo "class='current'";}?> ><a href="new_releases.html" title="">New Releases</a></li>
+					<li <?php if($current=="popular"){ echo "class='current'";}?> ><a href="most_popular.html" title="">Most Popular</a></li>
+					<li <?php if($current=="faq"){ echo "class='current'";}?> ><a href="faq.html" title="">FAQs</a></li>
+                    <?php if(!empty($_SESSION['USER'])){ ?>
+                    <li <?php if($current=="my_music"){ echo "class='current'";}?> ><a href="my_music.html" title="">My Music</a></li>
+                    <?php } ?>
+				</ul><!-- navi -->
+			
+			</div><!-- left -->
+			
+			
+			<div class="rgt">
+			
+				<div class="login-area">
+                	<a href="cart.html" id="cartItemCount" class="sign-up">(<?php echo (count($_SESSION['CARTITEM'])<2)? count($_SESSION['CARTITEM']) : count($_SESSION['CARTITEM']);?>)&nbsp;</a>
+                	<?php if(empty($_SESSION['USER'])){ ?>
+                        <a href="register.html" class="sign-up">Not a Member? Sign Up</a>
+                        <a href="control/" class="btn login"><img alt="" src="images/btn_login.jpg" /></a>
+                    <?php }else{ ?>
+                        <a>Hi <?php echo $_SESSION['USER']['fname'];?> (<?php echo $_SESSION['USER']['credit_amount'];?>) |&nbsp;</a>
+                        <!--a href="<?php echo DOMAIN;?>control/index.php?action=profile">profile</a-->  
+                        <a href="buycredits.html">Refill credits</a><br /> 
+                        <a href="control/">Control panel |&nbsp;</a> 
+                        <a href="logout.html">Logout</a>
+                    <?php } ?>
+				</div><!-- login -->
+			
+			</div><!-- right -->	
+			
+		</div><!-- container -->
+
+	</div><!-- MenuBar -->
+
+
+	<div id="ContentTop" class="sign-up">
+		
+		<div class="container">
+		
+			<div class="lft">
+			</div><!-- left -->
+		
+			<div class="rgt">
+				<img alt="" src="images/logo.jpg" class="logo" />
+				
+				<div class="textarea"><?php echo $content;?></div>
+                <!-- textarea -->
+			
+			</div><!-- right -->
+		
+			<div class="clearfix"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- contentTop -->
+
+
+	<div id="ContentBottom" class="sign-up">
+
+		<div class="container">
+		
+			<div class="lft">
+				<a href="buycredits.html" title="buy credit now..."><img alt="" class="credit info" src="images/credit-info.jpg" /></a>
+				
+			</div><!-- left -->
+		
+			<div class="rgt">
+				<h3>+ Get 25% More Credits on sign up!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+			</div><!-- right -->	
+		
+			<div class="clearfix"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- ContentBottom -->
+
+
+	<div id="Footer">
+	
+		<div class="lft">
+			<span class="copyright">&copy; One Ppl Music</span> | <span>Developed by <a href="#" title="">Secoya</a></span>
+		</div><!-- left -->
+
+		<div class="rgt">
+			<ul class="navi btm">
+				<li><a href="terms.htm" title="terms &amp; conditions">Terms &amp; Conditions</a></li>
+				<li> | </li>
+				<li><a href="legal.htm" title="legal">Legal</a></li>
+				<li> | </li>
+				<li><a href="about.htm" title="about One Ppl">About One Ppl</a></li>
+				<li> | </li>
+				<li><a href="sell_your_music.htm" title="sell your music">Sell Your Music</a></li>
+				<li> | </li>
+				<li><a href="advertise.htm" title="advertise with us">Advertise</a></li>
+			</ul>
+		</div><!-- right -->	
+		
+		<div class="clearfix"></div>		
+		
+	</div><!-- Footer -->
+<script>
+function addtocart(id)
+{
+	$.get("includes/addtocart.php",
+			{id:id},
+			function(data)
+			{
+				$("#cartItemCount").html(data);
+			}
+	)
+}
+</script>	
+</body>
+</html>

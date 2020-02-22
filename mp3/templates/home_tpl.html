@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One Ppl - buy online music of top jamaican dancehall artise</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/path/to/file" />
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/jquery_scrollable.js"></script>
+    <script src="js/global.js"></script>
+	<script type="text/javascript" src="js/ie-check.js"></script>
+	<script type="text/javascript" src="js/facebox.js"></script>
+	
+	<!-- Facebox -->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('a[rel*=facebox]').facebox()
+		})
+	</script>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/ie-check.css" />
+	<link rel="stylesheet" type="text/css" href="css/facebox.css" />
+	
+	<!-- Meta Tags -->
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="SEO Description (30 chracters)" />
+	<meta name="keywords" content="SEO Keyword List (30 keywords unique phrase)" />
+	<meta name="author" content="Gabre Cameron" />
+<style>
+/* root element for scrollable */
+.vertical {  
+	/* required settings */
+	position:relative;
+	overflow:hidden;	
+	/* vertical scrollers have typically larger height than width */	
+	height:240px;	 
+	/*width: 700px;*/	
+}
+/* root element for scrollable items */
+.items {	
+	position:absolute;
+	/* this time we have very large space for height */	
+	height:20000em;	
+	margin: 0px;
+}
+/* single scrollable item */
+.item {
+	/*border-bottom:1px solid #ddd;
+	margin:10px 0;
+	padding:15px;
+	font-size:12px;
+	height:180px;*/
+}
+#actions {
+	width:700px;
+	margin:30px 0 10px 0;
+}
+
+#actions a {
+	font-size:11px;		
+	cursor:pointer;
+	color:#666;
+}
+#actions a:hover{text-decoration:underline;color:#000;}
+.disabled{visibility:hidden;}
+.next{float:right;}	
+</style>	
+</head>
+<body>
+	<?php include_once("includes/tpl_menu.php");?>
+	<div id="ContentTop" class="home">
+		
+		<div class="container">
+		
+			<div class="lft">
+				<img alt="" class="logo" src="images/logo.jpg" />
+			</div><!-- left -->
+		
+			<div class="rgt">
+                    <form name="search" id="SearchForm" method="post" action="search.php" >
+						<input class="textbox search" name="s" type="text" />
+						<input class="btn search" type="submit" value="Search" />
+						<span class="options search">
+							<label for="title">Song Name</label>	<input type="radio" name="opt" value="title" />
+							<label for="artise">Artiste</label>		<input type="radio" name="opt" value="artise" />
+							<label for="riddim">Riddim</label>    	<input type="radio" name="opt" value="riddim" />
+							<label for="producer">Producer</label>	<input type="radio" name="opt" value="producer" />
+						</span>
+					</form>	
+			</div><!-- right -->
+		
+			<div class="clearfix"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- contentTop -->
+
+
+	<div id="ContentBottom" class="home">
+
+		<div class="container">
+		
+			<div class="lft">
+				
+				<h2>Recommended</h2>
+				<div class="recommend">
+					<div class="top"></div>
+					<div class="mid">
+                    <div class="scrollable vertical">
+                    <div class="items">
+                    <?php $c=0; for($i=0; $i<$loop; $i++){?>
+                        <div>
+                            <?php while($c < $count){?>
+                            <div class="track sample item">
+                               	<a href="artiste.php?p=<?php echo base64_encode($row[$c]['photo']);?>&k=<?php echo base64_encode($row[$c]['artId']);?>&a=<?php echo base64_encode($row[$c]['stagename']);?>" rel="facebox" title="<?php echo $row[$c]['stagename'];?>"><img alt="<?php echo $row[$c]['title'];?>" height="48" width="50" class="thumb" src="<?php echo ARTISTE_IMG_URL.'tn_'.str_replace(array('jpeg','jpg'), 'png', $row[$c]['photo']);?>" /></a>
+                                <a href="play_sample.php?id=<?php echo $row[$c]['id'];?>&title=<?php echo base64_encode($row[$c]['title']);?>" rel="facebox" class="play" ><img alt="" src="images/btn_play.png" /></a>
+                                <span class="track info">
+                                    <span class="track title"><a href="<?php echo DOMAIN;?>song_<?php echo $row[$c]['id'];?>.htm" title="<?php echo $row[$c]['title'];?>"><?php echo $row[$c]['title'];?></a></span>
+                                    <span class="track sub-title"><?php echo $row[$c]['riddim'];?> (<?php echo $row[$c]['producerfname'];?>)</span>
+                                </span>
+                                <span class="credit info">
+                                    <span class="credit amount"><?php echo $row[$c]['credit_amount'];?></span>
+                                    <span class="credit text">Credits</span>
+                                </span>
+                                <a class="btn buy" href="buy_mp3.php?id=<?php echo $row[$c]['id'];?>&title=<?php echo base64_encode($row[$c]['title']);?>" title="buy now" rel="facebox"><img alt="" src="images/btn_buy.png" /></a>
+                            </div>
+                            <?php                 
+                                $c++;
+                                if($c%4==0){break;} 
+                            } 
+                            ?>
+                        </div>
+                     <?php } ?> 
+                     </div>
+                     </div> 	
+                    <div class="pagination">
+                        <span class="prev browse left"><a>&lt; previous</a></span>
+                        <span class="next browse right"><a>next &gt;</a></span>
+                    </div>
+					<!-- pagination -->
+					</div>
+					<div class="btm"></div>
+				</div><!-- recommend -->
+				
+			</div><!-- left -->
+		
+			<div class="rgt">
+				<h2>Join the Revolution!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				
+				<a href="buycredits.html"><img alt="" class="credit info" src="images/credit-info.jpg" /></a><br /><br />
+				
+				<h3>+ Get 25% More Credits on sign up!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+				<a href="control/sign-up.html" class="btn sign-up">Sign Me Up!</a>
+			</div><!-- right -->	
+		
+			<div class="clearfix"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- ContentBottom -->
+	<script>
+    function addtocart(id)
+    {
+        $.get("includes/addtocart.php",
+                {id:id},
+                function(data)
+                {
+                    $("#cartItemCount").html(data);
+                }
+        )
+    }
+    // execute your scripts when the DOM is ready. this is mostly a good habit
+    $(function() {
+        // initialize scrollable
+        $(".scrollable").scrollable({ vertical: true, mousewheel: true });
+    });
+    </script>  
+    <?php include_once("includes/tpl_footer.php"); ?>  
+</body>
+</html>

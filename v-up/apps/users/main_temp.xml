@@ -1,0 +1,9 @@
+TMP_XML_VER
+<rss version="2.0">
+<channel>
+<title>http://videouploader.net - rss video feed.</title>
+<link>http://videouploader.net</link>
+<description>http://videouploader.net rss latest video feed links to all the newly video added.</description>
+TMP_XML_LIST
+</channel>
+</rss>

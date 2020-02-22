@@ -1,0 +1,38 @@
+TMP_XML_VER
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://www.videouploader.net/</loc>
+</url>	
+<url>
+	<loc>http://www.videouploader.net/about_video_uploader.html</loc>
+</url>
+<url>
+	<loc>http://www.videouploader.net/privacy_policy.html</loc>
+</url>
+<url>
+	<loc>http://www.videouploader.net/terms_conditions.html</loc>
+</url>
+<url>
+	<loc>http://www.videouploader.net/register.html</loc>
+</url>
+<url>
+	<loc>http://www.videouploader.net/contact_us.html</loc>
+</url>	
+<url>
+	<loc>http://www.videouploader.net/feedback.html</loc>
+</url>	
+<url>
+	<loc>http://www.videouploader.net/sitemap.html</loc>
+</url>	
+<url>
+	<loc>http://www.videouploader.net/faqs.html</loc>
+</url>	
+<url>
+	<loc>http://www.videouploader.net/video_tags/</loc>
+</url>		
+SITE_LIST
+</urlset>

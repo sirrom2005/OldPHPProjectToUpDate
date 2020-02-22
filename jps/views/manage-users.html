@@ -1,0 +1,56 @@
+<form name="frm" id="frm" method="post" action="">
+<table class="users alert round rax-table" id="datasheet">
+	<caption>
+    	<input type="button" value="Add user" class="button btnadd right" title="add new user" onclick="location='manage-user.php'" />
+        <span id="formtitle">User Listing</span>
+    </caption>
+	<thead>
+    <tr class="tbl-header">
+        <th class="rowcount">&nbsp;</th>
+        <!--th>User-ID</th-->
+        <th>Username</th>
+        <th>Email</th>
+        <th>Level</th>
+        <th>Parish</th>
+        <th>Last login</th>
+        <th class="action">Action</th>
+    </tr>
+    </thead>
+    <tbody id="data_grid">
+        <tr class="{ROWCLASS}">
+            <td>{ROWCOUNT}</td>
+            <!--td width="12">{id}</td-->
+            <td>{username}</td>
+            <td>{email}</td>
+            <td>{admin_level}</td>
+            <td>{parish}</td>
+            <td>{last_login_date}</td>
+            <td class="action">
+            	<a class="resetpasswd" title="reset user password" href="#{id}" data-event-confirm="Are you sure you want to reset this user's password?"></a>
+            	<a class="edit" title="edit this user" href="#{id}"></a>
+                <a class="delete" title="delete this user" href="#{id}" data-event-confirm="Are you sure you want to delete this user?"></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</form>
+<script>
+var tf  = document.getElementById("tform");
+var tfh = document.getElementById("tformh");
+
+function showHide()
+{
+	if(tf.style.display == "none")
+	{
+		tf.style.display = "";
+		tfh.style.display = "";
+	}
+	else
+	{
+		tf.style.display = "none";
+		tfh.style.display = "none";
+	}
+}
+tf.style.display="none";
+tfh.style.display="none";
+</script>

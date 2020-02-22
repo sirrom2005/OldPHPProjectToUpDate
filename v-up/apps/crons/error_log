@@ -1,0 +1,2 @@
+[22-Oct-2010 18:00:56] PHP Warning:  set_time_limit() has been disabled for security reasons in /home/rohanmor/public_html/www.videouploader.net/crons/run_newsletter.php on line 2
+[22-Oct-2010 18:00:58] PHP Warning:  set_time_limit() has been disabled for security reasons in /home/rohanmor/public_html/www.videouploader.net/crons/run_newsletter.php on line 2

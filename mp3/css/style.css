@@ -1,0 +1,16 @@
+/*
+Author:			Gabre Cameron
+Author URI:		http://www.yougotthegist.com
+Author E-mail:	gabrecameron@gmail.com
+*/
+
+/* === IMPORT STYLES === */
+@import url('typography.css');
+@import url('layout.css');
+
+.prev a,.next a{ cursor:pointer;}
+#content{ padding:10px;}
+span.err{ color:#FF0000; display:block; font-size:12px; text-align:center;}
+.fberr{ color:#FF0000; text-align:center; display:block; font-weight:bold;}
+/* ONLY WORS ON HOME PAGE*/
+span .title{overflow:hidden;}

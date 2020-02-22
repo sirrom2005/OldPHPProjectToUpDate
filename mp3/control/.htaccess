@@ -1,0 +1,7 @@
+DirectoryIndex index.html index.php
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+AddType text/x-component .htc
+RewriteEngine On
+
+RewriteRule ^login.html?$ login.php [L]
+RewriteRule ^sign-up.html?$ sign-up.php [L]

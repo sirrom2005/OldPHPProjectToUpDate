@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One Ppl</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/path/to/file" />
+	<!-- JavaScript -->
+	<script src="js/jquery-1.4.2.min.js"></script>
+	<script src="js/jquery_scrollable.js"></script> 
+	<script src="js/global.js"></script>
+	<!-- CSS -->    
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/ie-check.css" />
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/ie-check.css" />
+	<!-- Meta Tags -->
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="SEO Description (30 chracters)" />
+	<meta name="keywords" content="SEO Keyword List (30 keywords unique phrase)" />
+	<meta name="author" content="Gabre Cameron" />
+<style>
+/* root element for scrollable */
+.vertical {  
+	/* required settings */
+	position:relative;
+	overflow:hidden;	
+	/* vertical scrollers have typically larger height than width */	
+	height:240px;	 
+	/*width: 700px;*/	
+}
+/* root element for scrollable items */
+.items {	
+	position:absolute;
+	/* this time we have very large space for height */	
+	height:20000em;	
+	margin: 0px;
+}
+/* single scrollable item */
+.item {
+	/*border-bottom:1px solid #ddd;
+	margin:10px 0;
+	padding:15px;
+	font-size:12px;
+	height:180px;*/
+}
+/* elements inside single item */
+/*.item img {
+	float:left;
+	margin-right:20px;
+	height:180px;
+	width:240px;
+}
+
+.item h3 {
+	margin:0 0 5px 0;
+	font-size:16px;
+	color:#456;
+	font-weight:normal;
+}*/
+/* the action buttons above the scrollable */
+#actions {
+	width:700px;
+	margin:30px 0 10px 0;	
+}
+
+#actions a {
+	font-size:11px;		
+	cursor:pointer;
+	color:#666;
+}
+#actions a:hover {
+	text-decoration:underline;
+	color:#000;
+}
+.disabled {
+	visibility:hidden;		
+}
+.next {
+	float:right;
+}	
+</style>
+</head>
+<body>
+	
+	<div id="MenuBar">
+		<div class="container">
+			
+			<div class="lft">
+			
+				<ul class="navi top">
+                	<li class="current"><a href="index.html" title="">Home</a></li>
+					<li><a href="music.html" title="">Buy Music</a></li>
+                    <li><a href="new_releases.html" title="">New Releases</a></li>
+					<li><a href="most_popular.html" title="">Most Popular</a></li>
+					<li><a href="faq.html" title="">FAQs</a></li>
+                    <?php if(!empty($_SESSION['USER'])){ ?>
+                    <li><a href="my_music.html" title="">My Music</a></li>
+                    <?php } ?>
+				</ul><!-- navi -->
+			
+			</div><!-- left -->
+			
+			
+			<div class="rgt">
+			
+				<div class="login-area">
+                	<a href="cart.html" id="cartItemCount" class="sign-up">(<?php echo (count($_SESSION['CARTITEM'])<2)? count($_SESSION['CARTITEM']) : count($_SESSION['CARTITEM']);?>)&nbsp;</a>
+                	<?php if(empty($_SESSION['USER'])){ ?>
+                        <a href="register.html" class="sign-up">Not a Member? Sign Up</a>
+                        <a href="control/" class="btn login"><img alt="" src="images/btn_login.jpg" /></a>
+                    <?php }else{ ?>
+                        <a>Hi <?php echo $_SESSION['USER']['fname'];?> (<?php echo $_SESSION['USER']['credit_amount'];?>) |&nbsp;</a>
+                        <!--a href="<?php echo DOMAIN;?>control/index.php?action=profile">profile</a-->  
+                        <a href="buycredits.html">Refill credits</a><br /> 
+                        <a href="control/">Control panel |&nbsp;</a> 
+                        <a href="logout.html">Logout</a>
+                    <?php } ?>
+				</div><!-- login -->
+			</div><!-- right -->	
+			
+		</div><!-- container -->
+
+	</div><!-- MenuBar -->
+
+
+	<div id="ContentTop" class="home">
+		
+		<div class="container">
+		
+			<div class="lft">
+				<img alt="" class="logo" src="images/logo.jpg" />
+			</div><!-- left -->
+		
+			<div class="rgt">
+                    <form name="search" id="SearchForm" method="post" action="music.html" >
+						<input class="textbox search" name="searchtext" type="text" />
+						<input class="btn search" type="submit" value="Search" />
+						<span class="options search">
+							<label for="title">Song Name</label>	<input type="radio" name="searchopt" value="title" />
+							<label for="artise">Artiste</label>		<input type="radio" name="searchopt" value="artise" />
+							<label for="riddim">Riddim</label>    	<input type="radio" name="searchopt" value="riddim" />
+							<label for="producer">Producer</label>	<input type="radio" name="searchopt" value="producer" />
+                            <!--label for="label">Label</label>	<input type="radio" name="searchopt" value="label" />
+                            <label for="keywords">Keywords</label>	<input type="radio" name="searchopt" value="keywords" /-->
+						</span>
+					</form>	
+			</div><!-- right -->
+		
+			<div class="clearfix"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- contentTop -->
+
+
+	<div id="ContentBottom" class="home">
+
+		<div class="container">
+		
+			<div class="lft">
+				
+				<h2>Recommended</h2>
+				<div class="recommend">
+					<div class="top"></div>
+					<div class="mid">
+                    <div class="scrollable vertical">
+                    <div class="items">
+                    <?php $c=0; for($i=0; $i<$loop; $i++){?>
+                        <div>
+                            <?php while($c < $count){?>
+                            <div class="track sample item">
+                               	<img alt="<?php echo $row[$c]['title'];?>" height="48" width="50" class="thumb" src="<?php echo (empty($row[$c]['photo']))? ARTISTE_IMG_URL.'default.png' : ARTISTE_IMG_URL.ARTISTE_SML_TMB."_".$row[$c]['photo'];?>" />
+                                <a href="#" class="play">
+                                <object type="application/x-shockwave-flash" data="player/player_mp3_maxi.swf" width="25" height="20">
+                                    <param name="movie" value="player/player_mp3_maxi.swf" />
+                                    <param name="bgcolor" value="#ffffff" />
+                                    <param name="FlashVars" value="mp3=<?php echo MP3LOCATION."sample_{$row[$c]['id']}.mp3";?>&amp;width=25&amp;autoload=0&amp;showslider=0&amp;showloading=always" />
+                                </object>
+                                </a>
+                                <span class="track info">
+                                    <span class="track title"><?php echo $row[$c]['title'];?></span>
+                                    <span class="track sub-title"><?php echo $row[$c]['riddim'];?> (<?php echo $row[$c]['producerfname'];?>)</span>
+                                </span>
+                                <span class="credit info">
+                                    <span class="credit amount"><?php echo $row[$c]['credit_amount'];?></span>
+                                    <span class="credit text">Credits</span>
+                                </span>
+                                <a class="btn buy" href="#" onClick="addtocart(<?php echo $row[$c]['id'];?>, '<?php echo $row[$c]['title'];?>');"><img alt="" src="images/btn_buy.png" /></a>
+                            </div>
+                            <?php                 
+                                $c++;
+                                if($c%4==0){break;} 
+                            } 
+                            ?>
+                        </div>
+                     <?php } ?> 
+                     </div>
+                     </div> 	
+                    <div class="pagination">
+                        <span class="prev browse left"><a href="#" >&lt; previous</a></span>
+                        <span class="next browse right"><a href="#" >next &gt;</a></span>
+                    </div>
+                        <!-- pagination -->
+					</div>
+					<div class="btm"></div>
+				</div><!-- recommend -->
+				
+			</div><!-- left -->
+		
+			<div class="rgt">
+				<h2>Join the Revolution!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				
+				<a href="buycredits.html" title="buy credit now..."><img alt="" class="credit info" src="images/credit-info.jpg" /></a><br /><br />
+				
+				<h3>+ Get 25% More Credits on sign up!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+				<a href="register.html" class="btn sign-up">Sign Me Up!</a>
+			</div><!-- right -->	
+		
+			<div class="clearfix"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- ContentBottom -->
+
+
+	<div id="Footer">
+	
+		<div class="lft">
+			<span class="copyright">&copy; One Ppl Music</span> | <span>Developed by <a href="#" title="">Secoya</a></span>
+		</div><!-- left -->
+
+		<div class="rgt">
+			<ul class="navi btm">
+				<li><a href="terms.htm" title="terms &amp; conditions">Terms &amp; Conditions</a></li>
+				<li> | </li>
+				<li><a href="legal.htm" title="legal">Legal</a></li>
+				<li> | </li>
+				<li><a href="about.htm" title="about One Ppl">About One Ppl</a></li>
+				<li> | </li>
+				<li><a href="sell_your_music.htm" title="sell your music">Sell Your Music</a></li>
+				<li> | </li>
+				<li><a href="advertise.htm" title="advertise with us">Advertise</a></li>
+			</ul>
+		</div><!-- right -->	
+		
+		<div class="clearfix"></div>		
+		
+	</div><!-- Footer -->
+<script>
+// execute your scripts when the DOM is ready. this is mostly a good habit
+$(function() {
+	// initialize scrollable
+	$(".scrollable").scrollable({ vertical: true, mousewheel: true });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="free,videos,movies,uploads,videouploader" />
+<meta name="description" content="upload your videos host your video on videouploader.net shear your videos for free with the world" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Author" content="Rohan (Iceman) Morris : sirrom2005@gmail.com" />
+<meta name="sitename" content="<?php echo SITENAME;?>" />
+<meta name="copyright" content="<?php echo date('Y');?>" />
+<meta name="language" content="en" />
+<meta name="lastupdated" content="<?php echo date('Y-m-d H:i:s');?>" />
+<link rel="Shortcut Icon" type="image/ico" href="<?php echo DOMAIN;?>images/favicon.png">
+<link rel="alternate" type="application/rss+xml" title="<?php echo SITENAME;?> rss feed" href="rss.xml" />
+<link href="doc_root/www/themes/default/css/layout.1.0.2.css" rel="stylesheet" type="text/css" />
+<title><?php echo SITENAME;?> :: uplaod videos, shear videos, watch videos online are the world.</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+    <a href="<?php echo DOMAIN;?>" title="<?php echo SITENAME.' '.TAGLINE;?>" id="logo"></a>
+    <span id="leaderboard">
+	<script type="text/javascript"><!--
+        google_ad_client = "pub-7769573252573851";
+        /* 728x90_image_ads */
+        google_ad_slot = "7700170488";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+        </script>
+        <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </span>
+    <div>
+        <ul>
+            {MAINMENU}
+            <li class="link_cat"><a class="more" href="#" title="more categories">More &raquo;</a>
+            	<ol>
+                {SUBMAINMENU}
+                </ol>
+            </li>
+            <li><a class="upload" href="<?php echo DOMAIN;?>vci/" title="upload videos" >Upload Video</a></li>
+        </ul>
+    </div>
+</div>
+
+        <div class="leftside">
+        <div id="latestvid" class="scrollable">
+        	<ul class="items">{VIDEOPICKS}</ul>
+            <p class="navi"></p>
+        </div>
+        <div>
+            <h1><a href='featured_videos.html' title="view more featured videos">Featured videos</a></h1>
+            {FEATUREDVIDEO} 
+        </div>
+        <span style="display:block;text-align:center;padding-bottom:3px;">
+			<script type="text/javascript"><!--
+            google_ad_client = "pub-7769573252573851";
+            /* wide_image_banner */
+            google_ad_slot = "7284682713";
+            google_ad_width = 468;
+            google_ad_height = 60;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+        </span>
+        <div>         
+            <h1><a href='latest_videos.html' title="view more latest videos">Latest videos</a></h1>
+            {LATESTVIDEO} 
+        </div>
+        </div>
+        <div class="rightside">
+        	<div>
+                <form method="post" name="ss" id="search" action="<?php echo DOMAIN;?>search.php">
+                    <input type="submit" class="btn" value="Search" />
+                    <input type="text" name="s" class="input" value="Search for videos" onclick="clearText(this);" />
+                </form>
+            </div>
+        	<div id="socail">
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                <a class="rs" href="<?php echo DOMAIN;?>rss.xml" title="videouploader.net video feed" target="_blank"></a>
+                <a class="em" href="<?php echo DOMAIN;?>contact_us.html" title="contact us"></a>
+                <a class="addthis_button_preferred_1"></a>
+                <a class="addthis_button_preferred_2"></a>
+                <a class="addthis_button_preferred_3"></a>
+                <a class="addthis_button_preferred_4"></a>
+                <a class="addthis_button_compact"></a>
+                </div>
+                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d327e9464e5632c"></script>
+                <!-- AddThis Button END -->
+            </div> 
+            <div>
+            	<h1>Updates</h1>
+                <span id="newsupdate">
+                	<noscript><p>JavaScript is required for full functionality of videouploader.net, please enable JavaScript or download a JavaScript enabled browser such as Firefox or Internet Explorer.</p></noscript>
+                </span>
+            </div>
+            <div>
+            	<h1>Subscribe to our newsletter</h1>
+                <form name="newsletter" id="newsletter" >
+                    <fieldset><legend>Subscribe to our newsletter</legend>
+                    	<input class="btn" type="button" value="Add" onclick="addtonewletter()" />
+                        <input type="text" name="newsletteremail" class="input" onclick="clearText(this);" value="To get video update Enter your email address" /> 
+                        <span id="nlspan" style="display:none;"></span>
+                    </fieldset>
+                </form>
+            </div>
+            <div>
+            	<iframe style="border:solid 0px #FF0000; width:300px; height:250px;" scrolling="no" src="ads.php"></iframe>
+            </div>
+            <div>
+            	<h1>More Videos</h1>
+                {MOREVIDEOS}
+            </div>
+            <div id="popular_tags">
+            	<h1><a href="<?php echo DOMAIN;?>video-tags/" title="popular video tags">Popular tags</a></h1>
+                {VIDEOTAGS}
+            </div>
+      	</div>
+    <br class="clearleft" />
+    <div id="footer">
+        <a href="http://www.videouploader.net" title="videouploader.net"><?php echo SITENAME;?></a> &copy; 2011<br />
+        <a href="<?php echo DOMAIN;?>about_video_uploader.html" title="about us">About</a> |
+        <a href="<?php echo DOMAIN;?>privacy_policy.html" title="privacy policy">Privacy Policy</a> | 
+        <a href="<?php echo DOMAIN;?>terms_conditions.html" title="terms & conditions">Terms & Conditions</a> | 
+        <!--a href="<?php echo DOMAIN;?>register.html" title="register">Register</a> |-->
+        <a href="<?php echo DOMAIN;?>contact_us.html" title="contact us">Contact Us</a> |
+        <a href="<?php echo DOMAIN;?>feedback.html" title="contact us">Feedback</a> |
+        <a href="<?php echo DOMAIN;?>sitemap.html" title="faqs">Sitemap</a> | 
+        <a href="<?php echo DOMAIN;?>faqs.html" title="faqs">FAQs</a><br/>
+        <?php echo 'ver '.VERSION;?>
+    </div>
+</div>
+<script language="javascript" type="text/javascript" src="<?php echo DOMAIN;?>doc_root/www/js/jquery.custom.home.js"></script>
+<script language="javascript" type="text/javascript" src="<?php echo DOMAIN;?>doc_root/www/js/global.js"></script>
+<script type="text/javascript">
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/videouploadernet/get_num_replies.js' + query + '"></' + 'script>');
+})();
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5576813-9']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+// execute your scripts when the DOM is ready. this is mostly a good habit
+$(function() {
+	// initialize scrollable
+	$(".scrollable").scrollable({circular:true,mousewheel:false}).autoscroll({autoplay:true,interval:4000,autopause:true}).navigator();;
+});
+</script>
+</body>
+</html>

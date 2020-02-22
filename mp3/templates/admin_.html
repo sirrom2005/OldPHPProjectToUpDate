@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One Ppl - Library</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/path/to/file" />
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../js/global.js"></script>
+	<script type="text/javascript" src="../js/ie-check.js"></script>
+	<script type="text/javascript" src="../js/facebox.js"></script>
+	<script type="text/javascript" src="../js/tiny_mce/tiny_mce.js"></script>
+    <!-- TinyMCE -->
+	
+    <script type="text/javascript">
+        tinyMCE.init({
+            mode : "textareas",
+            theme : "simple"
+        });
+    
+    </script>
+    <!-- /TinyMCE -->
+
+	<!-- Facebox -->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('a[rel*=facebox]').facebox()
+		})
+	</script>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/ie-check.css" />
+	<link rel="stylesheet" type="text/css" href="../css/facebox.css" />
+    <link rel="stylesheet" type="text/css" href="../css/admin.css" />
+	
+	<!-- Meta Tags -->
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="SEO Description (30 chracters)" />
+	<meta name="keywords" content="SEO Keyword List (30 keywords unique phrase)" />
+	<meta name="author" content="Gabre Cameron" />
+	
+</head>
+<body>
+	<?php include_once("../includes/tpl_menu.php");?>
+	<div id="ContentTop" class="library">
+		
+		<div class="container">
+		
+			<div class="lft">
+				<div class="account details library top">
+				
+					<a href="" class="logo"><img src="../images/logo-sml-transparent.png" alt="" /></a>
+					<hr />
+                    <ul>
+                        <?php if($_SESSION['USER']['account_type']==1){ ?>
+                            <li><h3>Credits</h3></li>
+                            <li><a href="index.php?action=payment_credit">Credit Points</a></li>
+                            <li><a href="index.php?action=credit_purchase">Credit Purchase</a></li>
+                            <li><h3>Content</h3></li>
+                            <li><a href="index.php?action=add_faq">Add Faqs</a></li>
+                            <li><a href="index.php?action=list_faqs">List Faqs</a></li>
+                            <li><a href="index.php?action=contentpages">Content Pages</a></li>
+                        <?php }?>
+                        <li><a href="index.php?action=payment_report">Payment report</a></li>
+                        <li><h3>Reports</h3></li>
+                        <li><a href="index.php?action=sales_report">Sales Report</a></li>
+                        <li><h3>Store Music</h3></li>
+                        <li><a href="index.php?action=add_riddims">Add riddims</a></li>
+                        <li><a href="index.php?action=list_riddims">List riddims</a></li>
+                        <li><a href="index.php?action=add_artiste">Add artise</a></li>
+                        <li><a href="index.php?action=list_artiste">List artise</a></li>
+                        <li><a href="index.php?action=add_music">Add your music</a></li>
+                        <li><a href="index.php?action=list_music">List music</a></li>
+                    </ul>
+                    
+				</div>
+				<div class="account details  library btm"></div>
+			</div><!-- left -->
+		
+			<div class="rgt">
+				
+				<div class="top">
+					<h3>Admin Area</h3>				
+				</div><!-- track-listing top -->
+				
+				<div class="mid">
+					<div class="track-listing" id="admin">
+						<?php echo $content;?>
+					</div><!-- track-listing -->
+					
+					<div class="sidebar">
+
+					
+					</div><!-- sidebar -->
+					
+					<div class="cleafix"></div>
+					
+				</div><!-- track-listing mid -->
+
+				<div class="btm"></div><!-- track-listing btm -->			
+			
+			</div><!-- right -->
+		
+			<div class="clearfix library"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- contentTop -->
+
+
+	<div id="ContentBottom" class="library">
+
+		<div class="container">			
+		</div><!-- container -->
+	
+	</div><!-- ContentBottom -->
+	<?php include_once("../includes/tpl_footer.php"); ?>	
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One Ppl - Library</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/path/to/file" />
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+	<script type="text/javascript" src="js/ie-check.js"></script>
+	<script type="text/javascript" src="js/facebox.js"></script>
+	
+	<!-- Facebox -->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('a[rel*=facebox]').facebox()
+		})
+	</script>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/ie-check.css" />
+	<link rel="stylesheet" type="text/css" href="css/facebox.css" />
+	
+	<!-- Meta Tags -->
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="SEO Description (30 chracters)" />
+	<meta name="keywords" content="SEO Keyword List (30 keywords unique phrase)" />
+	<meta name="author" content="Gabre Cameron" />
+	
+</head>
+<body>
+	
+	<div id="MenuBar">
+		
+		<div class="container">
+			
+			<div class="lft">
+			
+				<ul class="navi top">
+                	<li><a href="index.html" title="">Home</a></li>
+					<li class="current"><a href="music.html" title="">Buy Music</a></li>
+                    <li><a href="new_releases.html" title="">New Releases</a></li>
+					<li><a href="most_popular.html" title="">Most Popular</a></li>
+					<li><a href="faq.html" title="">FAQs</a></li>
+                    <?php if(!empty($_SESSION['USER'])){ ?>
+                    <li><a href="my_music.html" title="">My Music</a></li>
+                    <?php } ?>
+				</ul><!-- navi -->
+			
+			</div><!-- left -->
+			
+			
+			<div class="rgt">
+			
+				<div class="login-area">
+					<a href="pop-up.html" class="sign-up" rel="facebox">Not a Member? Sign Up</a>
+					<a href="#" class="btn login"><img alt="" src="images/btn_login.jpg" /></a>
+				</div><!-- login -->
+			
+			</div><!-- right -->	
+			
+		</div><!-- container -->
+
+	</div><!-- MenuBar -->
+
+
+	<div id="ContentTop" class="library">
+		
+		<div class="container">
+		
+			<div class="lft">
+				<div class="account details library top">
+				
+					<a href="" class="logo"><img src="images/logo-sml-transparent.png" alt="" /></a>
+					<hr />
+					<h3>My Account</h3>
+					<ul>
+						<li><a href="">Download Cue</a></li>
+						<li><a href="">Record Box</a></li>
+						<li><a href="buycredits.html">Add Credits</a></li>
+						<li><a href="">Menu Options</a></li>					
+					</ul>
+					
+                    <form name="search" id="SearchForm" method="post" action="music.html" >
+						<input class="textbox search" type="text" name="searchtext" />
+						<select class="select" name="searchopt">
+							<option value="title">Song Name</option>
+							<option value="artise">Artiste</option>
+							<option value="producer">Producer</option>
+                            <option value="riddim">Riddim</option>
+							<option value="label">Label</option>					
+						</select>
+						<input  class="btn search" type="submit" value="seach music" />
+					</form>
+				
+				</div>
+				<div class="account details  library btm"></div>
+				
+				<div class="textarea">
+					<img src="images/smpl_promo.jpg" class="promo" alt="" />
+					<h3>Producer / Label info</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+				</div>
+			</div><!-- left -->
+		
+			<div class="rgt">
+				
+				<div class="top">
+					<h3>Library</h3>				
+				</div><!-- track-listing top -->
+				
+				<div class="mid">
+					
+					<div class="track-listing">
+                    <?php 
+                    if(!empty($results))
+                    {
+                        foreach($results as $row)
+                    	{ 
+                    ?>
+						<div class="track sample">
+							<img alt="" class="thumb" src="images/thumb_sean-paul.png" />
+							<a href="#" class="play">
+                              <object type="application/x-shockwave-flash" data="player/player_mp3_maxi.swf" width="25" height="20">
+                                    <param name="movie" value="player/player_mp3_maxi.swf" />
+                                    <param name="bgcolor" value="#ffffff" />
+                                    <param name="FlashVars" value="mp3=<?php echo MP3LOCATION."sample_{$row[$c]['id']}.mp3";?>&amp;width=25&amp;autoload=0&amp;showslider=0&amp;showloading=always" />
+                                </object>
+                            </a>
+							<span class="track info">
+								<span class="track title"><?php echo $row['title'];?></span><br />
+								<span class="track sub-title"><?php echo $row['riddim'];?> (<?php echo $row['producerfname'];?>)</span>
+							</span>
+							<span class="credit info">
+								<span class="credit amount"><?php echo $row['credit_amount'];?></span>
+								<span class="credit text">Credits</span>
+							</span>
+							<a class="btn buy" href="#" onClick="addtocart(<?php echo $row['id'];?>, '<?php echo $row['title'];?>');"><img alt="" src="images/btn_buy.png" /></a>
+						</div><!-- track sample -->
+					<?php
+                    	}
+                    }
+                    ?>
+						<div class="pagination">
+							<span class="prev">
+                            <?php
+                                if( count($presult) > $_LIMIT)
+                                { 
+                                    $p->cleanPagination(false); $p->paginate();
+                                }
+                            ?>  
+                            </span>					
+						</div>
+						<!--div class="pagination">
+							<span class="prev"><a href="#">&lt; previous</a></span>
+							<span class="next"><a href="#">next &gt;</a></span>						
+						</div--><!-- pagination -->
+					</div><!-- track-listing -->
+					
+					<div class="sidebar">
+
+						<form action="" method="post" class="narrow">
+							<label>Narrow by</label>
+							<select>
+								<option value="">Song Name</option>
+								<option value="">Artiste</option>
+								<option value="">Producer</option>
+								<option value="">Label</option>						
+							</select>
+							<input class="textbox search" type="text" name="search" />
+						</form>
+					
+					</div><!-- sidebar -->
+					
+					<div class="cleafix"></div>
+					
+				</div><!-- track-listing mid -->
+
+				<div class="btm"></div><!-- track-listing btm -->			
+			
+			</div><!-- right -->
+		
+			<div class="clearfix library"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- contentTop -->
+
+
+	<div id="ContentBottom" class="library">
+
+		<div class="container">			
+		</div><!-- container -->
+	
+	</div><!-- ContentBottom -->
+
+
+	<div id="Footer">
+	
+		<div class="lft">
+			<span class="copyright">&copy; One Ppl Music</span> | <span>Developed by <a href="#" title="">Secoya</a></span>
+		</div><!-- left -->
+
+		<div class="rgt">
+			<ul class="navi btm">
+				<li><a href="terms.htm" title="terms &amp; conditions">Terms &amp; Conditions</a></li>
+				<li> | </li>
+				<li><a href="legal.htm" title="legal">Legal</a></li>
+				<li> | </li>
+				<li><a href="about.htm" title="about One Ppl">About One Ppl</a></li>
+				<li> | </li>
+				<li><a href="sell_your_music.htm" title="sell your music">Sell Your Music</a></li>
+				<li> | </li>
+				<li><a href="advertise.htm" title="advertise with us">Advertise</a></li>
+			</ul>
+		</div><!-- right -->	
+		
+		<div class="clearfix"></div>		
+		
+	</div><!-- Footer -->
+	
+</body>
+</html>

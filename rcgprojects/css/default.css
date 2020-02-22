@@ -1,0 +1,247 @@
+BODY 
+{
+	SCROLLBAR-FACE-COLOR: #e7e3e7; 
+	SCROLLBAR-HIGHLIGHT-COLOR: white; 
+	SCROLLBAR-SHADOW-COLOR: white; 
+	SCROLLBAR-3DLIGHT-COLOR: #e7e3e7; 
+	SCROLLBAR-ARROW-COLOR: black; 
+	SCROLLBAR-TRACK-COLOR: #e7e3e7; 
+	FONT-FAMILY: Century Gothic; 
+	SCROLLBAR-DARKSHADOW-COLOR: #e7e3e7; 
+	SCROLLBAR-BASE-COLOR: #e7e3e7;
+	
+	background-color:#e6e6e6;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	background-image:url(../images/home2_slice_01.jpg);
+	background-repeat:repeat-x;
+	
+}
+IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+
+.imgborder
+{
+	border:solid 1px #000000;
+}
+
+A {
+	FONT: 11px verdana; COLOR: #0072bc; TEXT-DECORATION: none;
+}
+A:hover {
+	COLOR: #0072bc ; TEXT-DECORATION: none ; FONT: bold
+}
+.side_bar_links {
+	FONT: bold 11px verdana; COLOR: white ; TEXT-DECORATION: none
+}
+.sel_side_bar_link {
+	FONT: bold 11px verdana; COLOR: yellow
+}
+.tail_links {
+	FONT-WEIGHT: normal; COLOR: #4a8e84
+}
+.top_links {
+	FONT: 10px verdana; COLOR: white
+}
+.side_bar_border {
+	BORDER-BOTTOM: #595959 1px solid
+}
+.blue_text {
+	COLOR: #0072bc
+}
+.green_text {
+	COLOR: green
+}
+.project_list {
+	FONT: 11px verdana 
+}
+
+.lpLinks
+{
+	font-size:8pt;
+	font-family:verdana;
+	padding-left:4px;
+	font-weight:normal;
+}
+
+.lp
+{
+	height:20px;
+}
+
+.viewProText
+{
+	/*overflow:auto;
+	height: 160px; 
+	text-align: justify;*/
+	padding:0px 0px 10px 0px;
+	font-size:12px;
+}
+
+.readingArea
+{
+	/*overflow:auto; 
+	height: 300px;*/
+	font-family:verdana;
+	font-size:9pt;
+	padding:11px 0px 10px 0px;
+	text-align:justify;
+}
+
+.textTitle
+{
+	font-family: verdana;
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: bold; 
+	font-size: 14px; 
+	line-height: normal; 
+	font-size-adjust: none; 
+	font-stretch: normal;
+}
+
+.text
+{
+	font-size:11px;
+	font-family:verdana;
+	text-align:justify;
+}
+
+.controlLableStyle
+{
+	font-size:10pt;
+	font-family:verdana;
+	
+}
+
+.controlStyle
+{
+	border:#e7e3e7 1px solid;
+}
+
+.btnStyle
+{}
+
+.infoHeading
+{
+	font-family:verdana;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+li
+{
+	list-style:none;
+	background-image:url(../images/bullet.gif);
+	background-repeat:no-repeat;
+	background-position:2px;
+	padding-left:19px;
+}
+
+#contact
+{
+	font-family:verdana;
+	font-size:10pt;
+}
+
+#flashBorder
+{
+	background-color:#CCCCCC;
+}
+
+.proSection
+{ 
+	font-family:verdana;
+	text-transform:uppercase;
+	font-size:11pt;
+	padding:0px 20px 0px 0px;
+	font-weight:bold;
+}
+
+.proName
+{
+	font-family:verdana;
+	text-transform:capitalize;
+	font-weight:Bold;
+	font-size:10pt;
+	padding:0px 0px 4px 0px; 
+}
+
+a.proLink:link, a.proLink:visited
+{
+	font-weight:normal;
+	padding:0px 0px 0px 0px; ;
+}
+
+a.proLink:hover
+{
+    COLOR: green ; TEXT-DECORATION: none ; FONT: normal
+}
+
+a.proLink2:link, a.proLink2:visited
+{
+	font-size:7pt;
+	font-weight:bold;
+	COLOR:#0072bc;
+}
+
+a.proLink2:hover
+{
+    TEXT-DECORATION: none ; FONT: bold
+}
+
+#f1
+{
+	background-color:#CCCCCC;
+}
+
+.proFrame
+{
+	padding:0px 0px 30px 0px;
+}
+
+.tippointer
+{
+	cursor:pointer;
+}
+
+.tips
+{
+	padding-bottom:4px;
+}
+
+.searchText
+{
+	border:solid 1px #000000;
+	width:100px;
+	height:18px;
+	font-family:verdana;
+	font-size:9pt;	
+}
+
+form
+{
+	margin:0px;
+}
+
+.message
+{
+	text-align:center;
+	font-family:verdana;
+	font-size:9pt;	
+	font-weight:normal;
+	padding-top:10px;
+}
+
+#footerUpdate
+{
+	text-align:center;
+	font-size:7pt;
+	font-family:verdana;
+	padding-top:33px;
+	font-weight:bold;
+	color:#999999;
+}

@@ -1,0 +1,52 @@
+<table class="alert round rax-table"  id="datasheet">
+	<caption>
+    	<input type="button" value="Export to CSV" id="exportCSV" class="button btncsv right ltm" title="Export disconection list" />
+    	<!--input type="button" value="Print List" class="button btnprint right" onclick="window.print();" /-->
+        <span id="formtitle">Disconection list</span>
+    </caption>
+	<thead>
+    <tr class="tbl-header">
+        <th>&nbsp;</th>
+        <th nowrap="nowrap">Account Number</th>
+        <th>Full Name</th>
+        <th>Address</th>
+        <th>Date-Dued</th>
+        <th>Bill Amount</th>
+        <th>Due Amount</th>
+        <th>Status</th>
+        <th class="action">Action</th>
+    </tr>
+    </thead>
+    <tbody id="data_grid">
+    <tr class="{ROWCLASS}">
+        <td width="1">{ROWCOUNT}</td>
+        <td width="4">{premise}-{customer}</td>
+        <td>{first_name} {last_name}</td>
+        <td>{street_name} {city_town} {parish}</td>
+        <td>{due_date}</td>
+        <td>{bill_amount}</td>
+        <td>{amount_owed}</td>
+        <td  nowrap="nowrap" style="{statusStyle}">{status}</td>
+        <td class="action">
+			<a class="history" title="view client payment history" href="#{id}"></a>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+    	<td colspan="10">
+            <span id="pager" class="right"></span>
+            <span class="right rtm">
+            <select name="pagesize" id="pagesize" xt-bind="change,pageSize,,true">
+            	<option value="10">10</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+                <option value="80">80</option>
+                <option value="100">100</option>
+                <option value="500">500</option>
+            </select>
+            </span>
+        </td>
+    </tr>
+    </tfoot>
+</table>

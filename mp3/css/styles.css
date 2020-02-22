@@ -1,0 +1,17 @@
+h1,h2,h3,h4,h5,h6,body,form,table td,ul,ol,li,p{margin:0;padding:0;list-style:none;}
+.clearleft{clear:left;}
+.clearright{clear:right;}
+.right{ float:right;}
+br{line-height:0;}
+#header{}
+#header ul li{display:inline-block;}
+#header ul li a{color:#F00; padding:5px; border:solid 1px #F00; text-decoration:none;}
+#header ul li a:hover{color:#00F;}
+#header form{ margin:20px 250px; padding:10px; text-align:center; border:solid 1px #003;}
+#logo{ background:url(../images/logo.png) no-repeat 0 -25px; height:100px; width:200px; display:block;}
+#container{width:1024px; margin:0 auto;}
+
+
+.box{ width:300px; height:300px; display:inline-block; border:dotted 1px #333;}
+.addtocart, .removefromcart{display:inline-block;height:16px;width:16px;background:url(../images/icon_checkout.png) no-repeat 0 0;}
+.removefromcart{background:url(../images/icon-delete.gif) no-repeat 0 0;}

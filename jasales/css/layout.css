@@ -1,0 +1,206 @@
+html,body,div,form,h1,h2,h3,h4,h5,h6,ol,ul,li,p,hr{display:block;unicode-bidi:embed;margin:0;padding:0;list-style:none;font-family:Arial;font-size:1em; line-height:1em;}
+body{ background-color:#f4f4f4; padding-bottom:20px; }
+.right{float:right;}
+.left{float:left;}
+br{clear:both;line-height:0;}
+hr{clear:both;height:0;border:0;border-top:1px solid #e1e1e1;margin:5px 5%;}				
+#container{background-color:#FFF;margin:0 auto;width:970px;border:solid 1px #e1e1e1;}
+#header{padding:0px 5px 0 5px;}
+#header #logo{font-size:4em;font-weight:bold;text-decoration:none;display:inline-block;color:#000;padding:20px 0 0 5px; }
+#header #logo:hover{color:#666;}
+#header #topspan{float:right; text-align:right;}
+#memlinks a{font-size:0.8em;text-decoration:none;display:inline-block;margin-bottom:8px;color:#F00;}
+#memlinks a:hover{text-decoration:underline}
+#leaderboard{width:728px;height:90px;margin:0px auto;background-color:#f4f4f4;clear:both;}
+.frmsyle{width:320px;border:solid 1px #afc1ce;padding-right:3px;height:22px;overflow:hidden;}
+.frmsyle #btnsearch{background:url(../images/find.png) no-repeat 0 4px;border:0;width:16px; height:21px;float:right; cursor:pointer;}
+.frmsyle #btnnewsletter{background:url(../images/popout2.png) no-repeat 0 1px;border:0;width:20px; height:20px;float:right; cursor:pointer;}
+.frmsyle #s,.frmsyle #s2{width:290px;padding:4px 10px 5px 2px;font-size:0.8em;border:0;float:right;margin-top:-1px;}
+#frmnewsletter{width:325px;float:right;}
+#frmsearch div ul{
+	position:absolute;
+	z-index:10;
+	margin-top:21px;
+	width:405px;
+	border:solid 1px #e6e7e8;
+	background-color:#FFF;
+	box-shadow:0 0 10pt 0 rgba(105,105,105,0.5);
+}
+#frmsearch div ul li.even{background-color:#d5dae6;}
+#frmsearch div ul li a{display:block;font-size:0.9em;color:#000000;padding:5px;text-decoration:none; overflow:hidden;}
+#frmsearch div ul li a:hover{background-color:#FFFFCC;}
+.morecomp,.morecomp_out{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin:1px 2px 0 0;
+	background-image:url(../images/popout.png);
+}
+.morecomp_out{
+	background-image:url(../images/popin.png);
+}
+#topmenu{background:url(../images/theme_blue.jpg) 0 -15px repeat-x;margin:0 0 5px 0;height:24px;}
+#topmenu ul li{float:left; border-right:solid 1px #FFF; }
+#topmenu ul li a{color:#FFF; text-transform:uppercase;}
+#topmenu ul li a,#sideMenu ul li a{display:block;padding:4px 10px;font-size:0.9em;font-weight:bold;text-decoration:none;}
+#topmenu ul li a:hover{color:#CCC;}
+#sideMenu{float:left;margin-right:5px;width:150px;}
+#sideMenu ul li{margin-bottom:2px;}
+#sideMenu ul li a{background-color:#afc1ce;color:#000;font-weight:normal;}
+#sideMenu ul li a:hover{background-color:#36579b;color:#FFF;}
+#content{float:left;min-height:400px;}
+#rightcol{float:right; width:200px; padding:0 5px 5px 5px;}
+#rightcol li{line-height:0.9em;color:#666;font-size:0.80em;margin-bottom:10px;}
+#rightcol li h3{color:#36579b;font-size:1.1em;margin-bottom:3px;}
+#rightcol li hr{margin:5px 40px;border-top:dotted 1px #36579b;}
+#popup{
+	z-index:10;
+	width:200px;
+	border:solid 1px #CCC;
+	margin-left:768px;
+	position:absolute;
+	background-color:#FFF;
+	box-shadow:0 0 15pt 0 rgba(105,105,105,0.5);
+}
+#popup ul li a{color:#000;}
+#popup ul li a:hover{color:#c00;}
+#footer{
+	text-align:center;
+	font-size:0.7em;
+	padding:10px 0;
+	line-height:1.5em;
+	clear:both;
+	margin:0 5px;
+}
+#footer a{color:#666;}
+#footer a:hover{text-decoration:none;}
+.promo1{ width:605px; height:310px; margin-bottom:5px; background:#0F3; display:block;}
+.promo2{ width:300px; height:310px; margin-bottom:5px; background:#0F3; display:inline-block;}
+
+/* 
+root element for the scrollable. 
+when scrolling occurs this element stays still. 
+*/ 
+div.scrollable 
+{  
+	position:relative; 
+	overflow:hidden; 
+	height:300px;
+	margin-top:10px; 
+} 
+/* 
+	root element for scrollable items. Must be absolutely positioned 
+	and it should have a extremely large width to accomodate scrollable items. 
+	it's enough that you set width and height for the root element and 
+	not for this element. 
+*/ 
+div.scrollable ol.items { 
+	/* this cannot be too large  */
+	width:200px; 
+	position:absolute;
+} 
+/* 
+	a single item. must be floated in horizontal scrolling. 
+	typically, this element is the one that *you* will style 
+	the most. 
+*/ 
+div.scrollable ol.items li {  
+	width:200px;
+} 
+ 
+/* you may want to setup some decorations to active the item */ 
+/*ol.items li.active{ 
+	border:1px inset #ccc; 
+	background-color:#c00; 
+}*/
+
+/**
+ * bluetab - tabstrip theme
+*/
+ul.rax-tabstrip.bluetab {
+	border:none;
+	background:url("../images/tab_blue_bg.gif") repeat-x left bottom;
+}
+ul.rax-tabstrip.bluetab li {
+	border:none; padding:0 0 0 9px;
+	background:url("../images/tab_blue_off.png") no-repeat left top;
+}
+ul.rax-tabstrip.bluetab a {
+	color:#D6E8F6; border:none;
+	padding:5px 15px 4px 6px;
+	background:url("../images/tab_blue_off.png") no-repeat right top;
+}
+ul.rax-tabstrip.bluetab a:hover { color:#93BBD6; }
+ul.rax-tabstrip.bluetab .selected-tab  {
+	cursor:default;
+	background:url("../images/tab_blue_on.png") no-repeat left top;
+}
+ul.rax-tabstrip.bluetab .selected-tab a {
+	color:#003D69; padding-bottom:5px; border:none;
+	background:url("../images/tab_blue_on.png") no-repeat right top;
+}
+
+.rax-tabstrip a
+{
+  float:left;
+  display:block;
+  padding:2px 4px;
+  line-height:18px;
+  text-decoration:none;
+  font-size:0.8em;
+  color: #777777;
+  background-image:none;
+}
+.rax-tabstrip a:hover{color: #333333;}
+.rax-tabstrip li
+{
+  padding:0;
+  margin:0 3px 0 0;
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+  border-top-width: 1px;
+  border-right-width-value: 1px;
+  border-left-width-value: 1px;
+  border-top-style: solid;
+  border-right-style-value: solid;
+  border-left-style-value: solid;
+  border-top-color: #cccccc;
+  border-right-color-value: #cccccc;
+  border-left-color-value: #cccccc;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+}
+ul.rax-tabstrip.bluetab .selected-tab a
+{
+  color: #003d69;
+  padding-bottom: 5px;
+  border-top-width: medium;
+  border-right-width-value: medium;
+  border-bottom-width: medium;
+  border-left-width-value: medium;
+  border-top-style: none;
+  border-right-style-value: none;
+  border-bottom-style: none;
+  border-left-style-value: none;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  background-color: transparent;
+  background-image: url("../images/tab_blue_on.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+.rax-tabstrip .selected-tab{cursor: default;}

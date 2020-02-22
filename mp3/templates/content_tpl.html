@@ -1,0 +1,109 @@
+<?php
+$randArtise = $siteObj->getRandArtiste();
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title><?php echo $title;?> - One Ppl</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/path/to/file" />
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/ie-check.js"></script>
+	<script type="text/javascript" src="js/facebox.js"></script>
+	
+	<!-- Facebox -->
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('a[rel*=facebox]').facebox()
+		})
+	</script>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/ie-check.css" />
+	<link rel="stylesheet" type="text/css" href="css/facebox.css" />
+	
+	<!-- Meta Tags -->
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="SEO Description (30 chracters)" />
+	<meta name="keywords" content="SEO Keyword List (30 keywords unique phrase)" />
+	<meta name="author" content="Gabre Cameron" />
+	
+</head>
+<body>
+	<?php include_once("includes/tpl_menu.php");?>
+	<div id="ContentTop" class="library">
+		
+		<div class="container">
+		
+			<div class="lft">
+				<div class="account details library top">
+				
+					<a href="" class="logo"><img src="images/logo-sml-transparent.png" alt="" /></a>
+					<hr />
+					<h3>My Account</h3>
+					<ul>
+						<li><a href="my_music.html" title="my download cue">Download Cue</a></li>
+						<!--li><a href="">Record Box</a></li-->
+						<li><a href="buycredits.html" title="add credits">Add Credits</a></li>
+						<!--li><a href="">Menu Options</a></li-->					
+					</ul>
+					<form name="search" id="SearchForm" method="post" action="search.php" >
+						<input class="textbox search" type="text" name="s" />
+						<select class="select" name="opt">
+							<option value="title">Song Name</option>
+							<option value="artise">Artiste</option>
+							<option value="producer">Producer</option>
+                            <option value="riddim">Riddim</option>
+							<option value="label">Label</option>						
+						</select>
+						<input  class="btn search" type="submit" value="search music" /><br />
+					</form>	
+				</div>
+				<div class="account details  library btm"></div>
+				
+				<div class="textarea">
+					<a href="artiste_info_<?php echo $randArtise['id']; ?>.htm"><img src="images/artise/200_<?php echo $randArtise['photo']; ?>" width="196" class="promo" alt="" /></a>
+					<h3><a href="artiste_info_<?php echo $randArtise['id']; ?>.htm"><?php echo $randArtise['stagename']; ?></a></h3>   
+					<p><?php echo cleanString($randArtise['bio'], 20);?>...<a href="artiste_info_<?php echo $randArtise['id']; ?>.htm">read more</a></p>
+				</div>
+			</div><!-- left -->
+		
+			<div class="rgt">
+				
+				<div class="top">
+					<h3><?php echo $title;?></h3>				
+				</div><!-- track-listing top -->
+				<div class="mid">
+					<div id="content">
+                    	<?php echo $content;?>
+					</div>
+					<div class="cleafix"></div>
+				</div><!-- track-listing mid -->
+
+				<div class="btm"></div><!-- track-listing btm -->			
+			
+			</div><!-- right -->
+		
+			<div class="clearfix library"></div>
+		
+		</div><!-- container -->
+	
+	</div><!-- contentTop -->
+
+
+	<div id="ContentBottom" class="library">
+
+		<div class="container">			
+		</div><!-- container -->
+	
+	</div><!-- ContentBottom -->
+	<?php include_once("includes/tpl_footer.php"); ?>
+</body>
+</html>

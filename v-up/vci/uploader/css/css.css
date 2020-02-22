@@ -1,0 +1,6 @@
+body{margin:5px;padding:0; font-family:Verdana, Arial, Helvetica, sans-serif;}
+form{ margin-bottom:10px;}
+#uploader{text-align:center; padding:5px; height:100px;font-size:10pt;}
+#loader{ background:url(../../../images/loading.gif) no-repeat; height:20px;}
+.text1{ border:solid 1px #cbe5ff; color:#333333; font-weight:bold; padding:5px;font-size:12px; background-color:#eff4fc; display:inline-block;}
+p{margin:0;padding:0;}

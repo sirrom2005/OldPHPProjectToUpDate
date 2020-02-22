@@ -1,0 +1,584 @@
+/* === Default HTML === */
+body {
+	background-color: #f3f3f3;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+}
+p { margin-bottom: 15px}
+
+
+/* === Generic Styles === */
+.clearfix {
+	clear: both;
+	display: block;
+}
+
+
+/* === MenuBar === */
+#MenuBar {
+	background-color: #1c93bb;
+	background-image: url(../images/bg_menu-bar.jpg);
+	background-position: top left;
+	background-repeat: repeat-x;
+	position: relative;
+	height: 49px;
+	width: 100%;
+}
+#MenuBar .container, #ContentTop .container, #ContentBottom .container, #Footer {
+	margin: 0 auto;
+	width: 1000px;
+}
+#MenuBar .lft {
+	float: left;
+	width: 450px;
+}
+#MenuBar .rgt {
+	float: right;
+	height: 25px;
+	margin: 20px 120px 0 0;
+	right: 0;
+	position: absolute;	
+	width: 360px;
+	z-index: 2;
+}
+
+/* navi */
+.navi.top {
+	height: 30px;
+	margin-top: 26px;
+	position: absolute;
+	z-index: 2;
+}
+.navi.top li, .navi.btm li {
+	display: inline;
+}
+.navi.top li {
+	margin: 0 5px;
+}
+.navi.top li a {
+	padding: 0 10px;
+}
+.navi.top li.current a {
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+}
+
+/* login */
+.login-area a {
+	float: left;
+}
+.login-area .sign-up {
+	padding: 5px 0 0 0;
+}
+.login-area .btn.login {
+	margin-left: 18px;
+}
+
+/* === ContentTop === */
+#ContentTop {
+	background-color: #ffffff;
+	background-image: url(../images/bg_content-top.jpg);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+#ContentTop.home {
+	height: 205px;
+}
+#ContentTop.home .lft {
+	float: left;
+	margin: 65px 30px 0 5px;
+	width: 270px;
+}
+#ContentTop.home .rgt {
+	float: left;
+	margin-top: 75px;
+	width: 555px;
+}
+#ContentTop.buy .lft, #ContentTop.library .lft {
+	float: left;
+	margin: 35px 10px 0 0px;
+	width: 206px;
+}
+#ContentTop.buy .lft .login.top, #ContentTop.library .lft .account.details.top {
+	background-color: #f3f3f3;
+	background-image: url(../images/bg_buy-login-area.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 216px;
+	padding: 20px 10px 10px 10px;
+	width: 186px;
+}
+#ContentTop.buy .lft .login .logo, #ContentTop.library .lft .account.details.top .logo {
+	clear: both;
+	display: block;
+	height: 40px;
+	margin: 0 0 10px 10px;
+	width: 157px;
+}
+#ContentTop.buy .lft .login.btm, #ContentTop.library .lft .account.details.btm  {
+	background-color: #f3f3f3;
+	background-image: url(../images/bg_buy-login-area-footer.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 206px;
+}
+#ContentTop.library .lft .account.details.btm {
+	margin-bottom: 20px;
+}
+#ContentTop.library .lft .textarea {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+#ContentTop.library .lft .textarea .promo {
+	margin-bottom: 10px;
+}
+#ContentTop.library .lft .textarea h3, #ContentTop.library .lft .textarea p {
+	padding-left: 5px;
+}
+#ContentTop.buy .lft .login .textbox.search, #ContentTop.library .lft .account.details.top .textbox.search {
+	background-image: url(../images/bg_input-search-sml.jpg) ;
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: none;
+	display: block;
+	height: 35px;
+	margin-bottom: 5px;
+	width: 180px;
+}
+#ContentTop.library .lft .account.details.top .textbox.search {
+	margin-top: 15px;
+}
+#ContentTop.buy .lft .login .select, #ContentTop.library .lft .account.details.top .select {
+	float: left;
+	width: 70px;
+}
+#ContentTop.buy .lft .login .btn.search, #ContentTop.library .lft .account.details.top .btn.search {
+	background: transparent;
+	background-image: url(../images/btn_search-02.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	float: right;
+	height: 29px;
+	width: 105px;
+}
+#ContentTop.buy .rgt {
+	background-color: #000;
+	height: 253px;
+	float: left;
+	margin: 35px 0 25px 0;
+	width: 776px;
+}
+#ContentTop.buy .clearfix.buy {
+	height: 10px;
+}
+#ContentTop.library .rgt {
+	float: left;
+	margin-top: 35px;
+	width: 776px;
+}
+#ContentTop.library .rgt .top {
+	background-image: url(../images/bg_library-hdr.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 778px;
+}
+#ContentTop.library .rgt .top h3 {
+	padding: 10px 0 0 10px;
+} 
+#ContentTop.library .rgt .mid {
+	background-image: url(../images/bg_library-mid.jpg);
+	background-position: top left;
+	background-repeat: repeat-y;
+	min-height: 560px;
+	width: 778px;
+}
+#ContentTop.library .rgt .track-listing {
+	float: left;
+	height: 600px;
+	margin: 0 11px;
+	padding: 10px 0;
+	width: 604px;
+}
+#ContentTop.library .rgt .sidebar {
+	float: left;
+	margin-top: 10px;
+	width: 135px;
+}
+#ContentTop.library .rgt .sidebar label {
+	float: left;
+	padding-left: 5px;
+	width: 55px;
+}
+#ContentTop.library .rgt .sidebar select {
+	float: left;
+	width: 69px;
+}
+#ContentTop.library .rgt .sidebar input {
+	height: 25px;
+	margin-top: 10px;
+	width: 135px;
+}
+#ContentTop.library .rgt .btm {
+	background-image: url(../images/bg_library-footer.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 10px;
+	width: 778px;
+}
+#ContentTop.library .clearfix.library {
+	height: 15px;
+}
+
+/* search */
+#SearchForm .textbox.search {
+	background: transparent;
+	background-image: url(../images/bg_input-search.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: none;
+	height: 43px;
+	margin-right: 10px;
+	padding: 0 10px;
+	width: 389px;
+}
+#SearchForm .btn.search {
+	background: transparent;
+	background-image: url(../images/btn_search.jpg);
+	background-position: 0 2px;
+	background-repeat:  no-repeat;
+	border: none;
+	cursor: pointer;
+	height: 50px;
+	padding-bottom: 6px;
+	width: 108px;
+}
+.options.search {
+	clear: both;
+	display: block;
+	margin-top: 10px;
+}
+.options.search label {
+	margin-right: 8px;
+}
+.options.search input {
+	margin-right: 15px;
+}
+
+
+#ContentTop.sign-up, #ContentTop.login {
+	height: 466px;
+}
+#ContentTop.sign-up .lft, #ContentTop.login .lft {
+	background-image: url(../images/bg_sign-up.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	float: left;
+	height: 459px;
+	width: 450px;
+}
+#ContentTop.sign-up .rgt, #ContentTop.login .rgt {
+	float: left;
+	width: 530px;
+}
+#ContentTop.sign-up .rgt .logo, #ContentTop.login .rgt .logo {
+	margin-top: 25px;
+}
+#ContentTop.sign-up .rgt .textarea {
+	margin: 5px 0 0 20px;
+}
+
+/* registration form */
+#RegistrationForm span, #LoginForm span {
+	clear: both;
+	display: block;
+	height: 39px;
+	margin-bottom: 15px;
+}
+#RegistrationForm span label, #LoginForm span label {
+	float: left;
+	line-height: 39px;
+	width: 105px;
+}
+#RegistrationForm span input, #LoginForm span input {
+	background: transparent;
+	background-image: url(../images/bg_input.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: none;
+	float: left;
+	height: 39px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 348px;
+}
+#RegistrationForm .btn.sign-up, #LoginForm .btn.login {
+	background: transparent;
+	background-image: url(../images/btn_sign-up.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	height: 49px;
+	margin-left: 100px;
+	width: 382px;
+}
+
+
+/* === ContentBottom === */
+#ContentBottom .container {
+	margin-top: 30px;
+}
+#ContentBottom.home .lft, #ContentBottom.sign-up .lft, #ContentBottom.login .lft {
+	float: left;
+	width: 470px;
+}
+#ContentBottom.buy .container {
+	margin-top: 11px;
+}
+#ContentBottom.buy .track-listing.top {
+	background-image: url(../images/bg_buy-hdr-top.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 993px;
+}
+#ContentBottom.buy .track-listing.mid {
+	background-image: url(../images/bg_buy-mid.jpg);
+	background-position: top left;
+	background-repeat: repeat-y;
+	padding: 10px 0 10px 10px;
+	width: 993px;
+}
+#ContentBottom.buy .track-listing.btm {
+	background-image: url(../images/bg_buy-footer.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 7px;
+	width: 993px;
+}
+#ContentBottom.buy .col {
+	float: left;
+	width: 318px;
+}
+#ContentBottom.buy h3.col {
+	padding: 10px 0 0 10px; 
+}
+#ContentBottom.buy .col.mid {
+	margin: 0 12px;
+}
+
+
+/* track sample */
+.home .lft .recommend .top {
+	background-image: url(../images/bg_recommend-top.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 472px;
+}
+.home .lft .recommend .mid {
+	background-color: #d9d9d9;
+	background-image: url(../images/bg_recommend-mid.jpg);
+	background-position: top left;
+	background-repeat: repeat-x;
+	height: 260px;
+	padding: 5px 0 5px 10px;
+	width: 462px;
+}
+.home .lft .recommend .btm {
+	background-image: url(../images/bg_recommend-btm.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 472px;
+}
+.home .lft .recommend .track.sample {
+	background-image: url(../images/bg_track-sample.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	clear: both;
+	display: block;
+	height: 61px;
+	width: 455px;
+}
+#ContentTop.library .rgt .track-listing .track.sample {
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	clear: both;
+	display: block;
+	height: 61px;
+	margin-bottom: 5px;
+	width: 604px;
+}
+.recommend .track.sample .thumb, #ContentTop.library .rgt .track-listing .track.sample .thumb {
+	float: left;
+	margin: 2px 10px 0 10px;
+}
+#ContentTop.library .rgt .track-listing .track.sample .thumb {
+	margin-top: 6px;
+}
+.recommend .track.sample .play,  #ContentTop.library .rgt .track-listing .track.sample .play {
+	float: left;
+	height: 32px;
+	margin: 10px 15px 0 0;
+	width: 32px;
+}
+#ContentTop.library .rgt .track-listing .track.sample .play {
+	margin-top: 14px;
+}
+.recommend .track.sample .track.info {
+	float: left;
+	margin: 10px 5px 0 0; 
+	width: 230px;
+}
+#ContentTop.library .rgt .track-listing .track.sample .track.info {
+	float: left;
+	margin: 20px 5px 0 0; 
+	width: 380px;
+}
+.recommend .track.sample .track.title {
+	display: block;
+}
+.recommend .track.sample .credit.info, #ContentTop.library .rgt .track-listing .track.sample .credit.info {
+	float: left;
+	margin: 0 5px 0 0; 
+	width: 50px;
+}
+#ContentTop.library .rgt .track-listing .track.sample .credit.info {
+	margin-top: 5px;
+}
+.recommend .track.sample .btn.buy, #ContentTop.library .rgt .track-listing .track.sample .btn.buy {
+	float: left;
+	margin: 7px 0 0 0;
+}
+#ContentTop.library .rgt .track-listing .track.sample .btn.buy {
+	margin-top: 12px;
+}
+.recommend .pagination {
+	clear: both;
+	display: block;
+	padding-left: 5px;
+	width: 445px;
+}
+#ContentTop.library .rgt .track-listing .pagination {
+	clear: both;
+	display: block;
+	padding-left: 8px;
+	width: 590px;
+}
+.recommend .pagination .prev, #ContentBottom.buy .col .pagination.white .prev, #ContentTop.library .rgt .track-listing .pagination .prev {
+	float: left;
+}
+.recommend .pagination .next, #ContentBottom.buy .col .pagination.white .next, #ContentTop.library .rgt .track-listing .pagination .next {
+	float: right;
+}
+#ContentBottom.buy .col .track.sample {
+	background-image: url(../images/bg_buy-track-info.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	clear: both;
+	display: block;
+	height: 37px;
+	margin-bottom: 5px;
+	width: 314px;
+}
+#ContentBottom.buy .col .track.sample .play {
+	float: left;
+	height: 23px;
+	margin: 7px 5px 0 8px;
+	width: 23px;
+}
+
+#ContentBottom.buy .col .track.sample .track.info {
+	float: left;
+	margin: 5px 0 0 0; 
+	width: 200px;
+}
+#ContentBottom.buy .col .track.sample .credit.info {
+	float: left;
+	margin: 0 10px 0 5px; 
+	padding-top: 0px;
+	width: 27px;
+}
+#ContentBottom.buy .col .track.sample .btn.buy {
+	float: left;
+	margin: 5px 0 0 0;
+}
+#ContentBottom.buy .col .pagination.white {
+	background-image: url(../images/bg_pagination-white.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	clear: both;
+	display: block;
+	height: 15px;
+	margin-top: 10px;
+	padding: 3px 10px 0 10px;
+	width: 298px;
+}
+
+
+/*****/
+
+#ContentBottom.sign-up .lft .credit.info {
+	/* background-image: url(../images/bg_credit-info.jpg);
+	background-position: top left;
+	background-repeat: no-repeat; */
+	height: 74px;
+	margin-left: 70px;
+	width: 396px;
+}
+#ContentBottom.sign-up .lft .credit.info h1 {
+	margin: -10px 0 3px 0;
+}
+#ContentBottom.sign-up .lft .credit.info span {
+	background-color: #62d191;
+	padding: 1px 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#ContentBottom.home .rgt .btn.sign-up {
+	background: transparent;
+	background-image: url(../images/btn_sign-up.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	border: none;
+	display: block;
+	height: 49px;
+	padding-top: 8px;
+	width: 382px;
+}
+#ContentBottom.home .rgt, #ContentBottom.sign-up .rgt, #ContentBottom.login.rgt {
+	float: left;
+	margin-left: 60px;
+	width: 390px;
+}
+
+
+/* === Footer === */
+#Footer {
+	border-top: 1px solid #e8e8e8;
+	margin-top: 20px;
+	padding: 10px 5px; 
+}
+#Footer .lft {
+	float: left;
+	width: 320px;
+}
+#Footer .rgt {
+	float: right;
+	width: 500px;
+}
+#Footer .rgt li {
+	margin: 0 3px;
+}

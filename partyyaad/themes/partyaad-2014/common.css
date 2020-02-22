@@ -1,0 +1,46 @@
+/* Admin Toolbox
+------------------------------ */
+#admin, #admin_data{
+	position:fixed;
+	right:0px;
+	top:0px;
+	width:130px;
+	border-bottom:1px solid #E6E6DF;
+	border-left:1px solid #E6E6DF;
+	background:#fff;
+	z-index:2;
+	text-align:left;
+}
+#admin_data{
+	top: 0px;
+	padding-top: 20px;
+	z-index: 1;
+	line-height: 1.6em;
+}
+#admin h3 {
+	font-weight: normal;
+	color: #999;
+	margin:0;
+	padding:0; text-align: center;
+}
+#admin h3:hover{color:#036;}
+#admin_data li{ padding:0 5px;border-bottom:1px solid #E6E6DF;}
+/**PAGE LIST**/
+div.pagelist{
+	height:50px;
+	display:block;
+	text-align:center;
+	margin:10px auto;
+}
+ul.pagelist{
+	clear:left;
+	padding:10px;
+	margin-bottom:10px;
+	display:inline-block;
+	background-color:#FFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.pagelist li{float:left; margin:0 8px;}
+.pagelist li a{font-size:12pt;}

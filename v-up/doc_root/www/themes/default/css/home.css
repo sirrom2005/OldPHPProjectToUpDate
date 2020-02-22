@@ -1,0 +1,55 @@
+#latestvid{padding:0;background-image:none;background-color:#000; display:block;}
+#latestvid h1{height:22px;padding-top:7px;font-size:0.9em;background-position:0 -3px;white-space:nowrap;border:solid 0px #fff;overflow:hidden;}
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+.scrollable 
+{
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width:673px;
+	height:235px;
+}
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accommodate scrollable items.
+	it's enough that you set width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+}
+/*
+	a single item. must be floated in horizontal scrolling.
+	typically, this element is the one that *you* will style
+	the most.
+*/
+ul.items li
+{
+	float:left;
+	width:300px;
+	border:solid 1px #333;
+	margin:0 18px; 
+	height:210px;
+	overflow:hidden;
+}
+/* position and dimensions of the navigator */
+.navi{margin:0 0 0 268px;width:200px;height:15px; position:absolute; bottom:0;}
+/* items inside navigator */
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background:url(../images/navigator.png) 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+}
+/* mouseover state */
+.navi a:hover{background-position:0 -8px;}
+/* active state (current page state) */
+.navi a.active {background-position:0 -16px;}

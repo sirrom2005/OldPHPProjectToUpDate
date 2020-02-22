@@ -1,0 +1,49 @@
+<table id="userform">
+	<caption><input type="button" class="button backbtn right" value="Back" onclick="history.back(-1);" /></caption>
+    <tr class="trow"><th colspan="2">Customer Information</th></tr>
+    <tr>
+        <th><label>Customer-ID</label></th>
+        <td>{customer}-{premise}</td>
+    </tr>
+    <tr>
+        <th><label for="first_name">Name</label></th>
+        <td>{first_name} {last_name}</td>
+    </tr>
+    <tr>
+        <th><label for="trn">TRN-#</label></th>
+        <td>{trn}</td>
+    </tr>
+    <tr>
+        <th><label for="street_name">Address</label></th>
+        <td>{street_name} {city_town}<br>{parish}</td>
+    </tr>
+    <tr>
+        <th><label for="premise_id">Perperty Type</label></th>
+        <td>{property_type}</td>
+    </tr>
+    <tr>
+        <th><label>Special customer</label></th>
+        <td>{special_customer}</td>
+    </tr>
+    <tr>
+        <th><label>Under Investigation</label></th>
+        <td>{under_investigation}</td>
+    </tr>
+</table>
+<table id="dataform">
+	<tr class="trow"><th colspan="4">Payment History</th></tr>
+    <tr>
+        <th><label>Bill-Date</label></th>
+        <th><label>Bill-Amount</label></th>
+        <th><label>Payment-Date</label></th>
+        <th><label>Payment-Amount</label></th>
+    </tr>
+    <tbody id="data_grid">
+    <tr class="{ROWSTYLE}">
+        <td>{due_date}</td>
+        <td>{bill_amount}</td>
+        <td>{payment_date}</td>
+        <td>{amount_paid}</td>
+    </tr>
+    </tbody>
+</table>
