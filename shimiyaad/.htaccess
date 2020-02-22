@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /shimiyaad/
+
+RewriteRule ^events.html$ events.php [L]

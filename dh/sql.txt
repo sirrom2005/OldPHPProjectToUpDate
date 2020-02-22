@@ -1,0 +1,652 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Nov 03, 2009 at 01:35 PM
+-- Server version: 5.1.30
+-- PHP Version: 5.2.8
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `dh`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_account`
+--
+
+DROP TABLE IF EXISTS `odb_account`;
+CREATE TABLE IF NOT EXISTS `odb_account` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` tinytext NOT NULL,
+  `password` tinytext NOT NULL,
+  `full_name` tinytext NOT NULL,
+  `email` tinytext NOT NULL,
+  `paypal_email` tinytext NOT NULL,
+  `account_type` int(11) NOT NULL,
+  `no_time_limit` tinyint(4) NOT NULL,
+  `end_date` date NOT NULL,
+  `date_added` datetime NOT NULL,
+  `enable` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=39 ;
+
+--
+-- Dumping data for table `odb_account`
+--
+
+INSERT INTO `odb_account` (`id`, `user_name`, `password`, `full_name`, `email`, `paypal_email`, `account_type`, `no_time_limit`, `end_date`, `date_added`, `enable`) VALUES
+(31, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', 'members', 'members@members.com', 'members@members.com', 2, 1, '2009-10-28', '2009-10-28 03:19:23', 1),
+(30, 'apple', '5f4dcc3b5aa765d61d8327deb882cf99', 'apple', 'apple@apple.com', 'apple@apple.com', 4, 1, '2009-10-28', '2009-10-28 03:18:54', 1),
+(29, 'writer', '5f4dcc3b5aa765d61d8327deb882cf99', 'writer', 'sirrom2005@gmail.com', 'rohan_daloav@hotmail.com', 5, 1, '2009-10-28', '2009-10-28 03:18:15', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_account_login_dates`
+--
+
+DROP TABLE IF EXISTS `odb_account_login_dates`;
+CREATE TABLE IF NOT EXISTS `odb_account_login_dates` (
+  `account_id` int(11) NOT NULL,
+  `login_date` datetime NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `odb_account_login_dates`
+--
+
+INSERT INTO `odb_account_login_dates` (`account_id`, `login_date`) VALUES
+(1, '2009-10-17 01:02:59'),
+(1, '2009-10-17 01:03:19'),
+(1, '2009-10-17 01:03:35'),
+(1, '2009-10-17 01:17:07'),
+(1, '2009-10-17 02:31:31'),
+(1, '2009-10-17 02:34:51'),
+(1, '2009-10-17 02:36:06'),
+(1, '2009-10-17 02:37:21'),
+(1, '2009-10-17 02:37:34'),
+(1, '2009-10-17 02:37:55'),
+(1, '2009-10-17 14:57:39'),
+(1, '2009-10-17 14:58:26'),
+(1, '2009-10-17 14:59:10'),
+(1, '2009-10-17 15:05:42'),
+(1, '2009-10-17 15:06:48'),
+(1, '2009-10-17 15:07:19'),
+(1, '2009-10-17 15:07:54'),
+(1, '2009-10-17 15:08:11'),
+(1, '2009-10-17 21:26:43'),
+(1, '2009-10-21 10:10:06'),
+(1, '2009-10-21 23:55:30'),
+(1, '2009-10-27 11:45:49'),
+(1, '2009-10-28 07:46:21'),
+(1, '2009-10-28 07:49:38'),
+(1, '2009-10-28 07:51:01'),
+(29, '2009-10-28 07:51:13'),
+(1, '2009-10-28 07:55:32'),
+(29, '2009-10-28 07:55:42'),
+(1, '2009-10-28 08:02:26'),
+(31, '2009-10-28 08:13:28'),
+(29, '2009-10-28 08:13:53'),
+(30, '2009-10-28 08:14:05'),
+(30, '2009-10-28 08:15:09'),
+(31, '2009-10-28 08:57:27'),
+(31, '2009-10-28 09:44:54'),
+(29, '2009-10-28 09:45:19'),
+(29, '2009-10-28 09:46:16'),
+(31, '2009-10-28 09:49:56'),
+(31, '2009-10-28 10:00:16'),
+(29, '2009-10-28 10:00:25'),
+(30, '2009-10-28 10:00:35'),
+(31, '2009-10-28 10:17:14'),
+(30, '2009-10-30 23:04:22'),
+(31, '2009-10-30 23:13:16'),
+(31, '2009-10-31 18:58:17'),
+(31, '2009-10-31 19:41:27'),
+(29, '2009-10-31 21:00:31'),
+(30, '2009-10-31 21:23:02'),
+(31, '2009-10-31 22:38:47'),
+(30, '2009-11-02 11:24:39'),
+(31, '2009-11-03 06:55:18'),
+(30, '2009-11-03 07:07:40'),
+(30, '2009-11-03 07:12:38'),
+(30, '2009-11-03 07:45:28');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_account_type`
+--
+
+DROP TABLE IF EXISTS `odb_account_type`;
+CREATE TABLE IF NOT EXISTS `odb_account_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` tinytext NOT NULL,
+  `info` tinytext NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+
+--
+-- Dumping data for table `odb_account_type`
+--
+
+INSERT INTO `odb_account_type` (`id`, `title`, `info`) VALUES
+(2, 'Admin', 'Administrator'),
+(5, 'Staff/Workers', 'Staff and Workers'),
+(3, 'Member', 'For account to make a review or buy product'),
+(4, 'Software Owner', 'Pubsliher/Developer'),
+(1, 'Affiliate', 'Member who promote my own product only');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_ads_type`
+--
+
+DROP TABLE IF EXISTS `odb_ads_type`;
+CREATE TABLE IF NOT EXISTS `odb_ads_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `size` tinytext NOT NULL,
+  `name` tinytext NOT NULL,
+  `price` double NOT NULL,
+  `rotating` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `odb_ads_type`
+--
+
+INSERT INTO `odb_ads_type` (`id`, `size`, `name`, `price`, `rotating`) VALUES
+(1, '728 x 90', 'Leaderboard', 13, 1),
+(2, '300 x 250', 'Medium Rectangle', 13, 1),
+(3, '125 x 125', 'Tiny Square', 13, 1),
+(4, '300 x 250', 'Medium Rectangle', 35, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_categories`
+--
+
+DROP TABLE IF EXISTS `odb_categories`;
+CREATE TABLE IF NOT EXISTS `odb_categories` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `parent_id` int(4) unsigned NOT NULL DEFAULT '0',
+  `cat_name` varchar(100) NOT NULL DEFAULT '',
+  `cat_url_title` varchar(75) NOT NULL DEFAULT '',
+  `cat_order` int(4) unsigned NOT NULL DEFAULT '0',
+  `section` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `cat_name` (`cat_name`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=149 ;
+
+--
+-- Dumping data for table `odb_categories`
+--
+
+INSERT INTO `odb_categories` (`id`, `parent_id`, `cat_name`, `cat_url_title`, `cat_order`, `section`) VALUES
+(7, 0, 'Mobile', 'mobile', 4, 1),
+(15, 0, 'Internet', 'internet', 6, 1),
+(29, 0, 'Apple', 'apple', 1, 1),
+(27, 0, 'Microsoft', 'microsoft', 4, 1),
+(26, 0, 'Security', 'security', 5, 1),
+(25, 0, 'Webmaster', 'webmaster', 7, 1),
+(24, 0, 'Technology', 'technology', 6, 1),
+(41, 0, 'Audio', 'audio', 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_content`
+--
+
+DROP TABLE IF EXISTS `odb_content`;
+CREATE TABLE IF NOT EXISTS `odb_content` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` tinytext NOT NULL,
+  `ceo_url_name` tinytext NOT NULL,
+  `detail` longtext NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `odb_content`
+--
+
+INSERT INTO `odb_content` (`id`, `title`, `ceo_url_name`, `detail`) VALUES
+(1, 'Advertising', 'advertising', '<p>advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising advertising</p>'),
+(2, 'Contact Us', 'contact_us', '<p>Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Us Conatct Usv</p>'),
+(3, 'links', 'links', '<p>links links links links links links links links links links links links links links links</p>');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_news`
+--
+
+DROP TABLE IF EXISTS `odb_news`;
+CREATE TABLE IF NOT EXISTS `odb_news` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` tinytext NOT NULL,
+  `detail` longtext NOT NULL,
+  `category_id` int(11) NOT NULL,
+  `account_id` int(11) NOT NULL,
+  `enable` tinyint(4) NOT NULL,
+  `date_added` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+
+--
+-- Dumping data for table `odb_news`
+--
+
+INSERT INTO `odb_news` (`id`, `title`, `detail`, `category_id`, `account_id`, `enable`, `date_added`) VALUES
+(11, 'mobile test', '<p>mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test mobile test</p>', 7, 1, 1, '2009-10-21 08:13:28'),
+(10, 'webmater test 2', '<p>dsad sad dsad dsad dsad dasa</p>', 25, 1, 1, '2009-10-21 08:13:17'),
+(9, 'webmater test', '<p>webmater test webmater test webmater test</p>', 25, 1, 1, '2009-10-21 08:13:08'),
+(12, 'mobile test  333', '<p>efdsfdsf fdsfsd</p>', 7, 1, 1, '2009-10-21 08:13:39'),
+(13, 'security test', '<p>security test vcxvcx vdsg fdgd</p>', 26, 1, 1, '2009-10-21 08:13:53');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_product_downloads`
+--
+
+DROP TABLE IF EXISTS `odb_product_downloads`;
+CREATE TABLE IF NOT EXISTS `odb_product_downloads` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ip_address` tinytext NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `date_viewed` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `odb_product_downloads`
+--
+
+INSERT INTO `odb_product_downloads` (`id`, `ip_address`, `product_id`, `date_viewed`) VALUES
+(1, '127.0.0.1', 35, '2009-10-31 17:50:23');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_product_item`
+--
+
+DROP TABLE IF EXISTS `odb_product_item`;
+CREATE TABLE IF NOT EXISTS `odb_product_item` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` tinytext NOT NULL,
+  `ceo_url_name` tinytext NOT NULL,
+  `publisher` tinytext NOT NULL,
+  `os` tinytext NOT NULL,
+  `release_status` tinytext NOT NULL,
+  `install_support` tinytext NOT NULL,
+  `license` tinytext NOT NULL,
+  `file_size` tinytext NOT NULL,
+  `price` float NOT NULL,
+  `program_type` tinytext NOT NULL,
+  `program_version` tinytext NOT NULL,
+  `release_date` date NOT NULL,
+  `summary_80` tinytext NOT NULL,
+  `summary` longtext NOT NULL,
+  `description` longtext NOT NULL,
+  `system_requirements` longtext NOT NULL,
+  `download_url` tinytext NOT NULL,
+  `buy_url` tinytext NOT NULL,
+  `screenshot_url` tinytext NOT NULL,
+  `publisher_url` tinytext NOT NULL,
+  `application_icon_url` tinytext NOT NULL,
+  `xml_file_url` tinytext NOT NULL,
+  `category` tinytext NOT NULL,
+  `program_category_class` tinytext,
+  `ceo_url_category` tinytext,
+  `ceo_url_program_category_class` tinytext NOT NULL,
+  `featured` tinyint(4) NOT NULL,
+  `enable` tinyint(4) NOT NULL,
+  `date_added` date NOT NULL,
+  `downloaded` int(11) NOT NULL,
+  `viewed` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id` (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=94 ;
+
+--
+-- Dumping data for table `odb_product_item`
+--
+
+INSERT INTO `odb_product_item` (`id`, `name`, `ceo_url_name`, `publisher`, `os`, `release_status`, `install_support`, `license`, `file_size`, `price`, `program_type`, `program_version`, `release_date`, `summary_80`, `summary`, `description`, `system_requirements`, `download_url`, `buy_url`, `screenshot_url`, `publisher_url`, `application_icon_url`, `xml_file_url`, `category`, `program_category_class`, `ceo_url_category`, `ceo_url_program_category_class`, `featured`, `enable`, `date_added`, `downloaded`, `viewed`) VALUES
+(25, 'Sample Prog vr 34.00_00-1', 'sample_prog_vr_3400_001', 'Sample Company', 'Win95,Win98,WinME,WinNT 4.x,Windows2000,WinXP,Windows2003', 'Major Update', 'Install and Uninstall', '', '1.56', 15, 'Shareware', '1.0', '2004-05-04', 'A great sample program that demonstrates PAD.', 'A great sample program that demonstrates PAD. A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.', '<p>A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.</p>', '', 'http://www.sample-company.com/program/setup.exe', 'http://www.sample-company.com/program/', 'http://www.sample-company.com/program/screen.jpg', 'http://www.sample-company.com', 'http://www.sample-company.com/program/icon.gif', 'http://127.0.0.1/dh/pad_file.xml', 'Business', 'Business::Other', 'business', 'other', 0, 1, '2009-10-21', 0, 0),
+(24, 'Stable Manager Pro', 'stable_manager_pro', 'Lazy Bayou', 'WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'Minor Update', 'Install and Uninstall', '', '41.46', 59.95, '', '7.2.0', '2009-05-27', '', 'This is a great program for the equine boarding stable operator.  Manage your clients by arranging boarding reservations, service types and billing services.', 'Used worldwide by establised boarding and training stables this is a great program for any size equine boarding and stable operation. It''s hard to stay organized in a small business, where everybody has a lot of hats to wear, and where customers expect your immediate reaction to their needs. If you don''t do it, they are off to your competition. Managing any service business you''ll need to track customer''s, schedules, watch the payments, and much more.  Horse boarding services are very personal and building a good business relationship with your clients will be an important part of your business.  Stable Manager will help you present a professional appearance to your customers and relieve many of the everyday management pains faced by boarding businesses. We believe that you should focus on growing your business, rather than spending a great deal of energy sorting through paperwork and having to learn complicated software. We have listened closely to equine boarding owners and operators and created a product to address their needs with Stable Manager.', 'IE 6.0 or later', 'http://lazybayou.com/_download/_eval/stable/StableManagerPro-721E.exe', 'http://www.regnow.com/softsell/nph-softsell.cgi?item=16334-28&ss_short_order=true', 'http://lazybayou.com/pics/images/smp-box.gif', '', 'http://lazybayou.com/pics/images/home-icon.gif', 'http://lazybayou.com/pages/bin/SM_pad.xml', 'Home/Hobby', 'Home & Hobby::Recreation', 'home_hobby', 'recreation', 0, 1, '2009-10-21', 0, 0),
+(43, 'AutoDWG DWG to PDF Converter 2008.9', 'autodwg_dwg_to_pdf_converter_20089', 'AutoDWG', 'Win 3.1x,Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Wind', 'Major Update', 'Install and Uninstall', '', '3.71', 99, '', '3.893', '2008-09-23', '', 'AutoDWG DWG to PDF Converter 2008.9 featured with batch converting DWG to PDF, DXF to PDF without need of AutoCAD.Supports AutoCAD 2009.Very easy to use.Keywords: dwg to pdf converter, dxf to pdf , autocad to pdf.', 'AutoDWG DWG to PDF Converter 2008.9 allows you to convert DWG to PDF, DXF to PDF, DWF to PDF directly, NO AutoCAD required, batch conversion supported.\nFeatures includes:\n1. Create a single merged PDF file from several DWG files or create an individual PDF file for each DWG file selected; \n2. Both model space and paper space supported; \n3. Batch mode supported; \n4. Multiple choice of output paper size; \n5. Supports every version of DWG/DXF files (Supports R2.5 to 2009 formats);\n6.Supports advanced bookmark, create bookmark automatically using layout name and file name;\n7.Easy to use.\n\nNow, Layers selection is supported, let you turn on or turn off each layer, and the settings could be different to each layouts, or set specific layers been turn off to all the drawings.\nThe software is trying to be ease of use to the starters, and power of features to the experts.', '', 'http://www.autodwg.com/PDF/DWG2PDF.exe', 'http://www.autodwg.com/PDF/Buynow.htm', 'http://www.autodwg.com/PDF/screenshot250.jpg', '', 'http://www.autodwg.com/PDF/Logo.gif', 'http://www.autodwg.com/pad/dwg2pdf2.xml', 'Graphics', 'Graphic Apps::Converters & Optimizers', 'graphics', 'converters_and_optimizers', 0, 1, '2009-10-21', 0, 0),
+(46, 'Club Manager', 'club_manager', 'Lazy Bayou', 'WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'Major Update', 'Install and Uninstall', '', '47.64', 44.95, '', '4.2.1', '2009-10-12', '', 'Club Manager is designed for clubs, leagues, teams, groups, etc. that want to maintain a membership database.  This is an easy-to-use application that provides reports for many types of membership.', 'Club Manager is designed for clubs, groups, teams, leagues, etc. that desire to maintain and manage an up-to-date database of their members.  Club Manager generates numerous reports of membership rosters for the different types of memberships showing member data along with dues amounts, payment types, etc.  This is an easy-to-use application that fits in well for membership management and maintenance.  Small country clubs, sports leagues and teams, groups, etc. will find this program fills their needs.', 'IE 6.0 or later', 'http://lazybayou.com/_download/_eval/clubmgr/ClubManager-410E.exe', 'http://www.regnow.com/softsell/nph-softsell.cgi?item=16334-21&ss_short_order=true', 'http://lazybayou.com/pics/images/club-box.png', '', 'http://lazybayou.com/pics/images/lazybayou-48.gif', 'http://lazybayou.com/pages/bin/CM_pad.xml', 'Home/Hobby', 'Home & Hobby::Recreation', 'homehobby', 'recreation', 0, 1, '2009-10-21', 0, 0),
+(26, 'Kennel Manager Pro', 'kennel_manager_pro', 'Lazy Bayou', 'WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'Major Update', 'Install and Uninstall', '', '41.79', 49.95, '', '7.3.1', '2009-10-12', '', 'This is a great program for the pet boarding kennel and cattery operator.  Manage your clients by arranging bookings, reservations, service types and billing services.', 'This is a great program for any size pet boarding operation for both dogs and cats. It''s hard to stay organized in a small business, where everybody has a lot of hats to wear, and where customers expect your immediate reaction to their needs. If you don''t do it, they are off to your competition. Managing any service company, you''ll need to track customer''s, schedules, watch the payments, and much more.  Pet boarding services are very personal.  Building a good business relationship with your clients will be an important part of your business.  Kennel Manager software will help you present a professional appearance to your customers.  Kennel Manager is designed to relieve everyday management pains faced by boarding businesses, etc. We believe that you should focus on growing your business, rather than spending a great deal of energy sorting through paperwork and having to learn complicated software. We have listened closely to boarding  kennel owners and operators and created a product to address their needs.', 'IE 6.0 or later', 'http://lazybayou.com/_download/_eval/kennel/KennelManagerPro-720E.exe', 'http://www.regnow.com/softsell/nph-softsell.cgi?item=16334-18&ss_short_order=true', 'http://lazybayou.com/pics/images/kennel-box.gif', '', 'http://lazybayou.com/pics/images/lazybayou-48.gif', 'http://lazybayou.com/pages/bin/KM_pad.xml', 'Home/Hobby', 'Home & Hobby::Personal Interest', 'home_hobby', 'personal_interest', 0, 1, '2009-10-21', 0, 0),
+(27, 'DPlot', 'dplot', 'HydeSoft Computing, LLC', 'Win95,Win98,WinME,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Prem', 'New Release', 'Install and Uninstall', '', '6.64', 60, '', '2.2.5.1', '2009-05-08', '', 'Graphing software for scientists, engineers, and students. It features multiple scaling types, including linear, logarithmic, and probability scales, as well as several special purpose XY graphs and contour plots of 3D data.', 'DPlot is a general purpose graphing program designed for scientists, engineers, and students. It features multiple scaling types, including linear, logarithmic, and probability scales, as well as several special purpose graphs: tripartite grids (shock spectra), grain size distribution plots, polar plots, contour plots of 3D data, and box-and-whisker plots and dot graphs of one or more 1D samples. Manipulation functions include FFT, filtering, and smoothing. Data can be input via file, copied from the clipboard, generated by an equation within DPlot, sent to DPlot from Excel via the supplied Add-In, or sent to DPlot via dynamic data exchange. Source code for example Visual Basic and C demo driver programs are included.', 'Windows 95 or later. 256 or greater desktop color depth. 8Mb free disk space.', 'http://www.dplot.com/dplotsetup.exe', 'http://www.dplot.com/registration.htm', 'http://www.dplot.com/screenshot24.png', '', 'http://www.dplot.com/dploticon.gif', 'http://www.dplot.com/pad/dplot_pad.xml', 'Education', 'Education::Mathematics', 'education', 'mathematics', 1, 1, '2009-10-21', 0, 0),
+(28, 'Vista Manager', 'vista_manager', 'Yamicsoft', 'Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterpris', 'Major Update', 'Install and Uninstall', '', '4.69', 39.95, '', '3.0.6', '2009-09-24', '', 'An all-in-one utility to tweak, optimize, tune and clean up Windows Vista. It includes over thirty different utilities! Get access to hundreds of hidden options, clean registry and junk files, tune up Vista boot menu and many other utilities.', 'A powerful software tool to tweak, optimize, maintain and tune up your Windows Vista, it includes over thirty different utilities! It will help your system to be stable, fast, secure and personal! For example, get detailed system and hardware information; Tweak your system to improve windows startup and shutdown speed; tweak your hardware to increase system performance; Find and clean junk files; searchs your computer for duplicated files; easily checks registry and repairs incorrectly linked registry entries; Defrag Registry to reduce application response time; Control what is started on Windows startup;  tune up Vista boot menu; set context menus of mouse right clicking; customize desktop, menus, toolbar, notifications, change wallpaper automatically; Improve desktop, menus, control panel, windows logon securities, enable numerous hidden performance options, disable system updates and error reports; hide and restrict access to drives, specify which applications are not allowed to be executed, encrypt/decrypt and shred files, camouflage folder to hide its content from Windows Explorer, change the location of system folders; Privacy Protector can maintain your personal privacy by eliminating the tracks that you leave behind. Optimize Internet connection speed, manager your all shares, search and find opened ports; tweak your IE easily; automatically check invalid URLs in your favorites and parse domain name;  backup your Windows Mail; show the collection of Windows utilities.  Vista Manager has a topnotch, easy-to-use user interface that requires no technical knowledge. It is an excellent companion for windows Vista!', '', 'http://www.yamicsoft.com/vistamanager/software/vistamanager.exe', 'https://www.plimus.com/jsp/buynow.jsp?contractId=1705782', 'http://www.yamicsoft.com/vistamanager/images/screenshot.gif', '', 'http://www.yamicsoft.com/vistamanager/images/vmlogo.gif', 'http://www.yamicsoft.com/vistamanager/padinfo/vistamanager.xml', 'Utilities', 'System Utilities::System Maintenance', 'utilities', 'system_maintenance', 0, 1, '2009-10-21', 0, 0),
+(29, 'InstallSimple', 'installsimple', 'Russian New Logic', 'Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate', 'Major Update', 'Install and Uninstall', '', '0.21', 0, '', '1.45', '2009-10-06', '', 'Install Simple is a very compact (63 KBytes) and powerful program to build your installs in seconds, instead of hours! Designed for anyone who distributes applications, data files, graphic images or whatever else you want to distribute!', 'Install Simple is a very compact (63 KBytes) and powerful program to build your installation packages in seconds, instead of hours! Setups are packed into single exe-file for easy distribution. The extractor module has extremely small size (only 14 KBytes overhead over compressed data size). Using a very practical and intuitive assistant, you can establish parameters for the installation process of your product for any Windows platform.\nDesigned for anyone who distributes applications, data files, graphic images or whatever else you want to distribute!', 'CPU Pentium 60, 4Mb RAM', 'http://www.rnlogic.com/installsimple/installsimple.zip', '', 'http://www.rnlogic.com/installsimple/1.gif', '', 'http://www.rnlogic.com/installsimple/icon.gif', 'http://www.rnlogic.com/installsimple/pad_file.xml', 'Development Tools', 'Development::Install & Setup', 'development_tools', 'install_and_setup', 0, 1, '2009-10-21', 0, 0),
+(30, 'Cleanse Uninstaller Pro', 'cleanse_uninstaller_pro', 'Zards software', 'WinME,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate', 'Minor Update', 'Install and Uninstall', '', '2.23', 19.95, '', '6.0.1', '2009-07-09', '', 'Cleanse is a program uninstaller that will find and remove even the most stubborn of programs. Using the smart Auto Find drag and drop function uninstalling has never been so easy. Uninstall programs even if they don''t supply an uninstaller.', 'Cleanse is a program uninstaller that finds and remove even the most stubborn of programs. Uninstall faster, easier and more completely than you do with other programs. Using the Auto Find function all you have to do is drag and drop the programs icon you want to uninstall onto Cleanse Uninstallers icon and Cleanse will Auto Find the program in the uninstall list and start the uninstall process. First, Cleanse Uninstaller will try to use the original uninstaller that came with the software; then, Cleanse Uninstaller will do its own search of the system registry and local drives to find any left over files or registry entries (often these are left behind causing clogs which slow your computer) and help remove all of the remaining traces to optimize your computer?s performance. Cleanse Uninstaller also includes a startup optimizer to make your computer boot alot faster and gives you the ability to remove any Trojans or adware that might startup with your computer giving you the power to make your computer safer for every day use. Also included is a junk file search and remove function so you can reclaim disk space giving you more room to store your favourite pictures and mp3 files. Windows 7 ready. Now with multilingual support.', '.NET 2', 'http://www.zardssoftware.com/uninstaller/trial.zip', 'http://www.zardssoftware.com/uninstaller/uninstaller.html', 'http://www.zardssoftware.com/images/main.png', '', 'http://www.zardssoftware.com/images/cleanse.gif', 'http://www.zardssoftware.com/cleanse.xml', 'Utilities', 'System Utilities::System Maintenance', 'utilities', 'system_maintenance', 0, 1, '2009-10-21', 0, 0),
+(31, 'Match n Freq', 'match_n_freq', 'Optimal Designs Enterprise', 'Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows CE,WinME,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic ', 'Minor Update', 'Install and Uninstall', '', '1.7', 433, '', '5.11.5', '2008-09-24', '', 'Pulse shaping filter program that finds the pole-zero locations of a transfer function, H(s), for a matched filter.  H(s) equals a -desired- signal (Yout) divided by a given input signal (Yin).  Y''s are in freq. Another improved productivity example.', 'Pulse shaping filter program that finds the pole-zero locations of a transfer function, H(s), for a matched filter.  H(s) equals a -desired- signal (Yout) divided by a given input signal (Yin).  Both Yout and Yin are functions of frequency.\n\nGroup delay may also be calculated to compliment a given data set, thus, providing a flat group delay.  Minimizing Intersymbol Interference in a read/write channel for disc drives by shaping and slimming an isolated readback pulse was the main objective for writing this program.\n\nFor more info, see Kost, R. and P. Brubaker; ''Arbitrary equalization with simple LC structures''; IEEE Transactions on Magnetics, Nov. 1981, pp 3346-3348 or visit http://www.digitalcalculus.com/demo/matched-filter.html .\n\nAnother improved productivity example do to using Calculus (level) programming.', 'Win 95/98 with 16-bit DOS Platform + VB6 RunTime files', 'http://www.digitalCalculus.com/download/m-freq-install.exe', 'http://www.digitalCalculus.com', 'http://www.digitalCalculus.com/image/m-freq-screen.gif', '', 'http://www.digitalCalculus.com/image/m-freq-icon.gif', 'http://www.digitalCalculus.com/misc/m-freq.xml', 'Education', 'Business::Math & Scientific Tools', 'education', 'math_and_scientific_tools', 0, 1, '2009-10-21', 0, 0),
+(32, 'CurvFit', 'curvfit', 'Optimal Designs Enterprise', 'Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows CE,WinME,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic ', 'Minor Update', 'Install and Uninstall', '', '1.7', 0, '', '5.11.5', '2008-09-24', '', 'A curve fitting program: Lorentzian, Sine, Exponential & Power series are available models to match your data.   A Lorentzian series is recommended for real data especially for multiple peaked data.  Another improved productivity example.', 'CurvFit (tm) is a curve fitting program for Windows.  Lorentzian, Sine, Exponential and Power series are available models to match your data.   A Lorentzian series is highly recommended for real data especially for multiple peaked and/or valleys data.\n\nCurvFit is another improved productivity example do to using Calculus (level) programming ... ie. minutes to solve, days or years to understand solution and what it implies (e.g. wrong model, sampling rate error, etc.).  Helps learn 1) whether math model is good for given data; 2) convergence implies a reasonable solution; 3) how to select new starting initial parameter values. See comments in EX*.? files for ideas on how to converge via solvers.\n\nInterpolation, extrapolation, & Hardcopy Plot options are now available.', 'Win 95/98 with 16-bit DOS Platform + VB6 RunTime files', 'http://www.digitalCalculus.com/download/curvfit-install.exe', 'http://www.digitalCalculus.com', 'http://www.digitalCalculus.com/image/curvfit-screen.gif', '', 'http://www.digitalCalculus.com/image/curvfit-icon.gif', 'http://www.digitalCalculus.com/misc/curvfit.xml', 'Graphics', 'Education::Teaching & Training Tools', 'graphics', 'teaching_and_training_tools', 0, 1, '2009-10-21', 0, 0),
+(33, 'ODEcalc', 'odecalc', 'Optimal Designs Enterprise', 'Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows CE,WinME,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic ', 'Minor Update', 'Install and Uninstall', '', '2', 0, '', '5.11.5', '2008-09-24', '', 'ODEcalc (tm):  An Ordinary Differential Equation (ODE) Calculator!  Nonlinear ODEs. State your equation, boundary/initial value conditions & it solves your problem.  Plots solution y & derivative ydot versus x. Calculus Programming demo application.', 'ODEcalc for Windows:  An Ordinary Differential Equation (ODE) Calculator!  State your equation and boundary or initial value conditions and it solves your problem.  Plots solution y and derivative ydot versus x.  \n\nSolves most Boundary Value Problems (BVP) and Initial Value Problems (IVP) for Nth order ODE.  ODE may be nonlinear, implicit, and any order.  Source code included ... it''s short!  Great teaching tool!  Helps students understand difference in BVP and IVP plus their importance in solving practical ODEs.  ODE and algebraic system of equations may be solved using the methodology in this demo.\n\nHardcopy plot prints in Windows is now available.\n\nAn improved productivity example do to using Calculus programming.', 'Win 95 or newer + VB6 RunTime files', 'http://www.digitalCalculus.com/download/odecalc-install.exe', 'http://www.digitalCalculus.com', 'http://www.digitalCalculus.com/image/odecalc-screen.gif', '', 'http://www.digitalCalculus.com/image/odecalc-icon.gif', 'http://www.digitalCalculus.com/misc/odecalc.xml', 'Education', 'Business::Math & Scientific Tools', 'education', 'math_and_scientific_tools', 0, 1, '2009-10-21', 0, 0),
+(34, 'Rainbow', 'rainbow', 'Optimal Designs Enterprise', 'Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows CE,WinME,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic ', 'Minor Update', 'Install and Uninstall', '', '1.3', 0, '', '5.11.5', '2008-09-24', '', 'Find best Spectral Estimation Method for a Power Spectral Density plot.  A menu of 10+ spectral estimators from Steve Kay''s textbook ''Modern Spectral Estimation'' 1988 is available to choose from.  Some estimator results differ dramatically!', 'Which estimator is best for your job?  Helps Find best Spectral Estimation Method for a Power Spectral Density plot.  A menu of 10+ spectral estimators from Steve Kay''s textbook ''Modern Spectral Estimation'' 1988 is available to choose from.  The results differ dramatically from one estimator to another.  Plus, varying input parameters and/or number of points may provide discrepancies.  \n\nObserve how zero padding effects your results. Manufacturing companies take note!  Some estimators can detect signals 50 to 100 dB from main signal.  See documented example!  The unwritten rule of ''30 dB is okay'' (i.e. hidden) is no longer true.', 'Windows + VB Runtime files', 'http://www.digitalCalculus.com/download/rainbow-install.exe', 'http://www.digitalCalculus.com', 'http://www.digitalCalculus.com/image/rainbow-screen.gif', '', 'http://www.digitalCalculus.com/image/rainbow-icon.gif', 'http://www.digitalCalculus.com/misc/rainbow.xml', 'Education', 'Business::Math & Scientific Tools', 'education', 'math_and_scientific_tools', 0, 1, '2009-10-21', 0, 0),
+(35, 'Unit Manager', 'unit_manager', 'Lazy Bayou', 'WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'New Release', 'Install and Uninstall', '', '39.15', 59.95, '', '3.0.0', '2009-03-13', '', 'Unit Manager is designed for companies that rent storage buildings and storage space to both private individuals and companies.', 'Unit Manager is designed for companies that rent self storage buildings and storage space to both private individuals and companies.  It handles all sizes of storage units and also includes spaces for cycles, autos, boats, motor homes, trailers, etc.  Print invoices and receipts for a professional appearance for your business.  Unlimited capacity for all account types means that this program will serve your business for many years to come.  Numerous reports provide information vital to maintaining accurate records of all customers.  Easy setup and straightforward data entry makes entering data quick and easy.', 'IE 6.0 or later', 'http://lazybayou.com/_download/_eval/unitmgr/UnitMgr-20E.exe', 'https://www.regnow.com/softsell/nph-softsell.cgi?item=16334-22', 'http://lazybayou.com/pics/images/rent-box.gif', '', 'http://lazybayou.com/pics/images/home-icon.gif', 'http://lazybayou.com/pages/bin/UM_pad.xml', 'Business', 'Business::Office Suites & Tools', 'business', 'office_suites_and_ools', 0, 1, '2009-10-21', 0, 0),
+(41, 'AutoDWG DWG to jpg Converter 2008.9', 'autodwg_dwg_to_jpg_converter_20089', 'AutoDWG', 'Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista', 'Major Update', 'Install and Uninstall', '', '6.66', 88, '', '3.50', '2008-09-23', '', 'AutoDWG DWG to jpg converter 2008.9 featured with batch converting, easy to use wizard, converting many DWG or DXF files to TIF (TIFF), DWG to JPG (JPEG), GIF, PNG, BMP,WMF and EMF without need of AutoCAD.Supports AutoCAD 2009.', 'AutoDWG DWG to jpg converter 2008.9 is a batch converter that converts DWG and DXF files to JPG(JPEG),TIF(TIFF) , BMP,GIF, PNG,WMF and EMF without the need of AutoCAD. \nKey Features:\n1.support SHX,Xref and Line Width;\n2.You may set the Image Size, Output Color (True Colors,Gray and Black-White), Background Color;\n3.You may convert model space, all layouts, all paperspace, or last active layout to Image file;\n4.You can adjust the size of output pages with its layout automatically;\n5.Supports R2.5/2.6, R9, R10, R12, R13, R14, R2000/2002, R2004/2005/2006, 2007/2008/2009 formats;\n6.Publishing your drawings to the Internet,CD-ROM to store and manage your drawings,Desktop publishing software; \n7.Easy to use;', '', 'http://www.autodwg.com/dwg2image/dwg2image.exe', 'http://www.autodwg.com/DWG2Image/Buynow.htm', 'http://www.autodwg.com/DWG2Image/DWG2Image_Screen250.gif', '', 'http://www.autodwg.com/dwg2image/logo.gif', 'http://www.autodwg.com/pad/dwg2jpg1.xml', 'Graphics', 'Graphic Apps::Converters & Optimizers', 'graphics', 'converters_and_optimizers', 0, 1, '2009-10-21', 0, 0),
+(42, 'AntispamSniper for The Bat!', 'antispamsniper_for_the_bat', 'GoodVein', 'WinNT 4.x,WinXP,Windows2000,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'New Release', 'Install and Uninstall', '', '2.11', 19.95, '', '3.2.1.5', '2009-09-25', '', 'Antispam and antiphishing plug-in for The Bat! and Voyager. The plug-in filters POP3, IMAP accounts and deletes most of spam on the server by headers.', 'The statistical trainable classification algorithm has unique characteristics. It analyzes your private correspondence, singles out distinguishing features from messages of different classes and uses this information for the effective analysis of incoming messages. It is possible to track back the history of classifying messages and training the plug-in using a filtering log.\n\nThe plug-in can delete spam right on the server by headers, using a list of account settings. The accounts for filtering can be added manually or automatically for non-secure connections. The rest of messages are downloaded to email client for filtering by full content, and the messages with high spam ratio are moved to a special folder automatically.\n\nThe plug-in supports several complementary methods in addition to statistical algorithm: black and white lists of email addresses, anti-phishing filter, blocking spam by IP address of the sender (using DNSBL services), black and white Regexp-based rules. Several methods are used for filtering graphical spam:\n- Blocking spam with inline images, linked to third-party web sites.\n- Blocking the messages with animated GIF pictures in attachment.\n- Blocking the messages by the type of attachment.\n- The statistical classifier is optimized for blocking spam with a picture and some amount of unlinked text.  \nThe plug-in is checking the domains from message text via list of selected URIBL services. The messages having blacklisted domains in text are classified as spam.\n\nThe plug-in is integrated with SpamNet spam-fighting community.\n\nSniperSync is a TCP server, allowing AntispamSniper plug-ins to use the common whitelist of email addresses and common database of message descriptors. The different copies of plug-in in local network can use this common database via two-way synchronization with the SniperSync server.', 'The Bat! 2.0 or higher', 'http://www.antispamsniper.com/download/sniper-mui.exe', 'http://www.AntispamSniper.com/buy_now.html', 'http://www.AntispamSniper.com/images/screenshots/thebat_plugin.png', '', 'http://www.antispamsniper.com/images/boxes/sp2.gif', 'http://www.antispamsniper.com/xml/asnip.xml', 'Internet', 'Security & Privacy::Anti-Spam & Anti-Spy Tools', 'internet', 'anti-spam_and_anti-spy ', 0, 1, '2009-10-21', 0, 0),
+(45, 'AutoDWG DWG to PDF Converter Pro 2008.9', 'autodwg_dwg_to_pdf_converter_pro_20089', 'AutoDWG', 'Win 3.1x,Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Wind', 'Major Update', 'Install and Uninstall', '', '3.71', 186, '', '3.893', '2008-09-23', '', 'AutoDWG DWG to PDF Converter Pro 2008.9 let you batch convert DWG to PDF, DXF to PDF without need of AutoCAD, Supports Command Line.Supports AutoCAD 2009.Keywords: dwg to pdf converter, dxf to pdf , autocad to pdf', 'AutoDWG DWG to PDF Converter Pro 2008.9 that allows you to batch convert DWG or DXF to PDF,is easy-to-use.Supports AutoCAD 2008.Runs outside of AutoCAD as a standalone program (AutoCAD not required).Features:\n1. Create a single merged PDF file from several DWG files or create an individual PDF file for each DWG file selected;\n2. Both model space and paper space supported;\n3. Both batch mode and command line supported;\n4. Multiple choice of output paper size;\n5. Supports every version of DWG/DXF files (Supports R2.5 to 2009 formats);\n6.Easy to use.', '', 'http://www.autodwg.com/PDF/DWG2PDF.exe', 'http://www.autodwg.com/PDF/Buynow.htm', 'http://www.autodwg.com/PDF/screenshot250.jpg', '', 'http://www.autodwg.com/PDF/Logo.gif', 'http://www.autodwg.com/pad/dwg2pdf_Pro2.xml', 'Graphics', 'Graphic Apps::Converters & Optimizers', 'graphics', 'converters_and_optimizers', 0, 1, '2009-10-21', 0, 0),
+(47, 'Handy Man', 'handy_man', 'Lazy Bayou', 'WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'New Release', 'Install and Uninstall', '', '41.05', 37.95, '', '3.2.0', '2009-09-15', '', 'Handy Man is for any handy person type business owner. Developed for the small to mid-size handyman type construction, janitorial, plumbing, electrical, roofing, HVAC, carpenters, appliance repair and many other handy-man businesses.', 'Developed for the small to mid-size handyman type construction, janitorial, plumbing, electrical, roofing, HVAC, carpenters, appliance repair and many other businesses for both home and commercial accounts. It''s hard to stay organized in a small business, where everybody has a lot of hats to wear, and where customers expect your immediate reaction to their needs. If you don''t do it, they are off to your competition. Managing any service company, you''ll need to track your customers, schedule services, watch the payments, and much more.  Handy man type services are very personal. Building a good business relationship with your clients will be an important part of your business.  Handy Man software will help you present a professional appearance to your customers.  Handy Man is designed to relieve everyday management pains faced when performing these type services. We believe that you should focus on growing your business, rather than spending a great deal of energy sorting through paperwork and having to learn complicated software. We have listened closely to various handy man type business owners and created a product to address their common needs.', 'IE 6.0 or later', 'http://lazybayou.com/_download/_eval/handymanpro/HandyManPro-320E.exe', 'http://www.regnow.com/softsell/nph-softsell.cgi?item=16334-24&ss_short_order=true', 'http://lazybayou.com/pics/images/handy-box.gif', '', 'http://lazybayou.com/pics/images/lazybayou-48.gif', 'http://lazybayou.com/pages/bin/HMP_pad.xml', 'Home/Hobby', 'Home & Hobby::Personal Finance', 'homehobby', 'personal_finance', 0, 1, '2009-10-21', 0, 0),
+(51, 'Auction Decorator - Auction Maker Wizard', 'auction_decorator_auction_maker_wizard', 'Codexcel - Tailored software', 'Win98,WinNT 4.x,Windows2000,WinXP,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate', 'New Release', 'Install and Uninstall', '', '4.10', 27.95, '', '2.1.10', '2008-09-19', '', 'Write, decorate & publish Auction listings for eBay & other auctions sites. This full WYSIWYG application lets you create professional looking ads that look like Web pages. No special knowledge required, no steep learning curve.', '<p>Make your eBay Auction listings look like Web pages with Auction Decorator . This full WYSIWYG application requires no special knowledge, no HTML. No steep learning curve. Buyers have more confidence and are more inclined to bid on well presented products. The creation of professional looking Auction listings involves three easy steps:   1) write &amp; format your ad\\''s text in the integrated, easy to use document editor  2) define the look of your listing in the integrated Layout editor, adding images and colors to match the type of product you are selling  3) publish your listing to the Auction site of choice. That\\''s all. Your advertisement will appear to bidders exactly as you designed it in the program  At publishing time, Auction Decorator analyzes your design and creates whatever is necessary for your listing to appear on the Web exactly as you created it. The program comes with 100\\''s of images that you can use in your listings for free.  Contrarily to predefined templates, Auction Decorator does not limit your creativity or imagination. It allows you to create and save as many documents and layouts as your hard disk can hold (that\\''s millions...). Load, edit and rename these files at will. Combine and publish any document (content) with any Layout (presentation) that you have created. No limitations and no need to buy third party templates anymore.   Insert as many pictures as needed to present your product to bidders. Avoid paying images storage fees to your Auctions Publisher by storing them to an Image Hosting Service or to your own server. Auction Decorator will automatically prepare your listings to fetch images at that location.  Auction Decorator outputs are not limited to eBay Auctions sites and can be used on any other auctions or classified-ads sites that allow users to format their listings.  Download the Trial version (never expires) and see for yourself how easy it is to create professional looking Auction listings.</p>', 'Standard PC', 'http://www.auctiondecorator.com/pad_link1.php?prg=adec2_trial.exe', 'http://www.auctiondecorator.com/purchase.html', 'http://www.auctiondecorator.com/images/adec_3pics.jpg', 'http://www.codexcel.com/', 'http://www.auctiondecorator.com/images/adec_icon.gif', 'http://www.codexcel.com/sw/adec.xml', 'Development Tools', 'Web Development::E-Commerce', 'development_tools', 'e-commerce', 0, 1, '2009-10-21', 0, 0),
+(54, 'Kennel Manager Pro', 'kennel_manager_pro', 'Lazy Bayou', 'WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vi', 'Major Update', 'Install and Uninstall', '', '41.79', 49.95, '', '7.3.1111', '2009-10-12', '', 'This is a great program for the pet boarding kennel and cattery operator.  Manage your clients by arranging bookings, reservations, service types and billing services.', '<p>This is a great program for any size pet boarding operation for both dogs and cats. It''s hard to stay organized in a small business, where everybody has a lot of hats to wear, and where customers expect your immediate reaction to their needs. If you don''t do it, they are off to your competition. Managing any service company, you''ll need to track customer''s, schedules, watch the payments, and much more.  Pet boarding services are very personal.  Building a good business relationship with your clients will be an important part of your business.  Kennel Manager software will help you present a professional appearance to your customers.  Kennel Manager is designed to relieve everyday management pains faced by boarding businesses, etc. We believe that you should focus on growing your business, rather than spending a great deal of energy sorting through paperwork and having to learn complicated software. We have listened closely to boarding  kennel owners and operators and created a product to address their needs.</p>', 'IE 6.0 or later', 'http://lazybayou.com/_download/_eval/kennel/KennelManagerPro-720E.exe', 'http://www.regnow.com/softsell/nph-softsell.cgi?item=16334-18&ss_short_order=true', 'http://lazybayou.com/pics/images/kennel-box.gif', 'http://lazybayou.com', 'http://lazybayou.com/pics/images/lazybayou-48.gif', 'http://lazybayou.com/pages/bin/KM_pad.xml', 'Home/Hobby', 'Home & Hobby::Personal Interest', 'homehobby', 'personal_interest', 0, 1, '2009-10-21', 0, 0),
+(93, 'Sample Prog', 'sample_prog', 'Sample Company', 'Win95,Win98,WinME,WinNT 4.x,Windows2000,WinXP,Windows2003', 'Major Update', 'Install and Uninstall', '', '1.56', 15, 'Shareware', '1.0', '2004-05-04', 'A great sample program that demonstrates PAD.', 'A great sample program that demonstrates PAD. A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.', '<p>A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.A great sample program that demonstrates PAD.</p>', '', 'http://www.sample-company.com/program/setup.exe', 'http://www.sample-company.com/program/', 'http://www.sample-company.com/program/screen.jpg', 'http://www.sample-company.com', 'http://www.sample-company.com/program/icon.gif', 'http://www.asp-shareware.org/pad/padsdk/php/samples/pad_file.xml', 'Business', 'Business::Other', 'business', 'other', 0, 0, '2009-11-03', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_product_review`
+--
+
+DROP TABLE IF EXISTS `odb_product_review`;
+CREATE TABLE IF NOT EXISTS `odb_product_review` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) NOT NULL,
+  `name` tinytext NOT NULL,
+  `email` tinytext NOT NULL,
+  `comment` longtext NOT NULL,
+  `date_added` date NOT NULL,
+  `enable` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+
+--
+-- Dumping data for table `odb_product_review`
+--
+
+INSERT INTO `odb_product_review` (`id`, `product_id`, `name`, `email`, `comment`, `date_added`, `enable`) VALUES
+(2, 35, 'Tom Curse', 'test@test.com', 'thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df thrhthtrh rththtrhrth tr thg tggdfg dfgfd g  45435 43retretgreterte ddfdf df ', '0000-00-00', 1),
+(5, 46, 'rohan morrisr', 'fdg', 'fdgfdgdf gfdg fdg hhhhhhhhh', '2009-10-28', 1),
+(15, 57, 'apple', 'apple@apple.com', 'ertert retret rtret retrtr ertert retret rtret retrtr ertert retret rtret retrtr ertert retret rtret retrtr', '2009-11-03', 1),
+(14, 57, 'apple', 'apple@apple.com', 'etrewrew e', '2009-11-03', 1),
+(13, 57, 'apple', 'apple@apple.com', 'fghgfhgfh', '2009-11-03', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_product_type`
+--
+
+DROP TABLE IF EXISTS `odb_product_type`;
+CREATE TABLE IF NOT EXISTS `odb_product_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` tinytext NOT NULL,
+  `detail` tinytext NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `odb_product_type`
+--
+
+INSERT INTO `odb_product_type` (`id`, `name`, `detail`) VALUES
+(1, 'Software', 'Software'),
+(2, 'Games', 'Video games'),
+(3, 'Wallpaper', 'Desktop wallpaper');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `odb_product_views`
+--
+
+DROP TABLE IF EXISTS `odb_product_views`;
+CREATE TABLE IF NOT EXISTS `odb_product_views` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ip_address` tinytext NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `date_viewed` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=203 ;
+
+--
+-- Dumping data for table `odb_product_views`
+--
+
+INSERT INTO `odb_product_views` (`id`, `ip_address`, `product_id`, `date_viewed`) VALUES
+(1, '127.0.0.1', 46, '2009-10-31 17:18:02'),
+(2, '127.0.0.1', 46, '2009-10-31 17:18:19'),
+(3, '127.0.0.1', 46, '2009-10-31 17:18:30'),
+(4, '127.0.0.1', 46, '2009-10-31 05:19:03'),
+(5, '127.0.0.1', 54, '2009-10-31 17:20:17'),
+(6, '127.0.0.1', 54, '2009-10-31 17:25:03'),
+(7, '127.0.0.1', 54, '2009-10-31 17:28:25'),
+(8, '127.0.0.1', 54, '2009-10-31 17:29:45'),
+(9, '127.0.0.1', 35, '2009-10-31 17:30:05'),
+(10, '127.0.0.1', 35, '2009-10-31 17:31:17'),
+(11, '127.0.0.1', 35, '2009-10-31 17:49:03'),
+(12, '127.0.0.1', 35, '2009-10-31 17:50:03'),
+(13, '127.0.0.1', 62, '2009-10-31 18:13:43'),
+(14, '127.0.0.1', 62, '2009-10-31 18:14:29'),
+(15, '127.0.0.1', 62, '2009-10-31 18:14:48'),
+(16, '127.0.0.1', 62, '2009-10-31 18:15:13'),
+(17, '127.0.0.1', 62, '2009-10-31 18:15:17'),
+(18, '127.0.0.1', 62, '2009-10-31 18:15:44'),
+(19, '127.0.0.1', 62, '2009-10-31 18:15:49'),
+(20, '127.0.0.1', 62, '2009-10-31 18:15:53'),
+(21, '127.0.0.1', 33, '2009-10-31 18:16:01'),
+(22, '127.0.0.1', 62, '2009-10-31 18:16:05'),
+(23, '127.0.0.1', 22, '2009-10-31 18:16:16'),
+(24, '127.0.0.1', 22, '2009-10-31 18:16:21'),
+(25, '127.0.0.1', 22, '2009-10-31 18:16:24'),
+(26, '127.0.0.1', 22, '2009-10-31 18:16:43'),
+(27, '127.0.0.1', 22, '2009-10-31 18:16:48'),
+(28, '127.0.0.1', 22, '2009-10-31 18:16:59'),
+(29, '127.0.0.1', 57, '2009-10-31 18:17:48'),
+(30, '127.0.0.1', 57, '2009-10-31 18:19:42'),
+(31, '127.0.0.1', 57, '2009-10-31 18:19:51'),
+(32, '127.0.0.1', 57, '2009-10-31 18:20:11'),
+(33, '127.0.0.1', 57, '2009-10-31 18:21:42'),
+(34, '127.0.0.1', 57, '2009-10-31 18:24:36'),
+(35, '127.0.0.1', 57, '2009-10-31 18:25:24'),
+(36, '127.0.0.1', 57, '2009-10-31 18:25:48'),
+(37, '127.0.0.1', 57, '2009-10-31 18:26:38'),
+(38, '127.0.0.1', 57, '2009-10-31 18:27:11'),
+(39, '127.0.0.1', 57, '2009-10-31 18:27:52'),
+(40, '127.0.0.1', 57, '2009-10-31 18:28:03'),
+(41, '127.0.0.1', 57, '2009-10-31 18:28:09'),
+(42, '127.0.0.1', 57, '2009-10-31 18:28:12'),
+(43, '127.0.0.1', 57, '2009-10-31 18:28:34'),
+(44, '127.0.0.1', 57, '2009-10-31 18:28:50'),
+(45, '127.0.0.1', 57, '2009-10-31 18:29:55'),
+(46, '127.0.0.1', 57, '2009-10-31 18:31:46'),
+(47, '127.0.0.1', 57, '2009-10-31 18:31:58'),
+(48, '127.0.0.1', 57, '2009-10-31 18:37:19'),
+(49, '127.0.0.1', 57, '2009-10-31 18:38:39'),
+(50, '127.0.0.1', 57, '2009-10-31 18:39:09'),
+(51, '127.0.0.1', 57, '2009-10-31 18:39:22'),
+(52, '127.0.0.1', 57, '2009-10-31 18:39:54'),
+(53, '127.0.0.1', 57, '2009-10-31 18:40:51'),
+(54, '127.0.0.1', 57, '2009-10-31 18:50:32'),
+(55, '127.0.0.1', 57, '2009-10-31 18:50:40'),
+(56, '127.0.0.1', 57, '2009-10-31 18:50:47'),
+(57, '127.0.0.1', 57, '2009-10-31 18:50:51'),
+(58, '127.0.0.1', 57, '2009-10-31 18:51:04'),
+(59, '127.0.0.1', 57, '2009-10-31 18:51:13'),
+(60, '127.0.0.1', 57, '2009-10-31 19:04:27'),
+(61, '127.0.0.1', 57, '2009-10-31 19:04:37'),
+(62, '127.0.0.1', 57, '2009-10-31 19:05:17'),
+(63, '127.0.0.1', 57, '2009-10-31 19:05:29'),
+(64, '127.0.0.1', 57, '2009-10-31 19:05:38'),
+(65, '127.0.0.1', 57, '2009-10-31 19:22:52'),
+(66, '127.0.0.1', 57, '2009-10-31 19:23:54'),
+(67, '127.0.0.1', 57, '2009-10-31 19:25:47'),
+(68, '127.0.0.1', 57, '2009-10-31 19:26:56'),
+(69, '127.0.0.1', 57, '2009-10-31 19:27:14'),
+(70, '127.0.0.1', 57, '2009-10-31 19:27:55'),
+(71, '127.0.0.1', 57, '2009-10-31 19:31:18'),
+(72, '127.0.0.1', 57, '2009-10-31 19:31:26'),
+(73, '127.0.0.1', 57, '2009-10-31 19:31:37'),
+(74, '127.0.0.1', 57, '2009-10-31 19:31:58'),
+(75, '127.0.0.1', 57, '2009-10-31 19:32:15'),
+(76, '127.0.0.1', 57, '2009-10-31 19:32:24'),
+(77, '127.0.0.1', 57, '2009-10-31 19:32:39'),
+(78, '127.0.0.1', 57, '2009-10-31 19:39:02'),
+(79, '127.0.0.1', 57, '2009-10-31 20:37:37'),
+(80, '127.0.0.1', 57, '2009-10-31 20:37:53'),
+(81, '127.0.0.1', 57, '2009-10-31 20:41:39'),
+(82, '127.0.0.1', 57, '2009-10-31 20:41:59'),
+(83, '127.0.0.1', 57, '2009-10-31 20:51:58'),
+(84, '127.0.0.1', 57, '2009-10-31 20:52:25'),
+(85, '127.0.0.1', 57, '2009-10-31 20:55:12'),
+(86, '127.0.0.1', 57, '2009-10-31 20:55:27'),
+(87, '127.0.0.1', 57, '2009-10-31 20:57:09'),
+(88, '127.0.0.1', 57, '2009-10-31 20:57:39'),
+(89, '127.0.0.1', 57, '2009-10-31 21:00:20'),
+(90, '127.0.0.1', 57, '2009-10-31 21:03:39'),
+(91, '127.0.0.1', 57, '2009-10-31 21:03:48'),
+(92, '127.0.0.1', 57, '2009-10-31 21:04:29'),
+(93, '127.0.0.1', 57, '2009-10-31 21:04:54'),
+(94, '127.0.0.1', 57, '2009-10-31 21:05:07'),
+(95, '127.0.0.1', 57, '2009-10-31 21:05:15'),
+(96, '127.0.0.1', 57, '2009-10-31 21:05:18'),
+(97, '127.0.0.1', 57, '2009-10-31 21:05:18'),
+(98, '127.0.0.1', 57, '2009-10-31 21:05:44'),
+(99, '127.0.0.1', 57, '2009-10-31 21:06:09'),
+(100, '127.0.0.1', 57, '2009-10-31 21:06:11'),
+(101, '127.0.0.1', 57, '2009-10-31 21:06:59'),
+(102, '127.0.0.1', 57, '2009-10-31 21:07:21'),
+(103, '127.0.0.1', 57, '2009-10-31 21:07:29'),
+(104, '127.0.0.1', 57, '2009-10-31 21:07:35'),
+(105, '127.0.0.1', 57, '2009-10-31 21:07:46'),
+(106, '127.0.0.1', 57, '2009-10-31 21:07:55'),
+(107, '127.0.0.1', 57, '2009-10-31 21:08:02'),
+(108, '127.0.0.1', 57, '2009-10-31 21:08:08'),
+(109, '127.0.0.1', 57, '2009-10-31 21:08:16'),
+(110, '127.0.0.1', 57, '2009-10-31 21:08:36'),
+(111, '127.0.0.1', 57, '2009-10-31 21:09:23'),
+(112, '127.0.0.1', 57, '2009-10-31 21:09:33'),
+(113, '127.0.0.1', 57, '2009-10-31 21:10:10'),
+(114, '127.0.0.1', 57, '2009-10-31 21:10:12'),
+(115, '127.0.0.1', 57, '2009-10-31 21:10:24'),
+(116, '127.0.0.1', 57, '2009-10-31 21:10:43'),
+(117, '127.0.0.1', 57, '2009-10-31 21:10:44'),
+(118, '127.0.0.1', 57, '2009-10-31 21:13:49'),
+(119, '127.0.0.1', 57, '2009-10-31 21:14:26'),
+(120, '127.0.0.1', 57, '2009-10-31 21:19:34'),
+(121, '127.0.0.1', 57, '2009-10-31 21:20:17'),
+(122, '127.0.0.1', 57, '2009-10-31 21:22:33'),
+(123, '127.0.0.1', 57, '2009-10-31 21:24:18'),
+(124, '127.0.0.1', 57, '2009-10-31 21:24:36'),
+(125, '127.0.0.1', 57, '2009-10-31 21:24:51'),
+(126, '127.0.0.1', 57, '2009-10-31 21:25:14'),
+(127, '127.0.0.1', 57, '2009-10-31 21:25:28'),
+(128, '127.0.0.1', 57, '2009-10-31 21:25:34'),
+(129, '127.0.0.1', 57, '2009-10-31 21:26:35'),
+(130, '127.0.0.1', 57, '2009-10-31 21:26:50'),
+(131, '127.0.0.1', 57, '2009-10-31 21:26:56'),
+(132, '127.0.0.1', 57, '2009-10-31 21:27:10'),
+(133, '127.0.0.1', 57, '2009-10-31 21:27:35'),
+(134, '127.0.0.1', 57, '2009-10-31 21:27:47'),
+(135, '127.0.0.1', 57, '2009-10-31 21:27:53'),
+(136, '127.0.0.1', 57, '2009-10-31 21:28:54'),
+(137, '127.0.0.1', 57, '2009-10-31 21:29:08'),
+(138, '127.0.0.1', 57, '2009-10-31 21:29:56'),
+(139, '127.0.0.1', 57, '2009-10-31 21:31:04'),
+(140, '127.0.0.1', 57, '2009-10-31 21:31:17'),
+(141, '127.0.0.1', 57, '2009-10-31 21:31:38'),
+(142, '127.0.0.1', 57, '2009-10-31 21:32:50'),
+(143, '127.0.0.1', 57, '2009-10-31 21:33:52'),
+(144, '127.0.0.1', 57, '2009-10-31 21:34:13'),
+(145, '127.0.0.1', 57, '2009-10-31 21:34:21'),
+(146, '127.0.0.1', 57, '2009-10-31 21:34:27'),
+(147, '127.0.0.1', 57, '2009-10-31 21:34:35'),
+(148, '127.0.0.1', 57, '2009-10-31 21:34:43'),
+(149, '127.0.0.1', 57, '2009-10-31 21:37:49'),
+(150, '127.0.0.1', 57, '2009-10-31 21:42:37'),
+(151, '127.0.0.1', 57, '2009-10-31 21:43:51'),
+(152, '127.0.0.1', 57, '2009-10-31 21:44:37'),
+(153, '127.0.0.1', 57, '2009-10-31 21:46:04'),
+(154, '127.0.0.1', 57, '2009-10-31 21:46:17'),
+(155, '127.0.0.1', 57, '2009-10-31 21:46:29'),
+(156, '127.0.0.1', 57, '2009-10-31 21:46:42'),
+(157, '127.0.0.1', 57, '2009-10-31 21:46:52'),
+(158, '127.0.0.1', 57, '2009-10-31 21:47:24'),
+(159, '127.0.0.1', 57, '2009-10-31 21:47:35'),
+(160, '127.0.0.1', 57, '2009-10-31 21:47:48'),
+(161, '127.0.0.1', 57, '2009-10-31 21:48:00'),
+(162, '127.0.0.1', 57, '2009-10-31 21:48:25'),
+(163, '127.0.0.1', 57, '2009-10-31 21:48:35'),
+(164, '127.0.0.1', 57, '2009-10-31 21:48:46'),
+(165, '127.0.0.1', 57, '2009-10-31 21:49:10'),
+(166, '127.0.0.1', 57, '2009-10-31 21:49:18'),
+(167, '127.0.0.1', 46, '2009-11-02 06:51:54'),
+(168, '127.0.0.1', 57, '2009-11-02 06:52:05'),
+(169, '127.0.0.1', 62, '2009-11-02 06:54:54'),
+(170, '127.0.0.1', 57, '2009-11-02 06:55:03'),
+(171, '127.0.0.1', 57, '2009-11-02 06:57:20'),
+(172, '127.0.0.1', 57, '2009-11-02 07:01:25'),
+(173, '127.0.0.1', 57, '2009-11-02 07:02:04'),
+(174, '127.0.0.1', 57, '2009-11-02 07:02:14'),
+(175, '127.0.0.1', 57, '2009-11-02 07:02:28'),
+(176, '127.0.0.1', 57, '2009-11-02 07:03:02'),
+(177, '127.0.0.1', 57, '2009-11-02 07:03:46'),
+(178, '127.0.0.1', 57, '2009-11-02 07:06:07'),
+(179, '127.0.0.1', 57, '2009-11-02 07:11:25'),
+(180, '127.0.0.1', 57, '2009-11-02 07:13:51'),
+(181, '127.0.0.1', 57, '2009-11-02 07:13:52'),
+(182, '127.0.0.1', 57, '2009-11-02 07:16:08'),
+(183, '127.0.0.1', 57, '2009-11-02 07:16:08'),
+(184, '127.0.0.1', 57, '2009-11-02 07:16:47'),
+(185, '127.0.0.1', 57, '2009-11-02 07:16:57'),
+(186, '127.0.0.1', 57, '2009-11-02 07:17:11'),
+(187, '127.0.0.1', 57, '2009-11-02 07:18:32'),
+(188, '127.0.0.1', 57, '2009-11-02 07:19:17'),
+(189, '127.0.0.1', 57, '2009-11-02 07:19:32'),
+(190, '127.0.0.1', 57, '2009-11-02 07:20:03'),
+(191, '127.0.0.1', 57, '2009-11-02 07:20:13'),
+(192, '127.0.0.1', 57, '2009-11-02 07:20:17'),
+(193, '127.0.0.1', 57, '2009-11-02 07:20:41'),
+(194, '127.0.0.1', 57, '2009-11-02 07:20:53'),
+(195, '127.0.0.1', 57, '2009-11-02 07:21:01'),
+(196, '127.0.0.1', 57, '2009-11-02 07:21:09'),
+(197, '127.0.0.1', 57, '2009-11-02 07:21:23'),
+(198, '127.0.0.1', 57, '2009-11-02 07:21:44'),
+(199, '127.0.0.1', 57, '2009-11-02 07:22:37'),
+(200, '127.0.0.1', 57, '2009-11-02 07:23:01'),
+(201, '127.0.0.1', 57, '2009-11-02 07:23:14'),
+(202, '127.0.0.1', 57, '2009-11-02 07:25:02');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `od_banner_ads`
+--
+
+DROP TABLE IF EXISTS `od_banner_ads`;
+CREATE TABLE IF NOT EXISTS `od_banner_ads` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `banner_type_id` int(11) NOT NULL,
+  `banner_code` longtext NOT NULL,
+  `advertiser` tinytext NOT NULL,
+  `website` tinytext NOT NULL,
+  `email` tinytext NOT NULL,
+  `paypal_email` tinytext NOT NULL,
+  `start_date` date NOT NULL,
+  `end_date` date NOT NULL,
+  `enable` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
+--
+-- Dumping data for table `od_banner_ads`
+--
+
+INSERT INTO `od_banner_ads` (`id`, `banner_type_id`, `banner_code`, `advertiser`, `website`, `email`, `paypal_email`, `start_date`, `end_date`, `enable`) VALUES
+(3, 1, '<a href="http://127.0.0.1/anyweh_beta/"><img src="http://127.0.0.1/anyweh_beta/images/ads/anyweh-large_new.jpg"/></a>', 'rohan morrisr', 'http://dddd.com', 'test@test.com', 'pat@pal.com', '0000-00-00', '0000-00-00', 1),
+(4, 2, '<img src="http://127.0.0.1/ads/AdFormats_files/300x250_img.jpg"/>', 'rohan morrisr', 'http://dddd.com', 'test@test.com', 'pat@pal.com', '0000-00-00', '0000-00-00', 1),
+(5, 1, '<img src="http://127.0.0.1/anyweh_beta/images/ads/anyweh-large_new.jpg"/>', 'tester', '', '', '', '0000-00-00', '0000-00-00', 1),
+(6, 3, '<img src=''http://127.0.0.1/ads/AdFormats_files/200x200.jpg''>', 'test2', '', '', '', '0000-00-00', '0000-00-00', 1);

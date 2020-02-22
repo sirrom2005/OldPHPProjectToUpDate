@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>PADManager 1.0.35</MASTER_PAD_EDITOR>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-007515F4418</Company_UIN>
+    <Product_UIN>APP-00751665F3F</Product_UIN>
+    <Search_String>AntispamSniper for The Bat!</Search_String>
+    <Search_String_Unique>AntispamSniper for The Bat!</Search_String_Unique>
+    <Publish_on_CD>FALSE</Publish_on_CD>
+    <Company_Description/>
+    <Press_Release_Search_String/>
+    <NewsFeed_Search_String/>
+    <Search_Engine_Search_String/>
+    <Web_Directories_Search_String/>
+    <Comments_For_Reviewer/>
+    <Additional_Categories/>
+    <Backlink/>
+  </RoboSoft>
+  <Company_Info>
+    <Company_Name>GoodVein</Company_Name>
+    <Address_1>17, Lunacharskogo St.</Address_1>
+    <Address_2/>
+    <City_Town>Novotitarovskaya</City_Town>
+    <State_Province>Krasnodar region</State_Province>
+    <Zip_Postal_Code>353210</Zip_Postal_Code>
+    <Country>Russian Federation</Country>
+    <Company_WebSite_URL>http://www.antispamsniper.com</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Vitaly</Contact_First_Name>
+      <Contact_Last_Name>Sidorov</Contact_Last_Name>
+      <Contact_Email>padbag@antispamsniper.com</Contact_Email>
+      <Author_First_Name>Vitaly</Author_First_Name>
+      <Author_Last_Name>Sidorov</Author_Last_Name>
+      <Author_Email>padbag@antispamsniper.com</Author_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>padbag@antispamsniper.com</Sales_Email>
+      <Support_Email>padbag@antispamsniper.com</Support_Email>
+      <General_Email>padbag@antispamsniper.com</General_Email>
+      <Sales_Phone/>
+      <Support_Phone/>
+      <General_Phone>+7 (918) 2462051</General_Phone>
+      <Fax_Phone/>
+    </Support_Info>
+  </Company_Info>
+  <ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>N</ASP_Member>
+    <ASP_Member_Number/>
+  </ASP>
+  <OISV>
+    <OISV_FORM>Y</OISV_FORM>
+    <OISV_Member>N</OISV_Member>
+    <OISV_Member_Number/>
+  </OISV>
+  <Program_Info>
+    <Program_Name>AntispamSniper for The Bat!</Program_Name>
+    <Program_Version>3.2.1.5</Program_Version>
+    <Program_Release_Month>09</Program_Release_Month>
+    <Program_Release_Day>25</Program_Release_Day>
+    <Program_Release_Year>2009</Program_Release_Year>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Release_Status>New Release</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>WinNT 4.x,WinXP,Windows2000,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+    <Program_Language>English,Czech,French,Galician,German,Hungarian,Italian,Norwegian,Polish,Portuguese,Romanian,Russian,Slovak,Spanish,Turkish,Ukrainian</Program_Language>
+    <Program_Specific_Category>Internet</Program_Specific_Category>
+    <Program_Category_Class>Security &amp; Privacy::Anti-Spam &amp; Anti-Spy Tools</Program_Category_Class>
+    <Program_System_Requirements>The Bat! 2.0 or higher</Program_System_Requirements>
+    <Includes_JAVA_VM>N</Includes_JAVA_VM>
+    <Includes_VB_Runtime>N</Includes_VB_Runtime>
+    <Includes_DirectX>N</Includes_DirectX>
+    <File_Info>
+      <File_Size_Bytes>2209117</File_Size_Bytes>
+      <File_Size_K>2157</File_Size_K>
+      <File_Size_MB>2.11</File_Size_MB>
+      <Filename_Versioned>sniper-mui.exe</Filename_Versioned>
+      <Filename_Generic>sniper-mui.exe</Filename_Generic>
+      <Filename_Previous/>
+      <Filename_Long/>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>Y</Has_Expire_Info>
+      <Expire_Count>30</Expire_Count>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Other_Info/>
+      <Expire_Month/>
+      <Expire_Day/>
+      <Expire_Year/>
+    </Expire_Info>
+    <Limitations>No limitations</Limitations>
+    <Program_Categories>Email :: Anti-Spam,Email :: Misc. Email Tools,Communication :: E-mail,Internet :: Anti Spam</Program_Categories>
+    <Program_Cost_Dollars>19.95</Program_Cost_Dollars>
+    <Program_Cost_Other_Code/>
+    <Program_Cost_Other/>
+    <Program_Change_Info/>
+    <Awards/>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://www.AntispamSniper.com/thebat_plugin.html</Application_Info_URL>
+      <Application_Order_URL>http://www.AntispamSniper.com/buy_now.html</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.AntispamSniper.com/images/screenshots/thebat_plugin.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.antispamsniper.com/images/boxes/sp2.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://www.antispamsniper.com/xml/asnip.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://www.antispamsniper.com/download/sniper-mui.exe</Primary_Download_URL>
+      <Secondary_Download_URL/>
+      <Additional_Download_URL_1/>
+      <Additional_Download_URL_2/>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <EULA>AntispamSniper plug-in Software - END USER LICENSE AGREEMENT
+
+NOTICE  TO USERS: CAREFULLY READ THE FOLLOWING LEGAL AGREEMENT BETWEEN
+YOU  AND  GoodVein  Software  USE  OF  THE SOFTWARE PROVIDED WITH THIS
+AGREEMENT (THE "SOFTWARE") CONSTITUTES YOUR ACCEPTANCE OF THESE TERMS.
+IF  YOU  DO  NOT  AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT INSTALL
+AND/OR  USE  THIS SOFTWARE. USER'S USE OF THIS SOFTWARE IS CONDITIONED
+UPON COMPLIANCE BY USER WITH THE TERMS OF THIS AGREEMENT.
+
+LICENSE GRANT. You can use this software for evaluation purpose for no
+more  than  30  days.  After  that,  if you find it useful and wish to
+continue  using it, you must purchase a license from GoodVein Software.  
+Each  purchased  license allows you to install this software for multiple 
+accounts but only on one computer.
+
+COPYRIGHT.  The software is owned and copyrighted by GoodVein Software
+and   is   protected   by  copyright  laws  and  international  treaty
+provisions. You acknowledge that no title to the intellectual property
+in  the  software  is transferred to you. You further acknowledge that
+title  and  full  ownership  rights  to  the  software will remain the
+exclusive  property  of  GoodVein  Software and you will not acquire 
+any  rights  to the software except as expressly set forth in
+this  license.  You agree that any copies of the software will contain
+the same proprietary notices which appear on and in the software.
+
+REVERSE  ENGINEERING.  You  agree that you will not attempt to reverse
+compile,  modify, translate or disassemble the software in whole or in
+part.
+
+DISTRIBUTION.  This software may be distributed freely in its original
+unmodified  and unregistered form. The distribution has to include all
+files of its original distribution.
+
+DISCLAIMER.  THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+KIND,  EITHER  EXPRESSED  OR  IMPLIED,  INCLUDING, BUT NOT LIMITED TO,
+WARRANTIES  OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN
+NO  EVENT WILL THE COMPANY BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING
+INCIDENTAL  OR  CONSEQUENTIAL  DAMAGES, ARISING OUT OF THE USE OF THIS
+SOFTWARE,  EVEN  IF  ADVISED  OF  THE POSSIBILITY OF SUCH DAMAGES. YOU
+ACKNOWLEDGE  THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND AGREE
+TO BE BOUND BY ITS TERMS.
+
+ENTIRE  AGREEMENT.  This  is  the  entire  agreement  between  you and
+GoodVein  Software which  supersedes  any prior agreement or understanding, 
+whether written or oral, relating to the subject matter of this license.
+
+RESERVED RIGHTS. All rights not expressly granted here are reserved to
+GoodVein Software.</EULA>
+    <Distribution_Permissions>This product can be freely distributed through the Internet. To publish it on a CD, please contact contact@antispamsniper.com</Distribution_Permissions>
+  </Permissions>
+  <Simtel>
+    <Simtel_FORM>Y</Simtel_FORM>
+    <SIMTEL_FORM_VER>1.6 11/26/2002</SIMTEL_FORM_VER>
+    <Simtel_Platform>winxp - Windows XP</Simtel_Platform>
+    <Simtel_Category>Email: Anti-Spam Related</Simtel_Category>
+  </Simtel>
+  <Delphi>
+    <D1>FALSE</D1>
+    <D2>FALSE</D2>
+    <D3>FALSE</D3>
+    <D4>FALSE</D4>
+    <D5>FALSE</D5>
+    <D6>FALSE</D6>
+    <D7>FALSE</D7>
+    <BCB1>FALSE</BCB1>
+    <BCB3>FALSE</BCB3>
+    <BCB4>FALSE</BCB4>
+    <BCB5>FALSE</BCB5>
+    <BCB6>FALSE</BCB6>
+    <K1>FALSE</K1>
+    <K2/>
+    <K3/>
+    <D1_URL/>
+    <D2_URL/>
+    <D3_URL/>
+    <D4_URL/>
+    <D5_URL/>
+    <D6_URL/>
+    <D7_URL/>
+    <BCB1_URL/>
+    <BCB3_URL/>
+    <BCB4_URL/>
+    <BCB5_URL/>
+    <BCB6_URL/>
+    <K1_URL/>
+    <K2_URL/>
+    <K3_URL/>
+    <Type/>
+    <Price/>
+    <Source/>
+    <File_Location/>
+    <Link_URL/>
+    <Download_URL/>
+    <Version/>
+    <Notes/>
+  </Delphi>
+  <PADRING>
+    <PADRING_FORM>N</PADRING_FORM>
+    <PADRING/>
+  </PADRING>
+  <Affiliates>
+    <Affiliates_FORM>Y</Affiliates_FORM>
+    <Affiliates_VERSION>1.4</Affiliates_VERSION>
+    <Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+    <Affiliates_FORM_VER/>
+    <Affiliates_Information_Page/>
+    <Affiliates_BMTMicro_Order_Page/>
+    <Affiliates_BMTMicro_Vendor_ID/>
+    <Affiliates_BMTMicro_Product_ID/>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate/>
+    <Affiliates_DigiBuy_Order_Page/>
+    <Affiliates_DigiBuy_Vendor_ID/>
+    <Affiliates_DigiBuy_Product_ID/>
+    <Affiliates_DigiBuy_Maximum_Commission_Rate/>
+    <Affiliates_DigitalCandle_Order_Page/>
+    <Affiliates_DigitalCandle_Vendor_ID/>
+    <Affiliates_DigitalCandle_Product_ID/>
+    <Affiliates_DigitalCandle_Maximum_Commission_Rate/>
+    <Affiliates_Emetrix_Order_Page/>
+    <Affiliates_Emetrix_Vendor_ID/>
+    <Affiliates_Emetrix_Product_ID/>
+    <Affiliates_Emetrix_Maximum_Commission_Rate/>
+    <Affiliates_eSellerate_Order_Page/>
+    <Affiliates_eSellerate_Vendor_ID/>
+    <Affiliates_eSellerate_Product_ID/>
+    <Affiliates_eSellerate_Maximum_Commission_Rate/>
+    <Affiliates_Kagi_Order_Page/>
+    <Affiliates_Kagi_Vendor_ID/>
+    <Affiliates_Kagi_Product_ID/>
+    <Affiliates_Kagi_Maximum_Commission_Rate/>
+    <Affiliates_NorthStarSol_Order_Page/>
+    <Affiliates_NorthStarSol_Vendor_ID/>
+    <Affiliates_NorthStarSol_Product_ID/>
+    <Affiliates_NorthStarSol_Maximum_Commission_Rate/>
+    <Affiliates_Order1_Order_Page/>
+    <Affiliates_Order1_Vendor_ID/>
+    <Affiliates_Order1_Product_ID/>
+    <Affiliates_Order1_Maximum_Commission_Rate/>
+    <Affiliates_Osolis_Order_Page/>
+    <Affiliates_Osolis_Vendor_ID/>
+    <Affiliates_Osolis_Product_ID/>
+    <Affiliates_Osolis_Maximum_Commission_Rate/>
+    <Affiliates_Regnet_Order_Page/>
+    <Affiliates_Regnet_Vendor_ID/>
+    <Affiliates_Regnet_Product_ID/>
+    <Affiliates_Regnet_Maximum_Commission_Rate/>
+    <Affiliates_Regnow_Order_Page/>
+    <Affiliates_Regnow_Vendor_ID/>
+    <Affiliates_Regnow_Product_ID/>
+    <Affiliates_Regnow_Maximum_Commission_Rate/>
+    <Affiliates_Regsoft_Order_Page/>
+    <Affiliates_Regsoft_Vendor_ID/>
+    <Affiliates_Regsoft_Product_ID/>
+    <Affiliates_Regsoft_Maximum_Commission_Rate/>
+    <Affiliates_ShareIt_Order_Page/>
+    <Affiliates_ShareIt_Vendor_ID/>
+    <Affiliates_ShareIt_Product_ID/>
+    <Affiliates_ShareIt_Maximum_Commission_Rate/>
+    <Affiliates_SWReg_Order_Page/>
+    <Affiliates_SWReg_Vendor_ID/>
+    <Affiliates_SWReg_Product_ID/>
+    <Affiliates_SWReg_Maximum_Commission_Rate/>
+    <Affiliates_V-Share_Order_Page/>
+    <Affiliates_V-Share_Vendor_ID/>
+    <Affiliates_V-Share_Product_ID/>
+    <Affiliates_V-Share_Maximum_Commission_Rate/>
+    <Affiliates_VFree_Order_Page/>
+    <Affiliates_VFree_Vendor_ID/>
+    <Affiliates_VFree_Product_ID/>
+    <Affiliates_VFree_Maximum_Commission_Rate/>
+    <Affiliates_Yaskifo_Order_Page/>
+    <Affiliates_Yaskifo_Vendor_ID/>
+    <Affiliates_Yaskifo_Product_ID/>
+    <Affiliates_Yaskifo_Maximum_Commission_Rate/>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM>Y</NewsFeed_FORM>
+    <NewsFeed_VERSION>1.0</NewsFeed_VERSION>
+    <NewsFeed_URL>http://Submit-Everywhere.com/extensions/NewsFeed.htm</NewsFeed_URL>
+    <NewsFeed_DESCRIPTION>This PAD extension allows you to add your RSS and Atom news feeds info into your PAD file. This info can be used by RSS feed submission software or by feed directories themselves.</NewsFeed_DESCRIPTION>
+    <NewsFeed_Type>RSS 0.90</NewsFeed_Type>
+    <NewsFeed_Language>English</NewsFeed_Language>
+    <NewsFeed_Purpose>News</NewsFeed_Purpose>
+    <NewsFeed_Feed_URL/>
+    <NewsFeed_Site_Name/>
+    <NewsFeed_Site_URL/>
+    <NewsFeed_Author_First_Name/>
+    <NewsFeed_Author_Last_Name/>
+    <NewsFeed_Author_Email/>
+    <NewsFeed_Title/>
+    <NewsFeed_Description_70/>
+    <NewsFeed_Description_250/>
+  </NewsFeed>
+  <OnlineShops>
+    <OnlineShops_FORM>Y</OnlineShops_FORM>
+    <OnlineShops_VERSION>1.0</OnlineShops_VERSION>
+    <OnlineShops_URL>http://Submit-Everywhere.com/extensions/OnlineShops.htm</OnlineShops_URL>
+    <OnlineShops_DESCRIPTION>This PAD extension allows you to check these sites distribution agreements and decide wether you wish to sell your product through them</OnlineShops_DESCRIPTION>
+    <OnlineShops_PalmGear/>
+    <OnlineShops_PocketLand/>
+    <OnlineShops_PDAssi/>
+    <OnlineShops_PDATopSoft/>
+    <OnlineShops_PocketGear/>
+    <OnlineShops_Softonic/>
+    <OnlineShops_Winowin/>
+    <OnlineShops_Handango_Agreement/>
+    <OnlineShops_Handango/>
+  </OnlineShops>
+  <Press_Release>
+    <Press_Release/>
+    <Headline/>
+    <Summary/>
+  </Press_Release>
+  <Article>
+    <Article_FORM/>
+    <Article_VERSION/>
+    <Article_Title/>
+    <Article_URL/>
+    <Article_Summary/>
+    <Article_Keywords/>
+    <Article_Author_Info/>
+    <Article_Photo_URL/>
+    <Article_Photo_Local/>
+    <Article_Text/>
+    <Article_Text_Plain/>
+  </Article>
+  <ESC>
+    <ESC_FORM/>
+  </ESC>
+  <Program_Descriptions>
+    <English>
+      <Keywords>AntispamSniper, spam filter, anti spam, antispam, The Bat!, Voyager, plug-in, spam, email</Keywords>
+      <Char_Desc_45>Spam filter for TheBat! and Voyager</Char_Desc_45>
+      <Char_Desc_80>Spam filter for The Bat! and Voyager</Char_Desc_80>
+      <Char_Desc_250>Antispam and antiphishing plug-in for The Bat! and Voyager. The plug-in filters POP3, IMAP accounts and deletes most of spam on the server by headers.</Char_Desc_250>
+      <Char_Desc_450>Antispam and antiphishing plug-in for The Bat! and Voyager. The unique combination of several methods for automatic email classification shows excellent filtering quality for all kinds of spam, including graphical spam with random text. The plug-in deletes most of spam on the server by headers.</Char_Desc_450>
+      <Char_Desc_2000>The statistical trainable classification algorithm has unique characteristics. It analyzes your private correspondence, singles out distinguishing features from messages of different classes and uses this information for the effective analysis of incoming messages. It is possible to track back the history of classifying messages and training the plug-in using a filtering log.
+
+The plug-in can delete spam right on the server by headers, using a list of account settings. The accounts for filtering can be added manually or automatically for non-secure connections. The rest of messages are downloaded to email client for filtering by full content, and the messages with high spam ratio are moved to a special folder automatically.
+
+The plug-in supports several complementary methods in addition to statistical algorithm: black and white lists of email addresses, anti-phishing filter, blocking spam by IP address of the sender (using DNSBL services), black and white Regexp-based rules. Several methods are used for filtering graphical spam:
+- Blocking spam with inline images, linked to third-party web sites.
+- Blocking the messages with animated GIF pictures in attachment.
+- Blocking the messages by the type of attachment.
+- The statistical classifier is optimized for blocking spam with a picture and some amount of unlinked text.  
+The plug-in is checking the domains from message text via list of selected URIBL services. The messages having blacklisted domains in text are classified as spam.
+
+The plug-in is integrated with SpamNet spam-fighting community.
+
+SniperSync is a TCP server, allowing AntispamSniper plug-ins to use the common whitelist of email addresses and common database of message descriptors. The different copies of plug-in in local network can use this common database via two-way synchronization with the SniperSync server.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+</XML_DIZ_INFO>

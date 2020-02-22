@@ -1,0 +1,42 @@
+1,admin,01:21:22 pm,-Login successful-
+1,admin,01:21:37 pm,-ADD NEWS [test]-
+1,admin,01:21:39 pm,-View News Listing PAGE:1-
+1,admin,01:21:49 pm,-UPDATE NEWS [test 4545]-
+1,admin,01:21:51 pm,-View News Listing PAGE:1-
+1,admin,01:21:54 pm,-DELETE NEWS [17]-
+1,admin,01:21:55 pm,-View News Listing PAGE:1-
+1,admin,01:22:38 pm,-View Software Listing PAGE:1-
+1,admin,01:22:47 pm,-View Reviews Listing-
+1,admin,01:23:16 pm,-UPDATE REVIEW [3]-
+1,admin,01:23:23 pm,-View Reviews Listing-
+1,admin,01:23:51 pm,-ADD ADS BANNER FOR ADVERTISER [advertiser]-
+1,admin,01:24:01 pm,-View Ads Banner Listing-
+1,admin,01:24:24 pm,-UPDATE ADS BANNER FOR ADVERTISER [advertiser 666]-
+1,admin,01:24:30 pm,-View Ads Banner Listing-
+1,admin,01:24:42 pm,-DELETE BANNER [7]-
+1,admin,01:24:47 pm,-View Ads Banner Listing-
+1,admin,01:24:55 pm,-View Content page Listing-
+1,admin,01:25:16 pm,-UPDATE PAGE [Payment Canceled]-
+1,admin,01:25:20 pm,-View Content page Listing-
+1,admin,01:25:44 pm,-UPDATE PAGE [Payment Canceled]-
+1,admin,01:25:46 pm,-View Content page Listing-
+1,admin,01:26:09 pm,-UPDATE PAGE [Payment Canceled]-
+1,admin,01:26:16 pm,-View Content page Listing-
+1,admin,01:26:56 pm,-ADD USER [user_name]-
+1,admin,01:27:00 pm,-View User Listing-
+1,admin,01:27:13 pm,-View User Listing-
+1,admin,01:27:23 pm,-View User Listing-
+1,admin,01:27:48 pm,-UPDATE USER [23]-
+1,admin,01:27:52 pm,-View User Listing-
+1,admin,01:27:56 pm,-CHANGE PASSWORD FOR USER [23]-
+1,admin,01:28:17 pm,-View User Listing-
+1,admin,01:28:22 pm,-DELETE USER [23]-
+1,admin,01:28:23 pm,-View User Listing-
+,,01:28:50 pm,-Logout successful-
+1,admin,01:30:09 pm,-Login successful-
+1,admin,01:32:26 pm,-Logout successful-
+,,01:32:39 pm,-LOGIN ATTEMP FAILED FOR USERNAME: sdfsd AND PASSWORD: fsdf-
+,,01:32:45 pm,-LOGIN ATTEMP FAILED FOR USERNAME: vxcvxcvxcv AND PASSWORD: vcx-
+,,01:32:54 pm,-LOGIN ATTEMP FAILED FOR USERNAME: admin AND PASSWORD: passwordf-
+1,admin,01:33:01 pm,-Login successful-
+1,admin,02:13:37 pm,-View User Listing-

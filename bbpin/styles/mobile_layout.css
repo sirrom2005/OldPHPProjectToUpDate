@@ -1,0 +1,93 @@
+body,h1,p,ol,ul,li,h1,h2,h3,h4,h5{margin:0;padding:0;list-style:none;font-family:Arial;font-size:105%;}
+body{padding:0px 5px;}
+h1 a{font-size:1.5em;float:left;text-decoration:none;color:#000;margin-bottom:5px;}
+h2 a,h2 a:hover{color:#FFF; text-decoration:none;}
+h2{background-color:#c00;color:#FFF;background-repeat:repeat-x;padding:5px;margin-bottom:2px;}
+img{border:0;}
+a{color:#00F;}
+a:hover{color:#FF0000;}
+br{line-height:0;height:0;clear:both;}
+hr{border:0;margin:2px 10%;border-top:solid 1px #CCCCCC; height:0;}
+#container{max-width:600px;margin:0 auto;padding:5px; border:solid 1px #FF0000;}
+.follow{float:right;}
+.follow a{margin-left:5px;}
+.menu a,a.button{
+	border:outset 2px #999;
+	background-color:#8096bf;
+	color:#FFF;
+	font-weight:bold;
+	padding:7px 10px;
+	margin-bottom:5px;
+	text-decoration:none;
+	text-align:center;
+}
+a.button{margin:5px 0;display:block;}
+.menu a.logout,.menu a:hover{background-color:#F00;}
+.footer{padding:10px 5px;background-color:#f4f4f4;border:solid 1px #CCC;}
+.footer a{color:#00F; white-space:nowrap;}
+.userlist li{border:solid 1px #afc1ce;padding:5px;margin-bottom:10px;}
+.userlist li a{display:block;text-decoration:none;color:#000000;}
+.userlist li .male,.userlist li .female{background:url(../images/profile/80_male_silhouette.jpg) no-repeat center;float:left;margin:0 5px 0 0;width:60px;height:60px;border:solid 1px #666666;padding:0px;}
+.userlist li .female{background-image:url(../images/profile/80_female_silhouette.jpg);}
+.userlist li .proImg{float:left;margin:0 5px 0 0;width:60px;max-height:60px;border:solid 1px #666666;padding:2px;}
+.userlist li span{display:block;}
+.userlist li span.name{font-weight:bold;}
+.userlist li span .flagImg{padding-right:3px;}
+.verified{background:url(../images/tick-bullet.png) no-repeat 0 3px;padding-left:12px;color:#4f982d;white-space:nowrap;}
+.notverified{background:url(../images/yellow_bullet.gif) no-repeat 0 4px;padding-left:12px;color:#FF0000;white-space:nowrap;}
+/*~~~~PROFILE~~~~~*/
+.img250,.img80{border:solid 1px #b7c6ec;padding:3px;margin-bottom:3px;width:240px;}
+.img80{width:72px;height:72px;}
+.img250:hover,.img80:hover{border:solid 1px #666666;}
+.imglink250{display:block;}
+.largeProfileImg{border:solid 1px #b7c6ec;padding:3px;margin-bottom:3px;}
+#comments li{padding:5px; border:solid 1px #999999; margin:0 5px 10px 5px;}
+#comments li hr{border:0;margin:0;line-height:0; border-top:solid 1px #CCCCCC;}
+#comments li small{display:block;text-align:right;font-size:0.75em; margin-top:3px;}
+#comments li small a{font-weight:bold;}
+#comments li .remove{ background:url(../images/remove.png) no-repeat; display:block; width:16px; height:16px; float:right;}
+#comments li .reply{ background:url(../images/reply.png) no-repeat; display:inline-block; width:32px; height:32px; margin:0 0 0 0;}
+.proInterest{display:inline-block;background-color:#fff6bf;color:#918A06;border:solid 1px #ffd900;text-decoration:none;font-size:0.9em;font-weight:bold;padding:1px 4px;margin:0 0 3px 2px;}
+.proInterest:hover{color:#91a92e;}
+input.button{
+	background-color:#36579b;
+	color:#fff;
+	border:outset 2px #CCC;
+	font-size:1em;
+	font-weight:bold;
+	padding:7px;
+	cursor:pointer;
+	margin:3px 0;
+}
+.button:hover,.btnadd:hover{background-image:none; color:#000000;}
+#comentfrm{display:inline-block; border-top:solid 3px #acacac; background-color:#eeeeee; padding:10px; margin:10px 0 20px 0;width:95%}
+#comentfrm label{margin-right:20px; font-weight:bold;}
+#comentfrm textarea{margin-bottom:8px;width:99%; height:70px;}
+.required{color:#FF0000; font-size:0.9em;}
+.frmStyle1{display:inline-block;border-top:solid 3px #acacac; background-color:#eeeeee;margin:0px 0 5px 0;width:100%}
+.frmStyle1 p{padding:0px 10px 10px 10px;}
+h2.frmhdr{background:#000033;color:#FFF;font-weight:bold;padding:5px;margin:0;}
+.textbox,textarea,select,.dob{padding:5px;width:100%; font-size:1.3em;}
+textarea{margin-bottom:8px;height:80px;}
+.dob{width:140px;}
+label{display:block;font-weight:bold;}
+label.nostyle{display:inline-block;font-weight:normal;}
+.ulFrmStyle li{margin-bottom:5px;}
+.listing li{padding:5px;background-color:#FFC;border:solid 1px #CCCCCC; margin-bottom:2px;}
+.listing li.even{background-color:#fff;}
+.listing li hr{margin:2px 1%;}
+.socail{text-decoration:none;text-align:center;padding:3px}
+.warning,.good,.error{
+	display:block;
+	padding:10px 5px;
+	font-size:1em;
+	text-align:center;
+	line-height:0.9em;
+	margin:5px 10%; 
+}
+.warning{background-color:#fff6bf;border:solid 2px #ffd900;color:#5B5500;}
+.good  {background-color:#e6efc2;border:solid 2px #91a92e;color:#264409;}
+.error {background-color:#ffcccc;border:solid 2px #ff5555;color:#8a1f11;}
+.warning a{font-weight:bold;color:#0000FF;}
+.warning a:hover{text-decoration:none;}
+.error li{background:url(images/tick-bullet.png) no-repeat 0 5px; padding-left:15px; text-align:left;}

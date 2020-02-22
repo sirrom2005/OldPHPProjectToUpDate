@@ -1,0 +1,42 @@
+body, div, ul, ol, li, form{ margin:0px; padding:0px; list-style:none; font-family:"Times New Roman", Times, serif; font-size:16px; }
+body{ margin-top:8px;}
+table{border-collapse:collapse;}
+hr{  margin:2px 0 5px 0; border:thin; height:1px; background-color:#333333;}
+textarea{ width:400px; height:150px;}
+#mainTbale{ background-color:#FFFFFF; padding:0; border:solid 1px #999999;}
+#header{vertical-align:top; padding:0;}
+#header div{ background:url(../images/telstarlogo.jpg) no-repeat; height:95px;}
+#header span{color:#cc0000; font-weight:bold; font-size:13px; text-align:right; padding-right:10px; display:block;}
+#header span a{color:#cc0000;}
+#header span a:hover{ text-decoration:none;}
+#header ul{ height:35px; background-color:#c25208; background-repeat:repeat-x;}
+#header ul li{float:left; padding:5px;}
+#header ul li a{color:#fff; display:block; padding-left:10px; text-decoration:none; text-transform:uppercase; font-weight:bold;}
+#header ul li a:hover{color:#000;}
+#footer{ background-image:url(../../images/footer_strip.jpg); background-repeat:repeat-x; background-position:0 -40px; text-align:center; font-size:12px; height:60px;}
+
+#main{ vertical-align:top; padding:20px; height:400px;}
+#menuCell{ background-color:#bac9cf; }
+#menu tr td a
+{ 	
+	display:block;  
+	color:#000000;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold; 
+	padding:2px 0px 2px 5px;
+	border:solid 1px #005a8c;
+	background-color:#FFFFFF;
+}
+
+#menu tr td a:hover{ color:#FF0000; background-color:#c7d3d8; border:solid 1px #000000;}
+
+#main table tr th{ text-align:left; vertical-align:top; padding:3px 10px 3px 10px; background-color:#ece9d8; border-top:dotted 1px #666666; }
+#main table tr th a{ text-decoration:none; color:#0033FF;}
+#main table tr th a:hover{ text-decoration:underline;}
+#main table tr td{ padding:3px 10px 3px 10px; border-top:dotted 1px #666666; border-right:dotted 0px #666666; }
+#main table tr td.pagination{ border:0px; }
+.err{ color:#FF0000; }
+.msg{ font-weight:bold; } 
+.asc{ background:url(../images/asc.png) no-repeat; display:inline-block; width:10px; height:10px; margin-left:10px; }
+.desc{ background:url(../images/desc.png) no-repeat; display:inline-block; width:10px; height:10px; margin-left:3px;  }

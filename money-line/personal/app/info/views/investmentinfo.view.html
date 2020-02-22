@@ -1,0 +1,83 @@
+<script LANGUAGE="Javascript" type="text/Javascript">
+    <!--
+    Raxan.ready(function(){
+        $('.dtPicker').datepicker({
+            dateFormat:'yy-mm-dd',
+            changeMonth: true,
+            changeYear: true
+        });
+
+        $('#fundDateImg').click(function(){
+            $("#fundDate").datepicker('show');
+        });
+    });
+
+ //-->
+</script>
+<h2 langid="fund.investment.heading">Fund Investments</h2>
+<hr>
+
+<div>
+    <div id="errorList"></div>
+    <form action="" >
+        <div style="width: 500px" >
+            <div class="left ctrl-pad">
+                <label langid="fund.type">Fund Type :</label>&nbsp;<span id="fundType"></span>
+            </div>
+            <br>
+
+            <div class="left ctrl-pad">
+                <label langid="fund.account">Account No :</label>&nbsp;<span id="accountNo"></span>
+            </div>
+            <br>
+            <div class="left ctrl-pad">
+                <label langid="fund.fordate">For Date :</label>
+                <input type="text" id="fundDate" name="fundDate" class="textbox dtPicker" style="width:154px"/>
+                <img id="fundDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+            <br>
+            <input type="hidden" name="fundNo" id="fundNo" value=""/>
+            <input type="hidden" name="accountBalance" id="accountBalance" value="0" />
+            <input type="hidden" name="accountNumber" id="accountNumber"/>
+
+            <br>
+
+            <div style="margin-top:15px; margin-right: 10px" align="left">
+                <input langid="fund.showinvestments" type="submit" name="find" class="button process" xt-bind="click, findTransactions" value="Show Investments"/>
+                &nbsp;
+                <input langid="fund.undochanges" type="reset" name="reset" class="button" value="Undo Changes"/>
+            </div>
+        </div>
+    </form>
+
+    <br>
+
+    <hr>
+
+    <div id="resultsArea" >
+        <table border="0" cellspacing="0" class="moneyline-listing" style="width: 60%">
+            <thead>
+                <tr class="pre-header">
+                    <td colspan="2" style="text-align: right">
+                        <span id="downloadFrame"></span>
+                        <strong<label langid="downloadto">Download to CSV:</label></strong>
+                        <button id="downloadAction"  class="button ok" xt-bind="#click, executeDownload">Go</button>
+                    </td>
+                </tr>
+                <tr class="header">
+                    <td><label langid="fund.invested.in" class="bold" style="white-space: nowrap">
+					Invested In</label></td>
+                    <td style="text-align: right">
+                        <label langid="fund.interest.noted" class="bold">Interest Noted</label>
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="searchResults">
+                <tr>
+                    <td style="white-space: nowrap">{investedIn}</td>
+                    <td style="text-align: right; white-space: nowrap">{interestNoted}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

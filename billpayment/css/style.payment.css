@@ -1,0 +1,130 @@
+/*
+Author:			Gabre Cameron
+Author URI:		http://www.yougotthegist.com
+Author E-mail:	gabre@yougotthegist.com
+*/
+
+/* === Default HTML Tags === */
+h1
+{
+	color: #0c519e;
+	font-weight: bold;
+}
+
+
+/* === Top === */
+.top
+{
+	margin-bottom: 10px;
+	position: relative;
+}
+/* logo */
+.logo
+{
+	display: block;
+	height: 74px;
+	margin-top: 20px;
+	width: 196px;
+}
+
+/* menu */
+.menu
+{
+	background-image: url(../images/bg_menu_top.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	color: #1150a0;
+	float:right;
+	font-weight:bold;
+	height:26px;
+	text-align: center;
+	text-decoration:none;
+	width:348px;
+}
+.menu li
+{
+	display: inline;
+	font-size: 10px;
+	margin: 0px 3px 0px 3px;
+}
+.menu li a
+{
+	color:#1150a0;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+/* === Content Area === */
+.content-area
+{
+	padding-left: 25%;
+}
+
+/* bill-payment */
+.bill-payment th
+{
+	background-color: #f1f1f1;
+	border-top: 15px solid #fff;
+	color: #0c519e;
+	font-size: 15px;
+}
+.buttons
+{
+	text-align: right;
+	font-size: 15px;
+}
+.buttons a
+{
+	color: #dc6e00;
+	font-weight: bold;
+	text-decoration: none;
+}
+.buttons a:hover
+{
+	text-decoration: underline;
+}
+.pay-now
+{
+	background: transparent;
+	background-color: #dc6e00;
+	border: 1px solid #dc6e00;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari */
+	
+}
+
+/* verified */
+.verified
+{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+/* === Footer === */
+.footer
+{
+	color:#BEBEBE;
+	margin: 10px 0;
+}
+.footer a
+{
+	color:#838383;
+	text-decoration: none;	
+}
+.footer a:hover
+{
+	text-decoration: underline;	
+}
+
+/* right */
+.footer .right
+{
+	text-align: right;
+}

@@ -1,0 +1,82 @@
+<div >
+    <h2 langid="ovr.acinfo.name"></h2>
+    
+    <table id="clientTotals" border="0" cellspacing="0" width="663" >
+        <tr class="lightgray">
+            <td><label langid="account.balance.net" class="bold">Net Position</label></td>
+            <td><label langid="account.balance.uncleared" class="bold">Uncleared Funds</label></td>
+            <td><label langid="account.balance.liens" class="bold">Liens on Accounts</label></td>
+            <td style="text-align: right"><label langid="account.balance.available" class="bold">Available</label></td>
+        </tr>
+        <tr>
+            <td><label class="baseCurrency"></label> {NetBalance}</td>
+            <td>(<label class="baseCurrency"></label> {UnclearedBalance})</td>
+            <td>(<label class="baseCurrency"></label> {LiensBalance})</td>
+            <td style="text-align: right"><label class="baseCurrency"></label> {AvailableBalance}</td>
+        </tr>
+    </table>
+
+    <table border="0" cellspacing="0" width="663" >
+        <thead>
+            <tr class="lightgray">
+                <td width="33%"><label langid="account.no" class="bold">Account No</label></td>
+                <td width="33%"><label langid="account.balances" class="bold">Balances</label></td>
+                <td width="33%" style="text-align:right">
+                    <label langid="account.balance.ja" class="bold">Balance in </label>
+                    <label class="bold baseCurrency"></label>
+                </td>
+            </tr>
+        </thead>
+
+        <tbody id="accountDetails">
+            <tr class="accountRow">
+                <td style="vertical-align: top">
+                    <span><a href="app/info/requesthistory.php?AccNo={AccIdx}">{AccountNo}</a></span><br/>
+                    <span>{AccountDescription}</span><br/>
+                    <span>{AccountName}</span>
+                </td>
+
+                <td style="vertical-align: top">
+                    <table border="0" cellspacing="0" width="100%"  class="border">
+                        <tr >
+                            <td style="text-align:left"><label langid="account.balance.current">Current:</label></td>
+                            <td style="text-align:right">{Currency} {CurrentBalance}</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:left"><label langid="account.balance.uncleared">Uncleared Funds:</label></td>
+                            <td style="text-align:right">({Currency} {UnclearedBalance})</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:left"><label langid="account.balance.liens">Liens on Account:</label></td>
+                            <td style="text-align:right">({Currency} {LiensBalance})</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left"><label langid="account.balance.available">Available:</label></td>
+                            <td style="text-align:right">{Currency} {AvailableBalance}</td>
+                        </tr>
+                    </table>
+                    <div>{LinksList}</div>                    
+                    <div>{AssetList}</div>
+                </td>
+
+                <td style="vertical-align: top">
+                    <table border="0" cellspacing="0" width="100%" class="border">
+                        <tr>
+                            <td  style="text-align:right"><label class="baseCurrency"></label> {ConvertedCurrentBalance}</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:right">(<label class="baseCurrency"></label> {ConvertedUnclearedBalance})</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:right">(<label class="baseCurrency"></label> {ConvertedLiensBalance})</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:right"><label class="baseCurrency"></label> {ConvertedAvailableBalance}</td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

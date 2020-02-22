@@ -1,0 +1,8 @@
+.userlist li{float:left;width:300px;margin:0 10px 10px 0;}
+.userlist li.nostyle{margin-right:0;}
+.userlist li a{display:block;padding:3px;border:solid 1px #e0e0e0;text-decoration:none;line-height:1.2em;font-size:0.9em;height:80px;}
+.userlist li a:hover{border:inset 1px #FFF;}
+.userlist li .male,.userlist li .female{background:url(../images/profile/80_male_silhouette.jpg) no-repeat center;float:left;margin:0 5px 0 0;width:65px;height:65px;border:solid 1px #666666;padding:2px;}
+.userlist li .female{background-image:url(../images/profile/80_female_silhouette.jpg);}
+.userlist li .proImg{float:left;margin:0 5px 0 0;width:65px;max-height:73px;border:solid 1px #666666;padding:2px;}
+.userlist li h4,.userlist li h5{font-weight:normal; color:#333;}

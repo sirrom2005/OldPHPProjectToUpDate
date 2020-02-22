@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.38 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>OST to PST</Company_Name>
+		<Address_1>705, Ashok Bhawan,</Address_1>
+		<Address_2>93, Nehru Place,</Address_2>
+		<City_Town>New Delhi</City_Town>
+		<State_Province>Delhi</State_Province>
+		<Zip_Postal_Code>110019</Zip_Postal_Code>
+		<Country>India</Country>
+		<Company_WebSite_URL>http://www.osttopst.net</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>OST</Author_First_Name>
+			<Author_Last_Name>to PST</Author_Last_Name>
+			<Author_Email>submit@osttopst.net</Author_Email>
+			<Contact_First_Name>OST</Contact_First_Name>
+			<Contact_Last_Name>to PST</Contact_Last_Name>
+			<Contact_Email>submit@osttopst.net</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>submit@osttopst.net</Sales_Email>
+			<Support_Email>submit@osttopst.net</Support_Email>
+			<General_Email>submit@osttopst.net</General_Email>
+			<Sales_Phone>+91-9818718513</Sales_Phone>
+			<Support_Phone>+91-9818718513</Support_Phone>
+			<General_Phone>+91-9818718513</General_Phone>
+			<Fax_Phone>+91-9818718513</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>OST to PST</Program_Name>
+		<Program_Version>4.05.01</Program_Version>
+		<Program_Release_Month>07</Program_Release_Month>
+		<Program_Release_Day>05</Program_Release_Day>
+		<Program_Release_Year>2009</Program_Release_Year>
+		<Program_Cost_Dollars>199</Program_Cost_Dollars>
+		<Program_Cost_Other_Code>INR</Program_Cost_Other_Code>
+		<Program_Cost_Other>9583</Program_Cost_Other>
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows2000,WinXP,Windows2003,Windows Vista Starter</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info/>
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::File &amp; Disk Management</Program_Category_Class>
+		<Program_Categories>Utilities::Other</Program_Categories>
+		<Program_System_Requirements>Pentium II 400 MHz, 64 MB RAM, 10 MB</Program_System_Requirements>
+		<File_Info>
+			<Filename_Versioned>OST-to-PST-Demo.exe</Filename_Versioned> 
+  			<Filename_Previous>OST-to-PST-Demo.exe</Filename_Previous> 
+  			<Filename_Generic>OST-to-PST-Demo.exe</Filename_Generic> 
+  			<Filename_Long>OST-to-PST-Demo.exe</Filename_Long> 		
+			<File_Size_Bytes>2348810</File_Size_Bytes>
+			<File_Size_K>2293</File_Size_K>
+			<File_Size_MB>2.24</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count/>
+			<Expire_Based_On/>
+			<Expire_Other_Info/>
+			<Expire_Month/>
+			<Expire_Day/>
+			<Expire_Year/>
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>ost to pst, ost to pst converter, ost to pst conversion, convert ost to pst, ost recovery, ost to pst migration</Keywords>
+			<Char_Desc_45>OST to PST Conversion Software</Char_Desc_45>
+			<Char_Desc_80>Software to convert OST file to PST file, OST recovery software</Char_Desc_80>
+			<Char_Desc_250>Email migration software to perform conversion of OST file to PST file. OST to PST conversion software also recovers permanently deleted emails from the corrupt, damaged ost files. Supports ost files created with exchange server 2007, 2003, 5.5, 5.0.
+</Char_Desc_250>
+			<Char_Desc_450>Looking for an OST to PST Conversion software? Need software which converts and also recovers deleted user emails from .ost files? The search comes to an end here, with, ost to pst software which successfully performs both functions of conversion and recovery from offline storage files of ms exchange server. Emails, attachments, drafts, calendars, sent items, journals, images etc are easy to be converted and recovered from the ost files.</Char_Desc_450>
+			<Char_Desc_2000>OST to PST Conversion software is a result oriented and easy to use ost recovery software for exchange administrators who need to recover user emails from offline storage files (.ost) which become corrupt, damaged or inaccessible due to server downtime, virus attacks, insufficient server backup or accidental deletion of any email or important stuff. Our software helps to convert all and recover all - Convert .ost files with entire items to .pst file and access it with MS Outlook and Outlook Express email clients. After successful conversion, ost recovery software provides 3 saving options: .MSG, .EML and .PST. Select any saving option and view emails with the desired options. It supports MS Exchange Server 2007, 2003, 5.5 and 5.0 for conversion and recovery from ost files installed on Windows Vista, XP, 2003, 2002 operating systems. It supports every version of MS Outlook and Outlook Express to save the emails and other items. OST to PST software is available as FREE evaluation version to its users where its features and functions can be tested and the recovered items can be previewed for accurate recovery of data. Free evaluation version do not allows to save the recovered items, to save entire items, purchase full version of the ost to pst converter software.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.osttopst.net</Application_Info_URL>
+			<Application_Order_URL>http://www.osttopst.net/buy-online.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.osttopst.net/screens/OST-to-PST-Conversion1.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.osttopst.net/favicon.ico</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.osttopst.net/ost-to-pst.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.osttopst.net/dwnlods/OST-to-PST-Demo.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.osttopst.net/dwnlods/OST-to-PST-Demo.exe</Secondary_Download_URL>
+			<Additional_Download_URL_1/>
+			<Additional_Download_URL_2/>
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions/>
+		<EULA/>
+	</Permissions>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number/>
+	</ASP>
+</XML_DIZ_INFO>

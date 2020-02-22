@@ -1,0 +1,17 @@
+#DirectoryIndex index.html index.php
+#ErrorDocument 404 /404.html
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+AddType text/x-component .htc
+RewriteEngine On
+RewriteBase /bbpin/
+
+#RewriteRule ^index.html?$ index.php [L]
+RewriteRule ^group_([^/]*).html?$ index.php?action=group&id=$1 [L]
+RewriteRule ^profile_([^/]*).html?$ index.php?action=profile&id=$1 [L]
+RewriteRule ^([^/]*).html?$ index.php?action=$1 [L]
+#RewriteRule ^video-tags/?$ video_tags.php [L]
+#RewriteRule ^video-tags/([^/]*).html?$ video_tags.php?tag=$1 [L]
+#RewriteRule ^([^/]*)/([^/]*).html?$ video.php?cat=$1&url=$2 [L]
+#RewriteRule ^(.*)?/$ category.php?cat=$1 [L]
+
+

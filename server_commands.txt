@@ -1,0 +1,83 @@
+COMMAND
+MYSQL CONFIG
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+MYSQL
+#U: root
+#P: j@n!C%_C0ore#2016
+sudo apt-get install mysql-server mysql-client
+CREATE USER 'sirrom'@'localhost' IDENTIFIED BY 'Tyr@ne@20!6';
+CREATE USER 'sirrom'@'%' IDENTIFIED BY 'Tyr@ne@20!6';
+GRANT ALL ON *.* TO 'sirrom'@'localhost';
+GRANT ALL ON *.* TO 'sirrom'@'%';
+FLUSH PRIVILEGES; 
+EXIT;
+
+sudo chown -R sirrom:www-data /var/www
+sudo nano /etc/apache2/mods-enabled/dir.conf
+
+sudo mkdir -p /var/www/rohanmorris.info/public_html
+sudo mkdir -p /var/www/rsvpcaribbean.com/public_html
+sudo chown -R $USER:$USER /var/www/rohanmorris.info/public_html
+sudo chown -R $USER:$USER /var/www/rsvpcaribbean.com/public_html
+
+sudo chown -R root:root /var/www/rsvpcaribbean.com/public_html
+sudo chown -R sirrom:www-data /var/www/rsvpcaribbean.com/public_html
+sudo chown -R rsvpcaribbean:www-data /var/www/rsvpcaribbean.com/public_html
+
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/rohanmorris.info.conf
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/rsvpcaribbean.com.conf
+sudo nano /etc/apache2/sites-available/rohanmorris.info.conf
+sudo nano /etc/apache2/sites-available/rsvpcaribbean.com.conf
+sudo a2ensite rohanmorris.info.conf
+sudo a2ensite rsvpcaribbean.com.conf
+//add mod_rewrite
+sudo a2enmod rewrite
+
+sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+sudo apt-get install php5-mysql php5-curl php5-gd php5-mcrypt
+
+Enable SSL Module
+sudo a2enmod ssl
+sudo a2ensite default-ssl
+sudo /etc/init.d/apache2 restart
+
+sudo nano /etc/apache2/sites-available/000-default.conf
+
+RSVP Caribbean Volunteers Limited
+www.rsvpcaribbean.com
+r@b0C0p
+
+https://www.digicert.com/ssl-certificate-installation-ubuntu-server-with-apache2.htm
+
+<VirtualHost *:80>
+    ServerName www.rsvpcaribbean.com
+    Redirect / https://www.rsvpcaribbean.com/
+</VirtualHost>
+
+
+JAVA
+sudo apt-get install tomcat8 tomcat8-docs tomcat8-admin tomcat8-examples
+sudo chmod -R 755 /var/lib/tomcat8/webapps
+
+FTP
+U: rsvpcaribbean
+P: kH8@#$vkc7p
+Tyrone@2016
+
+
+sudo nano /etc/ssh/sshd_config
+service sshd restart
+sudo /etc/init.d/ssh start
+
+sudo chmod -R 770 /var/www/rsvpcaribbean.com/public_html
+
+Folders – 755
+Files – 644
+
+
+MONO
+sudo mkdir /var/.net
+sudo chown -R sirrom:www-data /var/.net
+sudo mono-xsp4-admin add bank --app=/bank --path=/var/.net/bank
+sudo /etc/init.d/mono-xsp4 start

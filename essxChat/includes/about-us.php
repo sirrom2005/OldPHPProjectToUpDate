@@ -1,0 +1,2 @@
+<h2>About Us</h2>
+<p><?php echo SITE_NAME;?> Creating a link to find people or BBM groups with common and similar interest, and just simple to find new friends all over the world to communicate with on your BBM.</p>

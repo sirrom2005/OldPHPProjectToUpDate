@@ -1,0 +1,17 @@
+multi language
+
+When it reach 100 member
+	- system match list on profile page.
+	- photo page for commenting photo.
+	- redo front page SQL listing
+	
+	
+When it reach 50 groups
+	- have search by name.
+	
+
+
+-less then 1/2 user a mobile
+-over 50% is low end curve phone.
+-mobile user is more than IE user
+-320 min	

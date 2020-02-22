@@ -1,0 +1,141 @@
+/* 
+    Document   : payee.css
+    Created on : Feb 14, 2011, 6:50:34 PM
+    Author     : davee
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+    .bold                               {font-weight: bold;}
+    .ltm                                {margin-left: 10px;}
+    .ltm15                                {margin-left: 15px;}
+    .rtm                                {margin-right:10px;}
+    .ttm                                {margin-top: 10px;}
+    .btm                                {margin-bottom: 10px;}
+    .hide                               {display: none;}
+    .right                              {float:right;position: relative;}
+    .left                               {float:left;position: relative;}
+    .right-align                        {text-align: right;}
+    .clear                              {clear:both;}
+    .highlight-bg                       {background-color: #DFDFDF;border: 1px solid grey;padding-left: 5px;}
+    .border-outline                     {border: 1px solid #ddd;}
+    .bold-border-outline                {border: 1px solid #404040;;padding: 15px;}
+    .show-on                            {color:#91A92E;padding-left:5px;}
+    .show-off                           {color:#A60C13;padding-left:5px;}
+    label                               {padding-left: 3px;}
+    form label                          {display:inline-block;}
+    form .textbox                       {width:auto;}
+    .pmrequired                           {color:red; font-weight: bold;}
+    .redcolor                           {color:red!important;}
+    .bluecolor                           {color:blue!important;}
+    .yellowbg                           {background-color: #FFF6BF;}
+    .dotted-border-bottom                   {border-bottom: 1px dotted grey;margin-bottom:30px;}
+    .edit {}
+    .disabledColor                           {color:grey;}
+
+
+     .policy-row                        {height:170px;}
+     .left-border                       {border-left: 1px solid #B8D152;}
+     .policy-col                        {width:250px; padding-left: 5px; position: relative; vertical-align: top; display:inline-block;}
+
+     .policy-col .policy-widget         { left:  5px;position: relative;}
+     .new-payee-setup li ,
+     .payee-setup-company-account li ,
+     .payee-setup-jmmb-account li ,
+     .payee-setup-cheque-encashment li ,
+     .payee-setup-local-wire li , .payee-setup-international-wire li ,
+     .payee-setup-select-account li { list-style-type: none;}
+     .new-payee-setup ul ,
+     .payee-setup-company-account ul ,
+     .payee-setup-jmmb-account ul ,
+     .payee-setup-cheque-encashment ul ,
+     .payee-setup-local-wire ul , .payee-setup-international-wire ul,
+     .payee-setup-select-account ul {margin: 0px; padding: 0px;}
+     .new-payee-setup input[type="textbox"]     {width:500px;}
+     .new-payee-setup form label, .payee-setup-company-account form label ,
+     .payee-setup-jmmb-account form label , .payee-setup-cheque-encashment form label,
+     .payee-setup-local-wire form label , .payee-setup-international-wire form label,
+     .payee-setup-select-account form label {display:inline-block;float:none;width:auto}
+
+    .user-notice{width: 200px;}
+    .ui-section-heading{font-size: 120%;border-bottom: 1px solid #404040;width:100%;margin-bottom: 10px;color:#404040;}
+    .rax-box.info {background-color: lightgrey;color:auto;}
+    button{cursor: pointer;}
+    .user-profile-preferences       { padding:10px;}
+
+
+    .payee-setup-select-account li {margin-left: 50px; margin-top: 10px;}
+
+    .payee-setup-company-account #shortName     {margin-left:58px;}
+    .payee-setup-company-account #referenceNo   {margin-left:3px;}
+    .payee-setup-company-account #caaccountAlias  {width:500px;margin-left:5px;}
+    .payee-setup-company-account #capayeeName   {margin-left:5px;font-size:150%;}
+
+    .payee-setup-jmmb-account #jmmbaccountAlias     {width:530px;margin-left:5px;}
+    .payee-setup-jmmb-account #jmmbaccount      {width:400px;margin-left:5px;}
+    .payee-setup-jmmb-account #jmmbpayeeName        {margin-left:5px;font-size:150%;}
+
+    .payee-setup-cheque-encashment #chqencpayeeName   {margin-left:5px;font-size:150%;}
+    .payee-setup-cheque-encashment #chqencaccountAlias {width:530px;margin-left:5px;}
+    .payee-setup-cheque-encashment #chqencAddress1   {width:500px;margin-left:5px;}
+    .payee-setup-cheque-encashment #chqencAddress2   {width:500px;margin-left:65px; margin-top: 10px;}
+    .payee-setup-cheque-encashment #chqencAddress3   {margin-left:65px; margin-top: 10px;}
+    .payee-setup-cheque-encashment #chqencCountry   {margin-left:200px}
+
+    .payee-setup-local-wire #lwaccountAlias           {width:530px;margin-left:5px;}
+    .payee-setup-local-wire #lwpayeeName               {margin-left:5px;font-size:150%;}
+    .payee-setup-local-wire #lwaccountNo             {margin-left:2px;}
+    .payee-setup-local-wire #selbankName             {margin-left:20px;}
+
+
+    .payee-setup-international-wire  input[type=textbox] {margin-top: 5px;}
+    .payee-setup-international-wire  #inwpayeeName      {margin-left:5px;font-size:150%;}
+    .payee-setup-international-wire  #inwaccountAlias   {width:530px;margin-left:4px;}
+    .payee-setup-international-wire  #selinwCurrency {width:100px;margin-left: 38px;}
+    .payee-setup-international-wire  #inwPaymentDetails1 {width:515px;margin-left: 5px;}
+    .payee-setup-international-wire  #inwPaymentDetails2 ,
+    .payee-setup-international-wire  #inwPaymentDetails3 ,
+    .payee-setup-international-wire  #inwPaymentDetails4 {width:515px;margin-left: 101px;}
+    .payee-setup-international-wire  #inwAccountNo  {width:300px;margin-left: 32px;}
+    .payee-setup-international-wire  #inwbdAddress1 {width:515px;margin-left: 40px;}
+    .payee-setup-international-wire  #inwbdAddress2 {width:515px;margin-left: 100px;}
+    .payee-setup-international-wire  #inwbdAddress3 {margin-left: 100px;}
+
+    .payee-setup-international-wire  #selinwbbdRouting {margin-left: 40px; margin-right: 5px;}
+    .payee-setup-international-wire  #inwbbdName {margin-left: 48px; width:518px;}
+    .payee-setup-international-wire  #inwbbdAddress1  {margin-left: 36px; width:518px;}
+    .payee-setup-international-wire  #inwbbdAddress2 {width:520px;margin-left: 95px;}
+    .payee-setup-international-wire  #inwbbdAddress3 {margin-left: 95px;}
+    .payee-setup-international-wire  #inwbbdAddress4 {margin-left: 95px;width:142px}
+    .payee-setup-international-wire  #selinwidRouting  {margin-left: 45px; margin-right: 5px;}
+    .payee-setup-international-wire  #inwibName {margin-left: 54px;width:520px}
+    .payee-setup-international-wire  #inwibaddress1 {margin-left: 42px;width:520px}
+    .payee-setup-international-wire  #inwibaddress2 {width:520px;margin-left: 95px;}
+    .payee-setup-international-wire  #inwibaddress3 {margin-left: 95px;}
+    .payee-setup-international-wire  #ibCountry        {margin-left: 240px;}
+
+
+    .payee-setup-international-wire  #bbdRoutingMethod ,
+    .payee-setup-international-wire  #ibRoutingMethod  {margin-left: 92px;}
+    .payee-setup-international-wire  #bbdRoutingNumber ,
+    .payee-setup-international-wire  #ibRoutingNumber  {margin-left: 160px;}
+    .payee-setup-international-wire  #bbdCountry        {margin-left: 240px;}
+
+
+    form#webupsecurityVerification label {width:auto;}
+
+
+    <!--[if ! IE]><!-->
+    right-panel{margin: 0px;}
+    .user-profile-security-verification, .user-payee-maintenance, .new-payee-setup,
+    .payee-setup-company-account, .payee-setup-jmmb-account,
+    .payee-setup-cheque-encashment, .payee-setup-local-wire,
+    .payee-setup-international-wire, .payee-setup-select-account   {width: 663px; position: relative;}
+    <!--<![endif]-->

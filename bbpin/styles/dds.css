@@ -1,0 +1,7 @@
+/*disable desktop style*/
+.mobilelink{float:right;color:#FFF; font-weight:bold;}
+body #commBar{position:relative;}
+body #commBar td{white-space:nowrap;}
+img.largeProfileImg{max-width:430px;}
+.mhome{display:none;}
+.mfindpins{border-left:solid 1px #FFFFFF;}

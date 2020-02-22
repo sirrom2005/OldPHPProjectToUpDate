@@ -1,0 +1,30 @@
+<?php
+$cacheEmailContents = <<<EOD
+
+Telstarjamaica Cable Limited
+109A Constant Spring Rd.
+Kingston 10
+Jamaica W.I.
+1-888-TELSTAR(835-7827)
+http://www.telstarjamaica.com
+
+==============================
+ORDER
+==============================
+Customer Name: _CUSTOMER_NAME_
+Customer ID: _CUSTOMER_ID_
+Transaction Date: _DATE_
+Order #: _ORDER_ID_
+Bill Total: _PRICE_
+==============================
+
+==============================
+PAYMENT INFORMATION
+==============================
+Payment Method
+_CARD_TYPE_ | Last 5 digits on credit card: [_CARD_LAST5_DIGITS_]
+
+_BILLING_ADDRESS_
+
+EOD;
+?>

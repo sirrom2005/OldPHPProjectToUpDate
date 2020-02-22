@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,hr,blockquote{margin:0;padding:0;}
+body{background-color:#FFF;font-family:"Times New Roman", Times, serif;}
+hr{ border:0; border-top:dashed 1px #CCC; margin:10px;}
+small{ font-weight:normal;}
+blockquote{background:url(../images/quote.png) no-repeat 0 0;padding:40px 0 35px 80px; font-size:20px; color:#444;}
+#container{max-width:1000px;margin:0 auto;padding:10px 0}
+#menu{ background:url(../images/bar.jpg) repeat-x 0 0; height:35px;}
+#menu a{color:#FFF;text-decoration:none; font-size:16px;font-weight:bold; padding:7px 8px; display:inline-block;}
+#menu a:hover{color:#CCC;}
+
+.note{ margin-bottom:10px; padding:10px; border-bottom:dashed 1px #CCC;font-size:20px;}
+.note a{background-color:#CCC; border:inset 1px #999; padding:10px; display:block; margin-top:10px; color:#333; text-decoration:none;}
+.note a:hover{color:#999;}
+
+.formStyle p{background-color:#b8c9e1;padding:5px 10px 10px 10px; margin-bottom:10px; border:solid 1px #2b599c; color:#333; font-size:22px; font-weight:bold;}
+.formStyle .textbox,.formStyle textarea{width:98%;margin:2px 0; background-color:#f3f3f3; border:solid 1px #dcc5b8; padding:8px;font-size:18px;}
+.formStyle textarea{height:90px;}
+
+#regform textarea,#regform .textbox{width:98%;margin-bottom:3px; background-color:#f3f3f3; border:solid 1px #dcc5b8; padding:4px;}
+#regform textarea:hover,#regform .textbox:hover{border:solid 1px #333;}
+#regform textarea{height:90px;}
+
+#signinform textarea,#signinform .textbox{width:98%;margin-bottom:3px; background-color:#f3f3f3; border:solid 1px #dcc5b8; padding:4px;}
+#signinform textarea:hover,#signinform .textbox:hover{border:solid 1px #333;}
+.btn{padding:5px 7px; font-weight:bold; color:#666;}

@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.basictab{margin:0;padding:0;}
+
+.basictab ul
+{
+	font: bold 12px Verdana;
+	list-style-type:none;
+	text-align:left; /*set to left, center, or right to align the menu as desired*/
+	margin:0;
+	padding:0;
+	height:36px;
+	overflow:hidden;
+}
+
+.basictab ul li
+{
+	float:left;
+	background-image:url(../images/rev_tab_03.png);
+	background-repeat:no-repeat;
+	background-position:right 0px;
+	text-align:center;
+	height:36px;
+	padding:0;
+	margin:0;
+}
+
+.basictab ul li span a
+{
+	text-decoration:none;
+	text-transform:uppercase;
+	border-bottom: none;
+	background-image:url(../images/rev_tab_02.png);
+	background-repeat:repeat-x;
+	background-position:left 0px;
+	margin-right:7px;
+	margin-left:0px;
+	padding-left:2px;
+	padding-top:10px;
+	height:26px;
+	display:block; 
+	font-size:0.85em;	
+}
+
+.basictab ul li span
+{
+	background-image:url(../images/rev_tab_01.png);
+	background-repeat:no-repeat;
+	height:36px;
+	padding:0px 0px 0px 5px;
+	display:block;
+}
+
+#content #products .basictab a:hover{text-decoration:none;}
+.basictab ul li a:hover font, .basictab ul li a.current font{ border-bottom:solid 3px #768719; }
+
+#tabcontentcontainer
+{
+	clear:left;
+	position:relative;
+	z-index:2;
+	margin:0;
+	padding:20px;
+	border:solid 1px #768719;
+}
+
+.tabcontent, .tabcontentdata{text-align:left;display:none;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#sc5 b, #sc5 h4{ color:#768719;}
+#sc5 i{ font-size:0.9em;}
+hr{ height:1px; border:thin; color:#768719; background-color:#768719;}
+.contenPage ul.table2 li{ float:left; width:400px; margin-bottom:0px; padding:5px; border:solid 1px #FFFFFF;}
+.contenPage ul.table2 li span.err{ color:#cc0000; font-weight:bold; padding:5px; }
+.contenPage ul.table2 li.title{ width:120px; font-weight:bold;}
+.contenPage ul.table2 li textarea{ width:270px; height:100px;}
+.contenPage ul.table2 li .inputbox{ width:270px; }
+
+.soft_review #hdr img{ float:right; margin-top:-5px;}
+.soft_review #hdr{ display:block; height:64px;}
+.soft_review h3{ text-align:center; font-size:1.4em;}
+.soft_review h4{ text-align:center; font-size:1.2em; padding-top:5px; text-transform:uppercase; color:#616161;}
+.soft_review table{ margin-bottom:15px; width:600px;}
+.soft_review table .title{ font-weight:bold; white-space:nowrap; padding-right:20px; }
+.soft_review table td table{ margin-left:25px; width:180px; }
+.soft_review table td table td{padding-bottom:5px;}
+.soft_review table td table td form{ background-image:none; width:auto;}
+.soft_review table td table td.title{ padding:0;}
+.soft_review table td table td font{float:right; padding-top:5px;}
+.soft_review table td table td span{ background-image:url(../images/rateit.jpg); width:70px; height:20px; margin-right:13px; display:block; float:right;}
+.soft_review table td table td span a{display:block; color:#CBD78F;}
+.soft_review form ul li h1{ font-size:1.2em; color:#000000; }
+.soft_review form div{ background:url(../images/review_med.jpg) repeat-y; width:584px;   }
+.soft_review form ul li{ padding:0 50px 1px 50px; margin:0 10px 0 10px;}
+.soft_review form ul li img{ margin-bottom:5px;}
+.soft_review form{ background:url(../images/review_top.jpg) no-repeat top; width:584px;padding-top:18px;}
+.soft_review form textarea{ width:400px; height:120px; overflow:auto;}
+.soft_review form span{ background:url(../images/review_btm.jpg) no-repeat bottom; width:584px; height:16px; display:block; text-align:center;}
+
+#clearStar{ background:url(../images/star_rating.png) repeat-x -2px 0px;; height:25px; width:120px; }
+#starValue{ background:url(../images/star_rating.png) repeat-x -2px -25px; height:25px; width:0; } 
+
+#content #products p#keywords a{ font-weight:normal; display:inline; padding:0 2px 0 2px;}

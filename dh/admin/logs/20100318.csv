@@ -1,0 +1,23 @@
+ADMIN ID, ADMIN USERNAME, TIME, ACTION
+1,admin,10:33:12 am,-Login successful-
+1,admin,10:35:59 am,-View Software Listing PAGE:1-
+1,admin,10:41:17 am,-ADD SOFTWARE []-
+1,admin,10:41:19 am,-View Software Listing PAGE:1-
+1,admin,10:41:24 am,-View Software Listing PAGE:48-
+1,admin,10:42:21 am,-UPDATE SOFTWARE []-
+1,admin,10:42:24 am,-View Software Listing PAGE:1-
+1,admin,10:42:28 am,-View Software Listing PAGE:48-
+1,admin,10:42:49 am,-ADD SOFTWARE []-
+1,admin,10:42:51 am,-View Software Listing PAGE:1-
+1,admin,10:42:55 am,-View Software Listing PAGE:48-
+1,admin,10:44:12 am,-UPDATE SOFTWARE []-
+1,admin,10:44:18 am,-View Software Listing PAGE:1-
+1,admin,10:44:22 am,-View Software Listing PAGE:48-
+1,admin,10:45:02 am,-View Software Listing PAGE:1-
+1,admin,10:45:06 am,-View Software Listing PAGE:48-
+1,admin,10:45:10 am,-DELETE SOFTWARE [1034]-
+1,admin,10:45:12 am,-View Software Listing PAGE:1-
+1,admin,11:24:02 am,-Login successful-
+1,admin,11:24:25 am,-View Software Listing PAGE:48-
+1,admin,11:24:30 am,-DELETE SOFTWARE [1036]-
+1,admin,11:24:33 am,-View Software Listing PAGE:1-

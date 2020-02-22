@@ -1,0 +1,17 @@
+DirectoryIndex splash.php index.php index.html
+ErrorDocument 404 /404.html
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+AddType text/x-component .htc
+RewriteEngine On
+
+RewriteRule ^index.html?$ index.php [L]
+RewriteRule ^videos.html?$ videos.php [L]
+RewriteRule ^party_videos.html?$ videos.php [L]
+RewriteRule ^events_calendar.html?$ events_calendar.php [L]    
+RewriteRule ^events.html?$ events_calendar.php [L]
+RewriteRule ^advertise.html?$ advertise.php [L]  
+RewriteRule ^advertise_with_us.html?$ advertise.php [L]
+RewriteRule ^rss.html?$ rss.php [L]
+RewriteRule ^add_events.php?$ place_your_events_on_our_calendar.php [L]
+RewriteRule ^place_your_events_on_our_calendar.html?$ place_your_events_on_our_calendar.php [L]

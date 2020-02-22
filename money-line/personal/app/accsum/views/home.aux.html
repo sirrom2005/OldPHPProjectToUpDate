@@ -1,0 +1,131 @@
+<div>
+    <div id="linksContainer">
+        <div id="listOfLinks">
+            <div>&raquo; <a href="{value}">{label}</a></div>
+        </div>
+    </div>
+
+    <div id="emmaContainer" class="tpm clear" >
+        
+        <table width="100%" style="1px solid #71B6A3" cellpadding="0" cellspacing="1">
+            <thead>
+                <tr valign="middle" bgcolor="#F0F6FA">
+                    <td colspan="5"><div nowrap>
+                    	<label langid="emma.jcsd.message">&nbsp;Equity held as reported by JCSD:</label></div>
+                    </td>
+                </tr>
+                <tr valign="middle" bgcolor="#A7D2E7">
+                    <td><label langid="emma.symbol" class="bold">Symbol</label></td>
+                    <td style="text-align:right"><label langid="emma.units" class="bold">Units</label></td>
+                    <td style="text-align:right"><label langid="emma.price" class="bold">Market Price</label></td>
+                    <td><label langid="emma.mdate" class="bold">Market Date</label></td>
+                    <td style="text-align:right"><label langid="emma.value" class="bold">Dollar Value</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="emmaDetails">
+                <tr bgcolor="#D8EBFA">
+                    <td>{assetKey}</td>
+                    <td style="text-align:right">{assetValue}</td>
+                    <td style="text-align:right">{purchaseValue}</td>
+                    <td>{purchaseDate}</td>
+                    <td style="text-align:right">{yield}</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr bgcolor="#D8EBFA">
+                    <td colspan="3" bgcolor="#D4E5F1">&nbsp;</td>
+                    <td  bgcolor="#A7D2E7"><label class="bold">Total:</label></td>
+                    <td style="text-align:right" bgcolor="#A7D2E7"><label id="emmaTotal" class="bold"></label></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="sellerContainer" class="tpm clear" >
+        
+        <table width="100%" style="1px solid #71B6A3" cellpadding="0" cellspacing="1">
+            <thead>
+               <tr valign="middle" bgcolor="#F0F6FA">
+                    <td colspan="3"><div nowrap>
+                    	<label langid="trade.maturities.message">Maturities:</label></div>
+                    </td>
+                </tr>
+
+                <tr bgcolor="#A7D2E7">
+                    <td><label langid="trade.issuedate" class="bold">Issue Date</label></td>
+                    <td><label langid="trade.mdate" class="bold">Maturity Date</label></td>
+                    <td style="text-align:right"><label langid="trade.amountdue" class="bold">Net Amount Due</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="tradeDetails">
+                <tr bgcolor="#D8EBFA">
+                    <td>{asOfDate}</td>
+                    <td>{renewalDate}</td>
+                    <td style="text-align:right">{renewalAmount}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <div id="tradeContainer" class="tpm clear" >
+        <table width="100%"  style="1px solid #71B6A3" cellpadding="0" cellspacing="1">
+            <thead>
+                <tr valign="middle" bgcolor="#F0F6FA">
+                	<td colspan="3">
+				        <label langid="trade.maturities.message">Maturities:</label>                	
+                	</td>
+                </tr>
+                <tr bgcolor="#A7D2E7">
+                    <td><label langid="trade.issuedate" class="bold">Issue Date</label></td>
+                    <td><label langid="trade.mdate" class="bold">Maturity Date</label></td>
+                    <td style="text-align:right">
+					<label langid="trade.amountdue" class="bold">Net Amount Due</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="tradeDetails">
+                <tr bgcolor="#D8EBFA">
+                    <td>{purchaseDate}</td>
+                    <td>{maturityDate}</td>
+                    <td style="text-align:right">{netAmountDue}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <div id="bondContainer" class="tpm clear" >
+        <table width="100%" style="1px solid #71B6A3" cellpadding="0" cellspacing="1">
+            <thead>
+            	<tr valign="middle" bgcolor="#F0F6FA">
+            		<td colspan="3">
+         				<label langid="bond.maturities.message">Maturities:</label>
+            		</td>
+            	</tr>
+            	<tr bgcolor="#A7D2E7">
+                    <td style="width: 311px"><label langid="trade.issuedate" class="bold">Bond</label></td>
+                    <td style="width: 150px"><label langid="trade.issuedate" class="bold">Issue Date</label></td>
+                    <td style="width: 173px"><label langid="trade.mdate" class="bold">Maturity Date</label></td>
+                    <td style="text-align:right"><label langid="trade.amountdue" class="bold">Maturity Value</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="bondDetails">
+                <tr bgcolor="#D8EBFA">>
+                    <td style="width: 311px">{investmentDescription}</td>
+                    <td style="width: 150px">{asOfDate}</td>
+                    <td style="width: 173px">{maturityDate}</td>
+                    <td style="text-align:right">{maturityValue}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</div>

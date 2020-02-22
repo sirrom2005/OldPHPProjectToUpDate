@@ -1,0 +1,11 @@
+.proInterest{display:inline-block;color:#918A06;text-decoration:none;font-size:0.9em;margin:0 5px 0px 0px; padding-left:17px; background:url(../images/tag.png) no-repeat 0 1px;}
+.proInterest:hover{color:#A67B06;text-decoration:underline;}
+.linkStyle1{display:block;background-color:#3b5999;color:#fff;margin-bottom:1px; padding:5px; text-decoration:none;}
+.linkStyle1:hover{background-color:#b7c6ec;color:#000;}
+.profile h1{text-align:center;font-size:1.3em;margin-bottom:3px;color:#FF4C13;}
+.profile h2{text-align:center;font-size:0.9em;margin:0 40px 3px 40px;padding-bottom:2px;border-bottom:dotted 1px #6DADD3;color:#1570A6;}
+.boxStyle1 h2 a{color:#0000FF;}
+h3{font-size:0.9em;margin:0 0 3px 0;padding:0;border:0;}
+.aboutme{margin:10px 0;border-bottom:inset 1px #333333;color:#000;}
+.ulFrmStyle label{width:150px;display:inline-block;font-weight:bold;}
+.ulFrmStyle li{margin:1px 0px;}

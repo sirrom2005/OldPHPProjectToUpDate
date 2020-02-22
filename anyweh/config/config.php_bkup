@@ -1,0 +1,35 @@
+<?php
+###################################SQL CONNECTION#############################################
+	error_reporting(0); // when you finish testing you should change this to E_NONE
+
+	define("RM_DBUSERNAME", "C242938_anyweh",  true);
+	define("RM_DBPASSWORD", "Membbb",  true);
+	define("RM_DBHOST", "mysql500.ixwebhosting.com", true);
+	define("RM_DBDATABASE", "C242938_anyweh_webdb",  true);
+	
+	define("EMAIL_ADDRESS", "sirrom2005@gmail.com", true); 
+##############################################################################################
+	define("DOMAIN", "http://".$_SERVER['SERVER_NAME']."/", true); 
+	define("URL_PATH", $_SERVER['DOCUMENT_ROOT'], true);
+	
+	define("NEWS_IMG_PATH", URL_PATH."images/news/", true);
+	define("NEWS_IMG_URL",  DOMAIN."images/news/", true);
+	define("NEWS_THUM_FOLDER",  "images/news/", true);
+	
+	define("EVENTS_IMG_PATH", URL_PATH."images/events/", true);
+	define("EVENTS_IMG_URL",  DOMAIN."images/events/", true);
+	define("EVENTS_THUM_FOLDER",  "images/events/", true);
+	
+	define("BANNER_IMG_PATH", URL_PATH."images/banners/", true);
+	define("BANNER_IMG_URL",  DOMAIN."images/banners/", true);
+	define("BANNER_THUM_FOLDER",  "images/banners/", true);	
+###############################################################################################
+	define("META_KEY", "anyweh, events, party, parties, goout, club, dance, sessions, fashionista, ochi, negril, mas camp", true);
+	define("META_DESC", "anyweh.com party and photo gallery, anyweh events, anyweh party, parties pictures, photo gallery, party videos, fashionista for week, snapshot of the week, news and information", true);
+###############################################################################################
+	$showFlashBanner 	= true; // show or hide flash banner
+	$tmpFolder 		= URL_PATH."/tmp_images/";
+	$imageFolder		= URL_PATH."/gallery/albums/";
+	$galleryDomain 	= DOMAIN."gallery/index.php?album=";
+	$galleryDB		= "C242938_anyweh_webdb2";
+?>

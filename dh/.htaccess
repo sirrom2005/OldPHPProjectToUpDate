@@ -1,0 +1,26 @@
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+AddType text/x-component .htc
+RewriteEngine On
+RewriteBase /dh/
+
+RewriteRule ^index.html?$ index.php [L]
+RewriteRule ^software/([^/]*)/?$ software.php?cat=$1 [L]
+RewriteRule ^software/([^/]*)/(.*).html?$ review.php?cat=$1&name=$2 [L]
+RewriteRule ^software/([^/]*)/([^/]*)/$ sub_cat_software.php?cat=$1&sub_cat=$2 [L]
+RewriteRule ^links.html?$ links.php [L]
+RewriteRule ^advertising.html?$ advertising.php [L]
+RewriteRule ^advertising_order.html?$ advertising_order.php [L] 
+RewriteRule ^advertising_order_review.html?$ advertising_order_review.php [L]
+RewriteRule ^contact_us.html?$ contact.php [L]
+RewriteRule ^wallpaper.html?$ wallpaper.php [L]
+RewriteRule ^news/?$ news.php [L]
+RewriteRule ^news/([^/]*)/?$ news_listing.php?cat=$1 [L]
+RewriteRule ^news/([^/]*)/(.*)_news.html?$ read_news.php?cat=$1&id=$2 [L]
+RewriteRule ^registration.html?$ registration.php [L]
+RewriteRule ^new_password.html?$ new_password.php [L]
+RewriteRule ^publisher.html?$ publisher.php [L]
+RewriteRule ^secure/login.html?$ admin/login.php [L]
+RewriteRule ^change_password.html?$ change_password.php [L]
+RewriteRule ^terms_and_conditions.html?$ terms_and_conditions.php [L]
+RewriteRule ^privacy_policy.html?$ privacy_policy.php [L]
+RewriteRule ^cancel_payment.html?$ cancel_payment.php [L]

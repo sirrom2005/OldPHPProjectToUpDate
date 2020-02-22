@@ -1,0 +1,79 @@
+ADMIN ID, ADMIN USERNAME, TIME, ACTION
+1,admin,10:28:25 am,-Login successful-
+1,admin,10:28:41 am,-View Software Listing PAGE:1-
+1,admin,10:29:04 am,-View Software Listing PAGE:1-
+1,admin,10:29:05 am,-View User Listing-
+1,admin,10:29:15 am,-View User Listing-
+1,admin,10:29:42 am,-View Ads Banner Listing-
+1,admin,10:29:48 am,-View Reviews Listing-
+1,admin,10:30:18 am,-View Reviews Listing-
+1,admin,10:30:51 am,-View Reviews Listing-
+1,admin,10:30:56 am,-View Reviews Listing-
+1,admin,10:31:03 am,-View Reviews Listing-
+1,admin,10:31:14 am,-View User Listing-
+1,admin,10:31:26 am,-View Software Listing PAGE:1-
+1,admin,10:44:30 am,-Logout successful-
+,,10:50:25 am,-LOGIN ATTEMP FAILED FOR USERNAME:  AND PASSWORD: -
+2,writer,10:54:56 am,-Login successful-
+2,writer,10:55:05 am,-CHANGE PASSWORD FOR USER [2]-
+2,writer,10:55:08 am,-View News Listing PAGE:1-
+2,writer,10:55:20 am,-View Software Listing PAGE:1-
+2,writer,11:00:32 am,-Logout successful-
+2,writer,11:00:45 am,-Login successful-
+2,writer,11:01:02 am,-Logout successful-
+2,writer,11:01:42 am,-Login successful-
+2,writer,11:05:48 am,-Logout successful-
+2,writer,11:05:58 am,-Login successful-
+2,writer,11:06:23 am,-Logout successful-
+1,admin,11:31:04 am,-Login successful-
+1,admin,11:32:28 am,-View News Listing PAGE:1-
+1,admin,12:28:50 pm,-View Software Listing PAGE:1-
+1,admin,12:29:22 pm,-View Software Listing PAGE:1-
+1,admin,01:27:41 pm,-View Software Listing PAGE:1-
+1,admin,01:39:19 pm,-View Software Listing PAGE:1-
+1,admin,01:40:01 pm,-UPDATE SOFTWARE []-
+1,admin,01:40:04 pm,-View Software Listing PAGE:1-
+1,admin,01:40:37 pm,-UPDATE SOFTWARE []-
+1,admin,01:40:40 pm,-View Software Listing PAGE:1-
+1,admin,01:40:53 pm,-UPDATE SOFTWARE []-
+1,admin,01:40:56 pm,-View Software Listing PAGE:1-
+1,admin,01:42:14 pm,-UPDATE SOFTWARE []-
+1,admin,01:42:25 pm,-View Software Listing PAGE:1-
+1,admin,01:43:00 pm,-UPDATE SOFTWARE []-
+1,admin,01:43:04 pm,-View Software Listing PAGE:1-
+1,admin,01:43:50 pm,-UPDATE SOFTWARE []-
+1,admin,01:43:55 pm,-View Software Listing PAGE:1-
+1,admin,01:44:50 pm,-ADD SOFTWARE []-
+1,admin,01:44:53 pm,-View Software Listing PAGE:1-
+1,admin,01:45:05 pm,-View Software Listing PAGE:48-
+1,admin,01:45:11 pm,-DELETE SOFTWARE [1019]-
+1,admin,01:45:13 pm,-View Software Listing PAGE:1-
+1,admin,02:01:29 pm,-View Software Listing PAGE:1-
+1,admin,02:01:42 pm,-UPDATE SOFTWARE []-
+1,admin,02:01:48 pm,-View Software Listing PAGE:1-
+1,admin,02:03:29 pm,-UPDATE SOFTWARE []-
+1,admin,02:03:31 pm,-View Software Listing PAGE:1-
+1,admin,02:05:56 pm,-UPDATE SOFTWARE []-
+1,admin,02:06:00 pm,-View Software Listing PAGE:1-
+1,admin,02:06:38 pm,-UPDATE SOFTWARE []-
+1,admin,02:06:40 pm,-View Software Listing PAGE:1-
+1,admin,02:18:41 pm,-UPDATE SOFTWARE []-
+1,admin,02:19:00 pm,-ADD SOFTWARE []-
+1,admin,02:19:04 pm,-View Software Listing PAGE:1-
+1,admin,02:19:44 pm,-View Software Listing PAGE:48-
+1,admin,02:19:49 pm,-DELETE SOFTWARE [1020]-
+1,admin,02:19:55 pm,-View Software Listing PAGE:1-
+1,admin,02:20:20 pm,-View Software Listing PAGE:1-
+1,admin,02:23:41 pm,-View User Listing-
+1,admin,02:23:45 pm,-View User Listing-
+1,admin,02:23:57 pm,-Logout successful-
+1,admin,02:40:27 pm,-Login successful-
+1,admin,02:45:27 pm,-Logout successful-
+1,admin,02:46:38 pm,-Login successful-
+1,admin,03:38:17 pm,-View Software Listing PAGE:1-
+1,admin,03:38:23 pm,-View Software Listing PAGE:48-
+1,admin,03:38:27 pm,-DELETE SOFTWARE [1027]-
+1,admin,03:38:29 pm,-View Software Listing PAGE:1-
+1,admin,03:38:35 pm,-View Software Listing PAGE:48-
+1,admin,03:39:58 pm,-View Software Listing PAGE:47-
+1,admin,03:40:03 pm,-View Software Listing PAGE:48-

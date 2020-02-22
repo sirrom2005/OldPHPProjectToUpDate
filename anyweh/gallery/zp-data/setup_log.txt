@@ -1,0 +1,14 @@
+Zenphoto Setup v1.3.1.2[5831] Sun, 24 Oct 2010 02:44:45 +0000
+Query error: Access denied for user 'SYSTEM'@'localhost' (using password: NO)
+warn: PHP <code>gettext()</code> support [is not present] Localization of Zenphoto currently requires native PHP <code>gettext()</code> support
+warn: PHP <code>mbstring</code> package [Your internal character set is <strong>ISO-8859-1</strong>] Setting <em>mbstring.internal_encoding</em> to <strong>UTF-8</strong> in your <em>php.ini</em> file is recommended to insure accented and multi-byte characters function properly.
+warn: File/Folder Permissions [are <em>loose</em> (<code>0777</code>)] <p>If file and folder permissions are not set to <em>strict</em> or tighter there could be a security risk. However, on some servers Zenphoto does not function correctly with tight file/folder permissions. If Zenphoto has permission errors, run setup again and select a more relaxed permission.</p><form action="#">Change file/folder permissions mask: <select id="chmod_permissions" name="chmod_permissions" onchange="this.form.submit()">	<option value="0">strict+ (0750)</option>	<option value="1">strict (0755)</option>	<option value="2">relaxed (0775)</option>	<option value="3" selected="selected">loose (0777)</option></select></form><br />
+Post of MySQL credentials
+warn: PHP <code>gettext()</code> support [is not present] Localization of Zenphoto currently requires native PHP <code>gettext()</code> support
+warn: PHP <code>mbstring</code> package [Your internal character set is <strong>ISO-8859-1</strong>] Setting <em>mbstring.internal_encoding</em> to <strong>UTF-8</strong> in your <em>php.ini</em> file is recommended to insure accented and multi-byte characters function properly.
+warn: File/Folder Permissions [are <em>loose</em> (<code>0777</code>)] <p>If file and folder permissions are not set to <em>strict</em> or tighter there could be a security risk. However, on some servers Zenphoto does not function correctly with tight file/folder permissions. If Zenphoto has permission errors, run setup again and select a more relaxed permission.</p><form action="#">Change file/folder permissions mask: <select id="chmod_permissions" name="chmod_permissions" onchange="this.form.submit()">	<option value="0">strict+ (0750)</option>	<option value="1">strict (0755)</option>	<option value="2">relaxed (0775)</option>	<option value="3" selected="selected">loose (0777)</option></select></form><br />
+Completed system check
+Setup cookie test successful
+Notice: "Module mod_rewrite" is working. The Zenphoto option "mod_rewrite" will be set to "enabled".
+Completed system check
+Setup cookie test unsuccessful

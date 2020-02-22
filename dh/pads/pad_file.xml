@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.38 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Brother Technology, Inc.</Company_Name>
+		<Address_1/>
+		<Address_2/>
+		<City_Town>Beijing</City_Town>
+		<State_Province/>
+		<Zip_Postal_Code/>
+		<Country>China</Country>
+		<Company_WebSite_URL>http://www.aptedit.com/index.htm</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>David</Author_First_Name>
+			<Author_Last_Name>Cheng</Author_Last_Name>
+			<Author_Email>davidcheng@aptedit.com</Author_Email>
+			<Contact_First_Name>David</Contact_First_Name>
+			<Contact_Last_Name>Cheng</Contact_Last_Name>
+			<Contact_Email>davidcheng@aptedit.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@aptedit.com</Sales_Email>
+			<Support_Email>support@aptedit.com</Support_Email>
+			<General_Email>feedback@aptedit.com</General_Email>
+			<Sales_Phone/>
+			<Support_Phone/>
+			<General_Phone/>
+			<Fax_Phone>+86 (10)8155 7251</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>AptEdit</Program_Name>
+		<Program_Version>5.3</Program_Version>
+		<Program_Release_Month>08</Program_Release_Month>
+		<Program_Release_Day>10</Program_Release_Day>
+		<Program_Release_Year>2009</Program_Release_Year>
+		<Program_Cost_Dollars>34.95</Program_Cost_Dollars>
+		<Program_Cost_Other_Code/>
+		<Program_Cost_Other/>
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>1) Add option to find / replace text in selected text. 2) Replace Windows Notepad. 3) Restore Windows Notepad. 4) Add option to print the text ruler when printing. 5) Optimizes the syntax highlighting for C/C++. 6) Improves the setting of Keyboard mapping. 7) Improves the Search tool bar.</Program_Change_Info>
+		<Program_Specific_Category>Development Tools</Program_Specific_Category>
+		<Program_Category_Class>Development::Source Editors</Program_Category_Class>
+		<Program_System_Requirements>IE4.0</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>2792109</File_Size_Bytes>
+			<File_Size_K>2726</File_Size_K>
+			<File_Size_MB>2.66</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>30</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info/>
+			<Expire_Month/>
+			<Expire_Day/>
+			<Expire_Year/>
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>text editor, HEX editor, HTML editor, terminal editor, notepad, diff, compare, binary template, color picker, hash, FTP, SFTP, SSH</Keywords>
+			<Char_Desc_45>Full-featured text, HEX, HTML, Program editor</Char_Desc_45>
+			<Char_Desc_80>Swiss Army Knife of editors - text, HEX, terminal, Programmers Editor.</Char_Desc_80>
+			<Char_Desc_250>AptEdit  is a full-featured text, hexadecimal, drive, and web editor. It offers many powerful features to view and edit just about any text or binary file, and it's an excellent source editor for Web page authors, developers, and programmers.</Char_Desc_250>
+			<Char_Desc_450>AptEdit is the Swiss Army Knife of code editors. The ideal text editor, HEX editor, HTML editor and terminal editor for Windows.  It offers many powerful features to view and edit just about any text or binary file, and it's an excellent source editor for Web page authors, developers, and programmers. AptEdit can be installed on FLASH or other portable drives.  All user configurations are saved in the portable drive.</Char_Desc_450>
+			<Char_Desc_2000>AptEdit is the Swiss Army Knife of code editors. The ideal text editor, HEX editor, HTML editor and terminal editor for Windows.  It offers many powerful features to view and edit just about any text or binary file, and it's an excellent source editor for Web page authors, developers, and programmers. AptEdit can be installed on FLASH or other portable drives.  All user configurations are saved in the portable drive.  You can carry AptEdit with you wherever your travels or business take you and run it on almost any computer.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.aptedit.com/texteditor.htm</Application_Info_URL>
+			<Application_Order_URL>http://www.aptedit.com/order.htm</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.aptedit.com/images/text_edit.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.aptedit.com/images/aptedit.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.aptedit.com/pad_file.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.aptedit.com/download/aesetup.zip</Primary_Download_URL>
+			<Secondary_Download_URL/>
+			<Additional_Download_URL_1/>
+			<Additional_Download_URL_2/>
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>You may copy the evaluation version of this software and documentation as you wish, and give exact copies of the original evaluation version to anyone, and distribute the evaluation version of the software and documentation in its unmodified form via electronic means. But you should not charge or requesting donations for any such copies however made and from distributing the software and/or documentation with other products without the author's written permission.</Distribution_Permissions>
+		<EULA>NO WARRANTY
+APTEDIT IS SOLD "AS IS" AND WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+
+Evaluation and Registration
+AptEdit is not free software. You may use this software for evaluation purposes without charge for a period of 30 days. If you use this software after the 30 day evaluation period, you must pay registration fee.
+
+Registered version
+One registered copy of AptEdit may either be used by a single person who uses the software personally on one or more computers, or installed on a single workstation used non-simultaneously by multiple people, but not both. You may access the registered version of AptEdit through a network, provided that you have obtained individual licenses for the software covering all workstations that will access the software through the network.
+</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.4</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page/>
+		<Affiliates_Avangate_Order_Page/>
+		<Affiliates_Avangate_Vendor_ID/>
+		<Affiliates_Avangate_Product_ID/>
+		<Affiliates_Avangate_Maximum_Commission_Rate/>
+		<Affiliates_BMTMicro_Order_Page/>
+		<Affiliates_BMTMicro_Vendor_ID/>
+		<Affiliates_BMTMicro_Product_ID/>
+		<Affiliates_BMTMicro_Maximum_Commission_Rate/>
+		<Affiliates_Cleverbridge_Order_Page/>
+		<Affiliates_Cleverbridge_Vendor_ID/>
+		<Affiliates_Cleverbridge_Product_ID/>
+		<Affiliates_Cleverbridge_Maximum_Commission_Rate/>
+		<Affiliates_clixGalore_Order_Page/>
+		<Affiliates_clixGalore_Vendor_ID/>
+		<Affiliates_clixGalore_Product_ID/>
+		<Affiliates_clixGalore_Maximum_Commission_Rate/>
+		<Affiliates_CommissionJunction_Order_Page/>
+		<Affiliates_CommissionJunction_Vendor_ID/>
+		<Affiliates_CommissionJunction_Product_ID/>
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate/>
+		<Affiliates_DigiBuy_Order_Page/>
+		<Affiliates_DigiBuy_Vendor_ID/>
+		<Affiliates_DigiBuy_Product_ID/>
+		<Affiliates_DigiBuy_Maximum_Commission_Rate/>
+		<Affiliates_DigitalCandle_Order_Page/>
+		<Affiliates_DigitalCandle_Vendor_ID/>
+		<Affiliates_DigitalCandle_Product_ID/>
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate/>
+		<Affiliates_Emetrix_Order_Page/>
+		<Affiliates_Emetrix_Vendor_ID/>
+		<Affiliates_Emetrix_Product_ID/>
+		<Affiliates_Emetrix_Maximum_Commission_Rate/>
+		<Affiliates_eSellerate_Order_Page/>
+		<Affiliates_eSellerate_Vendor_ID/>
+		<Affiliates_eSellerate_Product_ID/>
+		<Affiliates_eSellerate_Maximum_Commission_Rate/>
+		<Affiliates_Kagi_Order_Page/>
+		<Affiliates_Kagi_Vendor_ID/>
+		<Affiliates_Kagi_Product_ID/>
+		<Affiliates_Kagi_Maximum_Commission_Rate/>
+		<Affiliates_LinkShare_Order_Page/>
+		<Affiliates_LinkShare_Vendor_ID/>
+		<Affiliates_LinkShare_Product_ID/>
+		<Affiliates_LinkShare_Maximum_Commission_Rate/>
+		<Affiliates_NorthStarSol_Order_Page/>
+		<Affiliates_NorthStarSol_Vendor_ID/>
+		<Affiliates_NorthStarSol_Product_ID/>
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate/>
+		<Affiliates_OneNetworkDirect_Order_Page/>
+		<Affiliates_OneNetworkDirect_Vendor_ID/>
+		<Affiliates_OneNetworkDirect_Product_ID/>
+		<Affiliates_OneNetworkDirect_Maximum_Commission_Rate/>
+		<Affiliates_Order1_Order_Page/>
+		<Affiliates_Order1_Vendor_ID/>
+		<Affiliates_Order1_Product_ID/>
+		<Affiliates_Order1_Maximum_Commission_Rate/>
+		<Affiliates_Osolis_Order_Page/>
+		<Affiliates_Osolis_Vendor_ID/>
+		<Affiliates_Osolis_Product_ID/>
+		<Affiliates_Osolis_Maximum_Commission_Rate/>
+		<Affiliates_Plimus_Order_Page/>
+		<Affiliates_Plimus_Vendor_ID/>
+		<Affiliates_Plimus_Product_ID/>
+		<Affiliates_Plimus_Maximum_Commission_Rate/>
+		<Affiliates_Regnet_Order_Page/>
+		<Affiliates_Regnet_Vendor_ID/>
+		<Affiliates_Regnet_Product_ID/>
+		<Affiliates_Regnet_Maximum_Commission_Rate/>
+		<Affiliates_Regnow_Order_Page>https://www.regnow.com/softsell/nph-softsell.cgi?item=14802-2</Affiliates_Regnow_Order_Page>
+		<Affiliates_Regnow_Vendor_ID>14802</Affiliates_Regnow_Vendor_ID>
+		<Affiliates_Regnow_Product_ID>14802-2</Affiliates_Regnow_Product_ID>
+		<Affiliates_Regnow_Maximum_Commission_Rate>30%</Affiliates_Regnow_Maximum_Commission_Rate>
+		<Affiliates_Regsoft_Order_Page/>
+		<Affiliates_Regsoft_Vendor_ID/>
+		<Affiliates_Regsoft_Product_ID/>
+		<Affiliates_Regsoft_Maximum_Commission_Rate/>
+		<Affiliates_ShareIt_Order_Page/>
+		<Affiliates_ShareIt_Vendor_ID/>
+		<Affiliates_ShareIt_Product_ID/>
+		<Affiliates_ShareIt_Maximum_Commission_Rate/>
+		<Affiliates_Shareasale_Order_Page/>
+		<Affiliates_Shareasale_Vendor_ID/>
+		<Affiliates_Shareasale_Product_ID/>
+		<Affiliates_Shareasale_Maximum_Commission_Rate/>
+		<Affiliates_SWReg_Order_Page/>
+		<Affiliates_SWReg_Vendor_ID/>
+		<Affiliates_SWReg_Product_ID/>
+		<Affiliates_SWReg_Maximum_Commission_Rate/>
+		<Affiliates_V-Share_Order_Page/>
+		<Affiliates_V-Share_Vendor_ID/>
+		<Affiliates_V-Share_Product_ID/>
+		<Affiliates_V-Share_Maximum_Commission_Rate/>
+		<Affiliates_VFree_Order_Page/>
+		<Affiliates_VFree_Vendor_ID/>
+		<Affiliates_VFree_Product_ID/>
+		<Affiliates_VFree_Maximum_Commission_Rate/>
+		<Affiliates_Yaskifo_Order_Page/>
+		<Affiliates_Yaskifo_Vendor_ID/>
+		<Affiliates_Yaskifo_Product_ID/>
+		<Affiliates_Yaskifo_Maximum_Commission_Rate/>
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number/>
+	</ASP>
+</XML_DIZ_INFO>

@@ -1,0 +1,195 @@
+<head>
+<link href="../../../raxan/ui/css/master.css" rel="stylesheet" type="text/css">
+<link href="../../../raxan/ui/css/master-ui.css" rel="stylesheet" type="text/css">
+<link href="../../../raxan/ui/css/master.ie.css" rel="stylesheet" type="text/css">
+</head>
+
+<script LANGUAGE="Javascript" type="text/Javascript">
+    <!--
+    Raxan.ready(function(){
+        $('.dtPicker').datepicker({
+            dateFormat:'yy-mm-dd',
+            changeMonth: true,
+            changeYear: true
+        });
+
+        $('#startDateImg').click(function(){
+            $("#startDate").datepicker('show');
+        });
+
+        $('#endDateImg').click(function(){
+            $("#endDate").datepicker('show');
+        });
+        
+        $('#show-hide').click(function() {
+            var on = 'views/images/plus.gif';
+	        var off = 'views/images/minus.gif';
+
+        	d = $('#accountDetails');
+	        d.toggle();
+	        img = (d.css('display')=='none') ?  on : off;
+	        $('#show-hide-img').attr('src',img);
+
+        });
+    });
+    //-->
+</script>
+<h2 langid="account.detail.heading">Account Details and Transaction History</h2>
+<hr>
+
+<div>
+    <div id="errorList"></div>
+    <form action="" >
+                <input type="hidden" id="productType" name="productType" value="=">
+        <div style="width: 700px" >
+            <div class="left ctrl-pad">
+                <label langid="account.details.account">Account</label>
+                <select id="account" name="account"  class="select c24" xt-bind="change,findTransactions">
+                    <option value="{AccountIndex}">{AccountNo}-{AccountName}</option>
+                </select>
+                &nbsp;<img id="show-hide-img" src="views/images/plus.gif"/>&nbsp;
+                    <a href="javascript:;" id="show-hide"><span langid="show-hide">Show/Hide</span></a>
+                </div>
+        </div>
+        <div style="width: 700px; display:none" id="accountDetails">
+        	 	<table style="width: 100%" cellspacing="1">
+				<tr>
+					<td nowrap><img src="views/images/yellow_bullet.gif">&nbsp;Account No:&nbsp;<b>{AccountNo} - {AccountDescription}</b></td>
+					<td ><div align="right">Signing Instructions : <b>{SigningInstructiions}</b></div></td>
+				</tr>
+				<tr>
+					<td style="vertical-align:top" colspan="2">
+                    <table border="0" cellspacing="0" width="100%"  class="border" id="accountTotals">
+                        <tr >
+                            <td style="text-align:left"><label langid="account.balance.current">Current 
+							Balance:</label></td>
+                            <td style="text-align:right">{Currency} {CurrentBalance}</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:left"><label langid="account.balance.uncleared">Uncleared Funds:</label></td>
+                            <td style="text-align:right">({Currency} {UnclearedBalance})</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:left"><label langid="account.balance.liens">Liens on Account:</label></td>
+                            <td style="text-align:right">({Currency} {LiensBalance})</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left"><label langid="account.balance.available">Available 
+							Balance:</label></td>
+                            <td style="text-align:right">{Currency} {AvailableBalance}</td>
+                        </tr>
+                    </table></td>
+				</tr>
+				<tr>
+					<td style="vertical-align:top" colspan="2">
+	                    <div id="AssetList" class="border">{AssetList}</div>
+                    		</td>
+				</tr>
+			</table>
+        </div>
+        <br>
+        <div style="width: 700px" >
+            <div class="left ctrl-pad">
+                <label langid="account.details.search.details">Transaction Details</label>
+                <input type="text" id="details" name="details" class="textbox" style="width: 554px"/>
+            </div>
+            <br>
+
+
+            <div class="left c20 ctrl-pad">
+                <label langid="startdate">Starting Date</label>
+                <input type="text" id="startDate" name="startDate" class="textbox dtPicker" style="width: 154px"/>
+                <img id="startDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+            <div class="left ctrl-pad c15">
+                <label langid="account.details.search.sortby">Sort By</label>
+                <select id="sortBy" name="sortBy" class="select c8">
+                  <option value="srtdate">Transaction Date</option>
+                  <option value="srttype">Transaction Type</option>
+                  <option value="srtdetail" >Transaction Detail</option>
+                  <option value="srtamount" >Amount</option>
+                </select>
+            </div>
+            <br>
+            <div class="left ctrl-pad c20">
+                <label langid="enddate">Ending Date</label>
+                <input type="text" id="endDate" name="endDate"  class="textbox click-cursor dtPicker" style="width: 154px"/>
+                <img id="endDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+
+            <div class="left ctrl-pad c15">
+                <label langid="account.details.search.sortorder">Sort Order</label>
+                <select id="sortOrder" name="sortOrder" class="select c8">
+                  <option value="ASC">Ascending</option>
+                  <option value="DESC" >Descending</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="left c20 ctrl-pad">
+            </div>
+
+            <div class="left c15 ctrl-pad">
+                <label langid="account.details.search.transactioncnt">No. of Transactions</label>
+                <input type="text" id="noOfTransactions" name="noOfTransactions"  class="textbox" style="width: 154px"/>
+            </div>
+
+            <br>
+
+            <div style="margin-top:15px; margin-right: 10px" align="right">
+                <input langid="account.details.submit"type="submit" name="find" class="button process" xt-bind="click, findTransactions" value="Find Transactions"/>
+                &nbsp;
+                <input langid="account.details.undochanges" type="reset" name="reset" class="button" value="Undo Changes"/>
+            	&nbsp;</div>
+        </div>
+    </form>
+
+    <br>
+
+    <hr>
+
+    <div id="resultsArea" >
+        <table width="100%" border="0" cellspacing="0" class="moneyline-listing">
+            <thead>
+                <tr class="pre-header">
+                    <td colspan="8" style="text-align: right">
+                        <span id="downloadFrame"></span>
+                        <strong<label langid="downloadto">Download to CSV:</label></strong>
+                        <button id="downloadAction"  class="button ok" xt-bind="#click, executeDownload">Go</button>
+                    </td>
+                </tr>
+                <tr class="header">
+                    <td><label langid="" class="bold" style="white-space: nowrap">
+					Transaction Date</label></td>
+                    <td><span langid="" class="bold">Transaction Type</span></td>
+                    <td><span langid="" class="bold">Branch</span></td>
+                    <td class="bold">Transaction Details</td>
+                    <td style="text-align: right">
+                        <label langid="" class="bold">Cheque Amount</label></td>
+                    <td style="text-align: right">
+                        <label langid="" class="bold">Commission</label></td>
+                    <td style="text-align: right">
+                        <label langid="" class="bold">GCT Amount</label></td>
+                    <td style="text-align: right">
+                        <label langid="" class="bold">Total Amount</label>
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="searchResults">
+                <tr>
+                    <td>{transactionDate}</td>
+                    <td>{transactionType}</td>
+                    <td>{branchName}</td>
+                    <td>{payeeName}</td>
+                    <td style="text-align: right;">
+					{checkAmount}</td>
+                    <td style="text-align: right;">
+					{commission}</td>
+                    <td style="text-align: right;">
+					{GCTAmount}</td>
+                    <td style="text-align: right;">{transactionAmount}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

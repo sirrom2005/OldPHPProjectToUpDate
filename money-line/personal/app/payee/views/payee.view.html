@@ -1,0 +1,64 @@
+<head>
+<link href="../../../raxan/ui/css/master.css" rel="stylesheet" type="text/css">
+<link href="../../../raxan/ui/css/master-ui.css" rel="stylesheet" type="text/css">
+<link href="../../../raxan/ui/css/master.ie.css" rel="stylesheet" type="text/css">
+</head>
+
+<script LANGUAGE="Javascript" type="text/Javascript">
+    <!--
+    Raxan.ready(function(){
+        $('.dtPicker').datepicker({
+            dateFormat:'yy-mm-dd',
+            changeMonth: true,
+            changeYear: true
+        });
+
+        $('#startDateImg').click(function(){
+            $("#startDate").datepicker('show');
+        });
+
+        $('#endDateImg').click(function(){
+            $("#endDate").datepicker('show');
+        });
+        
+        $('#show-hide').click(function() {
+            var on = 'views/images/plus.gif';
+	        var off = 'views/images/minus.gif';
+
+        	d = $('#accountDetails');
+	        d.toggle();
+	        img = (d.css('display')=='none') ?  on : off;
+	        $('#show-hide-img').attr('src',img);
+
+        });
+    });
+    //-->
+</script>
+<h3 langid="account.detail.heading">Payee Maintenance</h3>
+<hr>
+
+<div>
+    <div id="errorList"></div>
+    <form action="" >
+        <div style="width: 100%" >
+        	<table style="width: 100%" id="payeeListing" cellpadding="0" cellspacing="0" border="0">
+				<tr class="payeeRow">
+					<td width="90%">{payeeName}</td>
+					<td>edit <input type="checkbox" id=""></td>
+				</tr>
+			</table>
+		
+
+        </div>
+    </form>
+
+
+    <hr>
+
+    <div style="margin-top:5px; margin-right: 10px" align="right">
+        <input langid="account.details.submit"type="submit" name="find" class="button process" xt-bind="click, findTransactions" value="Add Payee"/>
+        &nbsp;
+        <input langid="account.details.undochanges" type="reset" name="reset" class="button" value="Delete Selected Payees"/>
+    	&nbsp;
+    </div>
+</div>

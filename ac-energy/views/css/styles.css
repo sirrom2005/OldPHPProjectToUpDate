@@ -1,0 +1,82 @@
+html,body{font-size:101%;}
+h2{ font-weight:bold; color:#5998ff;}
+h3{ margin:0; padding:0;}
+label{padding:5px;background-color:#666;color:#fff6bf;font-weight:bold;font-size:1em;display:inline-block;margin:1px 5px 0 0;vertical-align:top;width:230px;border:outset 1px #000;}
+.labelNoSTyle{padding:0;background-color:#FFF;color:#000;font-weight:normal;font-size:1em;display:inline-block;margin:0;width:auto;border:0;}
+form .textbox{padding:5px;width:200px;width:250px;}
+select.textbox{width:262px;}
+form{display:block;max-width:600px;}
+form p{margin:0 0 5px 0;}
+fieldset,legend{
+	background-color:#FFF;
+	border:solid 1px #CCC;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+fieldset{padding-top:5px;}
+textarea.textbox{height:90px;}
+.button{font-weight:bold; padding:5px 10px; height:35px;}
+caption{ font-weight:bold;}
+#flashfrm{margin-bottom:5px;}
+.container{}
+.edit{background:url(../images/application_form_edit.png) no-repeat 0 0; display:inline-block; height:16px; width:16px;}
+.remove{background:url(../images/delete.png) no-repeat 0 0; display:inline-block; height:16px; width:16px;}
+.pdf,.pdfpreview{background:url(../images/pdf.png) no-repeat 0 0; display:inline-block; height:16px; width:16px;}
+.email{background:url(../images/email.png) no-repeat 0 0; display:inline-block; height:16px; width:16px;}
+.preview{background:url(../images/preview.png) no-repeat 0 0; display:inline-block; height:16px; width:16px;}
+.sectiondiv{ padding:5px;}
+.sectiondiv .editsec{float:right;display:none;border:solid 1px #333;padding:3px;background-color:#333;color:#FFF;}
+.sectiondiv:hover .editsec{display:block;}
+.sectiondiv:hover{background-color:#CCC; border:solid 1px #999;}
+.page-header ul { margin:0; list-style:none; }
+.page-header ul li{float:left;margin:0 10px 0 0;}
+.page-header ul li a{color:#fff;font-size:1.12em;padding:2px 5px }
+.page-header ul li a:hover{background-color:#FFF;color:#000;text-decoration: none}
+
+#frmlogin{margin:0 auto;display:block;max-width:700px;}
+#frmlogin label,#frmlogin .textbox{width:100%;}
+#topmenu{float:right;color:#FFF;margin:15px 15px 0 0;}
+#topmenu a{color:#FFF;}
+#topmenu a:hover{color:#f00;}
+#imgloader{
+	padding:5px 10px;
+	width:180px;
+	text-align:center;
+	font-weight:bold;
+	position:fixed;
+	margin-top:70px;
+	margin-left:27%;
+	z-index:99999; 
+	border:solid 2px #000;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-box-shadow:   0 0 15px 0px #000;
+	-webkit-box-shadow: 0 0 15px #000;
+}
+#namelist{display:block;}
+#namelist ul{
+	position:absolute;
+	z-index:10;
+	margin-left:220px;
+	padding:0;
+	width:250px;
+	border:solid 1px #e6e7e8;
+	background-color:#FFF;
+	box-shadow:0 0 10pt 0 rgba(105,105,105,0.5);
+}
+#namelist ul li{margin:0;padding:4px;list-style:none;}
+#namelist ul li a{display:block; text-decoration:none;}
+#namelist ul li a:hover{font-weight:bold;}
+#namelist ul li.even{background-color:#e5ecf9;}
+#imgloader{border:solid 1px #a8c1f4;background-color:#eef1f6;}
+.paginate{ margin-right:5px; padding:5px; display:inline-block;}
+/* Only Phones (Portrait) */
+@media (max-width:630px) {
+ 	label{display:block;margin-bottom:3px;}
+	form textarea,form .textbox,form label{width:100%;}
+	/*.rax-toolbar-pal li{display:block;width:100%;text-align:center;}*/
+}

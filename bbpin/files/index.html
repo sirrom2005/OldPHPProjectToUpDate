@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<style>
+body,h1,p,ol,ul,li,h2,h3{margin:0;padding:0;list-style:none;font-family:Arial;}
+body{background-color:#FFFFFF;}
+a{color:#3399CC;font-size:0.9em;}
+a:hover{text-decoration:none;}
+br{clear:both;}
+#header{ background-color:#000000; color:#FFFFFF; margin-bottom:8px; box-shadow:0 0 15pt 0 rgba(105,105,105,0.5);}
+#header div{width:785px; margin:0 auto;}
+#topLink{float:right;font-size:0.8em;text-align:right; padding-top:10px;}
+#topLink a{color:#FFFFFF;text-decoration:none;}
+#topLink a:hover{text-decoration:underline;}
+#logo{float:left;text-decoration:none; color:#FFFFFF; font-weight:bold; font-size:1.2em; padding:9px 0 0 5px;}
+#menu li{float:left;margin-top:20px;}
+#menu li a{display:block;border:solid 1px #FFFFFF;border-bottom:0;border-left:0;padding:3px 5px;color:#fff;font-size:0.75em;font-weight:bold;text-decoration:none;}
+#menu li a:hover{background-color:#FFFFFF;color:#000;}
+#menu li a.highlight{background-color:#FF0000; color:#000000;}
+#container{width:785px;margin:0 auto;}
+#content{width:500px;}
+#box{background-color:#e7ebf2;box-shadow:0 0 5pt 0 rgba(105,105,105,0.5);border:solid 1px #CCCCCC; padding:5px;}
+#infobar{width:250px; height:450px;float:right;padding:5px;border:solid 1px #CCCCCC; background-color:#e7ebf2;box-shadow:0 0 5pt 0 rgba(105,105,105,0.5); }
+#smallBanner{ width:468px; height:60px; background-color:#000000; margin:8px auto;}
+#leaderboard{width:728px;height:90px;display:block;margin:5px auto; background-color:#000000;}
+#footer{text-align:center; margin:20px 0 45px 0; font-size:0.7em;}
+#commBar{
+	background-color:#00c;
+	border-top:solid 1px #CCCCCC;
+	color:#000000;
+	font-size:0.8em;
+	position:fixed;
+	width:100%;
+	box-shadow:0 0 15pt 0 rgba(105,105,105,0.5);
+	z-index:45;
+	bottom:0;
+}
+#commBar a{color:#fff;text-decoration:none;}
+#commBar a:hover{text-decoration:underline;}
+#commBar td{width:33%; padding:0 5px;}
+</style>
+<body>
+<div id="header">
+	<a href="#" title="Go to home page" id="logo">JUSBBMPINS</a>
+	<div>
+    	<span id="topLink">
+        	<b>Hello jack!,</b> <a href="http://127.0.0.1/bbpin/change-password.html">Change Password</a> &bull; <a href="logout.php">Logout</a>
+        </span>
+        <a href="http://127.0.0.1/bbpin/" title="Go to jusbbmpins.com home page" class="logo"></a>
+        <ul id="menu">
+            <li style="border-left:solid 1px #FFFFFF;"><a href="http://127.0.0.1/bbpin/">Home</a></li>
+            <li><a href="http://127.0.0.1/bbpin/find-bbm-contact.html">Find BBM-Pins</a></li>
+            <li><a href="http://127.0.0.1/bbpin/find-bbm-groups.html">Find Groups</a></li>
+            <li><a href="http://127.0.0.1/bbpin/messages.html" class="" >Messages</a></li>
+            <li><a href="http://127.0.0.1/bbpin/pin-request.html">Pin Request</a></li>
+            <li><a href="http://127.0.0.1/bbpin/profile.html">My Profile</a></li>
+        </ul>
+        <br />
+    </div>
+</div>
+<div id="container">
+    <div id="infobar">
+    	<div style="width:250px;height:250px; background-color:#0000FF;"></div>
+    </div>
+    <div id="content">
+        <div id="box">content</div>
+        <div id="smallBanner"></div>
+        <div id="box">content</div>
+    </div>
+    <br/>
+</div>
+<div id="footer">
+    <a href="http://127.0.0.1/bbpin/about-us.htm">About</a> • <a href="http://127.0.0.1/bbpin/faqs.htm">FAQs</a> • <a href="http://127.0.0.1/bbpin/privacy-policy.htm">Privacy Policy</a> • <a href="http://127.0.0.1/bbpin/terms.htm">Terms &amp; Conditions</a> • <a href="http://127.0.0.1/bbpin/feedback.htm">Feedback/Suggestion</a> • <a href="http://127.0.0.1/bbpin/contact-us.htm">Contact Us</a> <br />
+    jusbbmpins.com © 2012
+</div>
+<div id="commBar">
+	<table>
+    	<tr>
+        	<td>
+                languages
+                <a class="en" onClick="setLang('en');" title="view in website english">english</a>
+                <a class="es" onClick="setLang('es');" title="view in website spanish">spanish</a>
+                <a class="fr" onClick="setLang('fr');" title="view in website french" >french</a>
+            </td>
+            <td style="text-align:center; height:30px;">&nbsp;</td>
+            <td>
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style ">
+                <a class="addthis_button_facebook_like"></a>
+                <a class="addthis_button_tweet"></a>
+                <a class="addthis_button_pinterest_pinit"></a>
+                <a class="addthis_counter addthis_pill_style"></a>
+                </div>
+                <!-- AddThis Button END -->
+            </td>
+        </tr>
+    </table>    
+</div>
+</body>
+</html>

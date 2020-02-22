@@ -1,0 +1,4 @@
+date	requestor's IP	type	user ID	user name	outcome	authority	additional information
+2010-10-24 02:46:08	127.0.0.1	Request add user			Success	zp_admin	admin
+2010-10-24 02:46:08	127.0.0.1	Blocked access			Failed		/zp-core/admin-users.php%3Fsaved%3D%26page%3Dusers%26show-admin%3D
+2010-10-24 02:46:11	127.0.0.1	Back-end	admin	admin	Success	zp_admin

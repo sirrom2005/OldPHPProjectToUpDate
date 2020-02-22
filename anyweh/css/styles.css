@@ -1,0 +1,15 @@
+#includes{ border:solid 1px #f4f4f4; width:788px; float:right;}
+h1{font-size:1.3em; color:#CC0000; padding-bottom:10px; border-bottom:solid 1px #CC0000;}
+ol{ margin:5px;}
+ol li h3{ font-size:1.1em; color:#CC0000; margin:0 0 0 -10px;}
+ol li{padding:3px 0 3px 10px; list-style:square; list-style-position:inside;}
+ol li.nostyle{ list-style:none;}
+.note{ border:inset 1px #cc0000; background-color:#FDDEDB; color:#000000; margin:20px; padding:5px; font-size:1em; line-height:1.1em;}
+.input{width:350px;}
+textarea{width:350px; height:120px;}
+label{background-color:#f4f4f4; padding:4px; cursor:pointer; display:block; border:inset 1px #333333; font-weight:bold; color:#000000;}
+label:hover{background-color:#FDDEDB; }
+.erro{color:#cc0000;}
+.erro div{ color:#cc0000; padding:4px; margin-bottom:3px; border-left:solid 3px #cc0000;}
+.message{font-weight:bold; padding:4px; border-left:solid 3px #cc0000;}
+.captcha{ border:solid 1px #000000; height:20px; padding:0; margin:0;}

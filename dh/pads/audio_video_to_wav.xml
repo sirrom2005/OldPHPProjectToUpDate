@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.02</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 2.0.2.30 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>DigitByte Studio</Company_Name>
+		<Address_1>888 Road FaCai</Address_1>
+		<Address_2/>
+		<City_Town>Huifeng</City_Town>
+		<State_Province>Xingjiang</State_Province>
+		<Zip_Postal_Code>439687</Zip_Postal_Code>
+		<Country>China</Country>
+		<Company_WebSite_URL>http://www.321slideshow.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>DigitByte</Author_First_Name>
+			<Author_Last_Name>Studio</Author_Last_Name>
+			<Author_Email>affiliate@321slideshow.com</Author_Email>
+			<Contact_First_Name>DigitByte</Contact_First_Name>
+			<Contact_Last_Name>Studio</Contact_Last_Name>
+			<Contact_Email>affiliate@321slideshow.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>affiliate@321slideshow.com</Sales_Email>
+			<Support_Email>affiliate@321slideshow.com</Support_Email>
+			<General_Email>affiliate@321slideshow.com</General_Email>
+			<Sales_Phone>85632456987</Sales_Phone>
+			<Support_Phone>85632456987</Support_Phone>
+			<General_Phone>85632456987</General_Phone>
+			<Fax_Phone>85632456987</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Audio/Video To Wav Converter</Program_Name>
+		<Program_Version>1.21.03.0794</Program_Version>
+		<Program_Release_Month>08</Program_Release_Month>
+		<Program_Release_Day>10</Program_Release_Day>
+		<Program_Release_Year>2009</Program_Release_Year>
+		<Program_Cost_Dollars>25.00</Program_Cost_Dollars>
+		<Program_Cost_Other_Code>EUR</Program_Cost_Other_Code>
+		<Program_Cost_Other>23.00</Program_Cost_Other>
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win98,WinME,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate</Program_OS_Support>
+		<Program_Language>English,Chinese,ChineseSimplified,ChineseTraditional,French,German,Italian,Japanese,Portuguese,Spanish</Program_Language>
+		<Program_Change_Info/>
+		<Program_Specific_Category>Audio</Program_Specific_Category>
+		<Program_Category_Class>Audio &amp; Multimedia::Rippers &amp; Converters</Program_Category_Class>
+		<Program_System_Requirements>DirectX 9.0 or later</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>576302</File_Size_Bytes>
+			<File_Size_K>562</File_Size_K>
+			<File_Size_MB>0.55</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count/>
+			<Expire_Based_On>Either/Or</Expire_Based_On>
+			<Expire_Other_Info>Output not more than 1 minute of wave file.</Expire_Other_Info>
+			<Expire_Month/>
+			<Expire_Day/>
+			<Expire_Year/>
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>AVI to WAV, VCD to WAV, MPEG to WAV, WMV to WAV, ASF to WAV, OGM to WAV, DIVX to WAV, DAT to WAV, M4A to WAV, WMA to WAV, AC3 to WAV, OGG to WAV, MPA to WAV, MP2 to WAV, AU to WAV, AIF to WAV, SND to WAV, XviD to WAV, MPEG2 to WAV, VOB to WAV</Keywords>
+			<Char_Desc_45>Convert audio and video to wav file.</Char_Desc_45>
+			<Char_Desc_80>It is an easy-to-use tool for converting audio and video to wav file.</Char_Desc_80>
+			<Char_Desc_250>It can convert almost all kinds of audio and video files to a wav file. With the build-in multimedia player, you can preview the media file, set start time and end time, convert any audio section of the file without quality loss.</Char_Desc_250>
+			<Char_Desc_450>Audio/Video To Wav Converter is an easy-to-use tool for converting almost all kinds of audio and video files to a wav file. With the build-in multimedia player, you can preview the media file, set start time and end time, convert any audio section of the file without quality loss. The key features include: Convert AVI to WAV, VCD to WAV, MPEG to WAV, WMV to WAV, etc. Convert MP3 to WAV, WMA to WAV, M4A to WAV, OGG to WAV, etc.</Char_Desc_450>
+			<Char_Desc_2000>Audio/Video To Wav Converter is an easy-to-use tool for converting almost all kinds of audio and video files to a wav file. With the build-in multimedia player, you can preview the media file, set start time and end time, convert any audio section of the file without quality loss. The key features include: Convert AVI to WAV, VCD to WAV, MPEG to WAV, WMV to WAV, ASF to WAV, VOB to WAV, OGM to WAV, DIVX to WAV, DAT to WAV, SVCD to WAV, etc. Convert MP3 to WAV, WMA to WAV, AC3 to WAV, OGG to WAV, M4A to WAV, MPA to WAV, MP2 to WAV, AU to WAV, AIF to WAV, SND to WAV, etc. Split WAV file into smaller piece. Preview audio and video. Fast encode wav file with high quality. Support multilanguage.</Char_Desc_2000>
+		</English>
+		<French>
+			<Keywords>M4A en WAV, MP4 en WAV, AVI en WAV, VCD en WAV, MPEG en WAV, WMV en WAV, ASF en WAV, OGM en WAV, DIVX en WAV, DAT en WAV, WMA en WAV, AC3 en WAV, OGG en WAV, MPA en WAV, AU en WAV, AIF en WAV, MP2/SND en WAV, XviD en WAV, MPEG4 en WAV, VOB en WAV</Keywords>
+			<Char_Desc_45>Convertir audio et vidéo en fichier wav.</Char_Desc_45>
+			<Char_Desc_80>Convertir pratiquement tous les types de fichier audio et vidéo en fichier wav.</Char_Desc_80>
+			<Char_Desc_250>Convertir audio et vidéo en fichier wav. convertir MP3 en WAV, M4A en WAV, MP4 en WAV, AVI en WAV, MPEG en WAV, M4V en WAV, WMV en WAV, OGG en WAV, DAT en WAV, MPEG4 en WAV, OGM en WAV, MKV en WAV, MKA en WAV, etc.</Char_Desc_250>
+			<Char_Desc_450>Audio/Video To Wav Converter est un outil facile d’utilisation pour convertir pratiquement tous les types de fichier audio et vidéo en fichier wav. Convertir toute section audio du fichier sans perte de qualité. convertir MP3 en WAV, M4A en WAV, MP4 en WAV, AVI en WAV, MPEG en WAV, M4V en WAV, WMV en WAV, OGG en WAV, DAT en WAV, MPEG4 en WAV, OGM en WAV, MKV en WAV, MKA en WAV, Rapide codez le dossier de wav avec la haute qualité.</Char_Desc_450>
+			<Char_Desc_2000>Audio/Video To Wav Converter est un outil facile pour convertir presque toutes sortes de dossiers audio et visuels en dossier de wav.  Avec construire-dans des multimédia joueur, vous pouvez visionner les médias préalablement classez, heure de départ réglée et le temps de fin, convertissent n'importe quelle section audio du dossier sans perte de qualité. Les dispositifs principaux incluent:  convertir AVI en WAV, VCD en WAV, MPEG en WAV, WMV en WAV, ASF en WAV, VOB en WAV, OGM en WAV, DIVX en WAV, DAT en WAV, SVCD en WAV, M4V en WAV, etc... convertir MP3 en WAV, M4A en WAV, WMA en WAV, AC3 en WAV, OGG en WAV, MPA en WAV, MP2 en WAV, AU en WAV, AIF en WAV, SND en WAV, etc...  Coupez le dossier de WAV en plus petit morceau.  Visionnez l'acoustique et la vidéo préalablement. Rapide codez le dossier de wav avec la haute qualité.</Char_Desc_2000>
+		</French>
+		<German>
+			<Keywords>MP4 zu WAV, M4A zu WAV, AVI zu WAV, VCD zu WAV, MPEG zu WAV, WMV zu WAV, ASF zu WAV, OGM zu WAV, DIVX zu WAV, DAT zu WAV, WMA zu WAV, AC3 zu WAV, OGG zu WAV, MPA zu WAV, AU zu WAV, AIFF zu WAV, MP2/SND zu WAV, XviD zu WAV, MPEG4 zu WAV, VOB zu WAV</Keywords>
+			<Char_Desc_45>Video- und Audio in WAV-Dateien konvertieren.</Char_Desc_45>
+			<Char_Desc_80>Audio konverter - Video- und Audiodateien in WAV-Dateien zu konvertieren.</Char_Desc_80>
+			<Char_Desc_250>Audio/Video To WAV Converter ist ein audio konverter software. Es ist ein einfach zu nutzendes Werkzeug, um fast alle Arten von Video- und Audiodateien in WAV-Dateien zu konvertieren.</Char_Desc_250>
+			<Char_Desc_450>Es kann fast alle Arten Audio und video akten in eine wav Akte umwandeln. Mit errichten im Multimedia spieler, Sie können die Mittel akte vorher sehen, gesetzte Anlaßzeit und Ende Zeit, wandeln Sie jeden Audioabschnitt der Akte ohne Qualitätsverlust um. Die Schlüsseleigenschaften schließen ein: Bekehrter AVI zu WAV, VCD zu WAV, MPEG zu WAV, WMV zu WAV, MP4 en WAV usw.. Bekehrter MP3 zu WAV, WMA zu WAV, AC3 zu WAV, OGG zu WAV, M4A zu WAV usw.</Char_Desc_450>
+			<Char_Desc_2000>Es kann fast alle Arten Audio und video akten in eine wav Akte umwandeln. Mit errichten im Multimedia spieler, Sie können die Mittel akte vorher sehen, gesetzte Anlaßzeit und Ende Zeit, wandeln Sie jeden Audioabschnitt der Akte ohne Qualitätsverlust um. Die Schlüsseleigenschaften schließen ein: Bekehrter AVI zu WAV, VCD zu WAV, MPEG zu WAV, WMV zu WAV, MP4 en WAV usw.. Bekehrter MP3 zu WAV, WMA zu WAV, AC3 zu WAV, OGG zu WAV, M4A zu WAV usw.</Char_Desc_2000>
+		</German>
+		<Italian>
+			<Keywords>MP4 in WAV, M4A in WAV, AVI in WAV, VCD in WAV, MPEG in WAV, WMV in WAV, ASF in WAV, OGM in WAV, DIVX in WAV, DAT in WAV, WMA in WAV, AC3 in WAV, OGG in WAV, MPA in WAV, AU in WAV, AIF in WAV, SND in WAV, XviD in WAV, MPEG4 in WAV, VOB in WAV</Keywords>
+			<Char_Desc_45>Convertire video e audio in wav.</Char_Desc_45>
+			<Char_Desc_80>Convertire di quasi tutti i tipi di file video e audio in wav file.</Char_Desc_80>
+			<Char_Desc_250>Convertire video e audio in wav: Estrarre audio da MPEG AVI VCD WMV ASF OGM DIVX DAT MP4 M4V MPEG4 e salvarla in WAV, ecc. convertire M4A in WAV, MP3 in WAV, WMA in WAV, AC3 in WAV, OGG in WAV, MPA in WAV, MP2 in WAV, AU in WAV, AIF in WAV, ecc.</Char_Desc_250>
+			<Char_Desc_450>Audio/Video to WAV Converter è un tool user friendly che esegue la conversione di quasi tutti i tipi di file video e audio in wav file. Estrarre audio da MPEG AVI VCD WMV ASF OGM DIVX DAT MP4 M4V MPEG4 e salvarla in WAV, ecc. convertire audio in WAV: convertire M4A in WAV, MP3 in WAV, WMA in WAV, AC3 in WAV, OGG in WAV, MPA in WAV, MP2 in WAV, AU in WAV, AIF in WAV, SND in WAV, ecc. Suddividere un file WAV in più file di piccole dimensioni.</Char_Desc_450>
+			<Char_Desc_2000>Audio/Video to WAV Converter è un tool user friendly che esegue la conversione di quasi tutti i tipi di file video e audio in wav file. Con il player multimediale integrato, si può fare l’anteprima dei file multimediali, fissare l’orario d’inizio e di fine, convertire qualunque porzione dell’audio senza perdere la qualità. Tra le caratteristiche chiave: Estrarre audio da MPEG AVI VCD WMV ASF OGM DIVX DAT MP4 M4V MPEG4 e salvarla in WAV, ecc. convertire audio in WAV: convertire M4A in WAV, MP3 in WAV, WMA in WAV, AC3 in WAV, OGG in WAV, MPA in WAV, MP2 in WAV, AU in WAV, AIF in WAV, SND in WAV, ecc. Suddividere un file WAV in più file di piccole dimensioni. Fare un’anteprima dell’audio e del video. Codificare rapidamente file wav con elevate qualità.</Char_Desc_2000>
+		</Italian>
+		<Japanese>
+			<Keywords>MP4 を WAV, AVI を WAV, VCD を WAV, MPEG を WAV, WMV を WAV, ASF を WAV, OGM を WAV, DIVX を WAV, DAT を WAV, WMA を WAV, AC3 を WAV, OGG を WAV, MPA を WAV, AU を WAV, AIFF を WAV, SND を WAV, XviD を WAV, MPEG4 を WAV, VOB を WAV, MP2 を WAV</Keywords>
+			<Char_Desc_45>音声をWAV変換、音声ファイル変換</Char_Desc_45>
+			<Char_Desc_80>映像・音声をWAV変換は、あらゆる種類の音声・映像ファイルをWAVファイルに変換する、とても使いやすいツールです。</Char_Desc_80>
+			<Char_Desc_250>映像・音声をWAV変換(英語: Audio/Video To WAV Converter)は、あらゆる種類の音声・映像ファイルをWAVファイルに変換する、とても使いやすいツールです。</Char_Desc_250>
+			<Char_Desc_450>映像・音声をWAV変換(英語: Audio/Video To WAV Converter)は、あらゆる種類の音声・映像ファイルをWAVファイルに変換する、とても使いやすいツールです。ビルトインのマルチメディア・プレイヤーで、メディアファイルのプレビューや、開始時間・終了時間の設定、音質の低下を伴わないあらゆる音声セクションの変換が可能です。 </Char_Desc_450>
+			<Char_Desc_2000>映像・音声をWAV変換(英語: Audio/Video To WAV Converter)は、あらゆる種類の音声・映像ファイルをWAVファイルに変換する、とても使いやすいツールです。ビルトインのマルチメディア・プレイヤーで、メディアファイルのプレビューや、開始時間・終了時間の設定、音質の低下を伴わないあらゆる音声セクションの変換が可能です。 主な特長：AVIファイルをWAVファイルに変換、MP4をWAV、M4VをWAV、MPEG-4をWAV、VCDをWAVに変換、MPEGをWAVに変換、WMVをWAVに変換、ASFをWAVに変換、OGMをWAVに変換、DIVXをWAVに変換、DATをWAVに変換。MP3をWAVに変換、M4AをWAVに変換、WMAをWAVに変換、AC3をWAVに変換、OGGをWAVに変換、MPAをWAVに変換、MP2をWAVに変換、AUをWAVに変換、AIFをWAVに変換、SNDをWAVに変換。</Char_Desc_2000>
+		</Japanese>
+		<Portuguese>
+			<Keywords>MP4 em WAV, AVI em WAV, VCD em WAV, MPEG em WAV, WMV em WAV, ASF em WAV, OGM em WAV, DIVX em WAV, DAT em WAV, WMA em WAV, AC3 em WAV, OGG em WAV, MPA em WAV, AU em WAV, AIFF em WAV, SND em WAV, XviD em WAV, MPEG4 em WAV, VOB em WAV, MP2 em WAV</Keywords>
+			<Char_Desc_45>Converter áudio e vídeo em ficheiro wav</Char_Desc_45>
+			<Char_Desc_80>Converter quase todos os tipos de ficheiros áudio e vídeo em ficheiro wav.</Char_Desc_80>
+			<Char_Desc_250>Audio/Video To Wav Converter é uma ferramenta fácil para converter quase todos os tipos de limas audio e video a uma lima do wav.  converte toda a seção audio da lima sem perda da qualidade.</Char_Desc_250>
+			<Char_Desc_450>Audio/Video To Wav Converter é uma ferramenta fácil para converter quase todos os tipos de limas audio e video a uma lima do wav.  Com constr- em multimedia jogador, você pode inspecionar os meios arquiva, tempo de começo ajustado e o tempo do fim, converte toda a seção audio da lima sem perda da qualidade.</Char_Desc_450>
+			<Char_Desc_2000>Audio/Video To Wav Converter é uma ferramenta fácil para converter quase todos os tipos de limas audio e video a uma lima do wav.  Com constr- em multimedia jogador, você pode inspecionar os meios arquiva, tempo de começo ajustado e o tempo do fim, converte toda a seção audio da lima sem perda da qualidade.  As características chaves incluem:  Convirta AVI a WAV, a VCD a WAV, a MPEG a WAV, a WMV a WAV, a ASF a WAV, a VOB a WAV, a OGM a WAV, a DIVX a WAV, a DAT a WAV, a SVCD a WAV, MP4 a WAV, M4V a WAV, MPEG-4 a WAV etc..  Convirta M4A a WAV, MP3 a WAV, a WMA a WAV, a AC3 a WAV, a OGG a WAV, a MPA a WAV, a MP2 a WAV, a AU a WAV, a AIF a WAV, a SND a WAV, etc..  Rache a lima de WAV na parte menor.  Inspecione o áudio e o vídeo.  Rápido codifique a lima do wav com qualidade elevada.</Char_Desc_2000>
+		</Portuguese>
+		<Spanish>
+			<Keywords>MP4 a WAV, AVI a WAV, VCD a WAV, MPEG a WAV, WMV a WAV, ASF a WAV, OGM a WAV, DIVX a WAV, DAT a WAV, WMA a WAV, AC3 a WAV, OGG a WAV, MPA a WAV, AU a WAV, AIFF a WAV, SND a WAV, XviD a WAV, MPEG4 a WAV, VOB a WAV, MP2 a WAV</Keywords>
+			<Char_Desc_45>convertir audio y video a wav</Char_Desc_45>
+			<Char_Desc_80>convertir casi todos los tipos de archivos de audio y video a archivos WAV.</Char_Desc_80>
+			<Char_Desc_250>Audio/Video To Wav Converter puede convertir casi todas las clases de archivos audio y video a un archivo del wav. convierte cualquier sección audio del archivo sin pérdida de la calidad.</Char_Desc_250>
+			<Char_Desc_450>Audio/Video To Wav Converter puede convertir audio y video a wav, Las características clave son: convertir MP4 a WAV, AVI a WAV, M4V a WAV, MPEG-4 a WAV, VCD a WAV, MPEG a WAV, WMV a WAV, ASF a WAV, OGM a WAV, DIVX a WAV, DAT a WAV, etc. convertir MP3 a WAV, M4A a WAV, WMA a WAV, AC3 a WAV, OGG a WAV, MPA a WAV, MP2 a WAV, AU a WAV, AIF a WAV, SND a WAV, etc; dividir archivo WAV en piezas más pequeñas; previsualizar audio y video.</Char_Desc_450>
+			<Char_Desc_2000>Audio/Video To Wav Converter es una herramienta fácil de usar que convierte casi todos los tipos de archivos de audio y video a archivos WAV. convertir cualquier sección de audio del archivo sin pérdida de calidad. Las características clave son: convertir MP4 a WAV, AVI a WAV, M4V a WAV, MPEG-4 a WAV, VCD a WAV, MPEG a WAV, WMV a WAV, ASF a WAV, OGM a WAV, DIVX a WAV, DAT a WAV, etc. convertir MP3 a WAV, M4A a WAV, WMA a WAV, AC3 a WAV, OGG a WAV, MPA a WAV, MP2 a WAV, AU a WAV, AIF a WAV, SND a WAV, etc; dividir archivo WAV en piezas más pequeñas; previsualizar audio y video; codificar rápidamente archivo WAV con buena calidad.</Char_Desc_2000>
+		</Spanish>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.008soft.com/index.htm</Application_Info_URL>
+			<Application_Order_URL>http://www.008soft.com/products/audio_video_to_wav_converter.htm</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.008soft.com/products/images/audio_video_to_wav.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.008soft.com/products/images/video_audio_to_wav_icon.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.008soft.com/products/audio_video_to_wav.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.008soft.com/products/AV2Wav.exe</Primary_Download_URL>
+			<Secondary_Download_URL/>
+			<Additional_Download_URL_1/>
+			<Additional_Download_URL_2/>
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions/>
+		<EULA/>
+	</Permissions>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number/>
+	</ASP>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.2</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page>http://www.008soft.com/affiliate.htm</Affiliates_Information_Page>
+		<Affiliates_Avangate_Order_Page/>
+		<Affiliates_Avangate_Vendor_ID/>
+		<Affiliates_Avangate_Product_ID/>
+		<Affiliates_Avangate_Maximum_Commission_Rate/>
+		<Affiliates_BMTMicro_Order_Page/>
+		<Affiliates_BMTMicro_Vendor_ID/>
+		<Affiliates_BMTMicro_Product_ID/>
+		<Affiliates_BMTMicro_Maximum_Commission_Rate/>
+		<Affiliates_clixGalore_Order_Page/>
+		<Affiliates_clixGalore_Vendor_ID/>
+		<Affiliates_clixGalore_Product_ID/>
+		<Affiliates_clixGalore_Maximum_Commission_Rate/>
+		<Affiliates_CommissionJunction_Order_Page/>
+		<Affiliates_CommissionJunction_Vendor_ID/>
+		<Affiliates_CommissionJunction_Product_ID/>
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate/>
+		<Affiliates_DigiBuy_Order_Page/>
+		<Affiliates_DigiBuy_Vendor_ID/>
+		<Affiliates_DigiBuy_Product_ID/>
+		<Affiliates_DigiBuy_Maximum_Commission_Rate/>
+		<Affiliates_DigitalCandle_Order_Page/>
+		<Affiliates_DigitalCandle_Vendor_ID/>
+		<Affiliates_DigitalCandle_Product_ID/>
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate/>
+		<Affiliates_Emetrix_Order_Page/>
+		<Affiliates_Emetrix_Vendor_ID/>
+		<Affiliates_Emetrix_Product_ID/>
+		<Affiliates_Emetrix_Maximum_Commission_Rate/>
+		<Affiliates_eSellerate_Order_Page/>
+		<Affiliates_eSellerate_Vendor_ID/>
+		<Affiliates_eSellerate_Product_ID/>
+		<Affiliates_eSellerate_Maximum_Commission_Rate/>
+		<Affiliates_Kagi_Order_Page/>
+		<Affiliates_Kagi_Vendor_ID/>
+		<Affiliates_Kagi_Product_ID/>
+		<Affiliates_Kagi_Maximum_Commission_Rate/>
+		<Affiliates_LinkShare_Order_Page/>
+		<Affiliates_LinkShare_Vendor_ID/>
+		<Affiliates_LinkShare_Product_ID/>
+		<Affiliates_LinkShare_Maximum_Commission_Rate/>
+		<Affiliates_NorthStarSol_Order_Page/>
+		<Affiliates_NorthStarSol_Vendor_ID/>
+		<Affiliates_NorthStarSol_Product_ID/>
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate/>
+		<Affiliates_Order1_Order_Page/>
+		<Affiliates_Order1_Vendor_ID/>
+		<Affiliates_Order1_Product_ID/>
+		<Affiliates_Order1_Maximum_Commission_Rate/>
+		<Affiliates_Osolis_Order_Page/>
+		<Affiliates_Osolis_Vendor_ID/>
+		<Affiliates_Osolis_Product_ID/>
+		<Affiliates_Osolis_Maximum_Commission_Rate/>
+		<Affiliates_Plimus_Order_Page/>
+		<Affiliates_Plimus_Vendor_ID/>
+		<Affiliates_Plimus_Product_ID/>
+		<Affiliates_Plimus_Maximum_Commission_Rate/>
+		<Affiliates_Regnet_Order_Page/>
+		<Affiliates_Regnet_Vendor_ID/>
+		<Affiliates_Regnet_Product_ID/>
+		<Affiliates_Regnet_Maximum_Commission_Rate/>
+		<Affiliates_Regnow_Order_Page>http://www.regnow.com/softsell/nph-softsell.cgi?item=11146-6</Affiliates_Regnow_Order_Page>
+		<Affiliates_Regnow_Vendor_ID>11146</Affiliates_Regnow_Vendor_ID>
+		<Affiliates_Regnow_Product_ID>11146-6</Affiliates_Regnow_Product_ID>
+		<Affiliates_Regnow_Maximum_Commission_Rate>30%</Affiliates_Regnow_Maximum_Commission_Rate>
+		<Affiliates_Regsoft_Order_Page/>
+		<Affiliates_Regsoft_Vendor_ID/>
+		<Affiliates_Regsoft_Product_ID/>
+		<Affiliates_Regsoft_Maximum_Commission_Rate/>
+		<Affiliates_ShareIt_Order_Page/>
+		<Affiliates_ShareIt_Vendor_ID/>
+		<Affiliates_ShareIt_Product_ID/>
+		<Affiliates_ShareIt_Maximum_Commission_Rate/>
+		<Affiliates_Shareasale_Order_Page/>
+		<Affiliates_Shareasale_Vendor_ID/>
+		<Affiliates_Shareasale_Product_ID/>
+		<Affiliates_Shareasale_Maximum_Commission_Rate/>
+		<Affiliates_SWReg_Order_Page/>
+		<Affiliates_SWReg_Vendor_ID/>
+		<Affiliates_SWReg_Product_ID/>
+		<Affiliates_SWReg_Maximum_Commission_Rate/>
+		<Affiliates_V-Share_Order_Page/>
+		<Affiliates_V-Share_Vendor_ID/>
+		<Affiliates_V-Share_Product_ID/>
+		<Affiliates_V-Share_Maximum_Commission_Rate/>
+		<Affiliates_VFree_Order_Page/>
+		<Affiliates_VFree_Vendor_ID/>
+		<Affiliates_VFree_Product_ID/>
+		<Affiliates_VFree_Maximum_Commission_Rate/>
+		<Affiliates_Yaskifo_Order_Page/>
+		<Affiliates_Yaskifo_Vendor_ID/>
+		<Affiliates_Yaskifo_Product_ID/>
+		<Affiliates_Yaskifo_Maximum_Commission_Rate/>
+	</Affiliates>
+</XML_DIZ_INFO>

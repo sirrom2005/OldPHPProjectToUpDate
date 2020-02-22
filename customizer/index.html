@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<script language="javascript" src="js/jquery.js"></script>
+<style>
+#base,#strap,#bud{
+	width:400px;
+	height:400px;
+	background-position:center center;
+	background-size:100%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+#base{/*background-image:url(shoes/slippers-x/gray-base.png);*/border:solid 1px #000;}
+/*#strap{background-image:url(shoes/slippers-x/blue-strap.png);}
+#bud{background-image:url(shoes/slippers-x/blue-bud.png);}*/
+#shoe{ float:right; position:absolute; margin-left:200px;}
+</style>
+</head>
+<body>
+
+<div>
+    <div id="shoe">
+    	<div id="base"></div>
+        <div id="strap"></div>
+        <div id="bud"></div>
+    </div>
+	<!--div id="size">
+    	<ul>
+        	<li><a href="#">size 6</a></li>
+            <li><a href="#">size 7</a></li>
+            <li><a href="#">size 8</a></li>
+            <li><a href="#">size 9</a></li>
+        </ul>
+    </div>
+    <div id="heel-height">
+    	<ul>
+        	<li><a href="#">1/4"</a></li>
+            <li><a href="#">1/2"</a></li>
+            <li><a href="#">1" 3</a></li>
+            <li><a href="#">1 1/2"</a></li>
+        </ul>
+    </div--->
+    <div id="style">
+    	<b>Slipper Style</b>
+    	<ul>
+        	<li><a title="slippers-x" href="#">Slipper-x</a></li>
+            <li><a title="slippers-y" href="#">Slipper-y</a></li>
+        </ul>
+    </div>
+    <div id="bud-color">
+    	<b>Bud (For slippers X only)</b>
+    	<ul>
+            <li><a title="blue" href="#blue">blue</a></li>
+            <li><a title="green" href="#green">Green</a></li>
+            <li><a title="pattern" href="#pattern">Pattern</a></li>
+        </ul>
+    </div>
+    <div id="starp-color">
+    	<b>Strap</b>
+    	<ul>
+        	<li><a title="red" href="#red">Red</a></li>
+            <li><a title="blue" href="#blue">blue</a></li>
+            <li><a title="green" href="#green">Green</a></li>
+            <li><a title="pattern" href="#pattern">Pattern</a></li>
+        </ul>
+    </div>
+    <div id="base-color">
+    	<b>Base</b>
+    	<ul>
+        	<li><a title="gray" href="#gray">Gray</a></li>
+            <li><a title="blue" href="#blue">blue</a></li>
+            <li><a title="red" href="#red">Red</a></li>
+            <li><a title="pattern" href="#pattern">Pattern</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+	var shoes = "slippers-x";	
+	var myImgs = [
+		'shoes/slippers-x/blue-strap.png', 
+		'shoes/slippers-x/red-strap.png',
+		'shoes/slippers-x/green-strap.png',
+		'shoes/slippers-x/pattern-strap.png',
+		'shoes/slippers-x/blue-bud.png',
+		'shoes/slippers-x/green-bud.png',
+		'shoes/slippers-x/pattern-bud.png',
+		'shoes/slippers-x/blue-base.png',
+		'shoes/slippers-x/red-base.png',
+		'shoes/slippers-x/gray-base.png',		
+		'shoes/slippers-y/blue-strap.png', 
+		'shoes/slippers-y/red-strap.png',
+		'shoes/slippers-y/green-strap.png',
+		'shoes/slippers-y/pattern-strap.png',
+		'shoes/slippers-y/blue-base.png',
+		'shoes/slippers-y/red-base.png',
+		'shoes/slippers-y/gray-base.png',
+		'shoes/slippers-y/green-base.png',
+		'shoes/slippers-y/pattern-base.png'
+	];
+
+	function preload(imgs) {
+		var img;
+		for(var i = 0, len = imgs.length; i < len; ++i) {
+			img = new Image();
+			img.src = imgs[i];
+		}
+	}
+	
+	preload(myImgs);
+	
+	
+	$('#starp-color a').click(function(){
+		$('#strap').css('background-image','url(shoes/' + shoes + '/' + $(this).attr('title') + '-strap.png)');
+	});
+	$('#bud-color a').click(function(){
+		$('#bud').css('background-image','url(shoes/' + shoes + '/' + $(this).attr('title') + '-bud.png)');
+	});
+	$('#base-color a').click(function(){
+		$('#base').css('background-image','url(shoes/' + shoes + '/' + $(this).attr('title') + '-base.png)');
+	});
+	
+	$('#style a').click(function(){
+		shoes = $(this).attr('title');
+		loadShoes();
+	});
+	
+	function loadShoes(){
+		$('#base').css('background-image','url(shoes/' + shoes + '/blue-base.png)');
+		$('#bud').css('background-image','url(shoes/' + shoes + '/blue-bud.png)');
+		$('#strap').css('background-image','url(shoes/' + shoes + '/blue-strap.png)');
+	}
+	
+	loadShoes();
+});
+</script>
+</body>
+</html>

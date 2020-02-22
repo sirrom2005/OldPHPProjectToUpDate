@@ -1,0 +1,117 @@
+/* CSS Document */
+body,div,form,ul,ol,li,p,hr,img,blockquote{margin:0;padding:0;border:0;list-style:none;}
+h1,h2,h3,h4,h5,h6{margin:0 0 6px 0;}
+a:hover{text-decoration:none;}
+#window, #page_window, .clear, br{clear:both;}
+#container
+{
+	font-family:"Times New Roman", Times, serif; 
+	font-size:1em; 
+	text-align:left;
+	line-height:0.9em;
+	margin:0 auto; 
+	width:965px; 
+	background-color:#121010;
+}
+body{background:url(../images/bgstrip.jpg) repeat-x #101010;}
+#content{padding:0px 5px 5px 5px; color:#FFFFFF;}
+#content p{padding-bottom:10px;}
+#content a{color:##FA5858;}
+#logo{background:url(../images/logo.gif) no-repeat;position:absolute;width:206px;height:88px;}
+#header{width:745px;float:right;}
+#header ul{ height:18px; text-align:right;}
+#header ul li{float:left; margin-right:12px; border-left:solid 1px #121010; border-top:solid 1px #00; border:solid 1px #000;}
+#header ul li.nostyle{margin-right:0px;}
+#header ul li a{color:#31A431; font-size:1em; font-weight:bold; text-transform:uppercase; text-decoration:none; padding:2px 3px 2px 3px; display:block;}
+#header ul li a:hover{background-color:#ff0000; color:#FFFFFF;}
+#header form{float:right; margin-right:8px; width:260px; background:url(../images/flags/jm.png) no-repeat right 5px;}
+#header form p{text-align:center; font-size:0.8em;}
+#header form p a{color:#FFFFFF;}
+#header form p a:hover{ text-decoration:none; }
+#midads{ padding-left:108px; margin:5px; height:90px; border-top:solid 1px #F4F4F4; border-bottom:solid 1px #f4f4f4; }
+#window ul li{ float:left; height:375px;}
+#page_window ul li{ float:left; height:295px;}
+
+#largebannerplayer{width:830px; background-color:#000000;}
+#largeimageplayer{width:330px; background-color:#000000;}#mediaspace{width:500px; background-color:#000000;}
+#fbook,#twitter,#feeds,#mplayer,#cmailer,#buyads, #c_date, #photo{height:48px; width:48px; display:block; margin:11px 0 5px 40px;}
+#fbook{background:url(../images/FaceBook-icon.png) no-repeat; }
+#twitter{background:url(../images/Twitter-icon.png) no-repeat; }
+#feeds{background:url(../images/Feed-icon.png) no-repeat; }
+#mplayer{background:url(../images/media-player-icon.png) no-repeat; }
+#cmailer{background:url(../images/email-icon.png) no-repeat; }
+#buyads{background:url(../images/photo-48x48.png) no-repeat;}
+#photo{background:url(../images/photo-48x48.png) no-repeat;}
+.cal_date, #c_date{background:url(../images/calendar__icon.png) no-repeat; color:#cc0000; font-size:2em; text-align:center; padding:22px 0 10px 0; height:18px; text-decoration:underline;}
+.cal_date{display:inline-block; float:left; width:48px;}
+
+#footer{font-family:"Arial",verdana,helvetica,sans-serif; font-size:0.7em; font-weight:bold; background-color:#D83737; clear:left;}
+#footer div{margin:0 auto; padding:5px 20px 0 20px; width:920px;}
+#footer div span
+{ 
+	background:url(../images/logo_small.png) no-repeat 0 0;
+	display:block;
+	padding:15px 0 15px 0px;
+	line-height:1em; 
+	font-weight:normal;
+	color:#FFFFFF;
+	text-align:center;
+}
+#footer hr{color:#FFFFFF; background-color:#FFFFFF; height:1px; border:thin;}
+#footer div ul{float:left; width:250px; margin-bottom:10px;}
+#footer div ul#nav2{margin-left:90px;} 
+#footer div ul#nav3{float:right;}
+#footer div ul li h3{background:url(../images/16__.png) no-repeat 0px 0px; padding:0 0 0 18px; color:#FFFFFF;}
+#footer div ul li a{color:#000000; text-decoration:none;}
+#footer div ul li a:hover{text-decoration:underline;}
+#footer p{clear:left; background-color:#000000; padding:5px; color:#FFFFFF; text-align:center; font-weight:normal; }
+#footer p span{font-weight:bold;}
+#footer p a{color:#FFFFFF;}
+#footer p a:hover{color:#FF0000;}
+
+
+/*~~~~HOME~~~~~~*/
+blockquote{ width:302px; height:300px; float:left; padding:5px; margin-bottom:5px; border:solid 1px #121010;}
+blockquote h1{font-size:1.3em; color:#CE7E2E; padding-bottom:3px; border-bottom:solid 1px #786FF3;}
+.gap{ margin:0 5px 0 5px;}
+
+#fashionista p{text-align:center;margin:4px 0 4px 0;}
+#fashionista .frame
+{ 
+	float:left;
+	width:135px;
+	height:210px;
+	margin:0px 5px 0px 5px;
+	background-color:#000000;
+}
+#fashionista .hotti_info
+{	
+	height:42px;
+	display:block;
+	font-size:10px;
+	padding:2px;
+	background-image:url(../images/macFFBgHack.png);
+	background-repeat:repeat;
+}
+#fashionista .frame .spacer{display:block; height:165px;  }
+#fashionista .frame .a, #fashionista .frame .b{ background-image:url(../images/girl_a.png); background-repeat:no-repeat; background-position:right 2px;}
+#fashionista .frame .b{ background-image:url(../images/girl_b.png);}
+#fashionista .hotti_info a{color:#FFFFFF; text-decoration:none;}
+#fashionista .hotti_info a:hover{color:#FF0000; text-decoration:underline;}
+#fashionista #pic_week .vote_result{ width:135px; font-size:12px; font-weight:bold; text-align:center; padding:5px 5px 3px 5px; color:#FD5400;}
+#fashionista #pic_week span{display:block; width:140px; text-align:center;}
+
+.articles h5{padding:0; margin:0; font-size:0.7em; overflow:hidden; width:220px; white-space:nowrap; text-transform:uppercase;}
+.articles div{padding:4px 0 4px 0; border-bottom:solid 1px #f4f4f4;}
+.articles img{border:solid 1px; margin-right:5px; width:65px;}
+
+#postevent{ background:url(../images/eventtext.gif) no-repeat; width:251px; height:30px; display:block; margin:10px 0 0 25px;}
+
+.advertisements{text-align:center;}
+.advertisements h4{text-align:left; padding-left:2px; margin-bottom:6px; color:#776666; font-weight:normal; border-bottom:solid 1px #f4f4f4;}
+#fashionista{overflow:hidden;}
+
+#pollf{margin-bottom:10px;}
+#pollf a{display:block; margin-top:8px; font-size:0.8em;}
+#pollf .poll_question{ border:inset 1px #cc0000; background-color:#AE54C4; color:#000000; padding:5px; font-size:1em; line-height:1.1em;}
+#google_friend_connect{height:38px; background-color:#000000;}

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.38 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Yamicsoft</Company_Name>
+		<Address_1>NO.111 ZhongShan ROAD HEPING DISTRICT</Address_1>
+		<Address_2/>
+		<City_Town>SHENYANG</City_Town>
+		<State_Province>LIAONING</State_Province>
+		<Zip_Postal_Code>110112</Zip_Postal_Code>
+		<Country>CHINA</Country>
+		<Company_WebSite_URL>http://www.yamicsoft.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Steven</Author_First_Name>
+			<Author_Last_Name>Young</Author_Last_Name>
+			<Author_Email>contact@yamicsoft.com</Author_Email>
+			<Contact_First_Name>Steven</Contact_First_Name>
+			<Contact_Last_Name>Young</Contact_Last_Name>
+			<Contact_Email>contact@yamicsoft.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>contact@yamicsoft.com</Sales_Email>
+			<Support_Email>support@yamicsoft.com</Support_Email>
+			<General_Email>contact@yamicsoft.com</General_Email>
+			<Sales_Phone>+1 (858) 777-5553</Sales_Phone>
+			<Support_Phone>+1 (858) 350-7473</Support_Phone>
+			<General_Phone>+1 (866) 312-7733</General_Phone>
+			<Fax_Phone/>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Vista Manager</Program_Name>
+		<Program_Version>3.0.6</Program_Version>
+		<Program_Release_Month>09</Program_Release_Month>
+		<Program_Release_Day>24</Program_Release_Day>
+		<Program_Release_Year>2009</Program_Release_Year>
+		<Program_Cost_Dollars>39.95</Program_Cost_Dollars>
+		<Program_Cost_Other_Code/>
+		<Program_Cost_Other/>
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>IE Manager updated to v3.2; Smart Uninstaller updated to v2.4; Fix some tweaks.</Program_Change_Info>
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
+		<Program_System_Requirements/>
+		<File_Info>
+			<File_Size_Bytes>4919874</File_Size_Bytes>
+			<File_Size_K>4804</File_Size_K>
+			<File_Size_MB>4.69</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>15</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info/>
+			<Expire_Month/>
+			<Expire_Day/>
+			<Expire_Year/>
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>tweak,optimize,windows,vista,tune,faster,maintain,win,uninstall,clean,backup,security,utility,registry,repair,defrag,disk, analyze,duplicate,boot menu</Keywords>
+			<Char_Desc_45>Optimize, tweak and clean up Windows Vista.</Char_Desc_45>
+			<Char_Desc_80>The complete solution to optimize, tweak, clean up your Windows Vista.</Char_Desc_80>
+			<Char_Desc_250>An all-in-one utility to tweak, optimize, tune and clean up Windows Vista. It includes over thirty different utilities! Get access to hundreds of hidden options, clean registry and junk files, tune up Vista boot menu and many other utilities.</Char_Desc_250>
+			<Char_Desc_450>An all-in-one utility to tweak, optimize, tune and clean up Windows Vista. It includes over thirty different utilities! Get access to hundreds of hidden options to improve system's performance and security, clean registry, junk files and defrag Registry,  tune up Vista boot menu, uninstall program smartly, mange startup items, and many other miscellaneous utilities. It is an excellent companion for windows Vista.</Char_Desc_450>
+			<Char_Desc_2000>A powerful software tool to tweak, optimize, maintain and tune up your Windows Vista, it includes over thirty different utilities! It will help your system to be stable, fast, secure and personal! For example, get detailed system and hardware information; Tweak your system to improve windows startup and shutdown speed; tweak your hardware to increase system performance; Find and clean junk files; searchs your computer for duplicated files; easily checks registry and repairs incorrectly linked registry entries; Defrag Registry to reduce application response time; Control what is started on Windows startup;  tune up Vista boot menu; set context menus of mouse right clicking; customize desktop, menus, toolbar, notifications, change wallpaper automatically; Improve desktop, menus, control panel, windows logon securities, enable numerous hidden performance options, disable system updates and error reports; hide and restrict access to drives, specify which applications are not allowed to be executed, encrypt/decrypt and shred files, camouflage folder to hide its content from Windows Explorer, change the location of system folders; Privacy Protector can maintain your personal privacy by eliminating the tracks that you leave behind. Optimize Internet connection speed, manager your all shares, search and find opened ports; tweak your IE easily; automatically check invalid URLs in your favorites and parse domain name;  backup your Windows Mail; show the collection of Windows utilities.  Vista Manager has a topnotch, easy-to-use user interface that requires no technical knowledge. It is an excellent companion for windows Vista!</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.yamicsoft.com</Application_Info_URL>
+			<Application_Order_URL>https://www.plimus.com/jsp/buynow.jsp?contractId=1705782</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.yamicsoft.com/vistamanager/images/screenshot.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.yamicsoft.com/vistamanager/images/vmlogo.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.yamicsoft.com/vistamanager/padinfo/vistamanager.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.yamicsoft.com/vistamanager/software/vistamanager.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.yamicsoft.com.cn/English/vistamanager/software/vistamanager.exe</Secondary_Download_URL>
+			<Additional_Download_URL_1/>
+			<Additional_Download_URL_2/>
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold.
+  1. GRANT OF LICENCE. This EULA grants you the following rights:
+Installation and use. You may install and use one copy of the SOFTWARE PRODUCT.
+Reproduction and Distribution. You may not reproduce and distribute the SOFTWARE PRODUCT.
+  2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+Limitations on Reverse Engineering, Decompilation, and Disassembly. You may not reverse engineer, decompile, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+Separation of Components.
+  The SOFTWARE PRODUCT is licensed as a single product. Its component parts may not be separated for use on more than one computer.
+Software Transfer.
+  You may permanently transfer all of your rights under this EULA, provided the recipient agrees to the terms of this EULA. If you transfer all of your right of this SOFTWARE PRODUCT, you'll have to transfer all your backups and copies, too. If you do NOT transfer all copies, you'll have to destroy them.
+Termination.
+  Without prejudice to any other rights, the Author of this Software may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT and all of its component parts.</Distribution_Permissions>
+		<EULA>This End-User Licence Agreement ("EULA") is a legal agreement between you  either an individual or a single entity) and the mentioned author of this software for the software product identified above, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT").
+By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use the SOFTWARE PRODUCT; you may, however, return it to your place of purchase for a full refund.
+  SOFTWARE PRODUCT LICENCE
+  COPYRIGHT.
+  All title and copyrights in and to the SOFTWARE PRODUCT (including but not limited to any images, photographs, animations, video, audio, music, text, and "applets" incorporated into the SOFTWARE PRODUCT), the accompanying printed materials, and any copies of the SOFTWARE PRODUCT are owned by the Author of this Software. The SOFTWARE PRODUCT is protected by copyright laws and international treaty provisions. Therefore, you must treat the SOFTWARE PRODUCT like any other copyrighted material except that you may install the SOFTWARE PRODUCT on a single computer provided you keep the original solely for backup or archival purposes.
+  LIMITED WARRANTY
+  NO WARRANTIES.
+  The Author of this Software expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT and any related documentation is provided "as is" without warranty of any kind, either express or implied, including, without limitation, the implied warranties or merchantability, fitness for a particular purpose, or no infringement. The entire risk arising out of use or performance of the SOFTWARE PRODUCT remains with you.
+  NO LIABILITY FOR DAMAGES.
+  In no event shall the author of this Software be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if the Author of this Software has been advised of the possibility of such damages.
+Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.4</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page/>
+		<Affiliates_Avangate_Order_Page/>
+		<Affiliates_Avangate_Vendor_ID/>
+		<Affiliates_Avangate_Product_ID/>
+		<Affiliates_Avangate_Maximum_Commission_Rate/>
+		<Affiliates_BMTMicro_Order_Page/>
+		<Affiliates_BMTMicro_Vendor_ID/>
+		<Affiliates_BMTMicro_Product_ID/>
+		<Affiliates_BMTMicro_Maximum_Commission_Rate/>
+		<Affiliates_Cleverbridge_Order_Page/>
+		<Affiliates_Cleverbridge_Vendor_ID/>
+		<Affiliates_Cleverbridge_Product_ID/>
+		<Affiliates_Cleverbridge_Maximum_Commission_Rate/>
+		<Affiliates_clixGalore_Order_Page/>
+		<Affiliates_clixGalore_Vendor_ID/>
+		<Affiliates_clixGalore_Product_ID/>
+		<Affiliates_clixGalore_Maximum_Commission_Rate/>
+		<Affiliates_CommissionJunction_Order_Page/>
+		<Affiliates_CommissionJunction_Vendor_ID/>
+		<Affiliates_CommissionJunction_Product_ID/>
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate/>
+		<Affiliates_DigiBuy_Order_Page/>
+		<Affiliates_DigiBuy_Vendor_ID/>
+		<Affiliates_DigiBuy_Product_ID/>
+		<Affiliates_DigiBuy_Maximum_Commission_Rate/>
+		<Affiliates_DigitalCandle_Order_Page/>
+		<Affiliates_DigitalCandle_Vendor_ID/>
+		<Affiliates_DigitalCandle_Product_ID/>
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate/>
+		<Affiliates_Emetrix_Order_Page/>
+		<Affiliates_Emetrix_Vendor_ID/>
+		<Affiliates_Emetrix_Product_ID/>
+		<Affiliates_Emetrix_Maximum_Commission_Rate/>
+		<Affiliates_eSellerate_Order_Page/>
+		<Affiliates_eSellerate_Vendor_ID/>
+		<Affiliates_eSellerate_Product_ID/>
+		<Affiliates_eSellerate_Maximum_Commission_Rate/>
+		<Affiliates_Kagi_Order_Page/>
+		<Affiliates_Kagi_Vendor_ID/>
+		<Affiliates_Kagi_Product_ID/>
+		<Affiliates_Kagi_Maximum_Commission_Rate/>
+		<Affiliates_LinkShare_Order_Page/>
+		<Affiliates_LinkShare_Vendor_ID/>
+		<Affiliates_LinkShare_Product_ID/>
+		<Affiliates_LinkShare_Maximum_Commission_Rate/>
+		<Affiliates_NorthStarSol_Order_Page/>
+		<Affiliates_NorthStarSol_Vendor_ID/>
+		<Affiliates_NorthStarSol_Product_ID/>
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate/>
+		<Affiliates_OneNetworkDirect_Order_Page/>
+		<Affiliates_OneNetworkDirect_Vendor_ID/>
+		<Affiliates_OneNetworkDirect_Product_ID/>
+		<Affiliates_OneNetworkDirect_Maximum_Commission_Rate/>
+		<Affiliates_Order1_Order_Page/>
+		<Affiliates_Order1_Vendor_ID/>
+		<Affiliates_Order1_Product_ID/>
+		<Affiliates_Order1_Maximum_Commission_Rate/>
+		<Affiliates_Osolis_Order_Page/>
+		<Affiliates_Osolis_Vendor_ID/>
+		<Affiliates_Osolis_Product_ID/>
+		<Affiliates_Osolis_Maximum_Commission_Rate/>
+		<Affiliates_Plimus_Order_Page/>
+		<Affiliates_Plimus_Vendor_ID/>
+		<Affiliates_Plimus_Product_ID/>
+		<Affiliates_Plimus_Maximum_Commission_Rate/>
+		<Affiliates_Regnet_Order_Page/>
+		<Affiliates_Regnet_Vendor_ID/>
+		<Affiliates_Regnet_Product_ID/>
+		<Affiliates_Regnet_Maximum_Commission_Rate/>
+		<Affiliates_Regnow_Order_Page/>
+		<Affiliates_Regnow_Vendor_ID/>
+		<Affiliates_Regnow_Product_ID/>
+		<Affiliates_Regnow_Maximum_Commission_Rate/>
+		<Affiliates_Regsoft_Order_Page/>
+		<Affiliates_Regsoft_Vendor_ID/>
+		<Affiliates_Regsoft_Product_ID/>
+		<Affiliates_Regsoft_Maximum_Commission_Rate/>
+		<Affiliates_ShareIt_Order_Page/>
+		<Affiliates_ShareIt_Vendor_ID/>
+		<Affiliates_ShareIt_Product_ID/>
+		<Affiliates_ShareIt_Maximum_Commission_Rate/>
+		<Affiliates_Shareasale_Order_Page/>
+		<Affiliates_Shareasale_Vendor_ID/>
+		<Affiliates_Shareasale_Product_ID/>
+		<Affiliates_Shareasale_Maximum_Commission_Rate/>
+		<Affiliates_SWReg_Order_Page/>
+		<Affiliates_SWReg_Vendor_ID/>
+		<Affiliates_SWReg_Product_ID/>
+		<Affiliates_SWReg_Maximum_Commission_Rate/>
+		<Affiliates_V-Share_Order_Page/>
+		<Affiliates_V-Share_Vendor_ID/>
+		<Affiliates_V-Share_Product_ID/>
+		<Affiliates_V-Share_Maximum_Commission_Rate/>
+		<Affiliates_VFree_Order_Page/>
+		<Affiliates_VFree_Vendor_ID/>
+		<Affiliates_VFree_Product_ID/>
+		<Affiliates_VFree_Maximum_Commission_Rate/>
+		<Affiliates_Yaskifo_Order_Page/>
+		<Affiliates_Yaskifo_Vendor_ID/>
+		<Affiliates_Yaskifo_Product_ID/>
+		<Affiliates_Yaskifo_Maximum_Commission_Rate/>
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number/>
+	</ASP>
+</XML_DIZ_INFO>

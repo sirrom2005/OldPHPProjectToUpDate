@@ -1,0 +1,2163 @@
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.33.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 00:00
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1345928454; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1345904599.1345928454.7
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.17
+    [REQUEST_TIME] => 26-08-2012 00:01
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.45.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 00:24
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.49.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 00:26
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=39d4e75dafd39cd60d3613db886d6583
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry9630/5.0.0.624 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9630_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,US-ASCII,windows-1252,ISO-2022-JP,KSC5601,EUC-JP,EUC-KR,windows-1250,GB2312,UTF-16BE,Big5,Big5-HKSCS,x-Johab,UTF-16LE,Shift_JIS
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9630_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.64
+    [REQUEST_TIME] => 26-08-2012 00:31
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.66.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:03
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.71.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:12
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.80.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:15
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.86.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:22
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.91.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:24
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.96.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:27
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345782108.1345936440.30; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __utmb=83979266.98.10.1345936440; __utmc=83979266; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd
+    [REMOTE_ADDR] => 173.225.243.218
+    [REQUEST_TIME] => 26-08-2012 01:32
+)
+Array
+(
+    [HTTP_HOST] => jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=966f720cec0e1577dfd1d182abf1bf40; __utma=83979266.99293682.1345935951.1345935951.1345935951.1; __utmb=83979266.2.10.1345935951; __utmc=83979266; __utmz=83979266.1345935951.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [REMOTE_ADDR] => 208.131.186.64
+    [REQUEST_TIME] => 26-08-2012 02:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_COOKIE] => PHPSESSID=a719c299a6c26f884d38beb980029597; __utma=83979266.1405884955.1345954763.1345954763.1345954763.1; __utmb=83979266.2.10.1345954763; __utmc=83979266; __utmz=83979266.1345954763.1.1.utmcsr=smutvibes.com|utmccn=(referral)|utmcmd=referral|utmcct=/
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 26-08-2012 07:20
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345967569.1345976376.35; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd; __utmc=83979266; __utmb=83979266.10.10.1345976376
+    [REMOTE_ADDR] => 184.170.18.162
+    [REQUEST_TIME] => 26-08-2012 10:34
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345967569.1345976376.35; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; PHPSESSID=f5b18f531da0d023de70e7698d6af8bd; __utmc=83979266; __utmb=83979266.36.10.1345976376
+    [REMOTE_ADDR] => 184.170.18.162
+    [REQUEST_TIME] => 26-08-2012 11:08
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=7f1d1782c63761b6a6aa33c4884c1eac; __utma=83979266.1267316704.1345199280.1345238576.1345979793.5; __utmb=83979266.1.10.1345979793; __utmc=83979266; __utmz=83979266.1345199280.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=6%7C33%2C0%7C34%2C1%7C35
+    [REMOTE_ADDR] => 184.170.18.162
+    [REQUEST_TIME] => 26-08-2012 11:19
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1345961826.1345965753.11
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.17
+    [REQUEST_TIME] => 26-08-2012 11:28
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1345976376.1346003506.36; __utmz=83979266.1345704315.22.6.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/events/; __atuvc=13%7C35; PHPSESSID=cc541a05d2a9a7d125e505eec637ae93; __utmb=83979266.1.10.1346003506; __utmc=83979266
+    [REMOTE_ADDR] => 184.170.42.135
+    [REQUEST_TIME] => 26-08-2012 17:56
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=fd5051d5619b9b8cc64118f68f898a1a
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry8520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/214
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,windows-1250,UTF-16BE,UTF-16LE,US-ASCII,windows-1252
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.67
+    [REQUEST_TIME] => 26-08-2012 18:10
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=2%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1345996356; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1345991081.1345996356.15
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.19
+    [REQUEST_TIME] => 26-08-2012 18:53
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=3%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.6.10.1345996356; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1345991081.1345996356.15
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.18
+    [REQUEST_TIME] => 26-08-2012 18:57
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=528d0c7f9947586633c9b13c598768a3
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry9500/5.0.0.841 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/179
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9500_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,windows-1250,UTF-16BE,UTF-16LE,US-ASCII,windows-1252
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9500_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.68.18
+    [REQUEST_TIME] => 26-08-2012 22:11
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=4%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346013446; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1345998945.1346013446.17
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.18
+    [REQUEST_TIME] => 26-08-2012 23:38
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=674d5f6e82fdda132054a0fd3f49b4be
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry9630/5.0.0.624 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/104
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9630_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,US-ASCII,windows-1252,ISO-2022-JP,KSC5601,EUC-JP,EUC-KR,windows-1250,GB2312,UTF-16BE,Big5,Big5-HKSCS,x-Johab,UTF-16LE,Shift_JIS
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9630_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.68
+    [REQUEST_TIME] => 27-08-2012 00:37
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=5%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346025441; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346013446.1346025441.18
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.19
+    [REQUEST_TIME] => 27-08-2012 02:57
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=9%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346038922; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346028092.1346038922.20
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.17
+    [REQUEST_TIME] => 27-08-2012 06:42
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=65395cff3b9e94eb391bf963410c7396; __atuvc=1%7C35; __utma=83979266.363661232.1346044525.1346044525.1346044525.1; __utmb=83979266.2.10.1346044525; __utmc=83979266; __utmz=83979266.1346044525.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php
+    [REMOTE_ADDR] => 72.252.223.73
+    [REQUEST_TIME] => 27-08-2012 08:16
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=31e3b3f88fb0a3a1893b9bb917b1c15f
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry8520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/214
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,windows-1250,UTF-16BE,UTF-16LE,US-ASCII,windows-1252
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.67
+    [REQUEST_TIME] => 27-08-2012 16:59
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=1dff04bb94564c946f1c006900c7cf18; __atuvc=1%7C35; __utma=83979266.1410633500.1346077957.1346077957.1346077957.1; __utmb=83979266.4.9.1346077975017; __utmc=83979266; __utmz=83979266.1346077957.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php
+    [REMOTE_ADDR] => 50.100.64.18
+    [REQUEST_TIME] => 27-08-2012 17:33
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=394e1e2fe9b36f46c38f7a398088b99e; __utmz=83979266.1346080046.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.2.10.1346080046; __utma=83979266.1682916336.1346080046.1346080046.1346080046.1
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9780; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.448 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9780_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9780_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.64
+    [REQUEST_TIME] => 27-08-2012 18:14
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=12%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.10.10.1346076627; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346071942.1346076627.23
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.17
+    [REQUEST_TIME] => 27-08-2012 18:17
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=8e8d0dec6637e720145c0d68a0dae3c3
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry8520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/214
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,windows-1250,UTF-16BE,UTF-16LE,US-ASCII,windows-1252
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.66
+    [REQUEST_TIME] => 27-08-2012 18:24
+)
+Array
+(
+    [HTTP_USER_AGENT] => Opera/9.80 (BlackBerry; Opera Mini/7.0.30024/28.2313; U; en) Presto/2.8.119 Version/11.10
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=c1057ae1d38c40d708990a435e446046; __atuvc=2%7C35; __utma=83979266.101415089.1345397940.1345411643.1346081732.3; __utmb=83979266.2.10.1346081732; __utmc=83979266; __utmz=83979266.1345397940.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_X_OPERAMINI_PHONE] => ? # ?
+    [HTTP_X_OPERAMINI_FEATURES] => advanced, file_system, camera, touch, folding, viewport, routing
+    [HTTP_X_FORWARDED_FOR] => 74.82.64.64
+    [REMOTE_ADDR] => 141.0.10.5
+    [REQUEST_TIME] => 27-08-2012 18:36
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=13%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346092181; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346087611.1346092181.25
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.19
+    [REQUEST_TIME] => 27-08-2012 21:31
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=fb2912383b2b4da426ac3710cf513c55; __utmz=83979266.1346101607.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php; __utmc=83979266; __utmb=83979266.2.10.1346101607; __utma=83979266.961767173.1346101607.1346101607.1346101607.1
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9380; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.569 Mobile Safari/534.11+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9380_edge/7.1.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9380_edge/7.1.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.68
+    [REQUEST_TIME] => 28-08-2012 00:10
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=7e20e0b9041c58a29be424b3066cd19e; __utma=83979266.2039122889.1346101901.1346101901.1346101901.1; __utmb=83979266.1.10.1346101901; __utmc=83979266; __utmz=83979266.1346101901.1.1.utmcsr=sn118w.snt118.mail.live.com|utmccn=(referral)|utmcmd=referral|utmcct=/mail/InboxLight.aspx; __atuvc=1%7C35
+    [REMOTE_ADDR] => 200.9.115.6
+    [REQUEST_TIME] => 28-08-2012 00:10
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_COOKIE] => PHPSESSID=7e20e0b9041c58a29be424b3066cd19e; __utma=83979266.2039122889.1346101901.1346101901.1346101901.1; __utmb=83979266.12.10.1346101901; __utmc=83979266; __utmz=83979266.1346101901.1.1.utmcsr=sn118w.snt118.mail.live.com|utmccn=(referral)|utmcmd=referral|utmcct=/mail/InboxLight.aspx; __atuvc=11%7C35
+    [REMOTE_ADDR] => 200.9.115.6
+    [REQUEST_TIME] => 28-08-2012 00:14
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_COOKIE] => PHPSESSID=7e20e0b9041c58a29be424b3066cd19e; __utma=83979266.2039122889.1346101901.1346101901.1346101901.1; __utmb=83979266.19.10.1346101901; __utmc=83979266; __utmz=83979266.1346101901.1.1.utmcsr=sn118w.snt118.mail.live.com|utmccn=(referral)|utmcmd=referral|utmcct=/mail/InboxLight.aspx; __atuvc=17%7C35
+    [REMOTE_ADDR] => 200.9.115.6
+    [REQUEST_TIME] => 28-08-2012 00:18
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=3%7C35; PHPSESSID=cc1280ce95507e64d5e3d8694699ecab; __utmz=83979266.1346102344.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.4.10.1346102344; __utma=83979266.1745093710.1346102344.1346102344.1346102344.1
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9360; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.523 Mobile Safari/534.11+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9360_edge/7.1.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9360_edge/7.1.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.17
+    [REQUEST_TIME] => 28-08-2012 00:26
+)
+Array
+(
+    [HTTP_USER_AGENT] => Opera/9.80 (BlackBerry; Opera Mini/7.0.30024/28.2313; U; en) Presto/2.8.119 Version/11.10
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_COOKIE] => PHPSESSID=c1057ae1d38c40d708990a435e446046; __atuvc=3%7C35; __utma=83979266.101415089.1345397940.1346081732.1346109647.4; __utmb=83979266.1.10.1346109647; __utmc=83979266; __utmz=83979266.1345397940.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_X_OPERAMINI_PHONE] => ? # ?
+    [HTTP_X_OPERAMINI_FEATURES] => advanced, file_system, camera, touch, folding, viewport, routing
+    [HTTP_X_FORWARDED_FOR] => 74.82.64.66
+    [REMOTE_ADDR] => 141.0.9.231
+    [REQUEST_TIME] => 28-08-2012 02:23
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=2b7f2b053a3a5edbd698d9e92eb08519
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry8520/5.0.0.1036 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/214
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,windows-1250,UTF-16BE,UTF-16LE,US-ASCII,windows-1252
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.66
+    [REQUEST_TIME] => 28-08-2012 03:12
+)
+Array
+(
+    [HTTP_USER_AGENT] => Opera/9.80 (BlackBerry; Opera Mini/7.0.30024/28.2313; U; en) Presto/2.8.119 Version/11.10
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=c1057ae1d38c40d708990a435e446046; __atuvc=5%7C35; __utma=83979266.101415089.1345397940.1346109647.1346114281.5; __utmb=83979266.3.10.1346114281; __utmc=83979266; __utmz=83979266.1345397940.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_X_OPERAMINI_FEATURES] => advanced, file_system, camera, touch, folding, viewport, routing
+    [HTTP_X_FORWARDED_FOR] => 74.82.64.68
+    [HTTP_X_OPERAMINI_PHONE] => ? # ?
+    [REMOTE_ADDR] => 141.0.9.231
+    [REQUEST_TIME] => 28-08-2012 03:39
+)
+Array
+(
+    [HTTP_ACCEPT] => text/html, application/xhtml+xml, */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_LANGUAGE] => en-US
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; BOIE9;ENUS)
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_COOKIE] => PHPSESSID=1826a22eb980a160488e01295d8d650a; __atuvc=1%7C35; __utma=83979266.1293848254.1346128617.1346128617.1346128617.1; __utmb=83979266.2.10.1346128617; __utmc=83979266; __utmz=83979266.1346128617.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php
+    [REMOTE_ADDR] => 173.56.62.109
+    [REQUEST_TIME] => 28-08-2012 05:37
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=14%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346121937; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346111272.1346121937.29
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.16
+    [REQUEST_TIME] => 28-08-2012 05:46
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=8674758a33bf558fc124d6e510e480a4; __utma=83979266.777839509.1346172628.1346172628.1346172628.1; __utmb=83979266.1.10.1346172628; __utmc=83979266; __utmz=83979266.1346172628.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=1%7C35
+    [REMOTE_ADDR] => 69.160.114.0
+    [REQUEST_TIME] => 28-08-2012 05:52
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=d67a8740d098c0ad9e1226ed26189196
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry8830/4.5.0.135 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/8830/4.5.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,UTF-8,US-ASCII,UTF-16BE,windows-1252,UTF-16LE,Big5-HKSCS,Big5,windows-1250
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/8830/4.5.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.68.16
+    [REQUEST_TIME] => 28-08-2012 08:04
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_COOKIE] => PHPSESSID=8674758a33bf558fc124d6e510e480a4; __utma=83979266.777839509.1346172628.1346172628.1346183244.2; __utmc=83979266; __utmz=83979266.1346172628.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=22%7C35; __utmb=83979266.14.10.1346183244
+    [REMOTE_ADDR] => 69.160.114.0
+    [REQUEST_TIME] => 28-08-2012 09:01
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=8674758a33bf558fc124d6e510e480a4; __utma=83979266.777839509.1346172628.1346172628.1346183244.2; __utmc=83979266; __utmz=83979266.1346172628.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=26%7C35; __utmb=83979266.18.10.1346183244
+    [REMOTE_ADDR] => 69.160.114.0
+    [REQUEST_TIME] => 28-08-2012 09:04
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=2%7C35; PHPSESSID=c9da39152fcb1f38fb2a83ea20ab7c18; __utmc=83979266; __utmb=83979266.2.10.1346149811; __utmz=83979266.1345422712.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.2002299130.1345422712.1345558220.1346149811.6
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.706 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.33
+    [REQUEST_TIME] => 28-08-2012 13:32
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=f1a6ec7a38c69c04f438acae14ab1c41; __atuvc=11%7C35; __utmc=83979266; __utmz=83979266.1346101607.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php; __utmb=83979266.3.10.1346152149; __utma=83979266.961767173.1346101607.1346114711.1346152149.3
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9380; en) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.569 Mobile Safari/534.11+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9380_edge/7.1.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9380_edge/7.1.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.64
+    [REQUEST_TIME] => 28-08-2012 14:17
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => __utma=83979266.777839509.1346172628.1346183244.1346208930.3; __utmz=83979266.1346172628.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=34%7C35; PHPSESSID=8f1bf89ce8b04ef13040006bc67919b7; __utmb=83979266.1.10.1346208930; __utmc=83979266
+    [REMOTE_ADDR] => 184.170.54.150
+    [REQUEST_TIME] => 28-08-2012 15:57
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0 CometBird/11.0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_COOKIE] => PHPSESSID=82a4febb1e008b211b8d0b3a2634ffc9; __utma=83979266.1256682732.1346160821.1346160821.1346160821.1; __utmb=83979266.2.10.1346160821; __utmc=83979266; __utmz=83979266.1346160821.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php; __atuvc=1%7C35
+    [REMOTE_ADDR] => 72.252.172.13
+    [REQUEST_TIME] => 28-08-2012 16:34
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => __utma=83979266.777839509.1346172628.1346208930.1346212867.4; __utmz=83979266.1346172628.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=39%7C35; PHPSESSID=d1c3a32d8e1606f683b7646612b3d540; __utmb=83979266.1.10.1346212867; __utmc=83979266
+    [REMOTE_ADDR] => 184.170.54.150
+    [REQUEST_TIME] => 28-08-2012 17:03
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=31%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346163132; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346139301.1346163132.33
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.16
+    [REQUEST_TIME] => 28-08-2012 17:12
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0pre) Gecko/20110408 Firefox/4.0pre SeaMonkey/2.1b3
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_KEEP_ALIVE] => 115
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => __utma=83979266.777839509.1346172628.1346208930.1346212867.4; __utmz=83979266.1346172628.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=47%7C35; __utmb=83979266.9.10.1346212867; PHPSESSID=99656b6cdb4edf4986bbe9e87516145e; __utmc=83979266
+    [REMOTE_ADDR] => 184.170.54.150
+    [REQUEST_TIME] => 28-08-2012 17:25
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=d50f5d07eac59e01b5211bd720170fe9; __utmz=83979266.1346164416.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.2.10.1346164416; __utma=83979266.1898149739.1346164416.1346164416.1346164416.1
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9700; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9700_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9700_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.35
+    [REQUEST_TIME] => 28-08-2012 17:36
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => __utma=83979266.1405884955.1345954763.1345954763.1346166910.2; __utmz=83979266.1345954763.1.1.utmcsr=smutvibes.com|utmccn=(referral)|utmcmd=referral|utmcct=/; PHPSESSID=d48a40b9dae904277e5a27d73ae6b992; __utmb=83979266.1.10.1346166910; __utmc=83979266; __atuvc=1%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 28-08-2012 18:15
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346018632.1346180651.40; __utmz=83979266.1346018819.39.7.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=http%3A%2F%2Fwww.jusbbmpins.com; __atuvc=69%7C35; PHPSESSID=4f0de3a8101b2d21c01ad98ca394cc59; __utmb=83979266.1.10.1346180651; __utmc=83979266
+    [REMOTE_ADDR] => 184.170.12.191
+    [REQUEST_TIME] => 28-08-2012 19:09
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=a0fcfd674a925b235951f30e9a2c7d96; __utma=83979266.1750271977.1346220708.1346220708.1346220708.1; __utmb=83979266.1.10.1346220708; __utmc=83979266; __utmz=83979266.1346220708.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=1%7C35
+    [REMOTE_ADDR] => 184.170.29.24
+    [REQUEST_TIME] => 28-08-2012 19:14
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=03c9cffac852b48ab35bfe82ebd06fc9; __atuvc=2%7C35; __utma=83979266.1570980502.1346203770.1346203770.1346203770.1; __utmb=83979266.3.10.1346203770; __utmc=83979266; __utmz=83979266.1346203770.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [REMOTE_ADDR] => 69.160.107.122
+    [REQUEST_TIME] => 29-08-2012 00:40
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=f833e9746b2549a6fb961d17cd839e88
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry9550/5.0.0.1015 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9550_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,windows-1250,UTF-16BE,UTF-16LE,US-ASCII,windows-1252
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9550_edge/5.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.67
+    [REQUEST_TIME] => 29-08-2012 01:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346180651.1346205596.41; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=70%7C35; PHPSESSID=4f0de3a8101b2d21c01ad98ca394cc59; __utmc=83979266; __utmb=83979266.1.10.1346205596
+    [REMOTE_ADDR] => 69.160.122.61
+    [REQUEST_TIME] => 29-08-2012 02:10
+)
+Array
+(
+    [HTTP_HOST] => jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=1.327273829.1345070004.1345184733.1345187494.5; __utmz=1.1345070004.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1231190019.1345195817.1346180651.1346205596.41; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=10%7C35; __utmc=83979266; __utmb=83979266.4.10.1346205596; PHPSESSID=cc0f2f017d1c97278d154840d0c41b2d; GASO=.cz0zJmI9MSZkcz1hMzEwMzUxOTN3NjE2MzI2MThwNjMxMzg1MDE.AFB3siaA-JVUyeFkV4LE4FcBZ1tnekb5nxwcBZMoncEIbexmX6E_V3B-kdid2pphSmeNnv9THs1XcJIZgL5-_HiyM1pKRKy-teMeoUplI2DPzEMfz42KlYW-B_wRqxrE1pvYMgFVvTgX98De5YX85TAEC56wJXZldzCmqGcvWIOtjp9oslhbKd5FKOu33pNXZXJfocc2Y0hcXPB0ESJjqffe9DIgmy5ZRJzUXb9mA0q9fggO6KJVrAG7LDwL0A6OnoqJXjJOqavmb1bZK31e836vpaZqtQ2JvKG-41l9WKgal9BBw1iKTlvMMPuMexOqoiJuelCqT6ZctwsyJomGj2Q9RSdbxaHlq10RTSGKO43xrbn4hYQdERiC8erDVOliZY_lrV3lTN6NcY1cWHV7T7lruvF4tcQELDnZw4GLtH8n9UusOGvbcOTF_bTq8LyK58bpCxzE2RfVePYxdZruVFE4QocQqZPhDg
+    [REMOTE_ADDR] => 69.160.122.61
+    [REQUEST_TIME] => 29-08-2012 02:25
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=46%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.4.10.1346199995; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346191658.1346199995.40
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.18
+    [REQUEST_TIME] => 29-08-2012 03:31
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=47%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.14.10.1346199995; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346191658.1346199995.40
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.20
+    [REQUEST_TIME] => 29-08-2012 03:38
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.75 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=9508e3e7aecafc195d417e022688faa4; __atuvc=12%7C35; __utma=83979266.238728402.1346198145.1346198145.1346201016.2; __utmb=83979266.3.10.1346201016; __utmc=83979266; __utmz=83979266.1346198145.1.1.utmcsr=36ohk6dgmcd1n-c.c.yom.mail.yahoo.net|utmccn=(referral)|utmcmd=referral|utmcct=/om/api/1.0/openmail.app.invoke/36ohk6dgmcd1n/11/1.0.35/us/en-US/view.html/0
+    [HTTP_DNT] => 1
+    [REMOTE_ADDR] => 72.252.125.7
+    [REQUEST_TIME] => 29-08-2012 03:45
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=75a29aea8f7650e314926a6e75362991; __atuvc=1%7C35; __utma=83979266.2052652965.1346201358.1346201358.1346201358.1; __utmb=83979266.2.10.1346201358; __utmc=83979266; __utmz=83979266.1346201358.1.1.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/
+    [REMOTE_ADDR] => 72.27.80.236
+    [REQUEST_TIME] => 29-08-2012 03:51
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=48%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmz=83979266.1345492956.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=83979266.1645321060.1345492956.1346246039.1346255568.45
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.20
+    [REQUEST_TIME] => 29-08-2012 19:32
+)
+Array
+(
+    [HTTP_USER_AGENT] => Opera/9.80 (BlackBerry; Opera Mini/7.0.30024/28.2313; U; en) Presto/2.8.119 Version/11.10
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=f6c79602f6ee346cca8dfa0ed51aeb3a; __atuvc=2%7C35; __utma=83979266.1828885610.1346259712.1346259712.1346259712.1; __utmb=83979266.2.10.1346259712; __utmc=83979266; __utmz=83979266.1346259712.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_X_OPERAMINI_FEATURES] => advanced, file_system, camera, touch, folding, viewport, routing
+    [HTTP_X_OPERAMINI_PHONE] => ? # ?
+    [HTTP_X_FORWARDED_FOR] => 74.82.64.65
+    [REMOTE_ADDR] => 141.0.11.74
+    [REQUEST_TIME] => 29-08-2012 20:19
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=b91980098fea710d037bc86f1278ca81; __utma=83979266.696504069.1346281324.1346281324.1346281324.1; __utmb=83979266.2.10.1346281324; __utmc=83979266; __utmz=83979266.1346281324.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=2%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 30-08-2012 02:03
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_COOKIE] => PHPSESSID=82791249d4ab1fe8876edebd16aecd2f; __utma=83979266.322346234.1346210980.1346210980.1346210980.1; __utmb=83979266.3.10.1346210980; __utmc=83979266; __utmz=83979266.1346210980.1.1.utmcsr=partyaad.com|utmccn=(referral)|utmcmd=referral|utmcct=/index.php; __atuvc=2%7C35
+    [REMOTE_ADDR] => 67.230.56.139
+    [REQUEST_TIME] => 30-08-2012 08:12
+)
+Array
+(
+    [HTTP_ACCEPT] => text/html, application/xhtml+xml, */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_LANGUAGE] => en-US
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; BOIE9;ENUS)
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_COOKIE] => __atuvc=5%7C35; PHPSESSID=a0eab7ae0a15438f34492b2adcb5b6e9; __utma=83979266.1529389430.1346309254.1346309254.1346311253.2; __utmz=83979266.1346309254.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.3.10.1346311253
+    [REMOTE_ADDR] => 173.56.62.109
+    [REQUEST_TIME] => 30-08-2012 08:25
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=50%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.2.10.1346328453; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346300708.1346328443.53
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.16
+    [REQUEST_TIME] => 30-08-2012 15:09
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=51%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.5.10.1346331679; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346328443.1346331679.54
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.16
+    [REQUEST_TIME] => 30-08-2012 16:08
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=51%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.20.10.1346331679; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346328443.1346331679.54
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.19
+    [REQUEST_TIME] => 30-08-2012 16:30
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=52%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.23.10.1346331679; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346328443.1346331679.54
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.17
+    [REQUEST_TIME] => 30-08-2012 16:36
+)
+Array
+(
+    [HTTP_USER_AGENT] => Opera/9.80 (BlackBerry; Opera Mini/7.0.30024/28.2359; U; en) Presto/2.8.119 Version/11.10
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => PHPSESSID=78fd659ca4d62f39b58c5f0373f1e7a8; __atuvc=3%7C35; __utma=83979266.1828885610.1346259712.1346259712.1346361408.2; __utmb=83979266.1.10.1346361408; __utmc=83979266; __utmz=83979266.1346259712.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_X_OPERAMINI_PHONE] => ? # ?
+    [HTTP_X_OPERAMINI_FEATURES] => advanced, file_system, camera, touch, folding, viewport, routing
+    [HTTP_X_FORWARDED_FOR] => 74.82.64.67
+    [REMOTE_ADDR] => 141.0.11.74
+    [REQUEST_TIME] => 31-08-2012 00:19
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9300; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.480 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,*/*;q=0.5
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=ca666d61cec1a09812be7ecdabd7bc5f; __utmz=83979266.1346365377.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.2.10.1346365377; __utma=83979266.808672242.1346365377.1346365377.1346365377.1
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9300_80211g/6.0.0.rdf"
+    [REMOTE_ADDR] => 207.254.139.138
+    [REQUEST_TIME] => 31-08-2012 01:24
+)
+Array
+(
+    [HTTP_COOKIE] => __atuvc=53%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346379799; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346354942.1346379799.57
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.20
+    [REQUEST_TIME] => 31-08-2012 05:25
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9300; en) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.570 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,*/*;q=0.5
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=87273a33109cb6f8491f8553f66245d1; __utmz=83979266.1346378461.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.1.10.1346380516; __utma=83979266.2059353633.1346378461.1346378461.1346380516.2
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9300_umts/6.0.0.rdf"
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 206.53.152.166
+    [REQUEST_TIME] => 31-08-2012 05:36
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => __atuvc=54%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.10.10.1346382360; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346379799.1346382358.58
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.18
+    [REQUEST_TIME] => 31-08-2012 07:00
+)
+Array
+(
+    [HTTP_ACCEPT] => text/html, application/xhtml+xml, */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_LANGUAGE] => en-US
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; BOIE9;ENUS)
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_COOKIE] => __atuvc=11%7C35; PHPSESSID=c2deaccc0645d82ac83e94f0d00e934c; __utma=83979266.1529389430.1346309254.1346311253.1346406816.3; __utmz=83979266.1346309254.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=83979266.1.10.1346406816; __utmc=83979266
+    [REMOTE_ADDR] => 173.56.62.109
+    [REQUEST_TIME] => 31-08-2012 10:57
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9860; en-GB) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.342 Mobile Safari/534.11+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,*/*;q=0.5
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_COOKIE] => __atuvc=1%7C35; PHPSESSID=59b1fdbf892bd6b732e9240b6cc94700; __utmz=83979266.1346405574.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=83979266; __utmb=83979266.4.9.1346405620003; __utma=83979266.1242514100.1346405574.1346405574.1346405574.1
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9860_80211g/7.1.0.rdf"
+    [REMOTE_ADDR] => 94.2.177.186
+    [REQUEST_TIME] => 31-08-2012 12:34
+)
+Array
+(
+    [HTTP_COOKIE] => PHPSESSID=d0a6ab67a871f54288230c26d18de1bc
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => BlackBerry8520/5.0.0.681 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/600
+    [HTTP_ACCEPT_LANGUAGE] => en
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf"
+    [HTTP_ACCEPT_CHARSET] => UTF-8,ISO-8859-1,US-ASCII,windows-1252,windows-1254,windows-1255,windows-1256,windows-1251,KOI8-R,windows-1250,UTF-16BE,UTF-16LE
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => application/vnd.rim.html,text/html,application/xhtml+xml,application/vnd.wap.xhtml+xml,text/vnd.sun.j2me.app-descriptor,image/vnd.rim.png,image/jpeg,application/x-vnd.rim.pme.b,application/vnd.rim.ucs,image/gif;anim=1,application/vnd.rim.css;v=2,text/css;media=screen,application/vnd.wap.wmlc;q=0.9,application/vnd.wap.wmlscriptc;q=0.7,text/vnd.wap.wml;q=0.7,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/8520_edge/5.0.0.rdf
+    [HTTP_X_FORWARDED_FOR] => unknown
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 93.186.23.236
+    [REQUEST_TIME] => 31-08-2012 12:56
+)
+Array
+(
+    [HTTP_COOKIE] => _atshc={}; __atuvc=66%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.1.10.1346413557; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346391999.1346413557.61
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.16
+    [REQUEST_TIME] => 31-08-2012 14:46
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php?state=928f865dd2e599ae95eecea55c92f370&code=AQDvvJwv3rKGo_et3PprCJTTqpbp0N4cvFaKa5rVJH1-n7Tm12aKgqIZn9JImTpaT8Qtt_ia-wlM4-J_Xh0IN1bCOe8Gk_ht3AwGnOUJkIOgb6Ffv_qCwP4g8dwMFThbCCXA7o9BdMAmQilEzzEKa7BekL_nQwVnK02ZE_SUzwTtROtB69ZuoOedVoPIR32XQOE
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=74%7C35; __utmb=83979266.3.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 17:50
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=104%7C35; __utmb=83979266.49.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 18:20
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 12:42
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=181%7C35; __utmb=83979266.144.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 12:42
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=181%7C35; __utmb=83979266.144.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 19:42
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/register.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __atuvc=1%7C35; __utma=83979266.515966704.1346431336.1346431336.1346431336.1; __utmb=83979266.2.10.1346431336; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 19:43
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php?gender=&status=&lookingFor=&country_id=
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346431336.1; __utmb=83979266.6.10.1346431336; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=5%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 12:49
+)
+Array
+(
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_COOKIE] => _atshc={}; __atuvc=72%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346420753.1346426841.64
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => max-age=259200
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.20
+    [REQUEST_TIME] => 31-08-2012 12:50
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=185%7C35; __utmb=83979266.148.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 12:51
+)
+Array
+(
+    [HTTP_COOKIE] => _atshc={}; __atuvc=75%7C35; PHPSESSID=af6728f66b8874622e810c3783f1fccc; __utmc=83979266; __utmb=83979266.3.10.1346431878; __utmz=83979266.1346328453.53.2.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __utma=83979266.1645321060.1345492956.1346426841.1346431878.65
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (BlackBerry; U; BlackBerry 9650; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.719 Mobile Safari/534.8+
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_X_WAP_PROFILE] => "http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf"
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_REFERER] => http://www.jusbbmpin.com/m.login.php
+    [HTTP_VIA] => BISB_3.5.1.90
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml,application/x-javascript,*/*;q=0.5
+    [HTTP_PROFILE] => http://www.blackberry.net/go/mobile/profiles/uaprof/9650_edge/6.0.0.rdf
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 74.82.64.20
+    [REQUEST_TIME] => 31-08-2012 19:54
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/edit-my-gallery.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346431336.1; __utmb=83979266.17.10.1346431336; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=15%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 12:55
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/edit-my-gallery.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346431336.1; __utmb=83979266.18.10.1346431336; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=16%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 12:55
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/edit-my-gallery.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346431336.1; __utmb=83979266.18.10.1346431336; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=16%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 12:56
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346431336.1; __utmb=83979266.29.10.1346431336; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=26%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 12:59
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=191%7C35; __utmb=83979266.155.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 20:10
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=193%7C35; __utmb=83979266.157.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 13:19
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=193%7C35; __utmb=83979266.157.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 20:19
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_36.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=197%7C35; __utmb=83979266.163.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 13:28
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_36.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=197%7C35; __utmb=83979266.163.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 20:28
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=201%7C35; __utmb=83979266.167.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 13:40
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=201%7C35; __utmb=83979266.167.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 20:40
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php?status=&lookingFor=&country_id=&interest=&gender=&page=3
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=203%7C35; __utmb=83979266.169.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 13:41
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php?status=&lookingFor=&country_id=&interest=&gender=&page=3
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=203%7C35; __utmb=83979266.169.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 20:41
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_38.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=205%7C35; __utmb=83979266.171.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 13:43
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_38.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=205%7C35; __utmb=83979266.171.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 20:43
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT_LANGUAGE] => zh-cn,zh-hk,zh-tw,en-us
+    [HTTP_USER_AGENT] => Mozilla/5.0(compatible; Sosospider/2.0; +http://help.soso.com/webspider.htm)
+    [HTTP_ACCEPT] => */*
+    [HTTP_CONNECTION] => Keep-Alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [REMOTE_ADDR] => 124.115.0.18
+    [REQUEST_TIME] => 31-08-2012 13:45
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [REMOTE_ADDR] => 208.131.186.64
+    [REQUEST_TIME] => 31-08-2012 13:45
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_36.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=c2749f6fb8b5d3109b46b1b074c121a3; __utma=83979266.578520951.1346435160.1346435160.1346435160.1; __utmb=83979266.6.10.1346435160; __utmc=83979266; __utmz=83979266.1346435160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=6%7C35
+    [REMOTE_ADDR] => 208.131.186.64
+    [REQUEST_TIME] => 31-08-2012 13:54
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => UnwindFetchor/1.0 (+http://www.gnip.com/)
+    [HTTP_VIA] => 1.1 cache-child1a.prod.gnip.com (squid/3.1.19), 1.1 cache-parent1b.prod.gnip.com (squid/3.1.19)
+    [HTTP_X_FORWARDED_FOR] => 10.179.59.239, 10.169.71.168
+    [HTTP_CACHE_CONTROL] => max-age=1080000
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 204.236.137.113
+    [REQUEST_TIME] => 31-08-2012 13:56
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => UnwindFetchor/1.0 (+http://www.gnip.com/)
+    [HTTP_VIA] => 1.1 cache-child1b.prod.gnip.com (squid/3.1.19), 1.1 cache-parent1b.prod.gnip.com (squid/3.1.19)
+    [HTTP_X_FORWARDED_FOR] => 10.182.1.53, 10.164.21.113
+    [HTTP_CACHE_CONTROL] => max-age=1080000
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 204.236.137.113
+    [REQUEST_TIME] => 31-08-2012 13:56
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT] => text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+    [HTTP_ACCEPT_LANGUAGE] => en-gb,en;q=0.5
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_USER_AGENT] => Mozilla/5.0 (compatible; TweetmemeBot/2.11; +http://tweetmeme.com/)
+    [REMOTE_ADDR] => 89.151.116.53
+    [REQUEST_TIME] => 31-08-2012 13:56
+)
+Array
+(
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => Keep-Alive
+    [REMOTE_ADDR] => 65.52.1.12
+    [REQUEST_TIME] => 31-08-2012 13:56
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=c2749f6fb8b5d3109b46b1b074c121a3; __utma=83979266.578520951.1346435160.1346435160.1346435160.1; __utmb=83979266.10.10.1346435160; __utmc=83979266; __utmz=83979266.1346435160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=10%7C35
+    [REMOTE_ADDR] => 208.131.186.62
+    [REQUEST_TIME] => 31-08-2012 21:00
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => UnwindFetchor/1.0 (+http://www.gnip.com/)
+    [HTTP_VIA] => 1.1 cache-child1a.prod.gnip.com (squid/3.1.19), 1.1 cache-parent1b.prod.gnip.com (squid/3.1.19)
+    [HTTP_X_FORWARDED_FOR] => 10.161.34.234, 10.169.71.168
+    [HTTP_CACHE_CONTROL] => max-age=1080000
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 204.236.137.113
+    [REQUEST_TIME] => 31-08-2012 14:01
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => UnwindFetchor/1.0 (+http://www.gnip.com/)
+    [HTTP_VIA] => 1.1 cache-child1b.prod.gnip.com (squid/3.1.19), 1.1 cache-parent1b.prod.gnip.com (squid/3.1.19)
+    [HTTP_X_FORWARDED_FOR] => 10.182.3.157, 10.164.21.113
+    [HTTP_CACHE_CONTROL] => max-age=1080000
+    [HTTP_CONNECTION] => keep-alive
+    [REMOTE_ADDR] => 204.236.137.113
+    [REQUEST_TIME] => 31-08-2012 14:01
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=c2749f6fb8b5d3109b46b1b074c121a3; __utma=83979266.578520951.1346435160.1346435160.1346435160.1; __utmb=83979266.12.10.1346435160; __utmc=83979266; __utmz=83979266.1346435160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=12%7C35
+    [REMOTE_ADDR] => 208.131.186.62
+    [REQUEST_TIME] => 31-08-2012 14:04
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/edit-my-gallery.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=c2749f6fb8b5d3109b46b1b074c121a3; __utma=83979266.578520951.1346435160.1346435160.1346435160.1; __utmb=83979266.16.10.1346435160; __utmc=83979266; __utmz=83979266.1346435160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=16%7C35
+    [REMOTE_ADDR] => 208.131.186.65
+    [REQUEST_TIME] => 31-08-2012 14:05
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => */*
+    [HTTP_REFERER] => http://www.jusbbmpin.com/edit-my-gallery.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=c2749f6fb8b5d3109b46b1b074c121a3; __utma=83979266.578520951.1346435160.1346435160.1346435160.1; __utmb=83979266.17.10.1346435160; __utmc=83979266; __utmz=83979266.1346435160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=17%7C35
+    [REMOTE_ADDR] => 208.131.186.65
+    [REQUEST_TIME] => 31-08-2012 14:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=207%7C35; __utmb=83979266.173.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=207%7C35; __utmb=83979266.175.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=207%7C35; __utmb=83979266.176.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=207%7C35; __utmb=83979266.177.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 21:07
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_42.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=209%7C35; __utmb=83979266.180.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:10
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_20.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=c2749f6fb8b5d3109b46b1b074c121a3; __utma=83979266.578520951.1346435160.1346435160.1346435160.1; __utmb=83979266.22.10.1346435160; __utmc=83979266; __utmz=83979266.1346435160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=22%7C35
+    [REMOTE_ADDR] => 208.131.186.65
+    [REQUEST_TIME] => 31-08-2012 14:11
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_42.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=211%7C35; __utmb=83979266.182.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:13
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php?status=&lookingFor=&country_id=&interest=&gender=&page=3
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=213%7C35; __utmb=83979266.184.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:14
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php?status=&lookingFor=&country_id=&interest=&gender=&page=3
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=214%7C35; __utmb=83979266.185.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:17
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.1.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; __atuvc=7%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:23
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.2.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; __atuvc=8%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 21:23
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_31.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __atuvc=10%7C35; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.4.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:23
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __atuvc=12%7C35; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.6.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:23
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.8.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; __atuvc=14%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:23
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.12.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; __atuvc=18%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:25
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.14.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; __atuvc=20%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:26
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=2df15b2246439cf5cd0b25c0765d4fa7; __utma=83979266.696504069.1346281324.1346281324.1346437362.2; __utmb=83979266.16.10.1346437362; __utmc=83979266; __utmz=83979266.1346437362.2.2.utmcsr=us.mg5.mail.yahoo.com|utmccn=(referral)|utmcmd=referral|utmcct=/neo/launch; __atuvc=22%7C35
+    [REMOTE_ADDR] => 72.252.207.20
+    [REQUEST_TIME] => 31-08-2012 14:26
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php?action=message&id=78
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=217%7C35; __utmb=83979266.189.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:38
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_38.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=221%7C35; __utmb=83979266.195.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:42
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_5.html
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=223%7C35; __utmb=83979266.197.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 14:47
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=226%7C35; __utmb=83979266.200.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e; _atshc={"http://www.jusbbmpin.com/news-letter/index.php":1}
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 15:11
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ORIGIN] => http://www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/login.php
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346439454.2; __utmb=83979266.3.10.1346439454; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=32%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 22:15
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.83 Safari/537.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_REFERER] => http://www.jusbbmpin.com/profile_436.html
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en-US;q=0.8,en;q=0.6
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.3
+    [HTTP_COOKIE] => PHPSESSID=8b0323b8d71c70e669d3cf5aeb4cb05c; __utma=83979266.515966704.1346431336.1346431336.1346439454.2; __utmb=83979266.5.10.1346439454; __utmc=83979266; __utmz=83979266.1346431336.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __atuvc=34%7C35
+    [REMOTE_ADDR] => 65.183.2.75
+    [REQUEST_TIME] => 31-08-2012 15:15
+)
+Array
+(
+    [HTTP_HOST] => www.jusbbmpin.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-us,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_REFERER] => http://www.jusbbmpin.com/index.php
+    [HTTP_COOKIE] => vsid=902vr926049174622482; __utma=83979266.1231190019.1345195817.1346205596.1346435054.42; __utmz=83979266.1346205596.41.8.utmcsr=0363c6a.netsolhost.com|utmccn=(referral)|utmcmd=referral|utmcct=/fimiyaad/; __atuvc=227%7C35; __utmb=83979266.201.10.1346435054; __utmc=83979266; PHPSESSID=747fe1183926216c1cbf600a8ebe903e; _atshc={"http://www.jusbbmpin.com/news-letter/index.php":1}
+    [REMOTE_ADDR] => 184.170.44.59
+    [REQUEST_TIME] => 31-08-2012 15:16
+)

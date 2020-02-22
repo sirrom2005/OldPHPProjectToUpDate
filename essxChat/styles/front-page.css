@@ -1,0 +1,18 @@
+body,h1,h2,p{margin:0;padding:0;}
+body{}
+p{margin-bottom:8px;}
+#container{width:750px;margin:0 auto;padding:0 0 15px 0; border:solid 1px #CCCCCC;}
+h1{font-size:3em;}
+h1 a{text-decoration:none; color:#000000;}
+form{display:block; margin:30px 0 40px 0;}
+label{display:inline-block;text-align:left;width:145px;white-space:nowrap;font-weight:bold;}
+font{color:#FF0000;}
+.textbox,select{padding:5px; border:solid 1px #999999; width:190px;}
+select{width:202px;}
+.btn{padding:5px;font-weight:bold;color:#c00;}
+.btn:hover{color:#000;}
+.register{display:inline-block; padding:3px 5px;background-color:#cc0000;color:#FFFFFF;text-decoration:none;font-weight:bold; border:solid 1px #FFFFFF;}
+.register:hover{background-color:#ff0000; color:#000000;}
+.good{padding:5px;border:solid 2px #a9c440;background-color:#e6efc2;color:#264409;display:inline-block;margin:5px;}
+.error{display:inline-block; padding:5px; margin:5px 5px 0 5px;border:solid 1px #FF3300;color:#300; background:#FFFF99;}
+.error li{background:url(../images/tick-bullet.png) no-repeat 0 5px; list-style:none;padding-left:15px; text-align:left;}

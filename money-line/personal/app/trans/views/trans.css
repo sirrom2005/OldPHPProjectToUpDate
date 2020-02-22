@@ -1,0 +1,470 @@
+.leftPad {
+    padding-left: 10px;
+}
+.leftMargin {
+    margin-left:  10px;
+}
+/* forms */
+form label {    /* label */
+    /* display:inline;*/
+    /* float:none; */
+}
+form label.regular {    /* label */
+    display:inline;
+    float:none;
+
+}
+form select { /* textbox */
+    border: 2px solid #F0F6FA;
+    float: none;
+   /* font-size: 14px;
+    font-weight: bold; */
+}
+
+form input { /* textbox */
+/*    font-size: 14px;
+    font-weight: bold; */
+}
+form select:hover { /* textbox */
+    border: 2px solid maroon;
+    float: none;
+}
+
+form .textbox { /* textbox */
+    width:215px;
+    border: 1px solid #aaa;
+    float: none;
+    /*
+    margin-bottom:8px;
+    margin-left:-17px;
+    */
+    /* background-image: url("");*/
+}
+form .textbox:focus {
+    border-color:#F9841E
+}
+form br, form hr {       /* break & hr */
+    clear: both;
+}
+form  textarea{
+	color:black;
+	font-family:verdana;
+	font-size:10pt;
+	border-left:  1px solid silver;
+	border-right:  1px solid white;
+	border-top:  1px solid silver;
+	border-bottom:  1px solid white;
+	background-color: white;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:3px;
+	padding-bottom:3px;
+	scrollbar-base-color: white;
+	scrollbar-arrow-color: gray;
+	scrollbar-DarkShadow-Color: white;
+	scrollbar-Shadow-Color: white;
+	scrollbar-Highlight-Color: white;
+	scrollbar-width:1px;
+	width:95%;
+}
+
+
+
+
+.transSectionHeader  {
+    border-top: 0px solid #71B6A3;
+    border-bottom: 1px solid aliceblue;
+    background-color:  #E6EFC2; /* #cce8e2 ;*/
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+    cursor:pointer;
+    color: gray;
+    text-align: right;
+
+    /*background-image:url("images/transSectionHeaderBg.jpg");*/
+
+
+}
+
+
+.transSectionHeaderInfo  {
+    font-weight: bold;
+    font-size: 10px;
+    color: teal;
+    text-align: right;
+    cursor:pointer;
+}
+.transSection ,.transSectionReview   {
+    background-color: #f5fcfc; /*  #F0F6FA; */
+    padding-left:25px;
+    padding-right:15px;
+    padding-bottom:5px;
+    /* background-image:url("images/transSectionBg.jpg");  */
+    /*
+    padding-top:10px;
+    padding-bottom:20px;
+    */
+    
+    
+}
+.transSectionReview {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.reviewTbl{
+
+}
+.reviewTblHeader{
+    font-size: 10px;
+    color:gray;
+    font-weight:bold;
+    background-color: #E6EFC2;
+
+}
+.reviewTblData td{
+    border-top: solid silver 1px;
+    /*background-color: #cce8e2;*/
+    font-weight: bold;
+    /* vertical-align: top; */
+}
+.reviewTblDetails td{
+    border-top: solid #cce8e2 1px;
+    border-bottom: solid silver 2px;
+}
+.reviewTblDetails .details{
+    /* border-left: solid #cce8e2 1px; */
+    background-color: #F0F6FA;
+    color:teal;
+    font-size: 10px;
+}
+.reviewTblDetails .message{
+    border:gold solid 1px;
+    padding:10px;
+    background-color: #FFF6BF;
+    color:black;
+    font-size: 12px;
+}
+
+.reviewTblDetails .detailsPre{
+    background-color: #F0F6FA;
+    color: #cce8e2;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.toggleTxnDetails{
+    font-size: 10px;
+    cursor: pointer;
+
+}
+.toggleTxnDetailsTd{
+    color:silver;
+    border-right: solid #cce8e2 1px;
+    text-align: center;
+    width:200px;
+}
+
+.txnMoreDtlsItem{
+    float:left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.editLink, .deleteLink{
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.toggleTxnStatusTd{
+    color:black;
+    border-right: solid #cce8e2 1px;
+    width:200px;
+    font-size: 10px;
+}
+
+
+.txnErrorDisplayClass td{
+    /* background-color: #ffdddd; */
+    border-bottom: solid #ffdddd 5px;
+
+}
+.txnErrorDisplayClass td.toggleTxnStatusTd , .txnErrorDisplayClass td.detailsPre{
+    color:red;
+    background-color: #ffdddd; 
+}
+
+
+
+.rightSide{
+    /* border-left: 5px solid #71B6A3;*/
+    float:left;
+    /* background-color: #FCF6AE;*/
+    width:35%;
+    /* border-top: 1px solid #71B6A3; */
+    /* border-right: 1px solid #71B6A3; */
+}
+.rightSide .content {
+    padding-left:10px;
+    background-image:url("images/transSectionBg.jpg");
+}
+.rightSide .transSectionHeader {
+    padding-left:10px;
+    text-align: left;
+}
+
+.transBox {
+    border-right:  5px solid #71B6A3;
+    width:600px;
+    float:left;
+    overflow:visible;
+    background-color:  honeydew;
+
+    
+}
+
+.transBoxReview {
+    background-color:  #F0F6FA;
+}
+.naviSection, .naviSectionFinish{
+     /* border-top: 2px solid #71B6A3;  */
+     padding-left:25px;
+
+}
+.naviSectionFinish .naviRight{
+     width:450px;
+}
+.naviSectionFinish .naviLeft{
+     width:100px;
+}
+
+.naviSectionListings .naviRight{
+     width:320px;
+}
+.naviSectionListings .naviLeft{
+     width:620px;
+     padding-left: 10px;
+}
+
+
+
+.naviRight{
+     width:320px;
+     text-align: right;
+}
+.naviLeft{
+     width:220px;
+}
+.full {
+    width:100%;
+}
+form input[type='radio'] {
+    margin-right: 10px;
+}
+h4 {
+    margin-bottom: 4px;
+    color:orangered;
+    font-weight: bold;
+
+}
+
+
+.naviBtn {
+    float:none;
+}
+
+input.addressBorder{
+    border: solid black 1px;
+}
+.address{
+    border: solid black 0px;
+    width:80%;
+}
+.tabOption:hover{
+    background-color: #ccff99;
+}
+.tabOption {
+    float: left;
+    background-color: #F0F6FA;
+    border-top: solid #cce8e2 1px;
+    border-left: solid #cce8e2 1px;
+    border-right: solid #cce8e2 1px;
+    padding:5px;
+    width:30%;
+}
+.tabSection {
+    border-top: solid #cce8e2 1px;
+    border-left: solid #cce8e2 0px;
+    border-right: solid #cce8e2 1px;
+    padding:5px;
+    width:90%;
+}
+.horiOption {
+    background-color: #F0F6FA;
+    border-bottom: solid #cce8e2 1px;
+    border-top: solid #cce8e2 1px;
+    padding:5px;
+    width:60%;
+    font-size: 11px;
+    width:80%;
+}
+.infoItem {
+    width:30%;
+    border-left: solid #cce8e2 1px;
+    color:teal;
+    font-size: 12px;
+    text-align:left;
+    /* border-bottom: solid #cce8e2 1px; */
+}
+
+.infoItem a {
+    font-size:10px;
+    margin-left: 10px;
+}
+.infoItemFull {
+    width:90%;
+    border-left: solid #cce8e2 1px;
+    color:teal;
+    font-size: 12px;
+    text-align:left;
+    border-bottom: solid #cce8e2 1px;
+}
+
+.infoItem label, .infoItemFull label  {
+    display:inline;
+    float:none;
+    background-color: #F0F6FA;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color:gray;
+    font-size: 10px;
+}
+
+.infoItem div, .infoItemFull div {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    height:20px;
+}
+
+.entryItem {
+    border-left: solid silver 0px;
+    color:black;
+    font-size: 12px;
+    text-align:left;
+    margin-right:10px;
+}
+.entryItem label  {
+
+    display:inline;
+    float:none;
+    /*background-color:silver;*/
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color:gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+.entryItem .entryItemMsg{
+    font-size: 10px;
+    color:red;
+}
+
+.entryItem div {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#payeeSearch{
+    width:65%;
+}
+#payeeList{
+    width:95%;
+}
+#transferAccountList{
+    width:95%;
+}
+#wireAccountList{
+    width:95%;
+}
+#deliveryMethod{
+    width:30%;
+}
+#branchList{
+    width:85%
+}
+#addressList{
+    width:85%
+}
+
+#specialInstruction{
+    width:95%;
+    height:30px;
+}
+#personalNote{
+    width:95%;
+    height:30px;
+}
+#sourceAccount{
+    width:85%
+}
+#sourceMaturity{
+    width:85%;
+}
+#payeeDetailTradeTerms{
+    width:30%
+}
+#payeeDetailMaturityList{
+    width:85%;
+}
+#accInfoToggle {
+    cursor:pointer;
+}
+#amountInfoToggle {
+    cursor:pointer;
+}
+#chargesInfoToggle {
+    cursor:pointer;
+}
+#transferAccountTradeTerms{
+    width:30%;
+}
+#transferAccountMaturityList{
+    width:85%;
+}
+#cyclePeriodDays{
+    width:100px;
+}
+
+#txnReview {
+        border-spacing: 0px;
+
+}
+#userPin{
+    width:70px;
+}
+#screenTop{
+    /* background-color: #E6EFC2;*/
+    padding: 5px;
+    border-bottom: solid #71B6A3 0px;
+}
+.topSection {
+    display: none;
+}

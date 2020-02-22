@@ -1,0 +1,117 @@
+/*
+Author:			Gabre Cameron
+Author URI:		http://www.yougotthegist.com
+Author E-mail:	gabre@yougotthegist.com
+*/
+
+
+/* === Default HTML Tags === */
+a
+{
+	color: #dc6e00;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+h1
+{
+	color: #0c519e;
+	font-weight: bold;
+}
+th
+{
+	background-color: #f1f1f1;
+	border-bottom: 10px solid #fff;
+	border-top: 15px solid #fff;
+	color: #0c519e;
+	font-size: 15px;
+}
+
+
+/* === Top === */
+.top
+{
+	margin-bottom: 10px;
+	position: relative;
+}
+/* logo */
+.logo
+{
+	display: block;
+	height: 74px;
+	margin-top: 20px;
+	width: 196px;
+}
+
+/* menu */
+.menu
+{
+	background-image: url(../images/bg_menu_top.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	color: #1150a0;
+	float:right;
+	font-weight:bold;
+	height:26px;
+	text-align: center;
+	text-decoration:none;
+	width:348px;
+}
+.menu li
+{
+	display: inline;
+	font-size: 10px;
+	margin: 0px 3px 0px 3px;
+}
+.menu li a
+{
+	color:#1150a0;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* choose-date */
+.choose-date
+{
+	font: 10px;
+	text-align: center;
+}
+
+/* pagination */
+.pagination
+{
+	background-color: #f1f1f1;
+	padding: 5px 0;
+	font: 10px;
+	text-align: center;
+}
+
+
+/* === Footer === */
+.footer
+{
+	color:#BEBEBE;
+	margin: 10px 0;
+}
+.footer a
+{
+	color:#838383;
+	font-weight: normal;
+	text-decoration: none;	
+}
+.footer a:hover
+{
+	text-decoration: underline;	
+}
+
+/* right */
+.footer .right
+{
+	text-align: right;
+}
+.asc{ background:url(../admin/images/asc.png) no-repeat; display:inline-block; width:10px; height:10px; margin-left:10px; }
+.desc{ background:url(../admin/images/desc.png) no-repeat; display:inline-block; width:10px; height:10px; margin-left:3px;  }

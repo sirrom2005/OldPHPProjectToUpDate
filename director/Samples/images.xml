@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+    <album id="ssp" lgPath="gallery/album1/images/" tnPath="gallery/album1/thumb/" title="Album One" description="Description of Album One" tn="gallery/album1/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="2.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="3.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="4.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="5.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="6.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="7.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="8.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="9.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="10.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="11.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="12.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="13.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="14.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+	<album id="ssp2" lgPath="gallery/album2/images/" tnPath="gallery/album2/thumb/" title="Album Two" description="Description of Album Two" tn="gallery/album2/preview.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="2.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="3.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="4.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="5.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="6.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="7.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="8.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="9.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="10.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="11.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="12.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="13.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="14.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+</gallery>

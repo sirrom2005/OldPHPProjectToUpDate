@@ -1,0 +1,42 @@
+body,h1,h2,p{margin:0;padding:0;}
+body{
+	background:#000000;
+	color:#FFFFFF;
+	text-align:center;
+}
+a{color:#FFFFFF;}
+a:hover{text-decoration:none;}
+p{margin-bottom:5px;}
+p.title{line-height:1em;}
+h1{text-align:center;font-size:2em;}
+h2{font-size:1.3em;border-bottom:inset 1px #666666;font-weight:normal;margin-bottom:2px; text-align:center;}
+form{display:block; text-align:left; margin:0px auto;background-color:#f0f0f0; padding:5px 10px 2px 10px; color:#000000; border:solid 1px #057ed0;width:100%;}
+label{display:block;text-align:left;white-space:nowrap;padding-right:10px;}
+font{color:#F00;}
+.textbox{padding:4px 0px; border:solid 1px #dddddd;width:100%;}
+.pass{width:205px;}
+.fblogin,.su{
+	background:url(../images/ca_box.png) no-repeat 0 0;
+	border:0;
+	width:124px;
+	height:20px;
+	cursor:pointer;
+	display:inline-block;
+	margin-left:3px;
+	font-weight:bold;
+	font-size:0.8em;
+	text-align:left;
+	text-decoration:none;
+	padding:2px 0 0 26px;
+}
+.fblogin{background:url(../images/fb_box.png) no-repeat 0 0;margin-right:3px;}
+.fblogin:hover,.su:hover{color:#333333}
+.su{ float:right;}
+/*.signin{padding:3px 0;cursor:pointer;font-size:0.7em;float:right;font-weight:bold;height:25px;width:100px;}*/
+.btn{padding:5px;font-weight:bold;color:#c00;}
+.btn:hover{color:#000;}
+.twitterlogin{background:url(../images/twitter_signin.png) no-repeat 0 0; width:150px; height:22px; display:inline-block; margin-right:3px;}
+.twitterlogin:hover{background-position:0 -24px;}
+.good{padding:5px;border:solid 2px #a9c440;background-color:#e6efc2;color:#264409;display:inline-block;margin:5px;}
+.error{display:inline-block; padding:5px; margin:5px 5px 0 5px;border:solid 1px #FF3300;color:#300; background:#FFFF99;}
+.error li{background:url(../images/tick-bullet.png) no-repeat 0 5px; list-style:none;padding-left:15px; text-align:left;}

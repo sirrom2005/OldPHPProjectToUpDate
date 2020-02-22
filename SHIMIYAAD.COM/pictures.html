@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>WWW.FIMIYAAD.COM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="assets/css/ie6.css" />
+<script type="text/javascript" src="assets/js/unitpngfix.js"></script>
+<![endif]-->
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="assets/js/prototype.js"></script>
+<script type="text/javascript" src="assets/js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="assets/js/lightbox.js"></script>
+<style type="text/css">
+<!--
+body {
+	background-color: #FFF;
+}
+#wrapper #body #content .single table tr td {
+	text-align: center;
+}
+body,td,th {
+	font-size: 12px;
+	text-align: center;
+	color: #000;
+}
+#Table_01 {text-align: center;
+}
+#wrapper p {
+	color: #000;
+}
+-->
+
+  
+
+</style>
+
+<script language="JavaScript">
+var timerID=0;
+var minInterval = .25;     //change this value to determine how ofter the banners should switch. Its currently set to 1 minute
+
+var imgArray = new Array("banner1", "banner2", "banner3"); //list of banner images. NB. filename without extention
+
+function setupAdbanner() {
+	rotateBanner();
+	timerID = setInterval("rotateBanner()", minInterval * 15000);
+}
+
+function cleanupPage() {
+	if (timerID)
+		clearInterval(timerID);
+}
+
+function rotateBanner() {
+imgIndex = Math.ceil(Math.random() * imgArray.length) - 1;
+document.getElementById("mainBanner").src= "images/banners/" + imgArray[imgIndex] + ".jpg";  //Assumes all banner images are in images/banners...change if necessary
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+
+</head>
+  <!-- add the following onload and onunload events to your body tag -->
+<body onload="setupAdbanner();"  onunload="cleanupPage()">
+
+<!-- BEGIN wrapper  -->
+<div id="wrapper">
+  <p align="center"><img src="images/pichead.jpg" width="960" height="100" align="absmiddle" /><img src="images/pichead2.jpg" width="960" height="40" align="absmiddle" /></p>
+  <p align="center"><img src="images/FIMI.png" width="919" height="504"  alt=""/></p>
+  <p align="center"><a href="index.html" target="_self"><img src="images/home.jpg" width="240" height="300"  alt=""/></a><a href="pictures.html" target="_self"><img src="images/pictures.jpg" width="240" height="300"  alt=""/></a><a href="events.html" target="_self"><img src="images/events.jpg" width="240" height="300"  alt=""/></a></p>
+  <p>&nbsp;</p>
+  <p align="center"><a href="pictures.html" target="_self"><img src="images/buttonja.jpg" width="240" height="252"  alt=""/></a><a href="picturesuk.html" target="_self"><img src="images/buttonuk.jpg" width="240" height="252"  alt=""/></a><a href="picturesusa.html" target="_self"><img src="images/buttonusa.jpg" width="240" height="252"  alt=""/></a></p>
+  <p align="center">&nbsp;</p>
+  <p align="center">Jamaica NOVEMBER 2013</p>
+  <p align="center">&nbsp;</p>
+  <div align="center">
+    <table width="900" border="0">
+      <tr>
+        <td width="215"><a href="gallery/jam2013/november/VITAMIN S SPORTS WEAR EDITION STYLE CRAZY & YOUNG MONEY  SATURDAY 1 NOV 2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/DING DONG BIRTHDAY PARTY NOVEMBER 2,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/HIGH ALTITUDE NOVEMBER 30,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/WET WET THRUSDAY PORTMORE NOVEBER 7,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/BUUFFF FRIDAY SPANISH TOWN NOVEMBER 8,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/CONTAINER SATURDAYS NOVEBER 9, 2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>VITAMIN S SPORTS WEAR EDITION STYLE CRAZY &amp; YOUNG MONEY  SATURDAY NOVEMBER 1. 2013</td>
+        <td>DING DONG BIRTHDAY PARTY NOVEMBER 2,2013</td>
+        <td>PULL OVA MONDAYS NOVEMBER 4,2013</td>
+        <td>WET WET THRUSDAY PORTMORE NOVEBER 7,2013</td>
+        <td>BUUFFF FRIDAY SPANISH TOWN NOVEMBER 8,2013</td>
+        <td>CONTAINER SATURDAYS NOVEBER 9, 2013</td>
+      </tr>
+    </table>
+    <table width="779" border="0">
+      <tr>
+        <td width="148"><a href="gallery/november/jam2013/MIX MATCH 10th ANNEVRSARY DOWN TOWN NOVEMBER 9.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/WHAPPINGS THURSDAY NOVEMBER9,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/SELF MADE  SELF PAID PT 2 PORTMORE NOVEMBER 9.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/SHANZ SATURDAYS PORTMORE NOVEMBER 9.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/RUMBAR FOOTBALL SUNDAYS (SPANISH TOWN) NOVEMBER 10.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/MAGNUM MONDAYS PORTMORE NOVEMBER 11.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>MIX MATCH 10th ANNEVRSARY DOWN TOWN NOVEMBER 9.2013</td>
+        <td>WHAPPINGS THURSDAY NOVEMBER 9,2013</td>
+        <td>SELF MADE  SELF PAID PT 2 PORTMORE NOVEMBER 9.2013</td>
+        <td>SHANZ SATURDAYS PORTMORE NOVEMBER 9.2013</td>
+        <td>RUMBAR FOOTBALL SUNDAYS (SPANISH TOWN) NOVEMBER 10.2013</td>
+        <td>MAGNUM MONDAYS PORTMORE NOVEMBER 11.2013</td>
+      </tr>
+    </table>
+    <table width="900" border="0">
+      <tr>
+        <td width="215"><a href="gallery/jam2013/november/UPTOWN MONDAYS - NOVERMBER 11, 2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/KOTCH TUESDAY SPANISH TOWN NOVEMBER 12.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="216"><a href="gallery/jam2013/november/GIRLS GONE WILD WENESDAYS NOVEMBER 13,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/KOTCH WEDNESDAY PORTMORE NOVEMBER 12.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/WHAPPINGS THURSDAY NOVEMBER 15,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/NARDO PLUG DEM MEMORIAL NOVEMBER 15,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>UPTOWN MONDAYS - NOVERMBER 11, 2013</td>
+        <td>KOTCH TUESDAY SPANISH TOWN NOVEMBER 12.2013</td>
+        <td>GIRLS GONE WILD WENESDAYS NOVEMBER 13,2013</td>
+        <td>KOTCH WEDNESDAY PORTMORE NOVEMBER 13.2013</td>
+        <td>WHAPPINGS THURSDAY NOVEMBER 15,2013</td>
+        <td>NARDO PLUG DEM MEMORIAL NOVEMBER 15,2013</td>
+      </tr>
+    </table>
+    <table width="914" border="0">
+      <tr>
+        <td width="167"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="155"><a href="gallery/november/jam2013/NICK PHOTOWORKS PARTY NOVEMBER 16 2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="159"><a href="gallery/jam2013/november/ROYAL FANTASY CAROL BIRTHDAY PARTY NOVEMBER 16,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="151"><a href="gallery/jam2013/november/EARLY MONDAYS NOVEMBER 16,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="157"><a href="gallery/jam2013/november/TUN UP SUNDAYZ(SPANISH TOWN) NOVEMBER 17.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="145"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>CONTAINER MEETS INSANE SATURDAYS (DUHANEY PARK FIELD) NOVEMBER 16. 2013</td>
+        <td height="61">NICK PHOTOWORKS PARTY NOVEMBER 16 2013</td>
+        <td>ROYAL FANTASY CAROL BIRTHDAY PARTY NOVEMBER 16,2013</td>
+        <td>EARLY MONDAYS NOVEMBER 16,2013</td>
+        <td>TUN UP SUNDAYZ(SPANISH TOWN) NOVEMBER 17.2013</td>
+        <td>RUMBAR FOOTBAL SUNDAYZ (SPANISH TOWN) NOVEMBER 17.2013</td>
+      </tr>
+    </table>
+    <table width="911" border="0">
+      <tr>
+        <td width="148"><a href="gallery/jam2013/november/RAQUEL DUNG A TOWN ROUND ROBIN NOVEMBER 17,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/GIRLS GONE WILD WENESDAY NOVEMBER 18,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/MAGNUM MONDAYS( PORTMORE) NOVEMBER 18.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/WHAPPINGS THURSDAY NOVEMBER 19,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/KOTCH TUESDAY SPANISH TOWN NOVEMBER 19.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="145"><a href="gallery/jam2013/november/KOTCH WEDNESDAY PORTMORE NOVEMBER 20.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>RAQUEL DUNG A TOWN ROUND ROBIN NOVEMBER 17,2013</td>
+        <td>GIRLS GONE WILD WENESDAY NOVEMBER 18,2013</td>
+        <td>MAGNUM MONDAYS( PORTMORE) NOVEMBER 18.2013</td>
+        <td>WHAPPINGS THURSDAY NOVEMBER 19,2013</td>
+        <td>KOTCH TUESDAY SPANISH TOWN NOVEMBER 19.2013</td>
+        <td>KOTCH WEDNESDAY PORTMORE NOVEMBER 20.2013</td>
+      </tr>
+    </table>
+    <table width="911" border="0">
+      <tr>
+        <td width="145"><a href="gallery/jam2013/november/WET WET THRUSDAY (PORTMORE) NOVEMBER 21.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/BOOF FRIDAYZ (SPANISH TOWN) NOVEMBER 22.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/KEISHA GOODAS PARTY (ONEILS PLACE) NOVEMBER 22.2012/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/MR SUPPORT DRINK UP NOVEMER 22,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/ANNETTE CRYSTAL N NIPPLE YELLOW N WHITE NOVEMBER 23.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/CONTAINER SATURDAYZ (NERD EDITION) NOVEMBER 23.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>WET WET THRUSDAY (PORTMORE) NOVEMBER 21.2013</td>
+        <td>BOOF FRIDAYZ (SPANISH TOWN) NOVEMBER 22.2013</td>
+        <td>KEISHA GOODAS PARTY (ONEILS PLACE) NOVEMBER 22.2012</td>
+        <td>MR SUPPORT DRINK UP NOVEMER 22,2013</td>
+        <td>ANNETTE CRYSTAL N NIPPLE YELLOW N WHITE NOVEMBER 23.2013</td>
+        <td>CONTAINER SATURDAYZ (NERD EDITION) NOVEMBER 23.2013</td>
+      </tr>
+    </table>
+    <table width="900" border="0">
+      <tr>
+        <td width="215"><a href="gallery/jam2013/november/PBO BIRTHDAY DRINK UP NOVEMER 23,2013/index.html" target="new"><img src="images/thumbs/jamaica/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/ROTWIELDER BIRTHDAY PARTY NOVEMBER 23,2013/index.html" target="new"><img src="images/thumbs/jamaica/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="216"><a href="gallery/jam2013/november/RUMBAR FOOTBALL SUNDAY (SPANISH TOWN) NOVEMBER  24,2013/index.html" target="new"><img src="images/thumbs/jamaica/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="216"><a href="gallery/jam2013/november/MAGNUM MONDAYS PORTMORE NOVEMBER 25.2013/index.html" target="new"><img src="images/thumbs/jamaica/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/SHANA ROUND ROBIN - NOVEMBER 26, 2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/ROYAL ROUND ROBIN SEDUCTIVE  DRINK UP PORTMORE NOVEMBER 27.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>PBO BIRTHDAY DRINK UP NOVEMER 23,2013</td>
+        <td>ROTWIELDER BIRTHDAY PARTY NOVEMBER 23,2013</td>
+        <td>RUMBAR FOOTBALL SUNDAY (SPANISH TOWN) NOVEMBER  24,2013</td>
+        <td>MAGNUM MONDAYS PORTMORE NOVEMBER 25.2013</td>
+        <td>SHANA ROUND ROBIN - NOVEMBER 26, 2013</td>
+        <td>ROYAL ROUND ROBIN SEDUCTIVE  DRINK UP PORTMORE NOVEMBER 27.2013</td>
+      </tr>
+    </table>
+    <table width="911" border="0">
+      <tr>
+        <td width="215"><a href="gallery/jam2013/november/AGGART MOVIE SCRIPT NOVEMBER 29,2013/index.html" target="new"><img src="images/thumbs/jamaica/aggart.jpg" width="150" height="200"  alt=""/></td>
+        <td width="215"><a href="gallery/jam2013/november/HIGH ALTITUDE NOVEMBER 30,2013/index.html" target="new"><img src="images/thumbs/jamaica/highaltitude.jpg" width="150" height="200"  alt=""/></td>
+        <td width="216"><a href="gallery/jam2013/november/LARA BIRTHDAY PARTY NOVEMER 30/index.html" target="new"><img src="images/thumbs/jamaica/laura.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/MR SUPPORT DRINK UP NOVEMER 22,2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/ANNETTE CRYSTAL N NIPPLE YELLOW N WHITE NOVEMBER 23.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/november/CONTAINER SATURDAYZ (NERD EDITION) NOVEMBER 23.2013/index.html" target="new"><img src="images/thumbs/jamaica/november/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>AGGART MOVIE SCRIPT NOVEMBER 29,2013</td>
+        <td>HIGH ALTITUDE NOVEMBER 30,2013</td>
+        <td>LARA BIRTHDAY PARTY NOVEMER 30</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </div>
+  <p align="center">&nbsp;</p>
+  <p align="center">&nbsp;</p>
+  <p align="center">Jamaica DECEMBER 2013</p>
+  <p align="center">&nbsp;</p>
+  <div align="center">
+    <table width="911" border="0">
+      <tr>
+        <td width="148"><a href="gallery/jam2013/december/BIKINI SUNDAYS PORTMORE DECEMBER 1.2013/index.html" target="new"><img src="images/thumbs/jamaica/december/bikini1.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/december/RUMBAR FOOTBALL SUNDAY SPANISH TOWN DECEMBER 1.2013/index.html" target="new"><img src="images/thumbs/jamaica/december/football1.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/WEDNESDAY MADNESS DECEMBER 5,2013/index.html" target="new"><img src="images/thumbs/jamaica/wedmad1.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/WHAPPINGS THURSDAY DECEMBER 6,2013/index.html" target="new"><img src="images/thumbs/jamaica/whappings1.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/december/GIRLS RUSH DAPLA DECEMBER 6,2013/index.html" target="new"><img src="images/thumbs/jamaica/girlswild.jpg" width="150" height="200"  alt=""/></td>
+        <td width="145"><div align="center"><a href="gallery/jam2013/december/BUFF FRIDAYS SPANISH TOWN DECEMBER 6.2013/index.html" target="new"><img src="images/thumbs/jamaica/december/buff.jpg" width="150" height="200"  alt=""/></div></td>
+      </tr>
+      <tr>
+        <td>BIKINI SUNDAYS PORTMORE DECEMBER 1.2013</td>
+        <td>RUMBAR FOOTBALL SUNDAY SPANISH TOWN DECEMBER 1.2013</td>
+        <td>WEDNESDAY MADNESS DECEMBER 5,2013</td>
+        <td>WHAPPINGS THURSDAY DECEMBER 6,2013</td>
+        <td>GIRLS RUSH DAPLA DECEMBER 6,2013</td>
+        <td>BUFF FRIDAYS SPANISH TOWN DECEMBER 6.2013</td>
+      </tr>
+    </table>
+    <table width="911" border="0">
+      <tr>
+        <td width="145"><div align="center"><a href="gallery/jam2013/CONTAINER SATURDAY DECEMBER 7, 2013/index.html" target="new"><img src="images/thumbs/jamaica/con1.jpg" width="150" height="200"  alt=""/></div></td>
+        <td width="148"><a href="gallery/jam2013/december/OSHANE PARTY DECEMBER 7,2013/index.html" target="new"><img src="images/thumbs/jamaica/oshane.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/december/NIGHT OUT AT FICTION DECEMBER 7,2013/index.html" target="new"><img src="images/thumbs/jamaica/friction1.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/december/ROMARIO (ROM ROM) BIRTHDAY PARTY DECEMBER 7. 2013/index.html" target="new"><img src="images/thumbs/jamaica/rom.jpg" width="150" height="200"  alt=""/></a></td>
+        <td width="148"><a href="gallery/jam2013/december/I'M A BOSS BITCH (NADESHA STAR PARTY PORTMORE) DECEMBER 7.2013/index.html" target="new"><img src="images/thumbs/jamaica/december/nad.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/december/RUMBAR FOOTBALL SUNDAYS AFTA PARTY SPANISH TOWN DECEMBER 8.2013/index.html" target="new"><img src="images/thumbs/jamaica/december/football2.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>CONTAINER SATURDAY DECEMBER 7, 2013</td>
+        <td>OSHANE PARTY DECEMBER 7,2013</td>
+        <td>NIGHT OUT AT FICTION  DECEMBER 7,2013</td>
+        <td>ROMARIO (ROM ROM) BIRTHDAY PARTY DECEMBER 7. 2013</td>
+        <td>I'M A BOSS BITCH (NADESHA STAR PARTY PORTMORE) DECEMBER 7.2013</td>
+        <td>RUMBAR FOOTBALL SUNDAYS AFTA PARTY SPANISH TOWN DECEMBER 8.2013</td>
+      </tr>
+    </table>
+    <table width="900" border="0">
+      <tr>
+        <td width="145"><a href="gallery/jam2013/december/SANDRA BIMMAS SON'S FUNERAL DECEMBER 8. 2013/index.html" target="new"><img src="images/thumbs/jamaica/SANDRA.jpg" width="150" height="200"  alt=""/></a></td>
+        <td width="216"><a href="gallery/jam2013/december/THROW BACK SUNDAYS DECEMBER 8. 2013/index.html" target="new"><img src="images/thumbs/jamaica/THROW.jpg" width="150" height="200"  alt=""/></td>
+        <td width="216"><a href="gallery/jam2013/december/SHIZZLE SHERLOCK (BROWN & WHITE) DECEMBER 8. 2013/index.html" target="new"><img src="images/thumbs/jamaica/SHIZZLE.jpg" width="150" height="200"  alt=""/></td>
+        <td width="148"><a href="gallery/jam2013/december/PINKY SPOON DUNG A TOWN ROUND ROBIN DECEMBER 10. 2013/index.html" target="new"><img src="images/thumbs/jamaica/pinky.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/WALLY FAMOUS WEDNESDAY DECEMBER 11. 2013/index.html" target="new"><img src="images/thumbs/jamaica/wally.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/WHAPINGS THURSDAY DECEMBER 12. 2013/index.html" target="new"><img src="images/thumbs/jamaica/december/whap1.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>SANDRA BIMMAS SON'S FUNERAL DECEMBER 8. 2013</td>
+        <td>THROW BACK SUNDAYS DECEMBER 8. 2013</td>
+        <td>SHIZZLE SHERLOCK (BROWN &amp; WHITE) DECEMBER 8. 2013</td>
+        <td>PINKY SPOON DUNG A TOWN ROUND ROBIN DECEMBER 10. 2013</td>
+        <td>WALLY FAMOUS WEDNESDAY DECEMBER 11. 2013</td>
+        <td>WHAPINGS THURSDAY DECEMBER 12. 2013</td>
+      </tr>
+    </table>
+    <table width="900" border="0">
+      <tr>
+        <td width="5"><a href="gallery/jam2013/december/WESSY WESSY PARTY DECEMBER 13. 2013/index.html" target="new"><img src="images/thumbs/jamaica/december/wessy.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/POOCHIE DRINK UP DECEMBER 13. 2013/index.html" target="new"><img src="images/thumbs/jamaica/december/poochie.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/NETTY 50TH BIRTHDAY CELEBRATION DECEMBER 14. 2013/index.html" target="new"><img src="images/thumbs/jamaica/december/netty.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/SEXY IN BLACK DECEMBER 14. 2013/index.html" target="new"><img src="images/thumbs/jamaica/december/sexyinblack.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/SEXY IN BLACK DECEMBER 14. 2013 PT2/index.html" target="new"><img src="images/thumbs/jamaica/december/sexyinblack2.jpg" width="150" height="200"  alt=""/></td>
+        <td width="5"><a href="gallery/jam2013/december/CHANDOR ALL WHITE EDITION DECEMBER 14. 2013/index.html" target="new"><img src="images/thumbs/jamaica/december/awhite.jpg" width="150" height="200"  alt=""/></td>
+      </tr>
+      <tr>
+        <td>WESSY WESSY PARTY DECEMBER 13. 2013</td>
+        <td>POOCHIE DRINK UP DECEMBER 13. 2013</td>
+        <td>NETTY 50TH BIRTHDAY CELEBRATION DECEMBER 14. 2013</td>
+        <td>SEXY IN BLACK DECEMBER 14. 2013</td>
+        <td>SEXY IN BLACK DECEMBER 14. 2013 PT2</td>
+        <td>CHANDOR ALL WHITE EDITION DECEMBER 14. 2013</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </div>
+  <p align="center">&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p></p>
+<p></p>
+  <div id="body">
+    <div class="break"></div>
+  </div>
+  <!-- END body -->
+</div>
+<!-- END wrapper -->
+<!-- BEGIN footer -->
+<!-- END footer -->
+<script type="text/JavaScript">var TFN='';var TFA='';var TFI='0';var TFL='0';var tf_RetServer="rt.trafficfacts.com";var tf_SiteId="4019g6393062069518266e20ab892e35a2cbb2fda8412h14";var tf_ScrServer=document.location.protocol+"//rt.trafficfacts.com/tf.php?k=4019g6393062069518266e20ab892e35a2cbb2fda8412h14;c=s;v=5";document.write(unescape('%3Cscript type="text/JavaScript" src="'+tf_ScrServer+'">%3C/script>'));</script><noscript><img src="http://rt.trafficfacts.com/ns.php?k=4019g6393062069518266e20ab892e35a2cbb2fda8412h14" height="1" width="1" alt=""/></noscript>
+</body>
+</html>

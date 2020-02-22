@@ -1,0 +1,88 @@
+<div>
+    <div id="allInfo">
+        <label langid="pens.empno">Employee No.</label>: {empNo}<br/>
+        <label langid="pens.title">Title</label>: {title}<br/>
+        <label langid="pens.forename">Forename</label>: {forename}<br/>
+        <label langid="pens.surname">Surname</label>: {surname}<br/>
+        <label langid="pens.initials">Initials</label>: {initials}<br/>
+        <label langid="pens.address">Address</label>: {address}<br/>
+        <label langid="pens.dob">Date of Birth (yyyy-mm-dd)</label>: {dob}<br/>
+        <label langid="pens.phoneno">Telephone Number</label>: {phoneNo}<br/>
+        <label langid="pens.maritalstatus">Marital Status</label>: {maritalStatus}
+    </div>
+
+    <div id="summaryInfo">
+        <label langid="pens.title">Title</label>: {title}<br/>
+        <label langid="pens.forename">Forename</label>: {forename}<br/>
+        <label langid="pens.surname">Surname</label>: {surname}<br/>
+        <label langid="pens.company">Company</label>: {company}<br/>
+        <label langid="pens.department">Department</label>: {department}<br/>
+        <label langid="pens.location">Location</label>: {location}
+    </div>
+
+    <div id="fundInfo">
+        <table class="moneyline-listing">
+            <thead>
+                <tr class="pre-header">
+                    <td colspan="5"><label langid="pension.valuedate">Values shown are as at</label>: {valueDate}</td>
+                </tr>
+                <tr class="header">
+                    <td><label langid="pension.manager">Manager</label></td>
+                    <td><label langid="pension.fund">Fund</label></td>
+                    <td><label langid="pension.contributions">Contributions</label></td>
+                    <td><label langid="pension.units">Units</label></td>
+                    <td><label langid="pension.value">Value</label></td>
+                </tr>
+            </thead>
+            <tbody class="details">
+                <tr >
+                    <td>{manager}</td>
+                    <td>{fund}</td>
+                    <td>{contributions}</td>
+                    <td>{units}</td>
+                    <td>{value}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="historyInfo">
+        <div>
+            <form action="" id="historyFilterForm">
+                <div class="left c20 ctrl-pad">
+                    <label langid="startdate">Start Date </label>:
+                    <input type="text" id="startDate" name="startDate" class="textbox dtPicker" style="width: 154px"/>
+                    <img id="startDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+                </div>
+                <div class="left ctrl-pad c15">
+                    <label langid="enddate">End Date </label>:
+                    <input type="text" id="endDate" name="endDate"  class="textbox click-cursor dtPicker" style="width: 154px"/>
+                    <img id="endDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+                </div>
+                <input type="submit" id="filter" name="filter" class="button process" value="Filter" />
+            </form>
+        </div>
+
+        <table class="moneyline-listing">
+            <thead>
+                <tr class="header">
+                    <td><label langid="pension.investdate">Date Record Invested</label></td>
+                    <td><label langid="pension.effectivedate">Effective Date</label></td>
+                    <td><label langid="pension.companycontrib">Company Contributions</label></td>
+                    <td><label langid="pension.membercontrib">Member Contributions</label></td>
+                    <td><label langid="pension.avccontrib">AVC Contributions</label></td>
+                </tr>
+            </thead>
+            <tbody class="details">
+                <tr >
+                    <td>{manager}</td>
+                    <td>{fund}</td>
+                    <td>{contributions}</td>
+                    <td>{units}</td>
+                    <td>{value}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>

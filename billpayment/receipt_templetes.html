@@ -1,0 +1,75 @@
+<table class="billform" border="0" width="100%" cellspacing="0" cellpadding="8">
+	<tr>
+		<td valign="top" width="50%">
+			<b>Telstarjamaica Cable Limited</b><br />
+			109A Constant Spring Rd.<br />
+			Kingston 10<br />
+			Jamaica W.I.<br />
+			<b>1-888-TELSTAR(835-7827)</b><br />
+			<a href="http://www.telstarjamaica.com">http://www.telstarjamaica.com</a>
+		</td>
+		<td valign="top" align="right"><b>Telstar Jamaica Billpayment</b><br /><?php echo date("F d. Y");?></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center" style="background-color:#000000;color:#FFFFFF;font-weight:bold;padding:10px 5px;">ORDER</td>
+	</tr>
+	<tr>
+		<td valign="top" style="border-left:solid 1px #000000;border-bottom:solid 1px #000000;">
+				<table class="billform">
+				<tr>
+					<td><b>Customer Name</b></td>
+					<td>_CUSTOMER_NAME_</td>
+				</tr>
+				<tr>
+					<td><b>Customer ID</b></td>
+					<td>_CUSTOMER_ID_</td>
+				</tr>
+				<tr>
+					<td width="130"><b>Transaction Date</b>&nbsp;&nbsp;</td>
+					<td><?php echo date("F d. Y");?></td>
+				</tr>
+				<tr>
+					<td><b>Order #</b></td>
+					<td>_ORDER_ID_</td>
+				</tr>
+			</table>
+			 
+		</td>
+		<td valign="top" style="border-right:solid 1px #000000;border-left:solid 1px #000000;border-bottom:solid 1px #000000;">
+			<table class="billform" width="100%">
+				<tr>
+					<td><b>Item Ordered</b></td>
+					<td align="right"><b>Price</b></td>
+				</tr>
+				<tr>
+					<td>Telstar Cable Bill</td>
+					<td align="right">_PRICE_</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr><td colspan="2">&nbsp;</td></tr>
+	<tr>
+		<td colspan="2" align="center" style="background-color:#000000;color:#FFFFFF;font-weight:bold;padding:10px 5px;">PAYMENT INFORMATION</td>
+	</tr>
+	<tr>
+		<td valign="top" style="border-left:solid 1px #000000;border-bottom:solid 1px #000000;">
+			<b>Payment Method</b><br>
+			_CARD_TYPE_ | Last 5 digits on credit card: [_CARD_LAST5_DIGITS_]
+			<p style="margin:0; padding:0;">&nbsp;</p>
+			_BILLING_ADDRESS_
+		</td>
+		<td align="right" valign="bottom" style="border-right:solid 1px #000000;border-left:solid 1px #000000;border-bottom:solid 1px #000000;">
+			<table class="billform">
+				<tr>
+					<td width="50">Subtotal:</td>
+					<td align="right">_PRICE_</td>
+				</tr>
+				<tr>
+					<td>Total:</td>
+					<td align="right"><u>_PRICE_</u></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

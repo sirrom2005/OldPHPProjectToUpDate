@@ -1,0 +1,134 @@
+<head>
+<link href="../../../raxan/ui/css/master.css" rel="stylesheet" type="text/css">
+<link href="../../../raxan/ui/css/master-ui.css" rel="stylesheet" type="text/css">
+<link href="../../../raxan/ui/css/master.ie.css" rel="stylesheet" type="text/css">
+</head>
+
+<script LANGUAGE="Javascript" type="text/Javascript">
+    <!--
+    Raxan.ready(function(){
+        $('.dtPicker').datepicker({
+            dateFormat:'yy-mm-dd',
+            changeMonth: true,
+            changeYear: true
+        });
+
+        $('#startDateImg').click(function(){
+            $("#startDate").datepicker('show');
+        });
+
+        $('#endDateImg').click(function(){
+            $("#endDate").datepicker('show');
+        });
+        
+        $('#show-hide').click(function() {
+            var on = 'views/images/plus.gif';
+	        var off = 'views/images/minus.gif';
+
+        	d = $('#accountDetails');
+	        d.toggle();
+	        img = (d.css('display')=='none') ?  on : off;
+	        $('#show-hide-img').attr('src',img);
+
+        });
+
+        $('#statementBtn').bind('togglecontent', function(e, mode) {
+
+            if (mode=='off') {
+                $('#statementBtn img').hide();
+                return;
+            }
+            else {
+	            $('#statementBtn').blur();
+	            $('#statementBtn img').show();
+	            $('#statementBtn').value  = 'Generating Statement';
+            }
+		});        
+        
+    });
+    //-->
+</script>
+<h2 langid="statement.heading">My Statement</h2>
+<hr>
+
+<div>
+    <div id="errorList"></div>
+    <form id="frmStatement" name="frmStatement" action="" method="post">
+                <input type="hidden" id="productType" name="productType" value="=">
+        <div style="width: 700px" >
+            <div class="left ctrl-pad">
+                <label langid="account.details.account">Account</label>
+                <select id="account" name="account"  class="select c24" xt-bind="change,accountInformation">
+                    <option value="{AccountIndex}">{AccountNo}-{AccountName}</option>
+                </select>
+                &nbsp;<img id="show-hide-img" src="views/images/plus.gif"/>&nbsp;
+                    <a href="javascript:;" id="show-hide"><span langid="show-hide">Show/Hide</span></a>
+                </div>
+        </div>
+        <div style="width: 700px; display:none" id="accountDetails">
+        	 	<table style="width: 100%" cellspacing="1">
+				<tr>
+					<td nowrap><img src="views/images/yellow_bullet.gif">&nbsp;Account No:&nbsp;<b>{AccountNo} - {AccountDescription}</b></td>
+					<td ><div align="right">Signing Instructions : <b>{SigningInstructiions}</b></div></td>
+				</tr>
+				<tr>
+					<td style="vertical-align:top" colspan="2">
+                    <table border="0" cellspacing="0" width="100%"  class="border" id="accountTotals">
+                        <tr >
+                            <td style="text-align:left"><label langid="account.balance.current">Current 
+							Balance:</label></td>
+                            <td style="text-align:right">{Currency} {CurrentBalance}</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:left"><label langid="account.balance.uncleared">Uncleared Funds:</label></td>
+                            <td style="text-align:right">({Currency} {UnclearedBalance})</td>
+                        </tr>
+                        <tr class="clearable">
+                            <td style="text-align:left"><label langid="account.balance.liens">Liens on Account:</label></td>
+                            <td style="text-align:right">({Currency} {LiensBalance})</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left"><label langid="account.balance.available">Available 
+							Balance:</label></td>
+                            <td style="text-align:right">{Currency} {AvailableBalance}</td>
+                        </tr>
+                    </table></td>
+				</tr>
+				<tr>
+					<td style="vertical-align:top" colspan="2" height="0px">
+	                    <div id="AssetList" class="border">{AssetList}</div>
+                    		</td>
+				</tr>
+			</table>
+        </div>
+        <br>
+		<div style="width: 700px" >
+            <div class="left c20 ctrl-pad">
+                <label langid="startdate">Starting Date</label>
+                <input type="text" id="startDate" name="startDate" class="textbox dtPicker" style="width: 154px"/>
+                <img id="startDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+            <div class="left ctrl-pad c15">
+                <label langid="enddate">Ending Date</label>
+                <input type="text" id="endDate" name="endDate"  class="textbox click-cursor dtPicker" style="width: 154px"/>
+                <img id="endDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+            <br>
+
+            <div style="margin-top:20px; margin-right: 10px" align="right">
+                <span id="downloadFrame"></span>
+                <button class="button ok" type="button" name="statementBtn" id="statementBtn" xt-bind="#click,generateStatement,#frmStatement,#frmStatement">
+                    <img class="hide" src="views/images/loader.gif" alt="." style="margin-right:5px;"/>
+                    <span langid="statement.generate">Generate Statement</span>
+                </button>
+                
+                &nbsp;
+                <input langid="statement.undochanges" type="reset" name="reset" class="button" value="Undo Changes"/>
+            	&nbsp;</div>
+        </div>
+    </form>
+
+    <br>
+   <hr>
+   <br>
+</div>

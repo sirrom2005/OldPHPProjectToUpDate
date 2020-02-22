@@ -1,0 +1,24 @@
+div.dialogue {
+	position:absolute;
+	display:block;
+	left:0%;
+	top:30%;
+}
+
+div.scale-image {
+	display:block; 
+	position:relative;
+	text-align:left;
+}                     
+
+div.scale-image div { 
+	display:block;
+	position:absolute;
+	text-align:center;
+}
+
+/* Increase button dimensions by 2px to compensate for inner-border IE draws */
+button.primary_lg, button.primary_lg_alt {height:26px;padding:0 4px 1px 4px;}
+button.primary_sm, button.primary_sm_alt {height:20px;padding:0 3px 1px 3px;line-height:15px;}
+a.nudgeR {margin-right:4px;}
+div.copier {margin-right:10px;}

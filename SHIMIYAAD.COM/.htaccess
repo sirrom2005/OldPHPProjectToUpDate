@@ -1,0 +1,8 @@
+DirectoryIndex index.html index.php
+ErrorDocument 404 /fimiyaad/err404.html
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+AddType text/x-component .htc
+RewriteEngine On
+RewriteBase /shimiyaad/
+
+RewriteRule ^events.html$ events.php [L]

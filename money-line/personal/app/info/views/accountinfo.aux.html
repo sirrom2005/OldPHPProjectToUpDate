@@ -1,0 +1,112 @@
+<div>
+    <div id="linksContainer">
+        <div id="listOfLinks">
+            <div>&raquo; <a href="{value}">{label}</a></div>
+        </div>
+    </div>
+
+    <div id="emmaContainer" class="tpm clear" >
+        <div nowrap><label langid="emma.jcsd.message">Equity held as reported by JCSD:</label></div>
+        <table width="100%">
+            <thead>
+                <tr >
+                    <td><label langid="emma.symbol" class="bold">Symbol</label></td>
+                    <td style="text-align:right"><label langid="emma.units" class="bold">Units</label></td>
+                    <td style="text-align:right"><label langid="emma.price" class="bold">Market Price</label></td>
+                    <td><label langid="emma.mdate" class="bold">Market Date</label></td>
+                    <td style="text-align:right"><label langid="emma.value" class="bold">Dollar Value</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="emmaDetails">
+                <tr>
+                    <td>{assetKey}</td>
+                    <td style="text-align:right">{assetValue}</td>
+                    <td style="text-align:right">{purchaseValue}</td>
+                    <td>{purchaseDate}</td>
+                    <td style="text-align:right">{yield}</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">&nbsp;</td>
+                    <td><label class="bold">Total:</label></td>
+                    <td style="text-align:right"><label id="emmaTotal" class="bold"></label></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div id="sellerContainer" class="tpm clear" >
+        <label langid="trade.maturities.message">Maturities:</label>
+        <table width="100%">
+            <thead>
+                <tr >
+                    <td><label langid="trade.issuedate" class="bold">Issue Date</label></td>
+                    <td><label langid="trade.mdate" class="bold">Maturity Date</label></td>
+                    <td style="text-align:right"><label langid="trade.amountdue" class="bold">Net Amount Due</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="tradeDetails">
+                <tr>
+                    <td>{asOfDate}</td>
+                    <td>{renewalDate}</td>
+                    <td style="text-align:right">{renewalAmount}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <div id="tradeContainer" class="tpm clear" >
+        <label langid="trade.maturities.message">Maturities:</label>
+        <table width="100%">
+            <thead>
+                <tr >
+                    <td><label langid="trade.issuedate" class="bold">Issue Date</label></td>
+                    <td><label langid="trade.mdate" class="bold">Maturity Date</label></td>
+                    <td style="text-align:right">
+					<label langid="trade.amountdue" class="bold">Net Amount Due</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="tradeDetails">
+                <tr>
+                    <td>{purchaseDate}</td>
+                    <td>{maturityDate}</td>
+                    <td style="text-align:right">{netAmountDue}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <div id="bondContainer" class="tpm clear" >
+        <label langid="bond.maturities.message">Maturities:</label>
+        <table width="100%">
+            <thead>
+                <tr >
+                    <td><label langid="trade.issuedate" class="bold">Bond</label></td>
+                    <td><label langid="trade.issuedate" class="bold">Issue Date</label></td>
+                    <td><label langid="trade.mdate" class="bold">Maturity Date</label></td>
+                    <td style="text-align:right"><label langid="trade.amountdue" class="bold">Maturity Value</label></td>
+                </tr>
+            </thead>
+
+            <tbody id="bondDetails">
+                <tr>
+                    <td>{investmentDescription}</td>
+                    <td>{asOfDate}</td>
+                    <td>{maturityDate}</td>
+                    <td style="text-align:right">{maturityValue}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</div>

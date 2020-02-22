@@ -1,0 +1,14 @@
+#DirectoryIndex index.html index.php
+#ErrorDocument 404 /404.html
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+AddType text/x-component .htc
+RewriteEngine On
+RewriteBase /bbpin2/m/
+
+RewriteRule ^group_([^/]*).html?$ index.php?action=group&id=$1 [L]
+RewriteRule ^profile.html?$ index.php?action=m.profile [L]
+RewriteRule ^profile_([^/]*).html?$ index.php?action=m.profile&id=$1 [L]
+RewriteRule ^profile-photo-([^/]*)-([^/]*).html?$ index.php?action=profile-photo&id=$1&img=$2 [L]
+RewriteRule ^pv_([^/]*).htm?$ index.php?action=pv&k=$1 [L]
+RewriteRule ^([^/]*).html?$ index.php?action=$1 [L]
+RewriteRule ^([^/]*).htm?$ index.php?action=$1 [L]

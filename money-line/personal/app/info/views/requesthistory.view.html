@@ -1,0 +1,140 @@
+<script LANGUAGE="Javascript" type="text/Javascript">
+    <!--
+    Raxan.ready(function(){
+        $('.dtPicker').datepicker({
+            dateFormat:'yy-mm-dd',
+            changeMonth: true,
+            changeYear: true
+        });
+
+        $('#startDateImg').click(function(){
+            $("#startDate").datepicker('show');
+        });
+
+        $('#endDateImg').click(function(){
+            $("#endDate").datepicker('show');
+        });
+    });
+    //-->
+</script>
+<h2 langid="ovr.rqhist.name">Request History</h2>
+<hr>
+
+<div>
+    <div id="errorList"></div>
+    <form action="" >
+        <div style="width: 700px" >
+            <div class="left ctrl-pad">
+                <label langid="request.account">Account :</label>
+                <select id="account" name="account"  class="select c28">
+                    <option value="{AccountIndex}">{AccountNo}-{AccountName}</option>
+                </select>
+                <input type="hidden" id="productType" name="productType" value="=">
+            </div>
+            <br>
+
+            <div class="left ctrl-pad">
+                <label langid="request.details">Details :</label>
+                <input type="text" id="details" name="details" class="textbox" style="width: 554px"/>
+            </div>
+            <br>
+
+
+            <div class="left c20 ctrl-pad">
+                <label langid="startdate">Request Start Date :</label>
+                <input type="text" id="startDate" name="startDate" class="textbox dtPicker" style="width: 154px"/>
+                <img id="startDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+            <div class="left ctrl-pad c15">
+                <label langid="enddate">Request End Date :</label>
+                <input type="text" id="endDate" name="endDate"  class="textbox click-cursor dtPicker" style="width: 154px"/>
+                <img id="endDateImg" class="datepicker-image click-cursor" src="views/images/calendar_month.png" alt="."  />
+            </div>
+            <br>
+
+            <div class="left c20 ctrl-pad">
+                <label langid="request.sortby">Sort By :</label>
+                <select id="sortBy" name="sortBy" class="select c8">
+                  <option value="requesteddate">Request Date</option>
+                  <option value="actioneddate" >Action Date</option>
+                  <option value="category_name" >Request Type</option>
+                  <option value="description" >Details</option>
+                  <option value="amount" >Amount</option>
+                  <option value="status" >Status</option>
+                </select>
+            </div>
+
+            <div class="left c15 ctrl-pad">
+                <label langid="request.sortorder">Sort Order :</label>
+                <select id="sortOrder" name="sortOrder" class="select c8">
+                  <option value="ASC">Ascending</option>
+                  <option value="DESC" >Desending</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="left c20 ctrl-pad">
+                <label langid="request.status">Status :</label>
+                <select id="status" name="status" class="select c8">
+                  <option value="" >Select Status</option>
+                  <option value="OPEN" >OPEN</option>
+                  <option value="CLOSED" >CLOSED</option>
+                  <option value="PROCESSING" >PROCESSING</option>
+                  <option value="CANCELLED" >CANCELLED</option>
+                  <option value="HOLD" >HOLD</option>
+                </select>
+            </div>
+
+            <div class="left c15 ctrl-pad">
+                <label langid="request.transactioncnt">No. of Transactions :</label>
+                <input type="text" id="noOfTransactions" name="noOfTransactions"  class="textbox" style="width: 154px"/>
+            </div>
+
+            <br>
+
+            <div style="margin-top:15px; margin-right: 10px" align="right">
+                <input type="submit" name="find" class="button process" xt-bind="click, findTransactions" value="Find Transactions"/>
+                &nbsp;
+                <input langid="request.undochanges" type="reset" name="reset" class="button" value="Undo Changes"/>
+            </div>
+        </div>
+    </form>
+
+    <br>
+
+    <hr>
+
+    <div id="resultsArea" >
+        <table width="100%" border="0" cellspacing="0" class="moneyline-listing">
+            <thead>
+                <tr class="pre-header">
+                    <td colspan="6" style="text-align: right">
+                        <span id="downloadFrame"></span>
+                        <strong<label langid="downloadto">Download to CSV:</label></strong>
+                        <button id="downloadAction"  class="button ok" xt-bind="#click, executeDownload">Go</button>
+                    </td>
+                </tr>
+                <tr class="header">
+                    <td><label langid="" class="bold" style="white-space: nowrap">Request Date</label></td>
+                    <td><label langid="" class="bold" style="white-space: nowrap">Action Date</label></td>
+                    <td><label langid="" class="bold" style="white-space: nowrap">Request Type</label></td>
+                    <td><label langid="" class="bold">Details</label></td>
+                    <td style="text-align: right">
+                        <label langid="" class="bold">Amount</label>
+                    </td>
+                    <td><label langid="" class="bold">Status</label></td>
+                </tr>
+            </thead>
+            <tbody id="searchResults">
+                <tr>
+                    <td>{requesteddate}</td>
+                    <td>{effectivedate}</td>
+                    <td>{categoryname}</td>
+                    <td>{description}</td>
+                    <td style="text-align: right;>{amount}</td>
+                    <td>{status}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

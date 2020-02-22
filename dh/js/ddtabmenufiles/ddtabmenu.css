@@ -1,0 +1,8 @@
+.basic_tab li{ float:left; cursor:pointer;}
+.basic_tab li a{font-size:0.7em; display:block; padding:8px 3px 8px 3px; margin-right:3px; background-color:#FFEADC; border:solid 1px #FF8B3C; font-weight:bold; color:#FF6B06;}
+.basic_tab li a:hover, .basic_tab li a.current{background-color:#FF8B3C; color:#FFFFFF;}
+.basic_tab li a:active{color: black;}
+.tabcontainer{clear:left; border-top:solid 2px #FF8B3C;}
+.tabcontentdata{display:none; padding:10px 0 0 10px;}
+.tabcontentdata a{ float:none; display:block; color:#000000; margin-bottom:10px; font-size:0.8em;}
+.tabcontentdata a:hover{ text-decoration:underline;}
